@@ -1,7 +1,7 @@
 {
  "id": "d006",
  "day": 6,
- "version": 2,
+ "version": 3,
  "skill": "lugemine",
  "title": "Kas prügi sorteerimisel on mõtet?",
  "title_ru": "Есть ли смысл сортировать мусор?",
@@ -19,50 +19,59 @@
      "et": "jäätmed",
      "ru": "отходы",
      "example": "Olmejäätmed visatakse segaprügi konteinerisse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmed/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmed/1",
+     "audio_file": "audio/dc64ff55270fc311.mp3"
     },
     {
      "et": "sorteerima",
      "ru": "сортировать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sorteerima/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sorteerima/1",
+     "audio_file": "audio/08fb8452f69a9050.mp3"
     },
     {
      "et": "pakend",
      "ru": "упаковка",
      "example": "Pakendid pannakse kollasesse konteinerisse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakend/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakend/1",
+     "audio_file": "audio/2d05cac85ed067b4.mp3"
     },
     {
      "et": "biojäätmed",
      "ru": "пищевые (био)отходы",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/bioj%C3%A4%C3%A4tmed/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/bioj%C3%A4%C3%A4tmed/1",
+     "audio_file": "audio/450936c917cd6ad9.mp3"
     },
     {
      "et": "taaskasutama",
      "ru": "повторно использовать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taaskasutama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taaskasutama/1",
+     "audio_file": "audio/8b5bca782f768dd4.mp3"
     },
     {
      "et": "prügila",
      "ru": "свалка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pr%C3%BCgila/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pr%C3%BCgila/1",
+     "audio_file": "audio/126d755cfd1a06d8.mp3"
     },
     {
      "et": "ladestama",
      "ru": "захоранивать (отходы)",
      "example": "Prügi ladestatakse prügilasse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ladestama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ladestama/1",
+     "audio_file": "audio/91cbd6b1ef209033.mp3"
     },
     {
      "et": "trahv",
      "ru": "штраф",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/trahv/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/trahv/1",
+     "audio_file": "audio/ee2346ed097d9c6f.mp3"
     },
     {
      "et": "kahtlema (milles?)",
      "ru": "сомневаться",
      "example": "Paljud kahtlevad sorteerimise mõttekuses.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahtlema/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahtlema/1",
+     "audio_file": "audio/89604f0ba5826eca.mp3"
     }
    ],
    "module": "sonavara"
@@ -77,19 +86,22 @@
      "audio": "Olmejäätmed visatakse segaprügi konteinerisse.",
      "answer": [
       "Olmejäätmed visatakse segaprügi konteinerisse."
-     ]
+     ],
+     "audio_file": "audio/f9046e9d7e237572.mp3"
     },
     {
      "audio": "Pakendid pannakse kollasesse konteinerisse.",
      "answer": [
       "Pakendid pannakse kollasesse konteinerisse."
-     ]
+     ],
+     "audio_file": "audio/23326ab1de14ed25.mp3"
     },
     {
      "audio": "Prügi ladestatakse prügilasse.",
      "answer": [
       "Prügi ladestatakse prügilasse."
-     ]
+     ],
+     "audio_file": "audio/d5709d4876c268f9.mp3"
     }
    ],
    "module": "kuulamine",

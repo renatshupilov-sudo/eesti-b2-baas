@@ -1,7 +1,7 @@
 {
  "id": "d002",
  "day": 2,
- "version": 2,
+ "version": 3,
  "skill": "kuulamine",
  "title": "Bussid on hommikuti täis",
  "title_ru": "Утром автобусы переполнены",
@@ -18,55 +18,64 @@
     {
      "et": "ühistransport",
      "ru": "общественный транспорт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BChistransport/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BChistransport/1",
+     "audio_file": "audio/7c8d023053a8e395.mp3"
     },
     {
      "et": "kurtma (mille üle?)",
      "ru": "жаловаться",
      "example": "Kuulajad kurdavad, et bussid on täis.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kurtma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kurtma/1",
+     "audio_file": "audio/3287585349cb567c.mp3"
     },
     {
      "et": "tipptund",
      "ru": "час пик",
      "example": "Tipptunnil on bussid täis.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tipptund/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tipptund/1",
+     "audio_file": "audio/afc820f4b440305a.mp3"
     },
     {
      "et": "puuduma",
      "ru": "не хватать, отсутствовать",
      "example": "Linnas puudub kuuskümmend bussijuhti.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1",
+     "audio_file": "audio/0dbfe0c6e57e855f.mp3"
     },
     {
      "et": "koormus",
      "ru": "нагрузка",
      "example": "Hommikune koormus on suur.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/koormus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/koormus/1",
+     "audio_file": "audio/1d8f4eef2de8d592.mp3"
     },
     {
      "et": "end õigustama",
      "ru": "оправдать себя",
      "example": "Kas tasuta transport on end õigustanud?",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20%C3%B5igustama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20%C3%B5igustama/1",
+     "audio_file": "audio/04bcf414dd542b37.mp3"
     },
     {
      "et": "eakas",
      "ru": "пожилой",
      "example": "Eakad sõidavad tasuta.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eakas/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eakas/1",
+     "audio_file": "audio/75b94db2e71535fa.mp3"
     },
     {
      "et": "harjumus",
      "ru": "привычка",
      "example": "Harjumusi on raske muuta.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harjumus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harjumus/1",
+     "audio_file": "audio/3b4aedb1fb7e195b.mp3"
     },
     {
      "et": "usaldusväärne",
      "ru": "надёжный",
      "example": "Sõiduplaan peab olema usaldusväärne.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/usaldusv%C3%A4%C3%A4rne/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/usaldusv%C3%A4%C3%A4rne/1",
+     "audio_file": "audio/3bfd244c172c53d1.mp3"
     }
    ],
    "module": "sonavara"
@@ -152,7 +161,8 @@
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/94c73c9be98fa2e5.mp3"
   },
   {
    "type": "dictation",
@@ -164,49 +174,57 @@
      "audio": "kuuskümmend kaks",
      "answer": [
       "62"
-     ]
+     ],
+     "audio_file": "audio/ed852c9c7051e698.mp3"
     },
     {
      "audio": "kuusteist",
      "answer": [
       "16"
-     ]
+     ],
+     "audio_file": "audio/17927626e1ccb6f9.mp3"
     },
     {
      "audio": "kakssada viisteist",
      "answer": [
       "215"
-     ]
+     ],
+     "audio_file": "audio/da9b502c24c3a014.mp3"
     },
     {
      "audio": "üheksateist",
      "answer": [
       "19"
-     ]
+     ],
+     "audio_file": "audio/7f9a1731227290da.mp3"
     },
     {
      "audio": "kolmsada üheksakümmend",
      "answer": [
       "390"
-     ]
+     ],
+     "audio_file": "audio/e0c97849f6f29448.mp3"
     },
     {
      "audio": "tuhat kaheksasada",
      "answer": [
       "1800"
-     ]
+     ],
+     "audio_file": "audio/d175eeaf25afd1bb.mp3"
     },
     {
      "audio": "seitsekümmend seitse",
      "answer": [
       "77"
-     ]
+     ],
+     "audio_file": "audio/013aaa6799f8325e.mp3"
     },
     {
      "audio": "kaks tuhat kakskümmend kuus",
      "answer": [
       "2026"
-     ]
+     ],
+     "audio_file": "audio/6d7664af366c0022.mp3"
     }
    ],
    "module": "kuulamine",

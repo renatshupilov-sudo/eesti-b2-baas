@@ -1,7 +1,7 @@
 {
  "id": "d004",
  "day": 4,
- "version": 2,
+ "version": 3,
  "skill": "kuulamine",
  "title": "Täiskasvanuna jälle koolipingis",
  "title_ru": "Снова за партой во взрослом возрасте",
@@ -18,53 +18,62 @@
     {
      "et": "elukestev õpe",
      "ru": "обучение в течение всей жизни",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukestev%20%C3%B5pe/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukestev%20%C3%B5pe/1",
+     "audio_file": "audio/cc2c25292514bb09.mp3"
     },
     {
      "et": "täienduskoolitus",
      "ru": "курсы повышения квалификации",
      "example": "Käisin eelmisel aastal täienduskoolitusel.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4ienduskoolitus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4ienduskoolitus/1",
+     "audio_file": "audio/84b69ac865896465.mp3"
     },
     {
      "et": "end täiendama",
      "ru": "повышать квалификацию",
      "example": "Tahan end erialal täiendada.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20t%C3%A4iendama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20t%C3%A4iendama/1",
+     "audio_file": "audio/5f36130185f7cafc.mp3"
     },
     {
      "et": "oskus",
      "ru": "навык, умение",
      "example": "Uued oskused aitavad tööl.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/oskus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/oskus/1",
+     "audio_file": "audio/072a5aa97a1cf6ab.mp3"
     },
     {
      "et": "tunnistus",
      "ru": "свидетельство, сертификат",
      "example": "Kursuse lõpus sain tunnistuse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tunnistus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tunnistus/1",
+     "audio_file": "audio/bb94fc40892371b2.mp3"
     },
     {
      "et": "eneseareng",
      "ru": "саморазвитие",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eneseareng/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eneseareng/1",
+     "audio_file": "audio/8284fe1d6ebf412d.mp3"
     },
     {
      "et": "kulud",
      "ru": "расходы",
      "example": "Kes peaks kulud kinni maksma?",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kulud/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kulud/1",
+     "audio_file": "audio/bb25ee72e031122e.mp3"
     },
     {
      "et": "kasu",
      "ru": "польза",
      "example": "Sellest on palju kasu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kasu/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kasu/1",
+     "audio_file": "audio/6a8e2494997854dd.mp3"
     },
     {
      "et": "veebikursus",
      "ru": "онлайн-курс",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/veebikursus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/veebikursus/1",
+     "audio_file": "audio/5fea3f6dab776f6f.mp3"
     }
    ],
    "module": "sonavara"
@@ -150,7 +159,8 @@
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/50ab87c4fc422a7d.mp3"
   },
   {
    "type": "grammar",

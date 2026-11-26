@@ -1,7 +1,7 @@
 {
  "id": "d010",
  "day": 10,
- "version": 2,
+ "version": 3,
  "skill": "grammatika",
  "title": "-ma, -da ja -des",
  "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
@@ -18,49 +18,58 @@
     {
      "et": "etendus",
      "ru": "спектакль, представление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/etendus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/etendus/1",
+     "audio_file": "audio/642f94bb43993475.mp3"
     },
     {
      "et": "näitus",
      "ru": "выставка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/n%C3%A4itus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/n%C3%A4itus/1",
+     "audio_file": "audio/3c19d904b2b4b051.mp3"
     },
     {
      "et": "pilet",
      "ru": "билет",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pilet/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pilet/1",
+     "audio_file": "audio/a61dab1b4ce9e3d4.mp3"
     },
     {
      "et": "muuseum",
      "ru": "музей",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/muuseum/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/muuseum/1",
+     "audio_file": "audio/ed8cd133cbf19012.mp3"
     },
     {
      "et": "kontsert",
      "ru": "концерт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kontsert/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kontsert/1",
+     "audio_file": "audio/1e130476ab885572.mp3"
     },
     {
      "et": "huviring",
      "ru": "кружок по интересам",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/huviring/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/huviring/1",
+     "audio_file": "audio/4ed719305982c3b0.mp3"
     },
     {
      "et": "lõõgastuma",
      "ru": "расслабляться",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1",
+     "audio_file": "audio/12e36b25b7cc8d5a.mp3"
     },
     {
      "et": "harrastus",
      "ru": "хобби, увлечение",
      "example": "Minu harrastus on matkamine.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harrastus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harrastus/1",
+     "audio_file": "audio/2ab7055fc5decb23.mp3"
     },
     {
      "et": "osalema (milles?)",
      "ru": "участвовать",
      "example": "Ma osalen laulukooris.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osalema/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osalema/1",
+     "audio_file": "audio/0ca93dbe99d7fbe1.mp3"
     }
    ],
    "module": "sonavara"
@@ -75,13 +84,15 @@
      "audio": "Minu harrastus on matkamine.",
      "answer": [
       "Minu harrastus on matkamine."
-     ]
+     ],
+     "audio_file": "audio/d302f88b4f5a1221.mp3"
     },
     {
      "audio": "Ma osalen laulukooris.",
      "answer": [
       "Ma osalen laulukooris."
-     ]
+     ],
+     "audio_file": "audio/b8aa968f5f1ef82f.mp3"
     }
    ],
    "module": "kuulamine",

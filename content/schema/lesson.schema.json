@@ -235,6 +235,10 @@
               "dict": {
                 "type": "string",
                 "description": "Ссылка на слово в словаре EKI Sõnaveeb"
+              },
+              "audio_file": {
+                "type": "string",
+                "description": "путь к mp3 относительно content/"
               }
             }
           }
@@ -340,6 +344,10 @@
         "advice_ru": {
           "type": "string",
           "description": "Совет на русском, если результат блока ниже 80%"
+        },
+        "audio_file": {
+          "type": "string",
+          "description": "listening: путь к mp3 относительно content/"
         }
       },
       "allOf": [

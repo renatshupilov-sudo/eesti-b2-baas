@@ -1,7 +1,7 @@
 {
  "id": "d005",
  "day": 5,
- "version": 2,
+ "version": 3,
  "skill": "grammatika",
  "title": "Sihitis: terve või osa?",
  "title_ru": "Объект: полный или частичный?",
@@ -19,53 +19,62 @@
      "et": "retsept",
      "ru": "рецепт",
      "example": "Arst kirjutas retsepti.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/retsept/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/retsept/1",
+     "audio_file": "audio/b90cffe22cd4ff8e.mp3"
     },
     {
      "et": "perearst",
      "ru": "семейный врач",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/perearst/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/perearst/1",
+     "audio_file": "audio/ec20b632e9bb139c.mp3"
     },
     {
      "et": "haigusleht",
      "ru": "больничный лист",
      "example": "Võtsin kolmeks päevaks haiguslehe.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/haigusleht/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/haigusleht/1",
+     "audio_file": "audio/e577cee0edcf1640.mp3"
     },
     {
      "et": "ravim",
      "ru": "лекарство",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ravim/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ravim/1",
+     "audio_file": "audio/e636623326e7de20.mp3"
     },
     {
      "et": "vastuvõtt",
      "ru": "приём (у врача)",
      "example": "Panin end arsti vastuvõtule kirja.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuv%C3%B5tt/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuv%C3%B5tt/1",
+     "audio_file": "audio/623bbb1f77d97849.mp3"
     },
     {
      "et": "valu",
      "ru": "боль",
      "example": "Mul on seljavalu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/valu/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/valu/1",
+     "audio_file": "audio/075f982d8d75d3ad.mp3"
     },
     {
      "et": "tervislik",
      "ru": "здоровый (полезный)",
      "example": "tervislik toit",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tervislik/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tervislik/1",
+     "audio_file": "audio/c5fb88d64c4c2d47.mp3"
     },
     {
      "et": "liikuma",
      "ru": "двигаться",
      "example": "Liigu iga päev vähemalt pool tundi.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/liikuma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/liikuma/1",
+     "audio_file": "audio/0cfee7e809c88d77.mp3"
     },
     {
      "et": "ennetama",
      "ru": "предупреждать, предотвращать",
      "example": "Haigusi on lihtsam ennetada kui ravida.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ennetama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ennetama/1",
+     "audio_file": "audio/3d92dc5bf5bd6d24.mp3"
     }
    ],
    "module": "sonavara"
@@ -80,19 +89,22 @@
      "audio": "Arst kirjutas retsepti.",
      "answer": [
       "Arst kirjutas retsepti."
-     ]
+     ],
+     "audio_file": "audio/0799b51fa29f8add.mp3"
     },
     {
      "audio": "Võtsin kolmeks päevaks haiguslehe.",
      "answer": [
       "Võtsin kolmeks päevaks haiguslehe."
-     ]
+     ],
+     "audio_file": "audio/6d891fca08258057.mp3"
     },
     {
      "audio": "Panin end arsti vastuvõtule kirja.",
      "answer": [
       "Panin end arsti vastuvõtule kirja."
-     ]
+     ],
+     "audio_file": "audio/fd864d2735fa58b0.mp3"
     }
    ],
    "module": "kuulamine",

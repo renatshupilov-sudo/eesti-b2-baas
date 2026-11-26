@@ -1,7 +1,7 @@
 {
  "id": "d012",
  "day": 12,
- "version": 2,
+ "version": 3,
  "skill": "kuulamine",
  "title": "Teadaanded ja uudised",
  "title_ru": "Объявления и новости",
@@ -19,47 +19,56 @@
      "et": "väljuma",
      "ru": "отправляться",
      "example": "Rong väljub teiselt platvormilt.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljuma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljuma/1",
+     "audio_file": "audio/36b5289cbde9dc25.mp3"
     },
     {
      "et": "hilinema",
      "ru": "опаздывать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hilinema/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hilinema/1",
+     "audio_file": "audio/f5d33b2b76051616.mp3"
     },
     {
      "et": "ärajäämine",
      "ru": "отмена",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%A4raj%C3%A4%C3%A4mine/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%A4raj%C3%A4%C3%A4mine/1",
+     "audio_file": "audio/b9e8eb94695c075a.mp3"
     },
     {
      "et": "asendusbuss",
      "ru": "автобус взамен (поезда)",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendusbuss/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendusbuss/1",
+     "audio_file": "audio/1d4e7fdb1fbde27b.mp3"
     },
     {
      "et": "allahindlus",
      "ru": "скидка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allahindlus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allahindlus/1",
+     "audio_file": "audio/faeb6b711b25cfbe.mp3"
     },
     {
      "et": "sademed",
      "ru": "осадки",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sademed/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sademed/1",
+     "audio_file": "audio/51da6de059e6c860.mp3"
     },
     {
      "et": "tuul pöördub",
      "ru": "ветер меняется",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tuul%20p%C3%B6%C3%B6rdub/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tuul%20p%C3%B6%C3%B6rdub/1",
+     "audio_file": "audio/65c87f095b13c243.mp3"
     },
     {
      "et": "teetööd",
      "ru": "дорожные работы",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teet%C3%B6%C3%B6d/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teet%C3%B6%C3%B6d/1",
+     "audio_file": "audio/a44b3e31bd203fc7.mp3"
     },
     {
      "et": "ümbersõit",
      "ru": "объезд",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmbers%C3%B5it/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmbers%C3%B5it/1",
+     "audio_file": "audio/4509028bd2bd8c57.mp3"
     }
    ],
    "module": "sonavara"
@@ -141,7 +150,8 @@
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/ff9b5aefaba87fe2.mp3"
   },
   {
    "type": "dictation",
@@ -154,14 +164,16 @@
      "answer": [
       "17.45",
       "17:45"
-     ]
+     ],
+     "audio_file": "audio/8b53231526e87c41.mp3"
     },
     {
      "audio": "kell pool kaheksa õhtul",
      "answer": [
       "19.30",
       "19:30"
-     ]
+     ],
+     "audio_file": "audio/309a75271146385b.mp3"
     },
     {
      "audio": "veerand üheksa hommikul",
@@ -170,21 +182,24 @@
       "08.15",
       "8:15",
       "08:15"
-     ]
+     ],
+     "audio_file": "audio/16e96b51913ca01d.mp3"
     },
     {
      "audio": "kolmas detsember",
      "answer": [
       "3.12",
       "03.12"
-     ]
+     ],
+     "audio_file": "audio/e534d984468644f2.mp3"
     },
     {
      "audio": "kahekümne neljandal veebruaril",
      "answer": [
       "24.02",
       "24.2"
-     ]
+     ],
+     "audio_file": "audio/62a528c20af6c2e7.mp3"
     },
     {
      "audio": "kolmveerand kümme",
@@ -193,7 +208,8 @@
       "09.45",
       "9:45",
       "09:45"
-     ]
+     ],
+     "audio_file": "audio/382c93318d5159ad.mp3"
     }
    ],
    "module": "kuulamine",

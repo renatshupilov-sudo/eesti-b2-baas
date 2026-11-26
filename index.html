@@ -216,7 +216,7 @@ const wrapBlock=(b,...kids)=>h("section",{class:"step"},h("div",{class:"hd"},h("
 function block(b,l){
   switch(b.type){
     case "intro": case "review": return wrapBlock(b,h("p",{class:"note"},b.text));
-    case "vocab": { const box=h("div",{class:"vocab"},b.items.map(i=>h("div",{class:"vrow"},h("button",{onclick:()=>say(i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},i.et),h("span",{class:"ru"},i.ru),i.example&&h("span",{class:"ex"},i.example)),
+    case "vocab": { const box=h("div",{class:"vocab"},b.items.map(i=>h("div",{class:"vrow"},h("button",{onclick:()=>playFile(i.audio_file,i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},i.et),h("span",{class:"ru"},i.ru),i.example&&h("span",{class:"ex"},i.example)),
         i.dict&&h("a",{class:"eki",href:i.dict,target:"_blank",rel:"noopener",title:"Sõnaveeb (EKI)"},"EKI ↗"))));
       const w=h("div",{},box); return wrapBlock(b,h("div",{class:"btns"},h("button",{class:"btn ghost",onclick:()=>w.classList.toggle("hide-ru")},"Peida / näita tõlge")),w); }
     case "phrases": return wrapBlock(b,h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))));
@@ -256,20 +256,31 @@ let etVoice=null;
 function pickVoice(){try{etVoice=speechSynthesis.getVoices().find(v=>/^et/i.test(v.lang))||null}catch{}}
 try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice}catch{}
 function say(text,onend){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="et-EE";if(etVoice)u.voice=etVoice;u.rate=.92;if(onend)u.onend=onend;speechSynthesis.speak(u);return true}catch{return false}}
+let curAudio=null;
+function stopAudio(){try{speechSynthesis.cancel()}catch{}if(curAudio){curAudio.pause();curAudio=null}}
+/* Настоящая запись (mp3 из базы); если файла нет или он не загрузился — голос телефона. */
+function playFile(rel,fallback,onfail){
+  stopAudio();
+  const fb=()=>{if(onfail)onfail();if(fallback)say(fallback)};
+  if(!rel){fb();return}
+  const a=new Audio(new URL(rel,new URL(MANIFEST,location.href)).href);curAudio=a;
+  a.onerror=fb; a.play().catch(err=>{if(err&&err.name!=="AbortError")fb()});
+}
 function listening(b,l){
   let plays=0; const max=b.plays||2;
   const info=h("div",{class:"fb"},`Kuulamisi: 0/${max}`);
-  const warn=h("div",{class:"warn",hidden:""},"На этом устройстве нет эстонского голоса — текст будет прочитан другим голосом или не прозвучит. Тогда откройте расшифровку и прочитайте её один раз, закрыв вопросы.");
-  setTimeout(()=>{pickVoice();if(!etVoice)warn.hidden=false},800);
+  const warn=h("div",{class:"warn",hidden:""},"Запись пока не загрузилась, поэтому текст читает голос телефона и может звучать неразборчиво. В этом случае откройте расшифровку и прочитайте её один раз, закрыв вопросы.");
   const lines=b.transcript.split("\n").map(s=>s.replace(/^[^:]{1,20}:\s*/,""));
-  const play=h("button",{class:"btn",onclick:()=>{if(plays>=max)return;plays++;info.textContent=`Kuulamisi: ${plays}/${max}`;let i=0;const next=()=>{if(i<lines.length)say(lines[i++],next)};next();if(plays>=max)play.disabled=true}},"▶ Kuula");
-  const stop=h("button",{class:"btn ghost",onclick:()=>{try{speechSynthesis.cancel()}catch{}}},"■ Stopp");
+  const ttsAll=()=>{let i=0;const next=()=>{if(i<lines.length)say(lines[i++],next)};next()};
+  const play=h("button",{class:"btn",onclick:()=>{if(plays>=max)return;plays++;info.textContent=`Kuulamisi: ${plays}/${max}`;
+    playFile(b.audio_file,null,()=>{warn.hidden=false;ttsAll()});if(plays>=max)play.disabled=true}},"▶ Kuula");
+  const stop=h("button",{class:"btn ghost",onclick:stopAudio},"■ Stopp");
   return wrapBlock(b,warn,h("div",{class:"btns"},play,stop,info),tasks(b.tasks,l,b),h("details",{},h("summary",{},"Транскрипт (после проверки)"),h("div",{class:"text"},b.transcript)));
 }
 function dictation(b,l){
   const tasksList=b.items.map((it,i)=>({kind:"gap",q:`${i+1}.`,answer:it.answer,explain_ru:""}));
   const t=tasks(tasksList,l,b);
-  t.querySelectorAll(".task").forEach((row,i)=>row.querySelector(".q").append(" ",h("button",{class:"btn ghost",onclick:()=>say(b.items[i].audio)},"▶")));
+  t.querySelectorAll(".task").forEach((row,i)=>row.querySelector(".q").append(" ",h("button",{class:"btn ghost",onclick:()=>playFile(b.items[i].audio_file,b.items[i].audio)},"▶")));
   return wrapBlock(b,t,h("details",{},h("summary",{},"Mida öeldi"),h("ol",{},b.items.map(i=>h("li",{},i.audio)))));
 }
 function writing(b,l){
@@ -291,7 +302,7 @@ function speaking(b){
 function timer(sec,label){
   const fmt=s=>`${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}`; let left=sec,id=null;
   const disp=h("span",{class:"timer"},fmt(sec));
-  const btn=h("button",{class:"btn ghost",onclick:()=>{if(id){clearInterval(id);id=null;btn.textContent=label;return}btn.textContent="Paus";id=setInterval(()=>{left--;disp.textContent=fmt(Math.max(left,0));if(left<=0){clearInterval(id);id=null;btn.textContent="Aeg läbi";say("Aeg on läbi")}},1000)}},label);
+  const btn=h("button",{class:"btn ghost",onclick:()=>{if(id){clearInterval(id);id=null;btn.textContent=label;return}btn.textContent="Paus";id=setInterval(()=>{left--;disp.textContent=fmt(Math.max(left,0));if(left<=0){clearInterval(id);id=null;btn.textContent="Aeg läbi";}},1000)}},label);
   return h("span",{class:"btns"},btn,disp);
 }
 
