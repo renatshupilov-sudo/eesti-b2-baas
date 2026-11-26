@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """Озвучивает недостающие аудиофайлы базы. Запускается в GitHub Actions (там есть интернет и ffmpeg).
 Синтезатор: TartuNLP Neurokõne, https://neurokone.ee (API https://api.tartunlp.ai/text-to-speech/v2)."""
-import glob, io, json, os, subprocess, sys, time, urllib.request, wave
+import glob, json, os, subprocess, sys, time, urllib.request
 sys.path.insert(0, os.path.dirname(__file__))
 from audio_plan import plan, path
 
@@ -21,18 +21,16 @@ def tts(text, speaker):
             time.sleep(5 * (attempt + 1))
     raise RuntimeError(f"TTS failed: {speaker}: {text[:60]}")
 
-def join_wavs(chunks, pause=0.6):
-    params, frames = None, []
-    for i, data in enumerate(chunks):
-        w = wave.open(io.BytesIO(data))
-        if params is None:
-            params = w.getparams()
-        if i:
-            frames.append(b"\x00" * int(params.framerate * pause) * params.sampwidth * params.nchannels)
-        frames.append(w.readframes(w.getnframes()))
-    out = io.BytesIO()
-    w = wave.open(out, "wb"); w.setparams(params); w.writeframes(b"".join(frames)); w.close()
-    return out.getvalue()
+RATE = 22050
+
+def to_pcm(data):
+    """Любой WAV от синтезатора (в т.ч. float32) → сырой PCM s16le, моно, 22050 Гц."""
+    return subprocess.run(["ffmpeg", "-loglevel", "error", "-i", "pipe:0", "-f", "s16le", "-ac", "1", "-ar", str(RATE), "pipe:1"],
+                          input=data, capture_output=True, check=True).stdout
+
+def join_pcm(chunks, pause=0.6):
+    silence = b"\x00\x00" * int(RATE * pause)
+    return silence.join(to_pcm(c) for c in chunks)
 
 needed = {}
 for f in sorted(glob.glob(os.path.join(C, "lessons", "*.json"))):
@@ -45,9 +43,9 @@ for rel, segs in needed.items():
     if os.path.exists(dst):
         continue
     print("TTS", rel, segs[0][1][:50])
-    wav = join_wavs([tts(t, s) for s, t in segs])
+    pcm = join_pcm([tts(t, s) for s, t in segs])
     os.makedirs(os.path.dirname(dst), exist_ok=True)
-    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "wav", "-i", "pipe:0", "-ac", "1", "-b:a", "64k", dst], input=wav, check=True)
+    subprocess.run(["ffmpeg", "-loglevel", "error", "-y", "-f", "s16le", "-ar", str(RATE), "-ac", "1", "-i", "pipe:0", "-b:a", "64k", dst], input=pcm, check=True)
     made += 1
     time.sleep(0.3)
 
