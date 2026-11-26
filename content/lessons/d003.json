@@ -1,7 +1,7 @@
 {
  "id": "d003",
  "day": 3,
- "version": 4,
+ "version": 5,
  "skill": "kirjutamine",
  "title": "Kaebus e-poele",
  "title_ru": "Жалоба в интернет-магазин",
@@ -20,97 +20,116 @@
      "ru": "неисправный, с браком",
      "example": "Defektse toote võib poodi tagastada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/defektne/1",
-     "audio_file": "audio/2f5888237c26e08e.mp3"
+     "audio_file": "audio/2f5888237c26e08e.mp3",
+     "audio_file_m": "audio/52716558bc20527f.mp3"
     },
     {
      "et": "tagastama",
      "ru": "возвращать",
      "example": "Ostu võib tagastada 14 päeva jooksul.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tagastama/1",
-     "audio_file": "audio/74d7553404c070b7.mp3"
+     "audio_file": "audio/74d7553404c070b7.mp3",
+     "audio_file_m": "audio/f2bb376395c449a6.mp3"
     },
     {
      "et": "hüvitama",
      "ru": "возмещать",
      "example": "Pood hüvitas saatmiskulud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%BCvitama/1",
-     "audio_file": "audio/d5fb0ad09fd001fd.mp3"
+     "audio_file": "audio/d5fb0ad09fd001fd.mp3",
+     "audio_file_m": "audio/b88d5646874e3823.mp3"
     },
     {
      "et": "garantii kehtib",
      "ru": "гарантия действует",
      "example": "Garantii kehtib kaks aastat.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/garantii%20kehtib/1",
-     "audio_file": "audio/8387b6be0c12bf2d.mp3"
+     "audio_file": "audio/8387b6be0c12bf2d.mp3",
+     "audio_file_m": "audio/ec1d25f663e23e7a.mp3"
     },
     {
      "et": "lepingust taganema",
      "ru": "отказаться от договора",
      "example": "E-poe ostu puhul on õigus lepingust 14 päeva jooksul taganeda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/lepingust%20taganema/1",
-     "audio_file": "audio/b2f2ade6ca2f42a4.mp3"
+     "audio_file": "audio/b2f2ade6ca2f42a4.mp3",
+     "audio_file_m": "audio/36ce3fd3a24726ef.mp3"
     },
     {
      "et": "tarbijakaitse",
      "ru": "защита прав потребителей",
      "example": "Probleemi korral võib pöörduda tarbijakaitse poole.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tarbijakaitse/1",
-     "audio_file": "audio/94bbbe227058feba.mp3"
+     "audio_file": "audio/94bbbe227058feba.mp3",
+     "audio_file_m": "audio/57ca00752da2d260.mp3"
     },
     {
      "et": "pretensiooni esitama",
      "ru": "предъявить претензию",
      "example": "Kliendil on õigus esitada pretensioon kahe aasta jooksul.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pretensiooni%20esitama/1",
-     "audio_file": "audio/5a359f44ef278850.mp3"
+     "audio_file": "audio/5a359f44ef278850.mp3",
+     "audio_file_m": "audio/88cac055f5662a90.mp3"
     },
     {
      "et": "pettuma (milles?)",
      "ru": "разочароваться (в чём)",
      "example": "Olen teie teeninduses pettunud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettuma/1",
-     "audio_file": "audio/b1209e86b12e1f60.mp3"
+     "audio_file": "audio/b1209e86b12e1f60.mp3",
+     "audio_file_m": "audio/c831c29e402171d2.mp3"
     },
     {
      "et": "tarne hilinemine",
      "ru": "задержка доставки",
      "example": "Vabandame tarne hilinemise pärast.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tarne%20hilinemine/1",
-     "audio_file": "audio/fb1cdb37f339a869.mp3"
+     "audio_file": "audio/fb1cdb37f339a869.mp3",
+     "audio_file_m": "audio/156ee3cff73f8e3f.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Mees: Tere, helistan seoses tellimusega, mis jõudis eile kohale. Jope on mulle kahjuks väike.\nNaine: Kahju kuulda. Kas soovite selle suurema vastu vahetada või raha tagasi saada?\nMees: Pigem vahetada. Kas see on tasuta?\nNaine: Esimene vahetus on tasuta. Peate lihtsalt jope neljateistkümne päeva jooksul pakiautomaati viima. Uue jope saadame siis, kui oleme vana kätte saanud.\nMees: Aga kui suuremat suurust enam ei ole?\nNaine: Siis tagastame raha viie tööpäeva jooksul.",
+   "tasks": [
     {
-     "audio": "Defektse toote võib poodi tagastada.",
-     "answer": [
-      "Defektse toote võib poodi tagastada."
+     "kind": "mc",
+     "q": "Mis on probleem?",
+     "options": [
+      "Jope on katki.",
+      "Jope on liiga väike.",
+      "Jope on vale värvi."
      ],
-     "audio_file": "audio/e6b46416eaf08931.mp3"
+     "answer": 1,
+     "explain_ru": "«Jope on mulle kahjuks väike»."
     },
     {
-     "audio": "Ostu võib tagastada 14 päeva jooksul.",
-     "answer": [
-      "Ostu võib tagastada 14 päeva jooksul."
+     "kind": "mc",
+     "q": "Millal saadab pood uue jope?",
+     "options": [
+      "kohe",
+      "kui pood on vana jope kätte saanud",
+      "14 päeva pärast"
      ],
-     "audio_file": "audio/9657dd27461d0872.mp3"
+     "answer": 1,
+     "explain_ru": "«Uue jope saadame siis, kui oleme vana kätte saanud»."
     },
     {
-     "audio": "Pood hüvitas saatmiskulud.",
-     "answer": [
-      "Pood hüvitas saatmiskulud."
-     ],
-     "audio_file": "audio/c5e3dcfd817fc89a.mp3"
+     "kind": "tf",
+     "q": "Kui suuremat suurust ei ole, saab klient raha tagasi viie tööpäeva jooksul.",
+     "answer": true,
+     "explain_ru": "«tagastame raha viie tööpäeva jooksul»."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/6fd17184ccc95a75.mp3"
   },
   {
    "type": "grammar",
@@ -171,7 +190,7 @@
   },
   {
    "type": "writing",
-   "minutes": 20,
+   "minutes": 19,
    "title": "Kirjutamine: kaebus",
    "prompt_et": "Te tellisite e-poest tolmuimeja. Pakk saabus hilinemisega ja toode ei tööta korralikult. Kirjutage e-poe klienditeenindusele kiri. Kirjutage:\n• mida ja millal te tellisite;\n• mis on probleem (vähemalt kaks probleemi);\n• mida te ootate e-poelt.",
    "prompt_ru": "На экзамене письмо — первое задание части «kirjutamine» (80 минут на два текста). Оставьте 20–25 минут на письмо и 3 минуты на проверку.",

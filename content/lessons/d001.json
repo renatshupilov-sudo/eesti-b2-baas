@@ -1,7 +1,7 @@
 {
  "id": "d001",
  "day": 1,
- "version": 4,
+ "version": 5,
  "skill": "lugemine",
  "title": "Kaugtöö: vabadus või üksindus?",
  "title_ru": "Удалённая работа: свобода или одиночество?",
@@ -20,101 +20,125 @@
      "ru": "гибкая организация работы",
      "example": "Paindlik töökorraldus aitab tööd ja pereelu ühendada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paindlik%20t%C3%B6%C3%B6korraldus/1",
-     "audio_file": "audio/77ca94a4da4d9554.mp3"
+     "audio_file": "audio/77ca94a4da4d9554.mp3",
+     "audio_file_m": "audio/8afca80bdc798944.mp3"
     },
     {
      "et": "piiri tõmbama (mille vahele?)",
      "ru": "провести границу",
      "example": "Kodus on raske tõmmata piiri töö ja eraelu vahele.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/piiri%20t%C3%B5mbama/1",
-     "audio_file": "audio/b15a34ea0cea2e62.mp3"
+     "audio_file": "audio/b15a34ea0cea2e62.mp3",
+     "audio_file_m": "audio/c9bd3da8a56fbc21.mp3"
     },
     {
      "et": "meeskonnatunne",
      "ru": "командный дух",
      "example": "Kohvipausid tugevdavad meeskonnatunnet.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/meeskonnatunne/1",
-     "audio_file": "audio/d1fd24189a843150.mp3"
+     "audio_file": "audio/d1fd24189a843150.mp3",
+     "audio_file_m": "audio/1241964fc5df642c.mp3"
     },
     {
      "et": "tootlikkus",
      "ru": "производительность",
      "example": "Kaugtöö ei pruugi tootlikkust vähendada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlikkus/1",
-     "audio_file": "audio/16814f8b2ae12ae1.mp3"
+     "audio_file": "audio/16814f8b2ae12ae1.mp3",
+     "audio_file_m": "audio/f92f9661c864f0bb.mp3"
     },
     {
      "et": "vastutustunne",
      "ru": "чувство ответственности",
      "example": "Kontrolli puudumine võib vähendada vastutustunnet.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutustunne/1",
-     "audio_file": "audio/357d6be8227f6a1d.mp3"
+     "audio_file": "audio/357d6be8227f6a1d.mp3",
+     "audio_file_m": "audio/9571521c55abc837.mp3"
     },
     {
      "et": "kohanema (millega?)",
      "ru": "адаптироваться (к чему)",
      "example": "Uuel töötajal on raske organisatsiooni kultuuriga kohaneda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohanema/1",
-     "audio_file": "audio/ba8bc2bb4ed6f229.mp3"
+     "audio_file": "audio/ba8bc2bb4ed6f229.mp3",
+     "audio_file_m": "audio/a4f0bc3fbe818860.mp3"
     },
     {
      "et": "varjukülg",
      "ru": "обратная (теневая) сторона",
      "example": "Igal lahendusel on oma varjuküljed.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1",
-     "audio_file": "audio/761a8afcd4cb6fd4.mp3"
+     "audio_file": "audio/761a8afcd4cb6fd4.mp3",
+     "audio_file_m": "audio/a319c70dbbf50272.mp3"
     },
     {
      "et": "ühene",
      "ru": "однозначный",
      "example": "Kaugtöö mõju ei ole sugugi ühene.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BChene/1",
-     "audio_file": "audio/7260451432d03166.mp3"
+     "audio_file": "audio/7260451432d03166.mp3",
+     "audio_file_m": "audio/12b097bb5f4d9419.mp3"
     },
     {
      "et": "kippuma (+ ma-infinitiiv)",
      "ru": "иметь склонность, норовить",
      "example": "Tööpäev kipub venima hilisõhtuni.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kippuma/1",
-     "audio_file": "audio/a49c9a8d6385699b.mp3"
+     "audio_file": "audio/a49c9a8d6385699b.mp3",
+     "audio_file_m": "audio/95aea02fcfdb9847.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Naine: Kas sa kuulsid juba? Alates jaanuarist võime kolm päeva nädalas kodust töötada.\nMees: Kuulsin küll, aga mulle tundub, et see ei ole kõigile hea uudis. Mul on kodus väike laps ja keskenduda on peaaegu võimatu.\nNaine: Sel juhul ei pea sa ju kodust töötama. Juhataja ütles, et igaüks võib ise valida.\nMees: Tõsi. Siis tulen kontorisse esmaspäeval, kolmapäeval ja neljapäeval. Aga kuidas koosolekutega jääb?\nNaine: Need jäävad kolmapäevale, kui kõik on kohal.",
+   "tasks": [
     {
-     "audio": "Paindlik töökorraldus aitab tööd ja pereelu ühendada.",
-     "answer": [
-      "Paindlik töökorraldus aitab tööd ja pereelu ühendada."
+     "kind": "mc",
+     "q": "Mitu päeva nädalas võib alates jaanuarist kodust töötada?",
+     "options": [
+      "kaks",
+      "kolm",
+      "viis"
      ],
-     "audio_file": "audio/a434ecc85d7cea62.mp3"
+     "answer": 1,
+     "explain_ru": "«kolm päeva nädalas kodust töötada»."
     },
     {
-     "audio": "Kodus on raske tõmmata piiri töö ja eraelu vahele.",
-     "answer": [
-      "Kodus on raske tõmmata piiri töö ja eraelu vahele."
+     "kind": "mc",
+     "q": "Miks mees kahtleb?",
+     "options": [
+      "Tal on kodus väike laps.",
+      "Tal ei ole kodus arvutit.",
+      "Ta elab kontori lähedal."
      ],
-     "audio_file": "audio/b4828db60f76f6be.mp3"
+     "answer": 0,
+     "explain_ru": "«Mul on kodus väike laps ja keskenduda on peaaegu võimatu»."
     },
     {
-     "audio": "Kohvipausid tugevdavad meeskonnatunnet.",
-     "answer": [
-      "Kohvipausid tugevdavad meeskonnatunnet."
+     "kind": "mc",
+     "q": "Millal toimuvad koosolekud?",
+     "options": [
+      "esmaspäeval",
+      "kolmapäeval",
+      "neljapäeval"
      ],
-     "audio_file": "audio/55a03306446d9d7a.mp3"
+     "answer": 1,
+     "explain_ru": "«Need jäävad kolmapäevale» — переносятся/остаются на среду."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/db2e46387edce1d5.mp3"
   },
   {
    "type": "reading",
-   "minutes": 16,
+   "minutes": 15,
    "title": "Lugemine",
    "instruction_et": "Lugege teksti ja vastake küsimustele.",
    "instruction_ru": "На экзамене на чтение даётся 70 минут на 4 задания, то есть около 15–17 минут на текст. Засеките время.",

@@ -1,7 +1,7 @@
 {
  "id": "d013",
  "day": 13,
- "version": 4,
+ "version": 5,
  "skill": "kirjutamine",
  "title": "Ettepanek korteriühistule",
  "title_ru": "Предложение товариществу собственников",
@@ -20,97 +20,121 @@
      "ru": "товарищество собственников квартир",
      "example": "Korteriühistu juhatus otsustab remondi üle.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/korteri%C3%BChistu/1",
-     "audio_file": "audio/1f083aab02975a12.mp3"
+     "audio_file": "audio/1f083aab02975a12.mp3",
+     "audio_file_m": "audio/1a222e85d7382025.mp3"
     },
     {
      "et": "üldkoosolek",
      "ru": "общее собрание",
      "example": "Seda küsimust arutatakse üldkoosolekul.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCldkoosolek/1",
-     "audio_file": "audio/503ace934a280b5b.mp3"
+     "audio_file": "audio/503ace934a280b5b.mp3",
+     "audio_file_m": "audio/1b07eddeaafd40aa.mp3"
     },
     {
      "et": "ettepanekut tegema",
      "ru": "вносить предложение",
      "example": "Teen ettepaneku hoov korrastada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanekut%20tegema/1",
-     "audio_file": "audio/b2eef6a54323787a.mp3"
+     "audio_file": "audio/b2eef6a54323787a.mp3",
+     "audio_file_m": "audio/f771c293d5d1b8b8.mp3"
     },
     {
      "et": "talgud",
      "ru": "толока, субботник",
      "example": "Kevadel korraldame hoovis talgud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/talgud/1",
-     "audio_file": "audio/7f2d37f0ae4c62cd.mp3"
+     "audio_file": "audio/7f2d37f0ae4c62cd.mp3",
+     "audio_file_m": "audio/66415bb0aa871674.mp3"
     },
     {
      "et": "toetust taotlema",
      "ru": "подать заявку на поддержку",
      "example": "Ühistu võiks taotleda linnalt toetust.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toetust%20taotlema/1",
-     "audio_file": "audio/639313c2afba0321.mp3"
+     "audio_file": "audio/639313c2afba0321.mp3",
+     "audio_file_m": "audio/a94952c45c39f986.mp3"
     },
     {
      "et": "eelarve",
      "ru": "бюджет",
      "example": "Ühistu eelarve on piiratud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelarve/1",
-     "audio_file": "audio/73e83c02f7cdcc14.mp3"
+     "audio_file": "audio/73e83c02f7cdcc14.mp3",
+     "audio_file_m": "audio/b3b83779580dd0d6.mp3"
     },
     {
      "et": "kaasa lööma",
      "ru": "принять участие",
      "example": "Paljud naabrid on nõus kaasa lööma.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaasa%20l%C3%B6%C3%B6ma/1",
-     "audio_file": "audio/ddc7e43309e942b6.mp3"
+     "audio_file": "audio/ddc7e43309e942b6.mp3",
+     "audio_file_m": "audio/e03d340208c9dd6b.mp3"
     },
     {
      "et": "paigaldama",
      "ru": "устанавливать",
      "example": "Hoovi paigaldatakse uus konteiner.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paigaldama/1",
-     "audio_file": "audio/095a4bab396add69.mp3"
+     "audio_file": "audio/095a4bab396add69.mp3",
+     "audio_file_m": "audio/71f28fc19b80905d.mp3"
     },
     {
      "et": "seisukord",
      "ru": "состояние",
      "example": "Mänguväljak on halvas seisukorras.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukord/1",
-     "audio_file": "audio/1746bd45c23994fe.mp3"
+     "audio_file": "audio/1746bd45c23994fe.mp3",
+     "audio_file_m": "audio/517581c44b9dc278.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Mees: Kas sa tuled homme üldkoosolekule?\nNaine: Kahjuks ei saa, olen komandeeringus. Kas ma saan kuidagi hääletada?\nMees: Saad volitada kedagi teist enda eest hääletama. Kirjuta lihtsalt lühike volitus ja allkirjasta see digitaalselt.\nNaine: Hea mõte. Kas sa võiksid minu eest hääletada? Ma toetan uue mänguväljaku ehitamist.\nMees: Muidugi. Saada volitus mulle täna õhtul e-postiga.",
+   "tasks": [
     {
-     "audio": "Korteriühistu juhatus otsustab remondi üle.",
-     "answer": [
-      "Korteriühistu juhatus otsustab remondi üle."
+     "kind": "mc",
+     "q": "Miks naine koosolekule ei tule?",
+     "options": [
+      "Ta on haige.",
+      "Ta on komandeeringus.",
+      "Ta on puhkusel."
      ],
-     "audio_file": "audio/1d215e1ba0110e3c.mp3"
+     "answer": 1,
+     "explain_ru": "«olen komandeeringus» — в командировке."
     },
     {
-     "audio": "Seda küsimust arutatakse üldkoosolekul.",
-     "answer": [
-      "Seda küsimust arutatakse üldkoosolekul."
+     "kind": "mc",
+     "q": "Kuidas saab naine hääletada?",
+     "options": [
+      "telefoni teel",
+      "volitusega naabri kaudu",
+      "pärast koosolekut"
      ],
-     "audio_file": "audio/21a7afb2d7de00ec.mp3"
+     "answer": 1,
+     "explain_ru": "volitama — доверить; volitus — доверенность."
     },
     {
-     "audio": "Teen ettepaneku hoov korrastada.",
-     "answer": [
-      "Teen ettepaneku hoov korrastada."
+     "kind": "mc",
+     "q": "Mida naine toetab?",
+     "options": [
+      "uue mänguväljaku ehitamist",
+      "hoovi parkla laiendamist",
+      "prügikastide vahetamist"
      ],
-     "audio_file": "audio/c1f9e3523e23a527.mp3"
+     "answer": 0,
+     "explain_ru": "«Ma toetan uue mänguväljaku ehitamist»."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/06d3c9e730b1b151.mp3"
   },
   {
    "type": "phrases",
@@ -173,7 +197,7 @@
   },
   {
    "type": "writing",
-   "minutes": 16,
+   "minutes": 15,
    "title": "Kirjutamine: ettepanek",
    "prompt_et": "Teie maja hoov on halvas seisukorras: mänguväljak on vana ja prügikastide ümbrus räpane. Kirjutage korteriühistu juhatusele e-kiri. Kirjutage:\n• mis on probleem;\n• mida te ette panete (vähemalt kaks ideed);\n• kuidas te ise saaksite aidata.",
    "words": {

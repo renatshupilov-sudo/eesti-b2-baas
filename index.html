@@ -98,7 +98,8 @@ a{color:var(--accent)}
   <header>
     <div class="date" id="date"></div>
     <h1>Päevatund B2</h1>
-    <div class="btns"><div class="status" id="status">Laen sisu…</div><button class="btn ghost" id="refresh" style="padding:4px 10px;font-size:13px">↻ Uuenda</button></div>
+    <div class="btns"><div class="status" id="status">Laen sisu…</div><button class="btn ghost" id="refresh" style="padding:4px 10px;font-size:13px">↻ Uuenda</button>
+      <select id="voice" aria-label="Hääl" style="flex:0 0 auto;padding:4px 8px;font-size:13px"><option value="n">Hääl: naine</option><option value="m">Hääl: mees</option></select></div>
   </header>
   <nav>
     <a href="#tana" data-v="tana">Täna</a>
@@ -117,6 +118,8 @@ const store = {
   get(k,d){try{const v=localStorage.getItem("b2:"+k);return v?JSON.parse(v):d}catch{return d}},
   set(k,v){try{localStorage.setItem("b2:"+k,JSON.stringify(v))}catch{}}
 };
+let speed=store.get("speed2",0.8), voice=store.get("voice","n");
+const pick=o=>(voice==="m"&&o.audio_file_m)||o.audio_file;
 let manifest = store.get("manifest", null);
 let lessons = store.get("lessons", {});
 const progress = store.get("progress", {});
@@ -148,6 +151,8 @@ async function sync(){
   }
 }
 function setStatus(t){$("#status").textContent=t}
+const vsel=document.getElementById("voice"); vsel.value=voice;
+vsel.addEventListener("change",()=>{voice=vsel.value;store.set("voice",voice);stopAudio()});
 document.getElementById("refresh").addEventListener("click",()=>{setStatus("Kontrollin uuendusi…");sync()});
 
 function todayIndex(){
@@ -229,7 +234,7 @@ function block(b,l){
       const box=h("div",{class:"vocab"},b.items.map(i=>{
         const ru=h("button",{class:"ru hid","aria-label":"Näita tõlget",onclick:()=>ru.classList.toggle("hid")},i.ru); rus.push(ru);
         return h("div",{class:"vrow"},
-          h("button",{class:"word",onclick:()=>playFile(i.audio_file,i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},"🔊 "+i.et),i.example&&h("span",{class:"ex"},i.example)),
+          h("button",{class:"word",onclick:()=>playFile(pick(i),i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},"🔊 "+i.et),i.example&&h("span",{class:"ex"},i.example)),
           ru, i.dict?h("a",{class:"eki",href:i.dict,target:"_blank",rel:"noopener",title:"Sõnaveeb (EKI)"},"EKI ↗"):h("span",{}));
       }));
       return wrapBlock(b,h("div",{class:"btns"},
@@ -277,7 +282,6 @@ function say(text,onend){try{speechSynthesis.cancel();const u=new SpeechSynthesi
 let curAudio=null;
 function stopAudio(){try{speechSynthesis.cancel()}catch{}if(curAudio){curAudio.pause();curAudio=null}}
 /* Настоящая запись (mp3 из базы); если файла нет или он не загрузился — голос телефона. */
-let speed=store.get("speed",1);
 function playFile(rel,fallback,onfail){
   stopAudio();
   const fb=()=>{if(onfail)onfail();if(fallback)say(fallback)};
@@ -312,16 +316,16 @@ function listening(b,l){
   const lines=b.transcript.split("\n").map(s=>s.replace(/^[^:]{1,20}:\s*/,""));
   const ttsAll=()=>{let i=0;const next=()=>{if(i<lines.length)say(lines[i++],next)};next()};
   const play=h("button",{class:"btn",onclick:()=>{if(plays>=max)return;plays++;info.textContent=`Kuulamisi: ${plays}/${max}`;
-    playFile(b.audio_file,null,()=>{warn.hidden=false;ttsAll()});if(plays>=max)play.disabled=true}},"▶ Kuula");
+    playFile(pick(b),null,()=>{warn.hidden=false;ttsAll()});if(plays>=max)play.disabled=true}},"▶ Kuula");
   const stop=h("button",{class:"btn ghost",onclick:stopAudio},"■ Stopp");
-  const sp=h("select",{id:"speed-"+l.id,"aria-label":"Kiirus"},[[0.8,"0.8× aeglasem"],[0.9,"0.9×"],[1,"1× normaalne"]].map(([v,t])=>h("option",{value:String(v)},t)));
-  sp.value=String(speed); sp.addEventListener("change",()=>{speed=+sp.value;store.set("speed",speed);if(curAudio)curAudio.playbackRate=speed});
+  const sp=h("select",{id:"speed-"+l.id,"aria-label":"Kiirus"},[[0.7,"0.7×"],[0.8,"0.8× (−20%)"],[0.9,"0.9×"],[1,"1× normaalne"]].map(([v,t])=>h("option",{value:String(v)},t)));
+  sp.value=String(speed); sp.addEventListener("change",()=>{speed=+sp.value;store.set("speed2",speed);if(curAudio)curAudio.playbackRate=speed});
   return wrapBlock(b,warn,h("div",{class:"btns"},play,stop,sp,info),tasks(b.tasks,l,b),h("details",{},h("summary",{},"Транскрипт (после проверки)"),h("div",{class:"text"},b.transcript)));
 }
 function dictation(b,l){
   const tasksList=b.items.map((it,i)=>({kind:"gap",q:`${i+1}.`,answer:it.answer,explain_ru:""}));
   const t=tasks(tasksList,l,b);
-  t.querySelectorAll(".task").forEach((row,i)=>row.querySelector(".q").append(" ",h("button",{class:"btn ghost",onclick:()=>playFile(b.items[i].audio_file,b.items[i].audio)},"▶")));
+  t.querySelectorAll(".task").forEach((row,i)=>row.querySelector(".q").append(" ",h("button",{class:"btn ghost",onclick:()=>playFile(pick(b.items[i]),b.items[i].audio)},"▶")));
   return wrapBlock(b,t,h("details",{},h("summary",{},"Mida öeldi"),h("ol",{},b.items.map(i=>h("li",{},i.audio)))));
 }
 function writing(b,l){

@@ -1,12 +1,12 @@
 {
  "id": "d002",
  "day": 2,
- "version": 4,
+ "version": 5,
  "skill": "kuulamine",
  "title": "Bussid on hommikuti täis",
  "title_ru": "Утром автобусы переполнены",
  "topic": "linn ja transport",
- "minutes": 38,
+ "minutes": 36,
  "goal_ru": "Аудирование: интервью по радио. Учимся улавливать числа, причины и рекомендации.",
  "blocks": [
   {
@@ -20,63 +20,72 @@
      "ru": "час пик",
      "example": "Tipptunnil sõidab tööle kõige rohkem inimesi.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tipptund/1",
-     "audio_file": "audio/afc820f4b440305a.mp3"
+     "audio_file": "audio/afc820f4b440305a.mp3",
+     "audio_file_m": "audio/9edf79b0bbcf3831.mp3"
     },
     {
      "et": "ülerahvastatud",
      "ru": "переполненный",
      "example": "Hommikused bussid on sageli ülerahvastatud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BClerahvastatud/1",
-     "audio_file": "audio/2fb0e3abe216f3f1.mp3"
+     "audio_file": "audio/2fb0e3abe216f3f1.mp3",
+     "audio_file_m": "audio/f7ae8509f1b20e6a.mp3"
     },
     {
      "et": "end õigustama",
      "ru": "оправдать себя",
      "example": "Tasuta ühistransport on end osaliselt õigustanud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20%C3%B5igustama/1",
-     "audio_file": "audio/04bcf414dd542b37.mp3"
+     "audio_file": "audio/04bcf414dd542b37.mp3",
+     "audio_file_m": "audio/21701d96a398d2d8.mp3"
     },
     {
      "et": "koormust vähendama",
      "ru": "снизить нагрузку",
      "example": "Paindlik tööaeg aitab hommikust koormust vähendada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/koormust%20v%C3%A4hendama/1",
-     "audio_file": "audio/080841c8ab82a28f.mp3"
+     "audio_file": "audio/080841c8ab82a28f.mp3",
+     "audio_file_m": "audio/cd42bfbcc9ce9dce.mp3"
     },
     {
      "et": "eelistama (mida millele?)",
      "ru": "предпочитать (что чему)",
      "example": "Paljud eelistavad autot bussile.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelistama/1",
-     "audio_file": "audio/00f15f64a93bd00d.mp3"
+     "audio_file": "audio/00f15f64a93bd00d.mp3",
+     "audio_file_m": "audio/118b3aa5b6e0da91.mp3"
     },
     {
      "et": "harjumusi muutma",
      "ru": "менять привычки",
      "example": "Autojuhid ei ole oma harjumusi muutnud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harjumusi%20muutma/1",
-     "audio_file": "audio/bffbaf82af5f95f5.mp3"
+     "audio_file": "audio/bffbaf82af5f95f5.mp3",
+     "audio_file_m": "audio/43919b6bcddd6aa9.mp3"
     },
     {
      "et": "usaldusväärne",
      "ru": "надёжный",
      "example": "Sõiduplaan peab olema usaldusväärne.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/usaldusv%C3%A4%C3%A4rne/1",
-     "audio_file": "audio/3bfd244c172c53d1.mp3"
+     "audio_file": "audio/3bfd244c172c53d1.mp3",
+     "audio_file_m": "audio/6b57dfba099575ba.mp3"
     },
     {
      "et": "meelitama",
      "ru": "привлекать, заманивать",
      "example": "Kuidas meelitada autojuhte bussi peale?",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/meelitama/1",
-     "audio_file": "audio/2e6d76f7f54c819f.mp3"
+     "audio_file": "audio/2e6d76f7f54c819f.mp3",
+     "audio_file_m": "audio/ea3e11c145315bd6.mp3"
     },
     {
      "et": "kaaluma",
      "ru": "взвешивать, рассматривать",
      "example": "Ettevõtted võiksid kaaluda paindlikku tööaega.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaaluma/1",
-     "audio_file": "audio/85a4e8eea570c3b5.mp3"
+     "audio_file": "audio/85a4e8eea570c3b5.mp3",
+     "audio_file_m": "audio/418bee975a15199a.mp3"
     }
    ],
    "module": "sonavara"
@@ -166,70 +175,50 @@
    "audio_file": "audio/94c73c9be98fa2e5.mp3"
   },
   {
-   "type": "dictation",
-   "minutes": 7,
-   "title": "Arvud kuulmise järgi",
-   "instruction_ru": "Нажмите ▶, послушайте и запишите цифрами. Числа, время и даты встречаются почти в каждом задании на аудирование.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Naine: Vabandage, kas buss number kakskümmend kaks peatub siin?\nMees: Tavaliselt küll, aga teetööde tõttu peatub ta praegu järgmises peatuses, umbes kolmesaja meetri kaugusel.\nNaine: Ahah. Ja millal järgmine buss tuleb?\nMees: Sõiduplaani järgi kell kaheksateist kakskümmend, aga õhtuti hilinevad bussid sageli viis-kuus minutit.\nNaine: Aitäh! Kas piletit saab bussis osta?\nMees: Ei saa. Kaardiga tuleb lihtsalt validaatorit puudutada.",
+   "tasks": [
     {
-     "audio": "kuuskümmend kaks",
-     "answer": [
-      "62"
+     "kind": "mc",
+     "q": "Miks buss praegu siin ei peatu?",
+     "options": [
+      "teetööde tõttu",
+      "streigi tõttu",
+      "õnnetuse tõttu"
      ],
-     "audio_file": "audio/ed852c9c7051e698.mp3"
+     "answer": 0,
+     "explain_ru": "«teetööde tõttu» — из-за дорожных работ."
     },
     {
-     "audio": "kuusteist",
-     "answer": [
-      "16"
+     "kind": "mc",
+     "q": "Millal tuleb järgmine buss sõiduplaani järgi?",
+     "options": [
+      "kell 18.02",
+      "kell 18.20",
+      "kell 19.20"
      ],
-     "audio_file": "audio/17927626e1ccb6f9.mp3"
+     "answer": 1,
+     "explain_ru": "«kaheksateist kakskümmend» = 18.20. Ловушка: kaksteist (12) и kakskümmend (20)."
     },
     {
-     "audio": "kakssada viisteist",
-     "answer": [
-      "215"
+     "kind": "mc",
+     "q": "Kuidas sõidu eest maksta?",
+     "options": [
+      "juhile sularahas",
+      "kaardiga validaatoris",
+      "mobiilirakendusega"
      ],
-     "audio_file": "audio/da9b502c24c3a014.mp3"
-    },
-    {
-     "audio": "üheksateist",
-     "answer": [
-      "19"
-     ],
-     "audio_file": "audio/7f9a1731227290da.mp3"
-    },
-    {
-     "audio": "kolmsada üheksakümmend",
-     "answer": [
-      "390"
-     ],
-     "audio_file": "audio/e0c97849f6f29448.mp3"
-    },
-    {
-     "audio": "tuhat kaheksasada",
-     "answer": [
-      "1800"
-     ],
-     "audio_file": "audio/d175eeaf25afd1bb.mp3"
-    },
-    {
-     "audio": "seitsekümmend seitse",
-     "answer": [
-      "77"
-     ],
-     "audio_file": "audio/013aaa6799f8325e.mp3"
-    },
-    {
-     "audio": "kaks tuhat kakskümmend kuus",
-     "answer": [
-      "2026"
-     ],
-     "audio_file": "audio/6d7664af366c0022.mp3"
+     "answer": 1,
+     "explain_ru": "«Kaardiga tuleb lihtsalt validaatorit puudutada»."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Ошибки в числах и времени — обычная проблема. Повторите: -teist (11–19), -kümmend (десятки), pool/veerand/kolmveerand."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/ba056e0a16596a01.mp3"
   },
   {
    "type": "external",

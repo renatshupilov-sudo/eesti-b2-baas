@@ -8,10 +8,23 @@ C = os.path.join(ROOT, "content")
 lessons = A + B
 from extras import EXPLAIN, GRAMMAR, ADVICE, REPLACE_MAIN, D014_INTRO
 from extras2 import VOCAB, PHRASE_TASKS, D001_GRAMMAR, JUPITER
+from extras3 import SHORT, D007
+for l in lessons:
+    if l["id"] == "d007":
+        for k in ("title", "title_ru", "topic", "goal_ru"): l[k] = D007[k]
+        for i, b in enumerate(l["blocks"]):
+            if b["type"] == "listening": l["blocks"][i] = dict(D007["listening"], _new=True)
+            if b["type"] == "vocab": b["items"] = [{"et": a, "ru": r, "example": e} for a, r, e in D007["vocab"]]
+    if l["id"] in SHORT:
+        di = next((i for i, b in enumerate(l["blocks"]) if b["type"] == "dictation"), None)
+        if di is not None: l["blocks"][di] = dict(SHORT[l["id"]], _new=True)
+        else:
+            vi = next(i for i, b in enumerate(l["blocks"]) if b["type"] == "vocab")
+            l["blocks"].insert(vi + 1, dict(SHORT[l["id"]], _new=True))
 GRAMMAR["d001"] = D001_GRAMMAR
 for l in lessons:
     for b in l["blocks"]:
-        if b["type"] == "vocab" and l["id"] in VOCAB:
+        if b["type"] == "vocab" and l["id"] in VOCAB and l["id"] != "d007":
             b["items"] = [dict(x) for x in VOCAB[l["id"]]]
             b["instruction_ru"] = "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть."
         if b["type"] == "phrases" and l["id"] in PHRASE_TASKS:
@@ -37,7 +50,7 @@ for l in lessons:
     if l["id"]=="d001":
         for b in l["blocks"]:
             if b["type"]=="phrases": b["instruction_ru"] = "Эти связки нужны в письме. Напишите 2–3 предложения о своей работе, используя минимум три связки."
-    l["version"] = 4  # 2026.11.26-2: ссылки на словарь во всех уроках
+    l["version"] = 5  # 2026.11.26-2: ссылки на словарь во всех уроках
     for b in l["blocks"]:
         if b["type"]=="vocab":
             for it in b["items"]:
@@ -60,7 +73,9 @@ for l in lessons:
         if b["type"] in MODULE: b["module"]=MODULE[b["type"]]
         if b["type"] in ADVICE: b["advice_ru"]=ADVICE[b["type"]]
         if b.get("title")=="Kuula ja kirjuta": b["advice_ru"]="Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+        new = b.pop("_new", False)
         for t in b.get("tasks",[]):
+            if new: continue
             k=f"{l['id']}:{i}"
             if "explain_ru" not in t: t["explain_ru"]=EXPLAIN[k]
             i+=1
@@ -93,11 +108,11 @@ for l in lessons:
     entries.append({k: l[k] for k in ("id","day","version","skill","title","title_ru","topic","minutes")} | {"file": fn, "sha256": hashlib.sha256(data).hexdigest()})
 manifest = {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-4",
+ "contentVersion": "2026.11.26-5",
  "updatedAt": "2026-11-26",
  "language": "et", "level": "B2", "cycleDays": len(lessons),
  "dictionary": {"name": "EKI Sõnaveeb", "urlTemplate": SONAVEEB},
- "changelog": [{"version": "2026.11.26-4", "date": "2026-11-26", "ru": "Слова заменены на лексику уровня B2. Связки и фразы проверяются автоматически. В уроке 1 вместо порядка слов — словообразование. Итог урока с советом. Ссылки на живое аудирование ERR Jupiter. План тем."},{"version": "2026.11.26-3", "date": "2026-11-26", "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."},{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
+ "changelog": [{"version": "2026.11.26-5", "date": "2026-11-26", "ru": "Вместо диктантов из отдельных предложений — короткие диалоги с вопросами. Урок 7: длинная лекция «Eesti mets» (около 5–6 минут). Выбор мужского или женского голоса, речь по умолчанию медленнее на 20%."},{"version": "2026.11.26-4", "date": "2026-11-26", "ru": "Слова заменены на лексику уровня B2. Связки и фразы проверяются автоматически. В уроке 1 вместо порядка слов — словообразование. Итог урока с советом. Ссылки на живое аудирование ERR Jupiter. План тем."},{"version": "2026.11.26-3", "date": "2026-11-26", "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."},{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
  "exam": {
   "parts": [
    {"skill": "kirjutamine", "name": "Kirjutamine", "minutes": "80", "points": 25, "format_ru": "2 текста: письмо (около 140 слов) и рассуждение/мнение (около 180 слов)."},
@@ -121,11 +136,11 @@ manifest["lessonPlan_ru"]="Каждый урок дня (30–40 мин) сод�
 for e in Draft202012Validator(ms).iter_errors(manifest):
     errs += 1; print("manifest", list(e.path), e.message)
 manifest["topicPlan"] = [
- {"topic": "loodus", "ru": "природа", "status": "planned"},
+ {"topic": "loodus", "ru": "природа", "status": "partly", "lessons": ["d007"]},
  {"topic": "majandus", "ru": "экономика", "status": "planned"},
  {"topic": "keskkond ja kliima", "ru": "экология и климат", "status": "partly", "lessons": ["d006"]},
  {"topic": "poliitika ja riik", "ru": "политика и государство", "status": "planned"},
- {"topic": "ühiskond", "ru": "общество", "status": "partly", "lessons": ["d007"]},
+ {"topic": "ühiskond", "ru": "общество", "status": "planned"},
  {"topic": "teadus ja tehnoloogia", "ru": "наука и технологии", "status": "partly", "lessons": ["d011"]},
  {"topic": "töö ja karjäär", "ru": "работа и карьера", "status": "done", "lessons": ["d001"]},
  {"topic": "haridus", "ru": "образование", "status": "done", "lessons": ["d004", "d008"]},
