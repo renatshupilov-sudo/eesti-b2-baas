@@ -1,7 +1,7 @@
 {
  "id": "d008",
  "day": 8,
- "version": 2,
+ "version": 3,
  "skill": "kirjutamine",
  "title": "Nutitelefonid koolis",
  "title_ru": "Смартфоны в школе",
@@ -19,50 +19,59 @@
      "et": "keelama",
      "ru": "запрещать",
      "example": "Kool keelas telefonid tundides.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keelama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keelama/1",
+     "audio_file": "audio/41cdfd33470e7a48.mp3"
     },
     {
      "et": "keeld",
      "ru": "запрет",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeld/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeld/1",
+     "audio_file": "audio/28904b7bf82c64f3.mp3"
     },
     {
      "et": "tähelepanu hajuma",
      "ru": "внимание рассеивается",
      "example": "Telefoni tõttu hajub tähelepanu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajuma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajuma/1",
+     "audio_file": "audio/2282f2c270d7334a.mp3"
     },
     {
      "et": "kiusamine",
      "ru": "травля, буллинг",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kiusamine/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kiusamine/1",
+     "audio_file": "audio/0a1381fe90236113.mp3"
     },
     {
      "et": "vahetund",
      "ru": "перемена",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetund/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetund/1",
+     "audio_file": "audio/9bffe4fc82820fa7.mp3"
     },
     {
      "et": "sõltuvus",
      "ru": "зависимость",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%B5ltuvus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%B5ltuvus/1",
+     "audio_file": "audio/19180964d827713f.mp3"
     },
     {
      "et": "vastutus",
      "ru": "ответственность",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutus/1",
+     "audio_file": "audio/3d2fc71186b47ed7.mp3"
     },
     {
      "et": "põhjendama",
      "ru": "обосновывать",
      "example": "Põhjendage oma arvamust.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/p%C3%B5hjendama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/p%C3%B5hjendama/1",
+     "audio_file": "audio/0d0759faf3a494f2.mp3"
     },
     {
      "et": "seisukoht",
      "ru": "точка зрения, позиция",
      "example": "Minu seisukoht on selge.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukoht/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukoht/1",
+     "audio_file": "audio/ec5832dec6c16886.mp3"
     }
    ],
    "module": "sonavara"
@@ -77,19 +86,22 @@
      "audio": "Kool keelas telefonid tundides.",
      "answer": [
       "Kool keelas telefonid tundides."
-     ]
+     ],
+     "audio_file": "audio/aa1b2c0e846b2631.mp3"
     },
     {
      "audio": "Telefoni tõttu hajub tähelepanu.",
      "answer": [
       "Telefoni tõttu hajub tähelepanu."
-     ]
+     ],
+     "audio_file": "audio/5fe3bc0f0a064d13.mp3"
     },
     {
      "audio": "Põhjendage oma arvamust.",
      "answer": [
       "Põhjendage oma arvamust."
-     ]
+     ],
+     "audio_file": "audio/3d668259c9a72fd4.mp3"
     }
    ],
    "module": "kuulamine",

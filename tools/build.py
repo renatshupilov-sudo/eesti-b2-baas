@@ -25,7 +25,7 @@ for l in lessons:
     if l["id"]=="d001":
         for b in l["blocks"]:
             if b["type"]=="phrases": b["instruction_ru"] = "Эти связки нужны в письме. Напишите 2–3 предложения о своей работе, используя минимум три связки."
-    l["version"] = 2  # 2026.11.26-2: ссылки на словарь во всех уроках
+    l["version"] = 3  # 2026.11.26-2: ссылки на словарь во всех уроках
     for b in l["blocks"]:
         if b["type"]=="vocab":
             for it in b["items"]:
@@ -69,6 +69,9 @@ for l in lessons:
     l["minutes"] = mins; print(l["id"], mins) if not 30 <= mins <= 42 else None
     for e in v.iter_errors(l):
         errs += 1; print(l["id"], list(e.path), e.message)
+from audio_plan import attach
+for l in lessons:
+    attach(l)
 os.makedirs(os.path.join(C, "lessons"), exist_ok=True)
 entries = []
 for l in lessons:
@@ -78,11 +81,11 @@ for l in lessons:
     entries.append({k: l[k] for k in ("id","day","version","skill","title","title_ru","topic","minutes")} | {"file": fn, "sha256": hashlib.sha256(data).hexdigest()})
 manifest = {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-2",
+ "contentVersion": "2026.11.26-3",
  "updatedAt": "2026-11-26",
  "language": "et", "level": "B2", "cycleDays": len(lessons),
  "dictionary": {"name": "EKI Sõnaveeb", "urlTemplate": SONAVEEB},
- "changelog": [{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
+ "changelog": [{"version": "2026.11.26-3", "date": "2026-11-26", "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."},{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
  "exam": {
   "parts": [
    {"skill": "kirjutamine", "name": "Kirjutamine", "minutes": "80", "points": 25, "format_ru": "2 текста: письмо (около 140 слов) и рассуждение/мнение (около 180 слов)."},

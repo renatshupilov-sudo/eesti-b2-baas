@@ -1,7 +1,7 @@
 {
  "id": "d003",
  "day": 3,
- "version": 2,
+ "version": 3,
  "skill": "kirjutamine",
  "title": "Kaebus e-poele",
  "title_ru": "Жалоба в интернет-магазин",
@@ -19,53 +19,62 @@
      "et": "tellimus",
      "ru": "заказ",
      "example": "Tellimuse number on 45821.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellimus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellimus/1",
+     "audio_file": "audio/7c57fe6200e40202.mp3"
     },
     {
      "et": "tellima",
      "ru": "заказывать",
      "example": "Tellisin e-poest tolmuimeja.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellima/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellima/1",
+     "audio_file": "audio/5979a49679c114e8.mp3"
     },
     {
      "et": "pakk",
      "ru": "посылка",
      "example": "Pakk saabus kaks nädalat hiljem.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakk/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakk/1",
+     "audio_file": "audio/b65a37a7305cf8fd.mp3"
     },
     {
      "et": "katki",
      "ru": "сломан(ный)",
      "example": "Karp oli katki.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/katki/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/katki/1",
+     "audio_file": "audio/8b3ab71c2cd3c781.mp3"
     },
     {
      "et": "puuduma",
      "ru": "отсутствовать",
      "example": "Üks osa puudus.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1",
+     "audio_file": "audio/0dbfe0c6e57e855f.mp3"
     },
     {
      "et": "pettunud",
      "ru": "разочарован",
      "example": "Olen väga pettunud.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettunud/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettunud/1",
+     "audio_file": "audio/c0a126b5b8cca4a9.mp3"
     },
     {
      "et": "vahetama (mille vastu?)",
      "ru": "обменять (на что)",
      "example": "Palun vahetage toode uue vastu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetama/1",
+     "audio_file": "audio/c6849e9cf4653b45.mp3"
     },
     {
      "et": "raha tagastama",
      "ru": "вернуть деньги",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/raha%20tagastama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/raha%20tagastama/1",
+     "audio_file": "audio/11eecde047a99be2.mp3"
     },
     {
      "et": "saatmiskulud",
      "ru": "расходы на пересылку",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/saatmiskulud/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/saatmiskulud/1",
+     "audio_file": "audio/28e5526afb797507.mp3"
     }
    ],
    "module": "sonavara"
@@ -80,19 +89,22 @@
      "audio": "Tellimuse number on 45821.",
      "answer": [
       "Tellimuse number on 45821."
-     ]
+     ],
+     "audio_file": "audio/65e295c8d677b596.mp3"
     },
     {
      "audio": "Tellisin e-poest tolmuimeja.",
      "answer": [
       "Tellisin e-poest tolmuimeja."
-     ]
+     ],
+     "audio_file": "audio/fd422e7e62cf254e.mp3"
     },
     {
      "audio": "Pakk saabus kaks nädalat hiljem.",
      "answer": [
       "Pakk saabus kaks nädalat hiljem."
-     ]
+     ],
+     "audio_file": "audio/840509d492351b88.mp3"
     }
    ],
    "module": "kuulamine",

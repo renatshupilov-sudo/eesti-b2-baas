@@ -1,7 +1,7 @@
 {
  "id": "d011",
  "day": 11,
- "version": 2,
+ "version": 3,
  "skill": "lugemine",
  "title": "Tehisintellekt klassiruumis",
  "title_ru": "Искусственный интеллект в классе",
@@ -18,49 +18,58 @@
     {
      "et": "tehisintellekt (TI)",
      "ru": "искусственный интеллект (ИИ)",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tehisintellekt/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tehisintellekt/1",
+     "audio_file": "audio/86e7577cf31de678.mp3"
     },
     {
      "et": "õppevahend",
      "ru": "учебное средство",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppevahend/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppevahend/1",
+     "audio_file": "audio/8070056fd1fde107.mp3"
     },
     {
      "et": "kodutöö",
      "ru": "домашнее задание",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodut%C3%B6%C3%B6/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodut%C3%B6%C3%B6/1",
+     "audio_file": "audio/7bdc13443888e92a.mp3"
     },
     {
      "et": "petma",
      "ru": "обманывать, списывать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/petma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/petma/1",
+     "audio_file": "audio/4d185845258c427d.mp3"
     },
     {
      "et": "hindama",
      "ru": "оценивать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hindama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hindama/1",
+     "audio_file": "audio/0a801dc061b9094c.mp3"
     },
     {
      "et": "kriitiline mõtlemine",
      "ru": "критическое мышление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kriitiline%20m%C3%B5tlemine/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kriitiline%20m%C3%B5tlemine/1",
+     "audio_file": "audio/aa1604448c650c84.mp3"
     },
     {
      "et": "allikas",
      "ru": "источник",
      "example": "Kontrolli allikat.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikas/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikas/1",
+     "audio_file": "audio/086d4a81a7291b9c.mp3"
     },
     {
      "et": "asendama",
      "ru": "заменять",
      "example": "TI ei asenda õpetajat.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendama/1",
+     "audio_file": "audio/137add4837335766.mp3"
     },
     {
      "et": "ohustama",
      "ru": "угрожать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohustama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohustama/1",
+     "audio_file": "audio/858da40132d87dee.mp3"
     }
    ],
    "module": "sonavara"
@@ -75,7 +84,8 @@
      "audio": "TI ei asenda õpetajat.",
      "answer": [
       "TI ei asenda õpetajat."
-     ]
+     ],
+     "audio_file": "audio/fb7265522133d54a.mp3"
     }
    ],
    "module": "kuulamine",

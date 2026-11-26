@@ -1,6 +1,6 @@
 {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-2",
+ "contentVersion": "2026.11.26-3",
  "updatedAt": "2026-11-26",
  "language": "et",
  "level": "B2",
@@ -10,6 +10,11 @@
   "urlTemplate": "https://sonaveeb.ee/search/unif/dlall/dsall/{word}/1"
  },
  "changelog": [
+  {
+   "version": "2026.11.26-3",
+   "date": "2026-11-26",
+   "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."
+  },
   {
    "version": "2026.11.26-2",
    "date": "2026-11-26",
@@ -78,170 +83,170 @@
   {
    "id": "d001",
    "day": 1,
-   "version": 2,
+   "version": 3,
    "skill": "lugemine",
    "title": "Kaugtöö: vabadus või üksindus?",
    "title_ru": "Удалённая работа: свобода или одиночество?",
    "topic": "töö",
    "minutes": 40,
    "file": "lessons/d001.json",
-   "sha256": "3d15b6eda9ea93c740fa94931b590dd34ca474f6d873b3dc42fca28e6c14ba87"
+   "sha256": "cc2ffad86fdfede5c934545992abf0b770b11316e006bf01a4968fe56ccebdd1"
   },
   {
    "id": "d002",
    "day": 2,
-   "version": 2,
+   "version": 3,
    "skill": "kuulamine",
    "title": "Bussid on hommikuti täis",
    "title_ru": "Утром автобусы переполнены",
    "topic": "linn ja transport",
    "minutes": 38,
    "file": "lessons/d002.json",
-   "sha256": "c538acd4fbf232d8f802fa596e2110cd08668a658605170216ecfa54d2ee9ce0"
+   "sha256": "280e1f97beb81016f171319e53b4e12db227cf3f183df0aebc38c81fe62ea91f"
   },
   {
    "id": "d003",
    "day": 3,
-   "version": 2,
+   "version": 3,
    "skill": "kirjutamine",
    "title": "Kaebus e-poele",
    "title_ru": "Жалоба в интернет-магазин",
    "topic": "tarbimine",
    "minutes": 40,
    "file": "lessons/d003.json",
-   "sha256": "95419f88ec4561829b1b3a6280a8cfa1c65f5677e6f6edff8c2546124beb6543"
+   "sha256": "4df8720c105432674fee9ef5f3f6c8356ddc938659997338ad66aa5878a8fac0"
   },
   {
    "id": "d004",
    "day": 4,
-   "version": 2,
+   "version": 3,
    "skill": "kuulamine",
    "title": "Täiskasvanuna jälle koolipingis",
    "title_ru": "Снова за партой во взрослом возрасте",
    "topic": "haridus",
    "minutes": 31,
    "file": "lessons/d004.json",
-   "sha256": "58d40a98c4ff2e666a7563d93cd816dc61e8796eb033d8796910de0f1f0134ee"
+   "sha256": "8774716207e24de858d75c68ea092f76ec88daf9a129c910649f43c66e454668"
   },
   {
    "id": "d005",
    "day": 5,
-   "version": 2,
+   "version": 3,
    "skill": "grammatika",
    "title": "Sihitis: terve või osa?",
    "title_ru": "Объект: полный или частичный?",
    "topic": "tervis",
    "minutes": 39,
    "file": "lessons/d005.json",
-   "sha256": "1e175412b50c516e183eb48491b7498d5090e9292da9d1a5bb56450a15944756"
+   "sha256": "114026544ed791b50e54f86ab7a0adcdd515b46a2b676ca5ddf94721285e8188"
   },
   {
    "id": "d006",
    "day": 6,
-   "version": 2,
+   "version": 3,
    "skill": "lugemine",
    "title": "Kas prügi sorteerimisel on mõtet?",
    "title_ru": "Есть ли смысл сортировать мусор?",
    "topic": "keskkond",
    "minutes": 40,
    "file": "lessons/d006.json",
-   "sha256": "414c2e232e5c0a0ceb7b9247a7cea501d54496d373770d2b4323682213f7db60"
+   "sha256": "5caf7e850499646b132d3bdd77c77527db21220529693be34330f909f5ee3751"
   },
   {
    "id": "d007",
    "day": 7,
-   "version": 2,
+   "version": 3,
    "skill": "kuulamine",
    "title": "Vabatahtlik toidupangas",
    "title_ru": "Волонтёр в продовольственном банке",
    "topic": "ühiskond",
    "minutes": 31,
    "file": "lessons/d007.json",
-   "sha256": "e6de02e1dddd38db10ba2d15124c87c5d0dc9e89c4b9e89f81a716d5447ffea4"
+   "sha256": "1b3b807733f5bebc2dd582061620a270bf7fabde5fab9e20aed6f159c8c81269"
   },
   {
    "id": "d008",
    "day": 8,
-   "version": 2,
+   "version": 3,
    "skill": "kirjutamine",
    "title": "Nutitelefonid koolis",
    "title_ru": "Смартфоны в школе",
    "topic": "haridus ja tehnoloogia",
    "minutes": 40,
    "file": "lessons/d008.json",
-   "sha256": "5cf457e4e406a287596345ff03818a5c2b494a434654859fbc6e32c8ce40993f"
+   "sha256": "9402133f529596efdcb7f42942dfbcee539e8f791c5d65225a20f3e0348fb6f5"
   },
   {
    "id": "d009",
    "day": 9,
-   "version": 2,
+   "version": 3,
    "skill": "lugemine",
    "title": "Linnast maale",
    "title_ru": "Из города в деревню",
    "topic": "eluase ja elukeskkond",
    "minutes": 36,
    "file": "lessons/d009.json",
-   "sha256": "c1be9a3c5589e95fd4e1e8d15553e0a5296b02934fd6efcb2331553d19d79b4e"
+   "sha256": "860b48566e6b02f57ee27750b9b20fac40c44df3f0e1e2a5aeffad5639cceab7"
   },
   {
    "id": "d010",
    "day": 10,
-   "version": 2,
+   "version": 3,
    "skill": "grammatika",
    "title": "-ma, -da ja -des",
    "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
    "topic": "kultuur ja vaba aeg",
    "minutes": 34,
    "file": "lessons/d010.json",
-   "sha256": "51e5cd91cab1261087bec3c2653609c0b302769f34d4998a28984a96dd014f61"
+   "sha256": "0d936a9bdce65f33cd0fe063fb9af93be5520a579af17af397e1566409df1d4d"
   },
   {
    "id": "d011",
    "day": 11,
-   "version": 2,
+   "version": 3,
    "skill": "lugemine",
    "title": "Tehisintellekt klassiruumis",
    "title_ru": "Искусственный интеллект в классе",
    "topic": "tehnoloogia",
    "minutes": 40,
    "file": "lessons/d011.json",
-   "sha256": "7b6d4ff3ee384e96643f0928ebfc16ee5189d8c4f7678ab87d26248559148b21"
+   "sha256": "04755aec28cdfdb5e46d5255fb95c2c34c64e2fa3fe1bce4a70cd65401f56f8a"
   },
   {
    "id": "d012",
    "day": 12,
-   "version": 2,
+   "version": 3,
    "skill": "kuulamine",
    "title": "Teadaanded ja uudised",
    "title_ru": "Объявления и новости",
    "topic": "igapäevaelu",
    "minutes": 38,
    "file": "lessons/d012.json",
-   "sha256": "e4ef1b883cb93204e463b4aaa718ae5f290729bc854c67ddeb475dbae429b4b0"
+   "sha256": "3ecb2d92bcdf646f36c9bd6a15d211a675f7064cec26ae12088cee60d05bc92d"
   },
   {
    "id": "d013",
    "day": 13,
-   "version": 2,
+   "version": 3,
    "skill": "kirjutamine",
    "title": "Ettepanek korteriühistule",
    "title_ru": "Предложение товариществу собственников",
    "topic": "eluase ja kogukond",
    "minutes": 40,
    "file": "lessons/d013.json",
-   "sha256": "1743cb399f8248a282a1959a1cf48dceeb41dafda15ab901d1bffdd61b9a196a"
+   "sha256": "d4b8af5fc92ca1198b1ffe3553181e488934cfd644257db960883d1b40ff4e50"
   },
   {
    "id": "d014",
    "day": 14,
-   "version": 2,
+   "version": 3,
    "skill": "proovieksam",
    "title": "Väike proovieksam",
    "title_ru": "Мини-пробный экзамен",
    "topic": "kordamine",
    "minutes": 38,
    "file": "lessons/d014.json",
-   "sha256": "911a3f55a432069e52afdb88c333a8b79360764a0f2fe349343871942baa7591"
+   "sha256": "8cc06fd61709a5691d154b705c68dd5c8942469b53a79bd3d1dfac730bd2b8c5"
   }
  ],
  "modules": [

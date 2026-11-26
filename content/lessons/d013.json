@@ -1,7 +1,7 @@
 {
  "id": "d013",
  "day": 13,
- "version": 2,
+ "version": 3,
  "skill": "kirjutamine",
  "title": "Ettepanek korteriühistule",
  "title_ru": "Предложение товариществу собственников",
@@ -18,49 +18,58 @@
     {
      "et": "korteriühistu",
      "ru": "товарищество собственников квартир",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/korteri%C3%BChistu/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/korteri%C3%BChistu/1",
+     "audio_file": "audio/1f083aab02975a12.mp3"
     },
     {
      "et": "juhatus",
      "ru": "правление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhatus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhatus/1",
+     "audio_file": "audio/32c061b6de4fe686.mp3"
     },
     {
      "et": "üldkoosolek",
      "ru": "общее собрание",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCldkoosolek/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCldkoosolek/1",
+     "audio_file": "audio/503ace934a280b5b.mp3"
     },
     {
      "et": "hoov",
      "ru": "двор",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hoov/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hoov/1",
+     "audio_file": "audio/e1fbfea53fedd3f0.mp3"
     },
     {
      "et": "mänguväljak",
      "ru": "детская площадка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4nguv%C3%A4ljak/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4nguv%C3%A4ljak/1",
+     "audio_file": "audio/5bbda2291f376d1c.mp3"
     },
     {
      "et": "ettepanek",
      "ru": "предложение",
      "example": "Teen ettepaneku …",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanek/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanek/1",
+     "audio_file": "audio/fe7f9743c2f5d4c4.mp3"
     },
     {
      "et": "talgud",
      "ru": "толока, субботник",
      "example": "Korraldame talgud.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/talgud/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/talgud/1",
+     "audio_file": "audio/7f2d37f0ae4c62cd.mp3"
     },
     {
      "et": "eelarve",
      "ru": "бюджет",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelarve/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelarve/1",
+     "audio_file": "audio/73e83c02f7cdcc14.mp3"
     },
     {
      "et": "hääletama",
      "ru": "голосовать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%A4%C3%A4letama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%A4%C3%A4letama/1",
+     "audio_file": "audio/3dc0a66892fd9405.mp3"
     }
    ],
    "module": "sonavara"
@@ -75,7 +84,8 @@
      "audio": "Teen ettepaneku …",
      "answer": [
       "Teen ettepaneku …"
-     ]
+     ],
+     "audio_file": "audio/7279d35d943bc22d.mp3"
     }
    ],
    "module": "kuulamine",

@@ -1,7 +1,7 @@
 {
  "id": "d001",
  "day": 1,
- "version": 2,
+ "version": 3,
  "skill": "lugemine",
  "title": "Kaugtöö: vabadus või üksindus?",
  "title_ru": "Удалённая работа: свобода или одиночество?",
@@ -19,55 +19,64 @@
      "et": "kaugtöö",
      "ru": "удалённая работа",
      "example": "Ta teeb kaks päeva nädalas kaugtööd.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaugt%C3%B6%C3%B6/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaugt%C3%B6%C3%B6/1",
+     "audio_file": "audio/a6b8f6b5ff5b91ca.mp3"
     },
     {
      "et": "tööandja",
      "ru": "работодатель",
      "example": "Tööandja lubab kodus töötada.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6andja/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6andja/1",
+     "audio_file": "audio/b8778f33f61a45d3.mp3"
     },
     {
      "et": "pooldaja",
      "ru": "сторонник",
      "example": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pooldaja/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pooldaja/1",
+     "audio_file": "audio/0bca2431d7d21a73.mp3"
     },
     {
      "et": "keskenduma (millele?)",
      "ru": "сосредоточиться",
      "example": "Kodus on lihtsam tööle keskenduda.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskenduma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskenduma/1",
+     "audio_file": "audio/c0be20b35624ca6b.mp3"
     },
     {
      "et": "varjukülg",
      "ru": "обратная (теневая) сторона",
      "example": "Igal asjal on oma varjuküljed.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1",
+     "audio_file": "audio/761a8afcd4cb6fd4.mp3"
     },
     {
      "et": "üksildane",
      "ru": "одинокий",
      "example": "Ta tundis end kodus üksildasena.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCksildane/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCksildane/1",
+     "audio_file": "audio/818fa5afc283d715.mp3"
     },
     {
      "et": "tootlik",
      "ru": "продуктивный",
      "example": "Inimesed on kodus sama tootlikud.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlik/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlik/1",
+     "audio_file": "audio/eb909b261a4b4e45.mp3"
     },
     {
      "et": "kohanema (millega?)",
      "ru": "адаптироваться",
      "example": "Uuel töötajal on raske kohaneda.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohanema/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohanema/1",
+     "audio_file": "audio/ba8bc2bb4ed6f229.mp3"
     },
     {
      "et": "kokku leppima",
      "ru": "договориться",
      "example": "Reeglid lepitakse kokku ühiselt.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kokku%20leppima/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kokku%20leppima/1",
+     "audio_file": "audio/004b3da1fec34576.mp3"
     }
    ],
    "module": "sonavara"
@@ -82,19 +91,22 @@
      "audio": "Ta teeb kaks päeva nädalas kaugtööd.",
      "answer": [
       "Ta teeb kaks päeva nädalas kaugtööd."
-     ]
+     ],
+     "audio_file": "audio/627251614d9e6146.mp3"
     },
     {
      "audio": "Tööandja lubab kodus töötada.",
      "answer": [
       "Tööandja lubab kodus töötada."
-     ]
+     ],
+     "audio_file": "audio/d73afb38877f1336.mp3"
     },
     {
      "audio": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
      "answer": [
       "Kaugtöö pooldajad rõhutavad aja kokkuhoidu."
-     ]
+     ],
+     "audio_file": "audio/afdd5fd9f559593a.mp3"
     }
    ],
    "module": "kuulamine",

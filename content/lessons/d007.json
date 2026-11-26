@@ -1,7 +1,7 @@
 {
  "id": "d007",
  "day": 7,
- "version": 2,
+ "version": 3,
  "skill": "kuulamine",
  "title": "Vabatahtlik toidupangas",
  "title_ru": "Волонтёр в продовольственном банке",
@@ -18,51 +18,60 @@
     {
      "et": "vabatahtlik",
      "ru": "доброволец, волонтёр; добровольный",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vabatahtlik/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vabatahtlik/1",
+     "audio_file": "audio/e6de58fa21fbd750.mp3"
     },
     {
      "et": "toidupank",
      "ru": "продовольственный банк",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toidupank/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toidupank/1",
+     "audio_file": "audio/ca8716d9a1ded014.mp3"
     },
     {
      "et": "annetama",
      "ru": "жертвовать",
      "example": "Inimesed annetavad toitu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/annetama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/annetama/1",
+     "audio_file": "audio/a86cc8c458082688.mp3"
     },
     {
      "et": "abivajaja",
      "ru": "нуждающийся",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/abivajaja/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/abivajaja/1",
+     "audio_file": "audio/271c42ab6175fd46.mp3"
     },
     {
      "et": "jagama",
      "ru": "раздавать, делить",
      "example": "Me jagame toidupakke.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/jagama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/jagama/1",
+     "audio_file": "audio/c2eb3daa9b498eb5.mp3"
     },
     {
      "et": "rahuldust pakkuma",
      "ru": "приносить удовлетворение",
      "example": "See töö pakub mulle rahuldust.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahuldust%20pakkuma/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahuldust%20pakkuma/1",
+     "audio_file": "audio/969300e304e73551.mp3"
     },
     {
      "et": "kogemus",
      "ru": "опыт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogemus/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogemus/1",
+     "audio_file": "audio/ed7846aa81096078.mp3"
     },
     {
      "et": "kogukond",
      "ru": "сообщество, община",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogukond/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogukond/1",
+     "audio_file": "audio/319f8ae2d583e635.mp3"
     },
     {
      "et": "panustama (millesse?)",
      "ru": "вкладываться, вносить вклад",
      "example": "Igaüks saab panustada.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/panustama/1"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/panustama/1",
+     "audio_file": "audio/f8f4b8ac62c6d03b.mp3"
     }
    ],
    "module": "sonavara"
@@ -139,7 +148,8 @@
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/a653ce916ff349a3.mp3"
   },
   {
    "type": "grammar",
