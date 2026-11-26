@@ -1,0 +1,194 @@
+{
+ "id": "d014",
+ "day": 14,
+ "version": 2,
+ "skill": "proovieksam",
+ "title": "Väike proovieksam",
+ "title_ru": "Мини-пробный экзамен",
+ "topic": "kordamine",
+ "minutes": 38,
+ "goal_ru": "Письмо, аудирование и чтение в сжатом виде, строго по таймеру. Итог двух недель.",
+ "blocks": [
+  {
+   "type": "intro",
+   "minutes": 1,
+   "title": "Reeglid",
+   "text": "Работайте без словаря и подсказок, как на экзамене. Не открывайте расшифровку и образцы до конца урока. Порядок частей как на настоящем экзамене: письмо → аудирование → чтение."
+  },
+  {
+   "type": "writing",
+   "minutes": 12,
+   "title": "1. Kirjutamine (lühike)",
+   "prompt_et": "Teie kolleeg korraldab reedel sünnipäevapeo, aga te ei saa tulla. Kirjutage talle lühike kiri: vabandage, selgitage põhjust ja tehke ettepanek kohtuda mõnel teisel ajal.",
+   "words": {
+    "min": 60,
+    "max": 90
+   },
+   "checklist": [
+    "Обращение и прощание (неформальные: Tere, Kati! … Kallistades / Parimat!)",
+    "Извинение + причина",
+    "Конкретное предложение (день, место)"
+   ],
+   "phrases": [
+    "Kahjuks ei saa ma …",
+    "Mul on väga kahju, aga …",
+    "Kuidas oleks, kui …?"
+   ],
+   "model": "Tere, Kati!\n\nAitäh kutse eest! Mul on väga kahju, aga kahjuks ei saa ma reedel sinu peole tulla. Mu ema sõidab nädalavahetuseks Narva ja ma lubasin ta õhtul rongi pealt ära tuua.\n\nKuidas oleks, kui läheksime järgmisel nädalal koos lõunale? Ma tahaksin sulle sünnipäeva puhul väikese kingituse üle anda. Näiteks kolmapäeval kell 12 kohvikus meie kontori kõrval?\n\nSoovin sulle toredat pidu!\nAnna",
+   "module": "kirjutamine"
+  },
+  {
+   "type": "listening",
+   "minutes": 7,
+   "title": "2. Kuulamine",
+   "plays": 1,
+   "instruction_ru": "Как первое задание на экзамене — текст звучит только ОДИН раз.",
+   "transcript": "Tere! Helistan teile Linnaraamatukogust. Te broneerisite meie juures keelekohviku koha neljapäevaks. Kahjuks peame keelekohviku sel nädalal ära jätma, sest meie juhendaja on haige. Järgmine kohtumine toimub tavapärasel ajal, see tähendab teisipäeval kell kuusteist kolmkümmend, kuid uues kohas: mitte teisel korrusel, vaid lasteosakonna kõrval esimesel korrusel. Teie broneering kantakse automaatselt üle. Kui teile uus aeg ei sobi, palun saatke meile e-kiri. Aitäh ja kohtumiseni!",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Miks keelekohvik ära jääb?",
+     "options": [
+      "ruum on remondis",
+      "juhendaja on haige",
+      "liiga vähe osalejaid"
+     ],
+     "answer": 1,
+     "explain_ru": "«sest meie juhendaja on haige»."
+    },
+    {
+     "kind": "mc",
+     "q": "Millal toimub järgmine kohtumine?",
+     "options": [
+      "neljapäeval kell 16.30",
+      "teisipäeval kell 16.30",
+      "teisipäeval kell 6.30"
+     ],
+     "answer": 1,
+     "explain_ru": "«teisipäeval kell kuusteist kolmkümmend» = вторник 16.30. Четверг — день отменённой встречи."
+    },
+    {
+     "kind": "mc",
+     "q": "Kus toimub järgmine kohtumine?",
+     "options": [
+      "teisel korrusel",
+      "esimesel korrusel",
+      "lasteosakonnas"
+     ],
+     "answer": 1,
+     "explain_ru": "«mitte teisel korrusel, vaid lasteosakonna kõrval esimesel korrusel» — рядом с детским отделом, но на первом этаже."
+    },
+    {
+     "kind": "tf",
+     "q": "Uue aja jaoks tuleb uuesti broneerida.",
+     "answer": false,
+     "explain_ru": "«Teie broneering kantakse automaatselt üle» — бронь переносится автоматически."
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+  },
+  {
+   "type": "reading",
+   "minutes": 10,
+   "title": "3. Lugemine",
+   "text": "Kuulutus\n\nOtsime oma meeskonda klienditeenindajat (täistööaeg)\n\nOleme kiiresti kasvav Tallinna jalgrattarendifirma. Sinu ülesanne on nõustada kliente telefoni, e-posti ja vestlusakna kaudu ning lahendada probleeme, mis tekivad rattarendi ajal.\n\nOotame sinult:\n• väga head eesti keele oskust ning vene ja inglise keele oskust suhtlustasemel;\n• rahulikku ja sõbralikku suhtlemisoskust;\n• valmisolekut töötada graafiku alusel, sh mõnel nädalavahetusel.\n\nPakume:\n• võimalust töötada kaks päeva nädalas kodust;\n• tasuta rattarenti endale ja pereliikmetele;\n• keelekursust, kui soovid oma inglise keelt parandada.\n\nCV ja lühike motivatsioonikiri saada hiljemalt 15. jaanuariks.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Mis on klienditeenindaja põhiülesanne?",
+     "options": [
+      "rataste parandamine",
+      "klientide nõustamine",
+      "rataste kohaletoimetamine"
+     ],
+     "answer": 1,
+     "explain_ru": "«Sinu ülesanne on nõustada kliente …»."
+    },
+    {
+     "kind": "tf",
+     "q": "Kandidaat peab oskama inglise keelt emakeele tasemel.",
+     "answer": false,
+     "explain_ru": "Нужен английский «suhtlustasemel» (на разговорном уровне), а не уровня родного."
+    },
+    {
+     "kind": "tf",
+     "q": "Töötaja peab mõnikord töötama ka nädalavahetusel.",
+     "answer": true,
+     "explain_ru": "«töötada graafiku alusel, sh mõnel nädalavahetusel» (sh = sealhulgas, в том числе)."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline neist EI OLE kuulutuses pakutud soodustus?",
+     "options": [
+      "kaugtöö võimalus",
+      "tasuta rattarent perele",
+      "tasuta eesti keele kursus"
+     ],
+     "answer": 2,
+     "explain_ru": "Предлагают курс английского, а не эстонского."
+    },
+    {
+     "kind": "gap",
+     "q": "Dokumendid tuleb saata hiljemalt ___ jaanuariks (kirjutage numbriga).",
+     "answer": [
+      "15",
+      "15."
+     ],
+     "explain_ru": "«hiljemalt 15. jaanuariks» — не позднее 15 января."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Kordamine: segaülesanne",
+   "rule_ru": "Повторение четырёх тем двух недель: объект, инфинитивы, управление глаголов, условное наклонение.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Ma ei saanud kahjuks ___ (sinu kutse) varem lugeda.",
+     "answer": [
+      "sinu kutset"
+     ],
+     "explain_ru": "Отрицание → частичный объект: kutset."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma tahaksin sulle ___ (kingitus) üle anda.",
+     "answer": [
+      "kingituse"
+     ],
+     "explain_ru": "Действие целиком (üle anda) → полный объект, родительный: kingituse."
+    },
+    {
+     "kind": "gap",
+     "q": "Kas sa ___ (saama) mind homme aidata?",
+     "answer": [
+      "saaksid"
+     ],
+     "explain_ru": "Вежливая просьба → условное: saaksid."
+    },
+    {
+     "kind": "gap",
+     "q": "Ta osaleb igal teisipäeval ___ (keelekohvik).",
+     "answer": [
+      "keelekohvikus"
+     ],
+     "explain_ru": "osalema + MILLES → keelekohvikus."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Tulemus",
+   "text": "Теперь откройте образцы и расшифровку. Проходной балл на экзамене — 60% от общей суммы, и ни одна часть не может быть 0. Отметьте, в какой части результат ниже 60% — с неё начнёте следующий круг. Цикл повторяется с дня 1; новые уроки приходят автоматически с обновлениями базы."
+  }
+ ]
+}

@@ -1,0 +1,241 @@
+{
+ "id": "d006",
+ "day": 6,
+ "version": 2,
+ "skill": "lugemine",
+ "title": "Kas prügi sorteerimisel on mõtet?",
+ "title_ru": "Есть ли смысл сортировать мусор?",
+ "topic": "keskkond",
+ "minutes": 40,
+ "goal_ru": "Чтение: задание «вставьте пропущенное предложение» и вопросы с выбором ответа.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "jäätmed",
+     "ru": "отходы",
+     "example": "Olmejäätmed visatakse segaprügi konteinerisse.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmed/1"
+    },
+    {
+     "et": "sorteerima",
+     "ru": "сортировать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sorteerima/1"
+    },
+    {
+     "et": "pakend",
+     "ru": "упаковка",
+     "example": "Pakendid pannakse kollasesse konteinerisse.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakend/1"
+    },
+    {
+     "et": "biojäätmed",
+     "ru": "пищевые (био)отходы",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/bioj%C3%A4%C3%A4tmed/1"
+    },
+    {
+     "et": "taaskasutama",
+     "ru": "повторно использовать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taaskasutama/1"
+    },
+    {
+     "et": "prügila",
+     "ru": "свалка",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pr%C3%BCgila/1"
+    },
+    {
+     "et": "ladestama",
+     "ru": "захоранивать (отходы)",
+     "example": "Prügi ladestatakse prügilasse.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ladestama/1"
+    },
+    {
+     "et": "trahv",
+     "ru": "штраф",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/trahv/1"
+    },
+    {
+     "et": "kahtlema (milles?)",
+     "ru": "сомневаться",
+     "example": "Paljud kahtlevad sorteerimise mõttekuses.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahtlema/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Olmejäätmed visatakse segaprügi konteinerisse.",
+     "answer": [
+      "Olmejäätmed visatakse segaprügi konteinerisse."
+     ]
+    },
+    {
+     "audio": "Pakendid pannakse kollasesse konteinerisse.",
+     "answer": [
+      "Pakendid pannakse kollasesse konteinerisse."
+     ]
+    },
+    {
+     "audio": "Prügi ladestatakse prügilasse.",
+     "answer": [
+      "Prügi ladestatakse prügilasse."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "reading",
+   "minutes": 17,
+   "title": "Lugemine",
+   "instruction_ru": "Сначала прочитайте весь текст, не глядя на варианты. Потом для каждого пропуска [1]–[4] выберите предложение. Смотрите на связь с предыдущим и следующим предложением.",
+   "text": "Kas prügi sorteerimisel on mõtet?\n\nViimastel aastatel on jäätmete sorteerimine muutunud Eestis kohustuslikuks. Kodudes tuleb eraldi koguda pakendeid, paberit, biojäätmeid ja ohtlikke jäätmeid. [1] Paljud inimesed aga kahtlevad, kas sellel on üldse mõtet.\n\nLevinud on arvamus, et prügiauto viib kõik konteinerid lõpuks ikkagi samasse kohta. Jäätmekäitlejate sõnul ei vasta see tõele. [2] Näiteks pakenditest valmistatakse uusi tooteid ja biojäätmetest toodetakse komposti või biogaasi.\n\nSorteerimisel on ka rahaline pool. Segaolmejäätmete äravedu on kallim kui sorteeritud jäätmete oma. [3] Seega võib korrusmaja, mille elanikud prügi hoolikalt sorteerivad, maksta prügiveo eest märgatavalt vähem.\n\nSpetsialistide arvates on kõige suurem probleem siiski see, et me tekitame liiga palju jäätmeid. [4] Kõige keskkonnasõbralikum prügi on see, mida üldse ei teki. Seepärast tasub poes valida vähem pakendatud kaupu ning kanda kaasas oma kotti.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Milline lause sobib lünka [1]?",
+     "options": [
+      "Selle eest, kes reegleid ei järgi, võib määrata trahvi.",
+      "Sorteeritud jäätmed veetakse eri ettevõtetesse.",
+      "Kuid sorteerimine üksi probleemi ei lahenda."
+     ],
+     "answer": 0,
+     "explain_ru": "После перечня обязанностей логично следует наказание за их невыполнение: trahv."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause sobib lünka [2]?",
+     "options": [
+      "Selle eest, kes reegleid ei järgi, võib määrata trahvi.",
+      "Sorteeritud jäätmed veetakse eri ettevõtetesse.",
+      "Mida rohkem prügi, seda suurem arve."
+     ],
+     "answer": 1,
+     "explain_ru": "Перед пропуском — «это не соответствует правде» (что всё везут в одно место). Пропуск объясняет, как на самом деле: разные предприятия."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause sobib lünka [3]?",
+     "options": [
+      "Kuid sorteerimine üksi probleemi ei lahenda.",
+      "Sorteeritud jäätmed veetakse eri ettevõtetesse.",
+      "Mida rohkem segaprügi, seda suurem arve."
+     ],
+     "answer": 2,
+     "explain_ru": "Абзац о деньгах: «äravedu on kallim» → «mida rohkem segaprügi, seda suurem arve». Связка «Seega» после пропуска делает вывод о стоимости."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause sobib lünka [4]?",
+     "options": [
+      "Kuid sorteerimine üksi probleemi ei lahenda.",
+      "Selle eest, kes reegleid ei järgi, võib määrata trahvi.",
+      "Biojäätmed tuleb panna pruuni konteinerisse."
+     ],
+     "answer": 0,
+     "explain_ru": "«Kuid» вводит главную проблему абзаца: сортировки мало, нужно меньше мусора."
+    },
+    {
+     "kind": "mc",
+     "q": "Mis on teksti peamine mõte?",
+     "options": [
+      "Sorteerimine on mõttetu, sest kõik jäätmed jõuavad prügilasse.",
+      "Sorteerimine on kasulik, kuid veel tähtsam on jäätmeid vähem tekitada.",
+      "Sorteerimine on liiga kallis."
+     ],
+     "answer": 1,
+     "explain_ru": "Основная мысль обычно в последнем абзаце: «Kõige keskkonnasõbralikum prügi on see, mida üldse ei teki»."
+    },
+    {
+     "kind": "tf",
+     "q": "Sorteeritud jäätmete äravedu on odavam kui segaprügi oma.",
+     "answer": true,
+     "explain_ru": "«Segaolmejäätmete äravedu on kallim kui sorteeritud jäätmete oma»."
+    },
+    {
+     "kind": "tf",
+     "q": "Biojäätmetest toodetakse uusi pakendeid.",
+     "answer": false,
+     "explain_ru": "Из биоотходов — компост или биогаз."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "phrases",
+   "minutes": 6,
+   "title": "Põhjus ja tagajärg",
+   "instruction_ru": "Связки причины и следствия. Составьте по одному предложению о сортировке мусора с каждой из первых четырёх.",
+   "phrases": [
+    "sest / kuna (потому что / так как)",
+    "seetõttu / seepärast (поэтому)",
+    "seega (таким образом)",
+    "mistõttu (из-за чего)",
+    "tänu sellele (благодаря этому)",
+    "selle tulemusena (в результате)"
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Umbisikuline tegumood",
+   "rule_ru": "Безличная форма (umbisikuline) — когда неважно, КТО делает: prügi viiakse (мусор вывозят), pakendeid kogutakse. Настоящее: -takse/-dakse (kogutakse, viiakse); прошедшее: -ti/-di (koguti, avati). Объект в ед. ч. при завершённом действии — в именительном: Avati uus jaam.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Pakendid ___ (koguma) kollasesse konteinerisse.",
+     "answer": [
+      "kogutakse"
+     ],
+     "explain_ru": "koguma → kogu- + takse."
+    },
+    {
+     "kind": "gap",
+     "q": "Prügi ___ (viima) iga nädal ära.",
+     "answer": [
+      "viiakse"
+     ],
+     "explain_ru": "viima → viiakse (неправильная, но частая форма; так же: tuuakse, süüakse)."
+    },
+    {
+     "kind": "gap",
+     "q": "Eelmisel aastal ___ (avama) linnas uus sorteerimisjaam.",
+     "answer": [
+      "avati"
+     ],
+     "explain_ru": "Прошедшее безличное: ava- + ti = avati."
+    },
+    {
+     "kind": "gap",
+     "q": "Biojäätmetest ___ (tootma) komposti.",
+     "answer": [
+      "toodetakse"
+     ],
+     "explain_ru": "tootma → toodetakse (как в тексте урока)."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "В задании с пропусками помогают «сцепки»: местоимения (see, selle eest), противопоставления (kuid, samas) и повтор слов (arve ← äravedu on kallim). Отметьте, какая сцепка помогла вам в каждом пропуске."
+  }
+ ]
+}

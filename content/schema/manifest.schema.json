@@ -1,0 +1,234 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eesti-b2/manifest.schema.json",
+  "title": "Eesti keele B2 sisupakett — manifest",
+  "description": "Точка входа для приложения. Приложение сначала скачивает этот файл, сравнивает contentVersion и версии уроков с сохранёнными и докачивает только изменившиеся уроки.",
+  "type": "object",
+  "required": [
+    "schemaVersion",
+    "contentVersion",
+    "updatedAt",
+    "language",
+    "level",
+    "exam",
+    "lessons",
+    "modules"
+  ],
+  "properties": {
+    "schemaVersion": {
+      "type": "string",
+      "description": "Версия формата. Меняется только при несовместимых изменениях структуры."
+    },
+    "contentVersion": {
+      "type": "string",
+      "description": "Версия содержимого, например 2026.11.26-1"
+    },
+    "updatedAt": {
+      "type": "string",
+      "format": "date"
+    },
+    "language": {
+      "const": "et"
+    },
+    "level": {
+      "const": "B2"
+    },
+    "cycleDays": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "changelog": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "version": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string"
+          },
+          "ru": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "exam": {
+      "type": "object",
+      "required": [
+        "parts",
+        "passRule_ru",
+        "sources"
+      ],
+      "properties": {
+        "parts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "skill",
+              "name",
+              "minutes",
+              "points"
+            ],
+            "properties": {
+              "skill": {
+                "type": "string"
+              },
+              "name": {
+                "type": "string"
+              },
+              "minutes": {
+                "type": "string"
+              },
+              "points": {
+                "type": "integer"
+              },
+              "format_ru": {
+                "type": "string"
+              }
+            }
+          }
+        },
+        "passRule_ru": {
+          "type": "string"
+        },
+        "rules_ru": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "title": {
+                "type": "string"
+              },
+              "url": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "lessons": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "day",
+          "version",
+          "skill",
+          "title",
+          "title_ru",
+          "minutes",
+          "file"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "day": {
+            "type": "integer"
+          },
+          "version": {
+            "type": "integer"
+          },
+          "skill": {
+            "type": "string"
+          },
+          "title": {
+            "type": "string"
+          },
+          "title_ru": {
+            "type": "string"
+          },
+          "topic": {
+            "type": "string"
+          },
+          "minutes": {
+            "type": "integer"
+          },
+          "file": {
+            "type": "string",
+            "description": "Путь к уроку относительно manifest.json"
+          },
+          "sha256": {
+            "type": "string"
+          }
+        }
+      }
+    },
+    "modules": {
+      "type": "array",
+      "description": "Отдельные модули: ссылки на блоки уроков",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "name",
+          "items"
+        ],
+        "properties": {
+          "id": {
+            "type": "string"
+          },
+          "name": {
+            "type": "string"
+          },
+          "name_ru": {
+            "type": "string"
+          },
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "required": [
+                "lesson",
+                "block"
+              ],
+              "properties": {
+                "lesson": {
+                  "type": "string"
+                },
+                "block": {
+                  "type": "integer"
+                },
+                "title": {
+                  "type": "string"
+                },
+                "topic": {
+                  "type": "string"
+                },
+                "minutes": {
+                  "type": "integer"
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "lessonPlan_ru": {
+      "type": "string"
+    },
+    "dictionary": {
+      "type": "object",
+      "properties": {
+        "name": {
+          "type": "string"
+        },
+        "urlTemplate": {
+          "type": "string",
+          "description": "{word} заменяется словом"
+        }
+      }
+    }
+  }
+}

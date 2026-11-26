@@ -1,0 +1,233 @@
+{
+ "id": "d011",
+ "day": 11,
+ "version": 2,
+ "skill": "lugemine",
+ "title": "Tehisintellekt klassiruumis",
+ "title_ru": "Искусственный интеллект в классе",
+ "topic": "tehnoloogia",
+ "minutes": 40,
+ "goal_ru": "Чтение публицистического текста: позиция автора, значение слова из контекста, верно/неверно/нет в тексте.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "tehisintellekt (TI)",
+     "ru": "искусственный интеллект (ИИ)",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tehisintellekt/1"
+    },
+    {
+     "et": "õppevahend",
+     "ru": "учебное средство",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppevahend/1"
+    },
+    {
+     "et": "kodutöö",
+     "ru": "домашнее задание",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodut%C3%B6%C3%B6/1"
+    },
+    {
+     "et": "petma",
+     "ru": "обманывать, списывать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/petma/1"
+    },
+    {
+     "et": "hindama",
+     "ru": "оценивать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hindama/1"
+    },
+    {
+     "et": "kriitiline mõtlemine",
+     "ru": "критическое мышление",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kriitiline%20m%C3%B5tlemine/1"
+    },
+    {
+     "et": "allikas",
+     "ru": "источник",
+     "example": "Kontrolli allikat.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikas/1"
+    },
+    {
+     "et": "asendama",
+     "ru": "заменять",
+     "example": "TI ei asenda õpetajat.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendama/1"
+    },
+    {
+     "et": "ohustama",
+     "ru": "угрожать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohustama/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "TI ei asenda õpetajat.",
+     "answer": [
+      "TI ei asenda õpetajat."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "reading",
+   "minutes": 17,
+   "title": "Lugemine",
+   "text": "Tehisintellekt klassiruumis\n\nKui mõni aasta tagasi said tehisintellekti vestlusrobotid laialdaselt kättesaadavaks, kartsid paljud õpetajad, et kodutööd kaotavad mõtte. Milleks õpilane peaks ise essee kirjutama, kui masin teeb selle mõne sekundiga? Esimene reaktsioon oli paljudes koolides keelata.\n\nPraeguseks on suhtumine muutunud. Õpetajad on mõistnud, et keelamine on sama vähe tulemuslik kui omal ajal taskuarvutite või Vikipeedia keelamine. Selle asemel otsitakse viise, kuidas uut tehnoloogiat targalt kasutada. Näiteks laseb ajalooõpetaja Kristi Ilves õpilastel kõigepealt tehisintellektiga essee koostada ja seejärel selle vead üles leida. „Õpilased avastavad üllatusega, et masin esitab enesekindlalt ka valeinfot,“ ütleb ta.\n\nSamas ei saa probleeme eitada. Kui õpilane laseb kõik ülesanded masinal ära teha, ei arene tema enda oskused. Seepärast on paljud koolid muutnud hindamist: rohkem tähtsust antakse klassis tehtavale tööle, suulistele esitlustele ja sellele, kuidas õpilane oma mõttekäiku selgitab.\n\nEksperdid rõhutavad, et kõige tähtsam oskus tehisintellekti ajastul on kriitiline mõtlemine. Õpilane peab oskama küsida, kust info pärineb, ja kontrollima allikaid. Tehisintellekt ei asenda õpetajat, kuid muudab tema rolli: õpetajast saab üha enam juhendaja, kes aitab õpilasel infotulvas orienteeruda.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Mis oli paljude koolide esimene reaktsioon vestlusrobotitele?",
+     "options": [
+      "Neid hakati kohe tundides kasutama.",
+      "Nende kasutamine keelati.",
+      "Kodutööd kaotati ära."
+     ],
+     "answer": 1,
+     "explain_ru": "«Esimene reaktsioon oli paljudes koolides keelata»."
+    },
+    {
+     "kind": "mc",
+     "q": "Miks võrdleb autor tehisintellekti keelamist taskuarvutite keelamisega?",
+     "options": [
+      "Mõlemad olid kallid.",
+      "Mõlemad keelud ei andnud tulemust.",
+      "Mõlemaid kasutatakse matemaatikas."
+     ],
+     "answer": 1,
+     "explain_ru": "«keelamine on sama vähe tulemuslik kui omal ajal taskuarvutite … keelamine» — одинаково безрезультатно."
+    },
+    {
+     "kind": "mc",
+     "q": "Milleks kasutab Kristi Ilves tehisintellekti?",
+     "options": [
+      "Õpilased kirjutavad TI abil essee ja otsivad sealt vigu.",
+      "TI hindab õpilaste esseesid.",
+      "TI koostab tema eest tunnikava."
+     ],
+     "answer": 0,
+     "explain_ru": "«laseb … õpilastel kõigepealt tehisintellektiga essee koostada ja seejärel selle vead üles leida»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mida tähendab tekstis sõna „infotulv“?",
+     "options": [
+      "infotund koolis",
+      "väga suur hulk infot",
+      "vale info"
+     ],
+     "answer": 1,
+     "explain_ru": "tulv = поток, наводнение → поток информации."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline on autori seisukoht?",
+     "options": [
+      "TI ohustab haridust ja tuleks keelata.",
+      "TI on kasulik, kui seda kasutatakse targalt ja kriitiliselt.",
+      "TI asendab peagi õpetajad."
+     ],
+     "answer": 1,
+     "explain_ru": "Последний абзац: ИИ меняет роль учителя, а не заменяет его; главное — критическое мышление."
+    },
+    {
+     "kind": "tf",
+     "q": "Paljud koolid annavad nüüd rohkem tähtsust suulistele esitlustele.",
+     "answer": true,
+     "explain_ru": "«rohkem tähtsust antakse … suulistele esitlustele»."
+    },
+    {
+     "kind": "tf",
+     "q": "Kristi Ilvese õpilased usaldavad masina vastuseid täielikult.",
+     "answer": false,
+     "explain_ru": "Ученики «avastavad üllatusega», что машина выдаёт ложную информацию, — значит, слепо не доверяют."
+    },
+    {
+     "kind": "tf",
+     "q": "Tekstis öeldakse, et Eestis on vestlusrobotid koolis seadusega keelatud.",
+     "answer": false,
+     "explain_ru": "Такого в тексте нет. На экзамене бывают утверждения, которых нет в тексте, — их отмечают как неверные (или «ei selgu tekstist», если такой вариант дан)."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "phrases",
+   "minutes": 6,
+   "title": "Sõnavara laiendamine",
+   "instruction_ru": "Образуйте существительные от глаголов (на B2 за богатство словаря дают отдельные баллы): hindama → hindamine; kasutama → kasutamine / kasutaja; arenema → areng; keelama → keeld; muutuma → muutus; õpetama → õpetaja / õpetus.",
+   "phrases": [
+    "hindama → hindamine",
+    "kasutama → kasutaja, kasutamine",
+    "arenema → areng",
+    "keelama → keeld",
+    "muutuma → muutus",
+    "esitama → esitlus",
+    "mõtlema → mõte, mõtlemine"
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "-nud ja -tud kesksõnad",
+   "rule_ru": "Причастия: -nud — активное прошедшее (lugenud = прочитавший; ta on lugenud — он прочитал); -tud/-dud — пассивное (loetud raamat = прочитанная книга). Отрицание прошедшего: ma ei otsustanud / ma ei ole otsustanud.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Ma ei ole veel ___ (otsustama), kas kasutan TI-d.",
+     "answer": [
+      "otsustanud"
+     ],
+     "explain_ru": "Перфект: ei ole + -nud."
+    },
+    {
+     "kind": "gap",
+     "q": "Õpetaja kontrollis kõiki ___ (kasutama) allikaid.",
+     "answer": [
+      "kasutatud"
+     ],
+     "explain_ru": "«использованные» источники → пассивное -tud: kasutatud."
+    },
+    {
+     "kind": "gap",
+     "q": "See essee on masina ___ (looma).",
+     "answer": [
+      "loodud"
+     ],
+     "explain_ru": "looma → loodud (создан машиной)."
+    },
+    {
+     "kind": "gap",
+     "q": "Õpilased on oma oskusi palju ___ (arendama).",
+     "answer": [
+      "arendanud"
+     ],
+     "explain_ru": "Активное: on arendanud."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Определите, в каком абзаце позиция автора видна лучше всего (обычно — последний). На экзамене вопрос о мнении автора почти всегда решается по вступлению и выводу."
+  }
+ ]
+}

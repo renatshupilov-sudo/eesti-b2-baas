@@ -1,0 +1,452 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "eesti-b2/lesson.schema.json",
+  "title": "Eesti keele B2 päevatund",
+  "description": "Один ежедневный урок (30–40 минут). Урок состоит из блоков; каждый блок — одно упражнение.",
+  "type": "object",
+  "required": [
+    "id",
+    "day",
+    "version",
+    "skill",
+    "title",
+    "title_ru",
+    "topic",
+    "minutes",
+    "blocks"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^d[0-9]{3}$"
+    },
+    "day": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "version": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Увеличивается при каждом изменении урока"
+    },
+    "skill": {
+      "enum": [
+        "lugemine",
+        "kuulamine",
+        "kirjutamine",
+        "raakimine",
+        "grammatika",
+        "proovieksam"
+      ]
+    },
+    "title": {
+      "type": "string"
+    },
+    "title_ru": {
+      "type": "string"
+    },
+    "topic": {
+      "type": "string"
+    },
+    "minutes": {
+      "type": "integer",
+      "minimum": 20,
+      "maximum": 45
+    },
+    "goal_ru": {
+      "type": "string"
+    },
+    "blocks": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "$ref": "#/$defs/block"
+      }
+    }
+  },
+  "$defs": {
+    "task": {
+      "oneOf": [
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "q",
+            "options",
+            "answer",
+            "explain_ru"
+          ],
+          "properties": {
+            "kind": {
+              "const": "mc"
+            },
+            "q": {
+              "type": "string"
+            },
+            "options": {
+              "type": "array",
+              "minItems": 2,
+              "items": {
+                "type": "string"
+              }
+            },
+            "answer": {
+              "type": "integer",
+              "minimum": 0
+            },
+            "explain_ru": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "q",
+            "answer",
+            "explain_ru"
+          ],
+          "properties": {
+            "kind": {
+              "const": "tf"
+            },
+            "q": {
+              "type": "string"
+            },
+            "answer": {
+              "type": "boolean"
+            },
+            "explain_ru": {
+              "type": "string"
+            }
+          }
+        },
+        {
+          "type": "object",
+          "additionalProperties": false,
+          "required": [
+            "kind",
+            "q",
+            "answer",
+            "explain_ru"
+          ],
+          "properties": {
+            "kind": {
+              "const": "gap"
+            },
+            "q": {
+              "type": "string",
+              "description": "Пропуск обозначается ___"
+            },
+            "hint": {
+              "type": "string"
+            },
+            "answer": {
+              "type": "array",
+              "minItems": 1,
+              "items": {
+                "type": "string"
+              },
+              "description": "Все допустимые ответы"
+            },
+            "explain_ru": {
+              "type": "string"
+            }
+          }
+        }
+      ]
+    },
+    "block": {
+      "type": "object",
+      "required": [
+        "type",
+        "minutes",
+        "title"
+      ],
+      "properties": {
+        "type": {
+          "enum": [
+            "intro",
+            "vocab",
+            "reading",
+            "listening",
+            "dictation",
+            "writing",
+            "speaking",
+            "grammar",
+            "phrases",
+            "review"
+          ]
+        },
+        "minutes": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 30
+        },
+        "title": {
+          "type": "string"
+        },
+        "instruction_et": {
+          "type": "string"
+        },
+        "instruction_ru": {
+          "type": "string"
+        },
+        "text": {
+          "type": "string",
+          "description": "intro/review: пояснение; reading: текст (абзацы через пустую строку)"
+        },
+        "transcript": {
+          "type": "string",
+          "description": "listening: текст для озвучки (реплики через перевод строки)"
+        },
+        "plays": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 3
+        },
+        "items": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "et": {
+                "type": "string"
+              },
+              "ru": {
+                "type": "string"
+              },
+              "example": {
+                "type": "string"
+              },
+              "audio": {
+                "type": "string"
+              },
+              "answer": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              },
+              "dict": {
+                "type": "string",
+                "description": "Ссылка на слово в словаре EKI Sõnaveeb"
+              }
+            }
+          }
+        },
+        "tasks": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/task"
+          }
+        },
+        "rule_ru": {
+          "type": "string"
+        },
+        "examples": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "prompt_et": {
+          "type": "string"
+        },
+        "prompt_ru": {
+          "type": "string"
+        },
+        "words": {
+          "type": "object",
+          "required": [
+            "min",
+            "max"
+          ],
+          "properties": {
+            "min": {
+              "type": "integer"
+            },
+            "max": {
+              "type": "integer"
+            }
+          }
+        },
+        "checklist": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "phrases": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "model": {
+          "type": "string"
+        },
+        "parts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "prompt_et",
+              "prep_sec",
+              "talk_sec"
+            ],
+            "properties": {
+              "label": {
+                "type": "string"
+              },
+              "prompt_et": {
+                "type": "string"
+              },
+              "prompt_ru": {
+                "type": "string"
+              },
+              "prep_sec": {
+                "type": "integer",
+                "minimum": 0
+              },
+              "talk_sec": {
+                "type": "integer",
+                "minimum": 10
+              },
+              "hints": {
+                "type": "array",
+                "items": {
+                  "type": "string"
+                }
+              }
+            }
+          }
+        },
+        "module": {
+          "enum": [
+            "sonavara",
+            "kuulamine",
+            "grammatika",
+            "lugemine",
+            "kirjutamine",
+            "raakimine"
+          ],
+          "description": "Модуль, в котором блок показывается при отдельной тренировке"
+        },
+        "advice_ru": {
+          "type": "string",
+          "description": "Совет на русском, если результат блока ниже 80%"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "reading"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "text",
+              "tasks"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "listening"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "transcript",
+              "tasks"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "vocab"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "items"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "dictation"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "items"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "grammar"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "rule_ru",
+              "tasks"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "writing"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "prompt_et",
+              "words",
+              "checklist"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "speaking"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "parts"
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

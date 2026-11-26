@@ -1,0 +1,279 @@
+{
+ "id": "d001",
+ "day": 1,
+ "version": 2,
+ "skill": "lugemine",
+ "title": "Kaugtöö: vabadus või üksindus?",
+ "title_ru": "Удалённая работа: свобода или одиночество?",
+ "topic": "töö",
+ "minutes": 40,
+ "goal_ru": "Тренируем задание экзамена «найти абзац, к которому относится утверждение» и лексику о работе.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "kaugtöö",
+     "ru": "удалённая работа",
+     "example": "Ta teeb kaks päeva nädalas kaugtööd.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaugt%C3%B6%C3%B6/1"
+    },
+    {
+     "et": "tööandja",
+     "ru": "работодатель",
+     "example": "Tööandja lubab kodus töötada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6andja/1"
+    },
+    {
+     "et": "pooldaja",
+     "ru": "сторонник",
+     "example": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pooldaja/1"
+    },
+    {
+     "et": "keskenduma (millele?)",
+     "ru": "сосредоточиться",
+     "example": "Kodus on lihtsam tööle keskenduda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskenduma/1"
+    },
+    {
+     "et": "varjukülg",
+     "ru": "обратная (теневая) сторона",
+     "example": "Igal asjal on oma varjuküljed.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1"
+    },
+    {
+     "et": "üksildane",
+     "ru": "одинокий",
+     "example": "Ta tundis end kodus üksildasena.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCksildane/1"
+    },
+    {
+     "et": "tootlik",
+     "ru": "продуктивный",
+     "example": "Inimesed on kodus sama tootlikud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlik/1"
+    },
+    {
+     "et": "kohanema (millega?)",
+     "ru": "адаптироваться",
+     "example": "Uuel töötajal on raske kohaneda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohanema/1"
+    },
+    {
+     "et": "kokku leppima",
+     "ru": "договориться",
+     "example": "Reeglid lepitakse kokku ühiselt.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kokku%20leppima/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Ta teeb kaks päeva nädalas kaugtööd.",
+     "answer": [
+      "Ta teeb kaks päeva nädalas kaugtööd."
+     ]
+    },
+    {
+     "audio": "Tööandja lubab kodus töötada.",
+     "answer": [
+      "Tööandja lubab kodus töötada."
+     ]
+    },
+    {
+     "audio": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
+     "answer": [
+      "Kaugtöö pooldajad rõhutavad aja kokkuhoidu."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "reading",
+   "minutes": 17,
+   "title": "Lugemine",
+   "instruction_et": "Lugege teksti ja vastake küsimustele.",
+   "instruction_ru": "На экзамене на чтение даётся 70 минут на 4 задания, то есть около 15–17 минут на текст. Засеките время.",
+   "text": "Kaugtöö: vabadus või üksindus?\n\nA. Veel mõni aasta tagasi tähendas tööpäev enamiku inimeste jaoks hommikust sõitu kontorisse ja õhtust ummikut. Pärast koroonapandeemiat on olukord muutunud: paljud ettevõtted lubavad töötajatel vähemalt osa nädalast kodus töötada. Kaugtöö on muutunud tavaliseks, kuid selle mõju inimestele ei ole sugugi ühene.\n\nB. Kaugtöö pooldajad rõhutavad eelkõige aja kokkuhoidu. Kui ei pea iga päev tund aega bussis või autos istuma, jääb rohkem aega perele, spordile ja puhkusele. Paljud töötajad ütlevad ka, et kodus on lihtsam keskenduda, sest keegi ei sega ega küsi pidevalt midagi.\n\nC. Teisalt on kaugtööl ka varjukülgi. Psühholoogide sõnul tunnevad paljud kodus töötavad inimesed end üksildasena. Kohvipausid ja juhuslikud vestlused koridoris ei ole ainult meelelahutus – just seal sünnivad sageli uued ideed ja tekib meeskonnatunne. Lisaks on kodus raskem tõmmata piiri töö ja eraelu vahele. Kui sülearvuti on alati käeulatuses, kipub tööpäev venima hilisõhtuni.\n\nD. Ka tööandjate arvamused on erinevad. Osa juhte usub, et inimesed on kodus sama tootlikud kui kontoris või isegi tootlikumad. Teised kardavad, et kontrolli kadumine vähendab vastutustunnet ning uutel töötajatel on keerulisem organisatsiooni kultuuriga kohaneda.\n\nE. Paljud eksperdid peavad parimaks lahenduseks hübriidtööd, mille puhul töötaja on osa nädalast kontoris ja osa kodus. Oluline on, et reeglid lepitakse kokku ühiselt ja et iga töötaja saaks valida endale sobiva rütmi. Kaugtöö ei ole iseenesest hea ega halb – kõik oleneb sellest, kuidas seda korraldada.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Millise lõigu kohta käib väide? „Kodus töötades on keeruline tööpäeva õigel ajal lõpetada.“",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "answer": 2,
+     "explain_ru": "C: «kipub tööpäev venima hilisõhtuni» — рабочий день затягивается до позднего вечера."
+    },
+    {
+     "kind": "mc",
+     "q": "Millise lõigu kohta käib väide? „Uutel töötajatel võib olla raske ettevõttega harjuda.“",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "answer": 3,
+     "explain_ru": "D: «uutel töötajatel on keerulisem organisatsiooni kultuuriga kohaneda»."
+    },
+    {
+     "kind": "mc",
+     "q": "Millise lõigu kohta käib väide? „Kodus on vähem segajaid.“",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "answer": 1,
+     "explain_ru": "B: «keegi ei sega». Обратите внимание: в утверждении другие слова, чем в тексте, — так и на экзамене."
+    },
+    {
+     "kind": "mc",
+     "q": "Millise lõigu kohta käib väide? „Töökorralduse reeglid tuleks kokku leppida koos töötajatega.“",
+     "options": [
+      "A",
+      "B",
+      "C",
+      "D",
+      "E"
+     ],
+     "answer": 4,
+     "explain_ru": "E: «reeglid lepitakse kokku ühiselt» — правила согласуются совместно. «Koos töötajatega» = «ühiselt»."
+    },
+    {
+     "kind": "tf",
+     "q": "Pärast pandeemiat lubavad paljud ettevõtted osaliselt kodus töötada.",
+     "answer": true,
+     "explain_ru": "A: «paljud ettevõtted lubavad töötajatel vähemalt osa nädalast kodus töötada»."
+    },
+    {
+     "kind": "tf",
+     "q": "Kõik juhid usuvad, et kodus töötatakse vähem.",
+     "answer": false,
+     "explain_ru": "Osa juhte usub vastupidist — часть руководителей считает, что дома работают так же или даже продуктивнее."
+    },
+    {
+     "kind": "tf",
+     "q": "Autori arvates on kaugtöö alati parem kui kontoritöö.",
+     "answer": false,
+     "explain_ru": "«ei ole iseenesest hea ega halb»."
+    },
+    {
+     "kind": "gap",
+     "q": "Kohvipausidel ja vestlustel koridoris sünnivad sageli uued ___.",
+     "answer": [
+      "ideed"
+     ],
+     "explain_ru": "idee → мн. ч. ideed. Абзац C: «just seal sünnivad sageli uued ideed»."
+    },
+    {
+     "kind": "gap",
+     "q": "Kui sülearvuti on alati käeulatuses, kipub tööpäev ___ hilisõhtuni.",
+     "answer": [
+      "venima"
+     ],
+     "explain_ru": "kipub + ma-инфинитив: kipub venima — «имеет тенденцию затягиваться»."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "phrases",
+   "minutes": 6,
+   "title": "Arvamuse väljendamine",
+   "instruction_ru": "Эти связки нужны в письме. Напишите 2–3 предложения о своей работе, используя минимум три связки.",
+   "phrases": [
+    "Ühelt poolt …, teiselt poolt …",
+    "Pooldajad rõhutavad, et …",
+    "Vastased kardavad, et …",
+    "Minu arvates / Minu meelest …",
+    "Kõik oleneb sellest, kuidas …",
+    "Lisaks sellele …",
+    "Kokkuvõttes võib öelda, et …"
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Sõnajärg: verb teisel kohal",
+   "rule_ru": "В повествовательном предложении спрягаемый глагол стоит на ВТОРОМ месте, даже если предложение начинается с обстоятельства: Eile töötasin kodus (не «Eile ma töötasin» — так тоже говорят, но в письме предпочтительно V2). В придаточном (et, kui, sest) глагол часто уходит в конец: …, et ta kodus töötab.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Milline lause on kirjakeeles kõige loomulikum?",
+     "options": [
+      "Pärast pandeemiat paljud ettevõtted lubavad kaugtööd.",
+      "Pärast pandeemiat lubavad paljud ettevõtted kaugtööd.",
+      "Pärast pandeemiat lubavad kaugtööd paljud ettevõtted lubavad."
+     ],
+     "answer": 1,
+     "explain_ru": "«Pärast pandeemiat» занимает 1-е место → глагол lubavad на 2-м."
+    },
+    {
+     "kind": "mc",
+     "q": "Vali õige variant.",
+     "options": [
+      "Kodus on lihtsam keskenduda.",
+      "Kodus lihtsam on keskenduda.",
+      "Kodus keskenduda lihtsam on."
+     ],
+     "answer": 0,
+     "explain_ru": "Глагол on сразу после первого члена «Kodus»."
+    },
+    {
+     "kind": "mc",
+     "q": "Vali õige variant.",
+     "options": [
+      "Ma arvan, et kaugtöö on mugav.",
+      "Ma arvan, et on kaugtöö mugav.",
+      "Ma arvan, et mugav on kaugtöö on."
+     ],
+     "answer": 0,
+     "explain_ru": "После «et» обычный порядок: подлежащее + сказуемое."
+    },
+    {
+     "kind": "mc",
+     "q": "Vali õige variant.",
+     "options": [
+      "Seepärast ma valisin hübriidtöö.",
+      "Seepärast valisin ma hübriidtöö.",
+      "Seepärast hübriidtöö valisin."
+     ],
+     "answer": 1,
+     "explain_ru": "После связки в начале (seepärast) — глагол на 2-м месте, подлежащее после него."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Отметьте: сколько вопросов вы угадали по ключевым словам, а сколько поняли по смыслу абзаца? На экзамене формулировки в вопросах почти всегда отличаются от текста — ищите синонимы (segama → segajad, harjuma → kohanema)."
+  }
+ ]
+}

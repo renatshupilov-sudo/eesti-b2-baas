@@ -1,0 +1,252 @@
+{
+ "id": "d012",
+ "day": 12,
+ "version": 2,
+ "skill": "kuulamine",
+ "title": "Teadaanded ja uudised",
+ "title_ru": "Объявления и новости",
+ "topic": "igapäevaelu",
+ "minutes": 38,
+ "goal_ru": "Короткие аудиотексты: объявления на вокзале и в магазине, прогноз погоды, новость. Ловим время, место и изменения.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "väljuma",
+     "ru": "отправляться",
+     "example": "Rong väljub teiselt platvormilt.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljuma/1"
+    },
+    {
+     "et": "hilinema",
+     "ru": "опаздывать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hilinema/1"
+    },
+    {
+     "et": "ärajäämine",
+     "ru": "отмена",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%A4raj%C3%A4%C3%A4mine/1"
+    },
+    {
+     "et": "asendusbuss",
+     "ru": "автобус взамен (поезда)",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendusbuss/1"
+    },
+    {
+     "et": "allahindlus",
+     "ru": "скидка",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allahindlus/1"
+    },
+    {
+     "et": "sademed",
+     "ru": "осадки",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sademed/1"
+    },
+    {
+     "et": "tuul pöördub",
+     "ru": "ветер меняется",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tuul%20p%C3%B6%C3%B6rdub/1"
+    },
+    {
+     "et": "teetööd",
+     "ru": "дорожные работы",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teet%C3%B6%C3%B6d/1"
+    },
+    {
+     "et": "ümbersõit",
+     "ru": "объезд",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmbers%C3%B5it/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "listening",
+   "minutes": 15,
+   "title": "Neli lühiteksti",
+   "plays": 2,
+   "instruction_ru": "Четыре коротких текста подряд. На каждый — один-два вопроса.",
+   "transcript": "Tekst 1. Lugupeetud reisijad! Kell 17.45 Tartusse väljuv rong hilineb tehnilise rikke tõttu umbes kakskümmend minutit. Rong väljub tavapärase kolmanda platvormi asemel esimeselt platvormilt. Vabandame ebamugavuste pärast.\nTekst 2. Head kliendid! Täna kella kaheksateistkümnest kuni poest sulgemiseni on kõik talvejalanõud kolmkümmend protsenti soodsamad. Allahindlus ei kehti kinkekaartidega ostes. Kassad asuvad teisel korrusel.\nTekst 3. Homme on ilm pilvine. Hommikul sajab Lääne-Eestis lund, pärastlõunal läheb sadu üle lörtsiks. Puhub läänetuul, mis õhtul pöördub loodesse. Õhutemperatuur on miinus kahest pluss ühe kraadini. Teed võivad olla libedad.\nTekst 4. Alates esmaspäevast algavad Pärnu maanteel teetööd, mis kestavad eeldatavalt mai lõpuni. Liiklus on piiratud ühele sõidurajale. Autojuhtidel soovitatakse kasutada ümbersõitu läbi Hiiu tänava. Bussiliiklust muudatused ei mõjuta.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Tekst 1. Mitu minutit rong hilineb?",
+     "options": [
+      "umbes 12",
+      "umbes 20",
+      "umbes 45"
+     ],
+     "answer": 1,
+     "explain_ru": "«hilineb … umbes kakskümmend minutit» — kakskümmend = 20, kaksteist = 12."
+    },
+    {
+     "kind": "mc",
+     "q": "Tekst 1. Kust rong väljub?",
+     "options": [
+      "esimeselt platvormilt",
+      "teiselt platvormilt",
+      "kolmandalt platvormilt"
+     ],
+     "answer": 0,
+     "explain_ru": "«kolmanda platvormi asemel esimeselt platvormilt» — вместо третьей → с первой. Слово «asemel» (вместо) — частая ловушка."
+    },
+    {
+     "kind": "mc",
+     "q": "Tekst 2. Millal allahindlus kehtib?",
+     "options": [
+      "terve päeva",
+      "alates kella 18-st",
+      "kuni kella 18-ni"
+     ],
+     "answer": 1,
+     "explain_ru": "«kella kaheksateistkümnest kuni poe sulgemiseni» — с 18 часов до закрытия."
+    },
+    {
+     "kind": "tf",
+     "q": "Tekst 2. Allahindlust saab ka kinkekaardiga makstes.",
+     "answer": false,
+     "explain_ru": "«Allahindlus ei kehti kinkekaartidega ostes»."
+    },
+    {
+     "kind": "mc",
+     "q": "Tekst 3. Milline on homne ilm pärastlõunal?",
+     "options": [
+      "päikeseline",
+      "sajab lörtsi",
+      "sajab vihma ja on soe"
+     ],
+     "answer": 1,
+     "explain_ru": "«pärastlõunal läheb sadu üle lörtsiks» — днём снег переходит в мокрый снег (lörts)."
+    },
+    {
+     "kind": "mc",
+     "q": "Tekst 4. Mida soovitatakse autojuhtidele?",
+     "options": [
+      "sõita bussiga",
+      "kasutada ümbersõitu",
+      "sõita öösel"
+     ],
+     "answer": 1,
+     "explain_ru": "«Autojuhtidel soovitatakse kasutada ümbersõitu läbi Hiiu tänava»."
+    },
+    {
+     "kind": "tf",
+     "q": "Tekst 4. Bussid peavad samuti ümbersõitu kasutama.",
+     "answer": false,
+     "explain_ru": "«Bussiliiklust muudatused ei mõjuta» — на автобусы изменения не влияют."
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+  },
+  {
+   "type": "dictation",
+   "minutes": 10,
+   "title": "Kellaajad ja kuupäevad",
+   "instruction_ru": "Запишите время в формате 17.45, дату — как 3.12 (день.месяц).",
+   "items": [
+    {
+     "audio": "kell seitseteist nelikümmend viis",
+     "answer": [
+      "17.45",
+      "17:45"
+     ]
+    },
+    {
+     "audio": "kell pool kaheksa õhtul",
+     "answer": [
+      "19.30",
+      "19:30"
+     ]
+    },
+    {
+     "audio": "veerand üheksa hommikul",
+     "answer": [
+      "8.15",
+      "08.15",
+      "8:15",
+      "08:15"
+     ]
+    },
+    {
+     "audio": "kolmas detsember",
+     "answer": [
+      "3.12",
+      "03.12"
+     ]
+    },
+    {
+     "audio": "kahekümne neljandal veebruaril",
+     "answer": [
+      "24.02",
+      "24.2"
+     ]
+    },
+    {
+     "audio": "kolmveerand kümme",
+     "answer": [
+      "9.45",
+      "09.45",
+      "9:45",
+      "09:45"
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Ошибки в числах и времени — обычная проблема. Повторите: -teist (11–19), -kümmend (десятки), pool/veerand/kolmveerand."
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Aeg: alates, kuni, -ni, -st",
+   "rule_ru": "Время: С (elatiiv -st): kella kuuest, esmaspäevast; ДО (terminatiiv -ni): kella kaheni, mai lõpuni; В день (adessiv -l): esmaspäeval, 3. detsembril; alates + elatiiv: alates homsest; kuni + terminatiiv: kuni reedeni.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Teetööd kestavad mai ___ (lõpp).",
+     "answer": [
+      "lõpuni"
+     ],
+     "explain_ru": "lõpp → lõpu- + ni = lõpuni (до конца)."
+    },
+    {
+     "kind": "gap",
+     "q": "Allahindlus kehtib alates ___ (esmaspäev).",
+     "answer": [
+      "esmaspäevast"
+     ],
+     "explain_ru": "alates + elatiiv -st."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma töötan hommikust ___ (õhtu).",
+     "answer": [
+      "õhtuni"
+     ],
+     "explain_ru": "hommikust (с утра) … õhtuni (до вечера)."
+    },
+    {
+     "kind": "gap",
+     "q": "Kohtume ___ (teisipäev) kell 16.30.",
+     "answer": [
+      "teisipäeval"
+     ],
+     "explain_ru": "В какой день → adessiv -l: teisipäeval."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Внимание: «pool kaheksa» = 7:30 (половина восьмого), а не 8:30. «Veerand üheksa» = 8:15, «kolmveerand kümme» = 9:45. Повторите эти три формы вслух."
+  }
+ ]
+}

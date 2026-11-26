@@ -1,0 +1,262 @@
+{
+ "id": "d005",
+ "day": 5,
+ "version": 2,
+ "skill": "grammatika",
+ "title": "Sihitis: terve või osa?",
+ "title_ru": "Объект: полный или частичный?",
+ "topic": "tervis",
+ "minutes": 39,
+ "goal_ru": "Самая частая ошибка русскоязычных на B2 — падеж объекта. Повторяем правило на теме «здоровье».",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "retsept",
+     "ru": "рецепт",
+     "example": "Arst kirjutas retsepti.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/retsept/1"
+    },
+    {
+     "et": "perearst",
+     "ru": "семейный врач",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/perearst/1"
+    },
+    {
+     "et": "haigusleht",
+     "ru": "больничный лист",
+     "example": "Võtsin kolmeks päevaks haiguslehe.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/haigusleht/1"
+    },
+    {
+     "et": "ravim",
+     "ru": "лекарство",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ravim/1"
+    },
+    {
+     "et": "vastuvõtt",
+     "ru": "приём (у врача)",
+     "example": "Panin end arsti vastuvõtule kirja.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuv%C3%B5tt/1"
+    },
+    {
+     "et": "valu",
+     "ru": "боль",
+     "example": "Mul on seljavalu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/valu/1"
+    },
+    {
+     "et": "tervislik",
+     "ru": "здоровый (полезный)",
+     "example": "tervislik toit",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tervislik/1"
+    },
+    {
+     "et": "liikuma",
+     "ru": "двигаться",
+     "example": "Liigu iga päev vähemalt pool tundi.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/liikuma/1"
+    },
+    {
+     "et": "ennetama",
+     "ru": "предупреждать, предотвращать",
+     "example": "Haigusi on lihtsam ennetada kui ravida.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ennetama/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Arst kirjutas retsepti.",
+     "answer": [
+      "Arst kirjutas retsepti."
+     ]
+    },
+    {
+     "audio": "Võtsin kolmeks päevaks haiguslehe.",
+     "answer": [
+      "Võtsin kolmeks päevaks haiguslehe."
+     ]
+    },
+    {
+     "audio": "Panin end arsti vastuvõtule kirja.",
+     "answer": [
+      "Panin end arsti vastuvõtule kirja."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "grammar",
+   "minutes": 20,
+   "title": "Täis- ja osasihitis",
+   "rule_ru": "ЧАСТИЧНЫЙ объект (osasihitis, partitiiv: leiba, raamatut, vett) — если: 1) предложение отрицательное (Ma ei ostnud leiba); 2) действие не завершено, идёт процесс (Ma loen raamatut); 3) неопределённое количество (Ostsin piima); 4) после глаголов чувств и процесса: armastama, vihkama, ootama, kuulama, aitama, vajama, kartma.\nПОЛНЫЙ объект (täissihitis) — если действие завершено и результат целиком: ед. ч. — родительный (Ostsin uue jope), мн. ч. — именительный (Ostsin need raamatud). В повелительном наклонении и безличных конструкциях ед. ч. — именительный: Võta see raamat! Raamat loeti läbi.\nПодсказка: слова läbi, valmis, ära, kinni, lõpuni обычно сигнализируют о полном объекте.",
+   "examples": [
+    "Ma lugesin raamatu läbi. (полный: завершено)",
+    "Ma loen raamatut. (частичный: процесс)",
+    "Ma ei lugenud raamatut. (частичный: отрицание)",
+    "Loe raamat läbi! (повелительное — именительный)"
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Ma lugesin ___ (see artikkel) eile lõpuni.",
+     "answer": [
+      "selle artikli"
+     ],
+     "explain_ru": "Действие завершено (lõpuni) → полный объект, ед. ч. — родительный: selle artikli."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma ei leidnud ___ (oma ravim) üles.",
+     "answer": [
+      "oma ravimit"
+     ],
+     "explain_ru": "Отрицание → всегда частичный объект: ei leidnud ravimit."
+    },
+    {
+     "kind": "gap",
+     "q": "Arst kirjutas mulle ___ (uus retsept).",
+     "answer": [
+      "uue retsepti"
+     ],
+     "explain_ru": "Рецепт выписан целиком, предложение утвердительное → полный объект: uue retsepti."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma armastan ___ (eesti muusika).",
+     "answer": [
+      "eesti muusikat"
+     ],
+     "explain_ru": "armastama — глагол чувства → всегда частичный: armastan muusikat."
+    },
+    {
+     "kind": "gap",
+     "q": "Jooge päevas vähemalt kaks liitrit ___ (vesi).",
+     "answer": [
+      "vett"
+     ],
+     "explain_ru": "Вещество без определённого количества (сколько-то воды) → частичный: vett."
+    },
+    {
+     "kind": "gap",
+     "q": "Võtke ___ (need tabletid) pärast sööki!",
+     "answer": [
+      "need tabletid"
+     ],
+     "explain_ru": "Повелительное наклонение + мн. ч. полного объекта → именительный: need tabletid."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma ootan ___ (teie vastus).",
+     "answer": [
+      "teie vastust"
+     ],
+     "explain_ru": "ootama — глагол процесса → частичный: ootan vastust."
+    },
+    {
+     "kind": "gap",
+     "q": "Praegu ehitame ___ (suvila).",
+     "answer": [
+      "suvilat"
+     ],
+     "explain_ru": "«Praegu ehitame» — процесс, не завершён → частичный: suvilat. Сравните: Ehitasime suvila valmis."
+    },
+    {
+     "kind": "gap",
+     "q": "Ostsin poest ___ (piim) ja ___ (leib).",
+     "answer": [
+      "piima ja leiba",
+      "piima, leiba"
+     ],
+     "hint": "Впишите оба слова через «ja».",
+     "explain_ru": "Неопределённое количество продуктов → частичный: piima ja leiba."
+    },
+    {
+     "kind": "gap",
+     "q": "Ta tegi ___ (kodutöö) valmis.",
+     "answer": [
+      "kodutöö"
+     ],
+     "explain_ru": "valmis — сигнал завершённости → полный объект: kodutöö (родительный ед. ч. совпадает с именительным)."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause on õige?",
+     "options": [
+      "Ma panin ennast arsti vastuvõtule kirja.",
+      "Ma panin end arsti vastuvõttu kirja.",
+      "Ma panin ennast arsti vastuvõtule kirjas."
+     ],
+     "answer": 0,
+     "explain_ru": "end/ennast kirja panema + куда? → vastuvõtule (аллатив). «kirja» — неизменяемая часть выражения."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause on õige?",
+     "options": [
+      "Perearst aitas mind.",
+      "Perearst aitas mina.",
+      "Perearst aitas minu."
+     ],
+     "answer": 0,
+     "explain_ru": "aitama требует частичного объекта: aitas mind."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "reading",
+   "minutes": 7,
+   "title": "Lühitekst: tervis",
+   "text": "Paljud inimesed mõtlevad oma tervisele alles siis, kui midagi valutab. Perearstid soovitavad aga haigusi ennetada. Lihtsaim viis on liikuda iga päev vähemalt pool tundi, magada piisavalt ja süüa rohkem köögivilju. Ka iga-aastane tervisekontroll aitab probleeme varakult märgata. Kui te tunnete end halvasti, ärge oodake mitu nädalat, vaid pange end arsti vastuvõtule kirja. Paljud küsimused saab perearstiga lahendada ka telefoni teel või e-kirja kaudu.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Mida soovitavad perearstid?",
+     "options": [
+      "minna arsti juurde ainult siis, kui midagi valutab",
+      "haigusi ennetada",
+      "võtta iga päev ravimeid"
+     ],
+     "answer": 1,
+     "explain_ru": "«Perearstid soovitavad aga haigusi ennetada»."
+    },
+    {
+     "kind": "tf",
+     "q": "Perearstiga saab mõnikord suhelda ka telefoni teel.",
+     "answer": true,
+     "explain_ru": "«Paljud küsimused saab perearstiga lahendada ka telefoni teel»."
+    },
+    {
+     "kind": "tf",
+     "q": "Tekst soovitab oodata mitu nädalat, enne kui arsti juurde minna.",
+     "answer": false,
+     "explain_ru": "Наоборот: «ärge oodake mitu nädalat» — не ждите несколько недель."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Найдите в своём письме из дня 3 все объекты и проверьте их падеж по правилу. Это самый быстрый способ поднять баллы за грамматику."
+  }
+ ]
+}

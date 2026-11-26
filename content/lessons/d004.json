@@ -1,0 +1,206 @@
+{
+ "id": "d004",
+ "day": 4,
+ "version": 2,
+ "skill": "kuulamine",
+ "title": "Täiskasvanuna jälle koolipingis",
+ "title_ru": "Снова за партой во взрослом возрасте",
+ "topic": "haridus",
+ "minutes": 31,
+ "goal_ru": "Аудирование: подкаст о том, как взрослые учатся. Ловим причины, мнения и детали.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "elukestev õpe",
+     "ru": "обучение в течение всей жизни",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukestev%20%C3%B5pe/1"
+    },
+    {
+     "et": "täienduskoolitus",
+     "ru": "курсы повышения квалификации",
+     "example": "Käisin eelmisel aastal täienduskoolitusel.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4ienduskoolitus/1"
+    },
+    {
+     "et": "end täiendama",
+     "ru": "повышать квалификацию",
+     "example": "Tahan end erialal täiendada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20t%C3%A4iendama/1"
+    },
+    {
+     "et": "oskus",
+     "ru": "навык, умение",
+     "example": "Uued oskused aitavad tööl.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/oskus/1"
+    },
+    {
+     "et": "tunnistus",
+     "ru": "свидетельство, сертификат",
+     "example": "Kursuse lõpus sain tunnistuse.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tunnistus/1"
+    },
+    {
+     "et": "eneseareng",
+     "ru": "саморазвитие",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eneseareng/1"
+    },
+    {
+     "et": "kulud",
+     "ru": "расходы",
+     "example": "Kes peaks kulud kinni maksma?",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kulud/1"
+    },
+    {
+     "et": "kasu",
+     "ru": "польза",
+     "example": "Sellest on palju kasu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kasu/1"
+    },
+    {
+     "et": "veebikursus",
+     "ru": "онлайн-курс",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/veebikursus/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "listening",
+   "minutes": 18,
+   "title": "Taskuhääling",
+   "plays": 2,
+   "instruction_et": "Kuulake vestlust kaks korda ja vastake küsimustele.",
+   "transcript": "Saatejuht: Tere tulemast taskuhäälingusse „Õpime edasi“! Minu külaline on Olga, kes läks neljakümne kahe aastaselt uuesti ülikooli. Olga, miks sa selle otsuse tegid?\nOlga: Töötasin kaksteist aastat raamatupidajana ja tundsin, et olen paigal tammunud. Tahtsin midagi muuta, aga ei teadnud alguses, mida. Siis sain teada, et ülikool pakub töö kõrvalt õppimise võimalust, ja otsustasin proovida.\nSaatejuht: Mida sa õpid?\nOlga: Andmeanalüüsi. Loengud on kord kuus reedel ja laupäeval, ülejäänud aja õpin iseseisvalt veebis.\nSaatejuht: Kas töö, pere ja õpingute ühendamine ei ole liiga raske?\nOlga: Esimesel semestril oli väga raske. Magasin vähe ja tundsin end pidevalt süüdi, et mul ei ole lastele aega. Siis leppisime perega kokku, et pühapäev on alati vaba päev. See aitas palju.\nSaatejuht: Kas tööandja toetab sind?\nOlga: Jah, ja see oli mulle üllatus. Tööandja maksab poole õppemaksust ja annab eksamipäevadeks vaba päeva. Vastutasuks lubasin, et jään pärast lõpetamist ettevõttesse vähemalt kaheks aastaks.\nSaatejuht: Mida sa soovitaksid neile, kes kahtlevad?\nOlga: Ärge oodake ideaalset hetke, sest seda ei tule. Alustage ühest kursusest ja vaadake, kas see sobib teile. Vanus ei ole takistus — minu kursusel on üliõpilasi kahekümnest kuuekümneni.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Kui vanalt läks Olga uuesti ülikooli?",
+     "options": [
+      "32-aastaselt",
+      "42-aastaselt",
+      "52-aastaselt"
+     ],
+     "answer": 1,
+     "explain_ru": "«neljakümne kahe aastaselt» = 42. neli-kümmend (40) + kaks."
+    },
+    {
+     "kind": "mc",
+     "q": "Miks Olga otsustas õppima minna?",
+     "options": [
+      "Ta jäi töötuks.",
+      "Ta tundis, et ei arene enam.",
+      "Tööandja nõudis seda."
+     ],
+     "answer": 1,
+     "explain_ru": "«olen paigal tammunud» — топтался на месте, то есть перестал развиваться."
+    },
+    {
+     "kind": "mc",
+     "q": "Kuidas õpingud on korraldatud?",
+     "options": [
+      "iga päev ülikoolis",
+      "kord kuus loengud, muu aeg veebis",
+      "ainult veebis"
+     ],
+     "answer": 1,
+     "explain_ru": "«Loengud on kord kuus reedel ja laupäeval, ülejäänud aja õpin iseseisvalt veebis»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mis aitas Olgal esimese semestri raskustest üle saada?",
+     "options": [
+      "Ta võttis tööl puhkuse.",
+      "Perega lepiti kokku vaba pühapäev.",
+      "Ta loobus ühest kursusest."
+     ],
+     "answer": 1,
+     "explain_ru": "«leppisime perega kokku, et pühapäev on alati vaba päev»."
+    },
+    {
+     "kind": "tf",
+     "q": "Tööandja maksab kogu õppemaksu.",
+     "answer": false,
+     "explain_ru": "Работодатель платит только половину: «maksab poole õppemaksust»."
+    },
+    {
+     "kind": "tf",
+     "q": "Olga lubas pärast lõpetamist ettevõttesse jääda vähemalt kaheks aastaks.",
+     "answer": true,
+     "explain_ru": "«jään pärast lõpetamist ettevõttesse vähemalt kaheks aastaks»."
+    },
+    {
+     "kind": "tf",
+     "q": "Olga soovitab oodata, kuni tekib sobiv hetk.",
+     "answer": false,
+     "explain_ru": "Наоборот: «Ärge oodake ideaalset hetke, sest seda ei tule»."
+    },
+    {
+     "kind": "gap",
+     "q": "Olga kursusel on üliõpilasi kahekümnest ___ aastani (kirjutage sõnaga).",
+     "answer": [
+      "kuuekümneni",
+      "kuuekümne"
+     ],
+     "explain_ru": "«kahekümnest kuuekümneni» — от двадцати до шестидесяти (лет)."
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Kaassõnad",
+   "rule_ru": "Послелоги (стоят ПОСЛЕ слова) требуют родительного падежа: kursuse ajal, töö kõrvalt, tööandja kulul, aasta jooksul. Предлоги (стоят ПЕРЕД словом) чаще требуют частительного: pärast koolitust, enne tööd, ilma abita (ilma + абессив).",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "___ (kursus) lõpus sain tunnistuse.",
+     "answer": [
+      "Kursuse",
+      "kursuse"
+     ],
+     "explain_ru": "lõpus — послелог → родительный: kursuse lõpus."
+    },
+    {
+     "kind": "gap",
+     "q": "Õpin eesti keelt töö ___ (= параллельно с работой).",
+     "answer": [
+      "kõrvalt"
+     ],
+     "explain_ru": "töö kõrvalt — «без отрыва от работы»."
+    },
+    {
+     "kind": "gap",
+     "q": "Koolitus toimub tööandja ___ (= за счёт).",
+     "answer": [
+      "kulul"
+     ],
+     "explain_ru": "kellegi kulul — за чей-то счёт."
+    },
+    {
+     "kind": "gap",
+     "q": "Pärast ___ (koolitus) sain kõrgema palga.",
+     "answer": [
+      "koolitust"
+     ],
+     "explain_ru": "pärast ПЕРЕД словом (предлог) → частительный: pärast koolitust. Ср.: koolituse järel."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Прослушайте запись. Оценивают: выполнение задания, связность, богатство словаря, грамматику и произношение. Отметьте: были ли длинные паузы? Использовали ли вы связки (esiteks, lisaks, samas)? Повторите часть 2 ещё раз — второй вариант почти всегда лучше."
+  }
+ ]
+}
