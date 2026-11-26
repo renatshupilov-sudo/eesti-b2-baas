@@ -1,160 +1,215 @@
 {
  "id": "d007",
  "day": 7,
- "version": 4,
+ "version": 5,
  "skill": "kuulamine",
- "title": "Vabatahtlik toidupangas",
- "title_ru": "Волонтёр в продовольственном банке",
- "topic": "ühiskond",
- "minutes": 31,
- "goal_ru": "Аудирование: интервью о волонтёрстве. Понимание мотивов и мнений говорящего.",
+ "title": "Eesti mets",
+ "title_ru": "Эстонский лес",
+ "topic": "loodus",
+ "minutes": 33,
+ "goal_ru": "Длинное аудирование (около 5–6 минут), как в последних заданиях экзамена: лекция о лесе, споры о вырубке, право каждого.",
  "blocks": [
   {
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
    "items": [
     {
-     "et": "vabatahtlik",
-     "ru": "доброволец; добровольный",
-     "example": "Ta on kolm aastat toidupangas vabatahtlik.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vabatahtlik/1",
-     "audio_file": "audio/e6de58fa21fbd750.mp3"
+     "et": "metsa majandama",
+     "ru": "вести лесное хозяйство",
+     "example": "Metsaomanikul on õigus oma metsa majandada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/metsa%20majandama/1",
+     "audio_file": "audio/f96e6be103a046a2.mp3",
+     "audio_file_m": "audio/d79758d2710c2413.mp3"
     },
     {
-     "et": "annetama",
-     "ru": "жертвовать",
-     "example": "Poed annetavad toitu, mille säilivusaeg hakkab lõppema.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/annetama/1",
-     "audio_file": "audio/a86cc8c458082688.mp3"
+     "et": "raie",
+     "ru": "рубка, вырубка",
+     "example": "Keskkonnakaitsjate arvates on raiet liiga palju.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/raie/1",
+     "audio_file": "audio/ce451325345c43dc.mp3",
+     "audio_file_m": "audio/2a26aa759aa2ce39.mp3"
     },
     {
-     "et": "abivajaja",
-     "ru": "нуждающийся",
-     "example": "Toidupank aitab abivajajaid.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/abivajaja/1",
-     "audio_file": "audio/271c42ab6175fd46.mp3"
+     "et": "liigirikas",
+     "ru": "богатый видами",
+     "example": "Vana mets on liigirikkam kui noor.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/liigirikas/1",
+     "audio_file": "audio/a65611689feb43a7.mp3",
+     "audio_file_m": "audio/231c2d0afd9a175e.mp3"
     },
     {
-     "et": "sattuma (kuhu?)",
-     "ru": "попасть (случайно)",
-     "example": "Kuidas sa toidupanka sattusid?",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sattuma/1",
-     "audio_file": "audio/79d3f7b768f5ec61.mp3"
+     "et": "haruldane",
+     "ru": "редкий",
+     "example": "Vanas metsas elavad haruldased linnud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/haruldane/1",
+     "audio_file": "audio/07e931a72caa3817.mp3",
+     "audio_file_m": "audio/a1259196e4d6637d.mp3"
     },
     {
-     "et": "kahetsema",
-     "ru": "сожалеть",
-     "example": "Ma ei kahetse oma otsust.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahetsema/1",
-     "audio_file": "audio/39ef2c718910b576.mp3"
+     "et": "süsinikku siduma",
+     "ru": "связывать углерод",
+     "example": "Kiiresti kasvavad puud seovad palju süsinikku.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%BCsinikku%20siduma/1",
+     "audio_file": "audio/17158d82a03d2038.mp3",
+     "audio_file_m": "audio/1cd24e3d679e7702.mp3"
     },
     {
-     "et": "rahuldust pakkuma",
-     "ru": "приносить удовлетворение",
-     "example": "See töö pakub mulle rahuldust.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahuldust%20pakkuma/1",
-     "audio_file": "audio/969300e304e73551.mp3"
+     "et": "taastuma",
+     "ru": "восстанавливаться",
+     "example": "Vana metsa taastumiseks kulub sadu aastaid.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taastuma/1",
+     "audio_file": "audio/4595628af677fe80.mp3",
+     "audio_file_m": "audio/31b200ce2632500e.mp3"
     },
     {
-     "et": "paljulapseline pere",
-     "ru": "многодетная семья",
-     "example": "Abi saavad ka paljulapselised pered.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paljulapseline%20pere/1",
-     "audio_file": "audio/5ddb71bc449288a6.mp3"
+     "et": "üksmeelel olema",
+     "ru": "быть единодушными",
+     "example": "Teadlased ei ole selles küsimuses üksmeelel.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCksmeelel%20olema/1",
+     "audio_file": "audio/5daad48a6010139c.mp3",
+     "audio_file_m": "audio/829597b2bf7d43ce.mp3"
     },
     {
-     "et": "kodanikuühiskond",
-     "ru": "гражданское общество",
-     "example": "Vabatahtlik töö tugevdab kodanikuühiskonda.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodaniku%C3%BChiskond/1",
-     "audio_file": "audio/b836afeab699c151.mp3"
+     "et": "igameheõigus",
+     "ru": "право каждого (свободно находиться в природе)",
+     "example": "Igameheõigus lubab teise inimese metsas liikuda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/igamehe%C3%B5igus/1",
+     "audio_file": "audio/b52f64325a4a00ef.mp3",
+     "audio_file_m": "audio/0640640c4f33aeac.mp3"
     },
     {
-     "et": "panustama (millesse?)",
-     "ru": "вкладываться (во что)",
-     "example": "Igaüks saab ühiskonda panustada.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/panustama/1",
-     "audio_file": "audio/f8f4b8ac62c6d03b.mp3"
+     "et": "pesitsusaeg",
+     "ru": "период гнездования",
+     "example": "Kevadel on lindude pesitsusaeg.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pesitsusaeg/1",
+     "audio_file": "audio/1fb3e84f2a3c42a0.mp3",
+     "audio_file_m": "audio/73c0b7a625562c12.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
    "type": "listening",
-   "minutes": 18,
-   "title": "Intervjuu vabatahtlikuga",
+   "minutes": 20,
+   "title": "Raadioloeng: Eesti mets",
    "plays": 2,
-   "instruction_et": "Kuulake intervjuud kaks korda ja vastake küsimustele.",
-   "transcript": "Ajakirjanik: Andres, sa oled juba kolm aastat toidupangas vabatahtlik. Kuidas sa sinna sattusid?\nAndres: Täiesti juhuslikult. Mu naaber töötas seal ja kutsus mind ühel laupäeval appi, sest neil oli inimestest puudus. Ma mõtlesin, et lähen ühe korra, aga jäingi.\nAjakirjanik: Mida sa seal täpsemalt teed?\nAndres: Põhiliselt sorteerin toitu, mida poed ja eraisikud annetavad, ning panen kokku toidupakke. Kord kuus käin ka poes, kus palume ostjatel midagi annetada.\nAjakirjanik: Kas see ei ole raske, kui sul on ka tavaline töö?\nAndres: Ausalt öeldes on mõnikord raske. Ma töötan nädala sees, nii et vabatahtlik töö jääb nädalavahetusse. Aga ma ei kahetse. See töö pakub mulle rahuldust, sest ma näen kohe, et minu abist on kasu.\nAjakirjanik: Kes on teie abivajajad?\nAndres: Väga erinevad inimesed. Paljud arvavad, et toidupanka tulevad ainult töötud, aga tegelikult on seal palju eakaid ja paljulapselisi peresid. Ka töötavatel inimestel ei pruugi raha alati jätkuda.\nAjakirjanik: Mida sa soovitaksid neile, kes tahaksid samuti panustada?\nAndres: Alustage väikselt. Ei pea kohe iga nädal käima. Ka üks kord kuus on suur abi. Ja vabatahtlik töö on hea võimalus harjutada eesti keelt — meil on mitu vabatahtlikku, kes on nii oma keeleoskust parandanud.",
+   "instruction_et": "Kuulake loengut kaks korda ja vastake küsimustele.",
+   "instruction_ru": "Длинный текст: сначала 1 минута на чтение вопросов. Во время первого прослушивания отмечайте ответы, во время второго — проверяйте. Голос (мужской или женский) и скорость можно выбрать.",
+   "transcript": "Tere, head kuulajad! Minu nimi on Kati Lepik ja ma olen metsateadlane. Täna räägin teile Eesti metsast: sellest, miks see on meile nii tähtis ja miks selle üle nii palju vaieldakse.\nAlustame faktidest. Mets katab ligikaudu poole Eesti maismaast. See tähendab, et Eesti on üks metsarikkamaid riike Euroopas. Kõige levinumad puuliigid on mänd, kask ja kuusk. Enamik eestlasi elab metsast vaid mõne kilomeetri kaugusel ning paljude jaoks on metsas käimine osa igapäevaelust: korjatakse marju ja seeni, matkatakse või puhatakse lihtsalt linnamürast.\nMets on olnud eestlaste jaoks tähtis juba sajandeid. Rahvaluules on palju lugusid pühadest hiitest ja puudest, mida ei tohtinud raiuda. Ka tänapäeval peavad paljud inimesed metsa kohaks, kus saab rahuneda ja mõtteid koguda. Küsitlused näitavad, et enamik eestlasi peab metsa üheks Eesti suurimaks väärtuseks, isegi kui nad ise metsas väga tihti ei käi.\nMets ei ole aga ainult puhkusekoht. Metsasektor annab tööd kümnetele tuhandetele inimestele, eriti maapiirkondades. Puitu kasutatakse ehituses, mööblitööstuses ja energia tootmisel. Eesti puitmajad on hinnatud ka välismaal ning nende eksport on viimastel aastatel kasvanud.\nJust siin algab vaidlus. Ühelt poolt on metsaomanikel ja ettevõtetel õigus metsa majandada ehk puid raiuda ja müüa. Teiselt poolt muretsevad keskkonnakaitsjad, et raiet on liiga palju. Nende hinnangul jääb järjest vähem vanu metsi, kus elavad haruldased linnud, samblikud ja putukad. Kui vana mets maha võetakse, kulub selle taastumiseks sadu aastaid.\nMetsandusettevõtted vastavad, et iga raiutud ala asemele istutatakse uus mets ning seadus kohustab seda tegema. Nende sõnul on noor mets kliima jaoks isegi kasulik, sest kiiresti kasvavad puud seovad palju süsinikku. Teadlased ei ole selles küsimuses üksmeelel. Mitmed uuringud näitavad, et vana mets talletab süsinikku ka pinnasesse ja on liigirikkam, mistõttu ei saa noort metsa vanaga võrdsustada.\nMetsa mõjutab ka kliimamuutus. Talved on muutunud soojemaks ja lumi püsib maas lühemat aega. Sagenenud tormid murravad puid ning soojemas kliimas levivad kiiremini kahjurid, näiteks kuuse-kooreürask, mis võib lühikese ajaga hävitada suuri kuusikuid. Kuivadel suvedel kasvab metsatulekahjude oht. Seetõttu soovitavad teadlased istutada senisest rohkem erinevaid puuliike, sest segamets peab muutustele paremini vastu kui ühe liigi istandik.\nOluline küsimus on ka see, kes metsa omab. Umbes pool Eesti metsast kuulub riigile ja seda majandab riigimetsa majandamise keskus. Ülejäänud mets kuulub eraomanikele, keda on kokku üle saja tuhande. Paljudel neist on vaid mõni hektar metsa, mille nad on pärinud vanematelt või vanavanematelt. Väikeomanikud ei tea sageli, kuidas oma metsa hoolikalt majandada, ning müüvad raieõiguse esimesele pakkujale. Seepärast pakuvad metsaseltsid neile tasuta nõustamist.\nMida siis teha? Minu arvates ei ole lahendus raie täielik keelamine, sest see kahjustaks maapiirkondade majandust. Küll aga peaksime rohkem kaitsma kõige väärtuslikumaid vanu metsi ja tegema otsuseid teadusandmete põhjal. Oluline on ka see, et kohalikud elanikud saaksid kaasa rääkida, kui nende kodu lähedal metsa raiutakse. Paljudes valdades on juba hakatud korraldama avalikke arutelusid, kus metsaomanikud, ametnikud ja elanikud otsivad koos kompromissi.\nKa igaüks meist saab midagi ära teha. Kui ostate puidust mööblit või ehitusmaterjali, uurige, kas sellel on säästva metsanduse sertifikaat. Metsas käies järgige lihtsaid reegleid: ärge tehke lõket selleks mitte ettenähtud kohas, ärge jätke prügi maha ja hoidke kevadel koerad rihma otsas, sest siis on lindude pesitsusaeg.\nEestis kehtib nii-nimetatud igameheõigus. See tähendab, et teise inimese metsas võib vabalt liikuda ning korjata marju ja seeni, kui omanik ei ole seda keelanud ega ala piiranud. Paljud välismaalased imestavad selle õiguse üle. Kuid õigusega kaasneb ka vastutus: mets peab alles jääma ka meie lastele ja lastelastele.\nAitäh kuulamast! Järgmises saates räägime sellest, kuidas kliimamuutused mõjutavad Eesti loodust.",
    "tasks": [
     {
      "kind": "mc",
-     "q": "Kuidas Andres toidupanka sattus?",
+     "q": "Kui suure osa Eesti maismaast katab mets?",
      "options": [
-      "Ta luges kuulutust ajalehest.",
-      "Naaber kutsus ta appi.",
-      "Ta tööandja saatis ta sinna."
+      "umbes veerandi",
+      "umbes poole",
+      "umbes kolm neljandikku"
      ],
      "answer": 1,
-     "explain_ru": "«Mu naaber töötas seal ja kutsus mind ühel laupäeval appi»."
+     "explain_ru": "«Mets katab ligikaudu poole Eesti maismaast»."
     },
     {
      "kind": "mc",
-     "q": "Mida Andres toidupangas põhiliselt teeb?",
+     "q": "Millised on Eestis kõige levinumad puuliigid?",
      "options": [
-      "juhib toidupanka",
-      "sorteerib toitu ja paneb kokku pakke",
-      "veab toitu autoga laiali"
+      "mänd, kask ja kuusk",
+      "tamm, vaher ja pärn",
+      "kuusk, saar ja lepp"
      ],
-     "answer": 1,
-     "explain_ru": "«Põhiliselt sorteerin toitu … ning panen kokku toidupakke»."
+     "answer": 0,
+     "explain_ru": "«Kõige levinumad puuliigid on mänd, kask ja kuusk» — сосна, берёза и ель."
     },
     {
      "kind": "mc",
-     "q": "Millal Andres vabatahtlikuna töötab?",
+     "q": "Mille pärast muretsevad keskkonnakaitsjad?",
      "options": [
-      "tööpäeviti õhtuti",
-      "nädalavahetustel",
-      "ainult suvel"
+      "Vanu metsi jääb järjest vähemaks.",
+      "Puit on liiga kallis.",
+      "Metsa ei istutata enam juurde."
      ],
-     "answer": 1,
-     "explain_ru": "«vabatahtlik töö jääb nädalavahetusse»."
+     "answer": 0,
+     "explain_ru": "«jääb järjest vähem vanu metsi»."
     },
     {
      "kind": "mc",
-     "q": "Miks see töö Andresele rahuldust pakub?",
+     "q": "Miks peavad metsandusettevõtted noort metsa kliimale kasulikuks?",
      "options": [
-      "Ta saab selle eest palka.",
-      "Ta näeb kohe oma abi kasu.",
-      "Ta leidis sealt uue töö."
+      "Noor mets talletab süsinikku pinnasesse.",
+      "Kiiresti kasvavad puud seovad palju süsinikku.",
+      "Noores metsas elab rohkem linde."
      ],
      "answer": 1,
-     "explain_ru": "«ma näen kohe, et minu abist on kasu»."
+     "explain_ru": "Это аргумент компаний; про почву говорят исследования о старом лесе — ловушка."
     },
     {
      "kind": "tf",
-     "q": "Toidupanka pöörduvad ainult töötud.",
+     "q": "Teadlased on üksmeelel, et noor mets on kliimale kasulikum kui vana.",
      "answer": false,
-     "explain_ru": "«Paljud arvavad, et … ainult töötud, aga tegelikult …» — после «aga tegelikult» обычно звучит правильный ответ."
+     "explain_ru": "«Teadlased ei ole selles küsimuses üksmeelel»."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline on lektori seisukoht?",
+     "options": [
+      "Raie tuleks täielikult keelata.",
+      "Tuleks kaitsta väärtuslikke vanu metsi ja otsustada teadusandmete põhjal.",
+      "Raiet tuleks majanduse huvides suurendada."
+     ],
+     "answer": 1,
+     "explain_ru": "«ei ole lahendus raie täielik keelamine … peaksime rohkem kaitsma kõige väärtuslikumaid vanu metsi»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mis aitab teadlaste sõnul metsal kliimamuutustele paremini vastu pidada?",
+     "options": [
+      "ühe puuliigi istandik",
+      "erinevate puuliikide istutamine",
+      "vähem raiet talvel"
+     ],
+     "answer": 1,
+     "explain_ru": "«segamets peab muutustele paremini vastu kui ühe liigi istandik»."
+    },
+    {
+     "kind": "mc",
+     "q": "Kellele kuulub umbes pool Eesti metsast?",
+     "options": [
+      "riigile",
+      "välismaistele ettevõtetele",
+      "kohalikele omavalitsustele"
+     ],
+     "answer": 0,
+     "explain_ru": "«Umbes pool Eesti metsast kuulub riigile»; остальное — частным владельцам."
     },
     {
      "kind": "tf",
-     "q": "Andrese sõnul piisab ka sellest, kui aidata üks kord kuus.",
+     "q": "Kevadel tuleb metsas koerad rihma otsas hoida, sest siis on lindude pesitsusaeg.",
      "answer": true,
-     "explain_ru": "«Ka üks kord kuus on suur abi»."
+     "explain_ru": "«hoidke kevadel koerad rihma otsas, sest siis on lindude pesitsusaeg»."
     },
     {
      "kind": "tf",
-     "q": "Mõned vabatahtlikud on toidupangas oma eesti keelt parandanud.",
-     "answer": true,
-     "explain_ru": "«meil on mitu vabatahtlikku, kes on nii oma keeleoskust parandanud»."
+     "q": "Igameheõigus lubab korjata marju ka siis, kui omanik on ala piiranud.",
+     "answer": false,
+     "explain_ru": "Можно, «kui omanik ei ole seda keelanud ega ala piiranud» — если владелец НЕ запретил и НЕ огородил."
+    },
+    {
+     "kind": "mc",
+     "q": "Millest räägitakse järgmises saates?",
+     "options": [
+      "metsatulekahjudest",
+      "kliimamuutuste mõjust Eesti loodusele",
+      "puitmajade ekspordist"
+     ],
+     "answer": 1,
+     "explain_ru": "Последняя фраза: «Järgmises saates räägime sellest, kuidas kliimamuutused mõjutavad Eesti loodust»."
     }
    ],
    "module": "kuulamine",
    "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
-   "audio_file": "audio/a653ce916ff349a3.mp3"
+   "audio_file": "audio/88e930a5f90e54c4.mp3",
+   "audio_file_m": "audio/0f592e538c75fd54.mp3"
   },
   {
    "type": "external",

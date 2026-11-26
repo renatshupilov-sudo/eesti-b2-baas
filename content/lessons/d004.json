@@ -1,7 +1,7 @@
 {
  "id": "d004",
  "day": 4,
- "version": 4,
+ "version": 5,
  "skill": "kuulamine",
  "title": "Täiskasvanuna jälle koolipingis",
  "title_ru": "Снова за партой во взрослом возрасте",
@@ -20,63 +20,72 @@
      "ru": "обучение в течение всей жизни",
      "example": "Elukestev õpe on tänapäeval vajalik.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukestev%20%C3%B5pe/1",
-     "audio_file": "audio/cc2c25292514bb09.mp3"
+     "audio_file": "audio/cc2c25292514bb09.mp3",
+     "audio_file_m": "audio/6e63ea6f1179ba30.mp3"
     },
     {
      "et": "ümberõpe",
      "ru": "переподготовка",
      "example": "Riik toetab täiskasvanute ümberõpet.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmber%C3%B5pe/1",
-     "audio_file": "audio/6a3bd202270c9743.mp3"
+     "audio_file": "audio/6a3bd202270c9743.mp3",
+     "audio_file_m": "audio/e183e44d79b261db.mp3"
     },
     {
      "et": "end täiendama",
      "ru": "повышать квалификацию",
      "example": "Tahan end erialal täiendada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20t%C3%A4iendama/1",
-     "audio_file": "audio/5f36130185f7cafc.mp3"
+     "audio_file": "audio/5f36130185f7cafc.mp3",
+     "audio_file_m": "audio/d29c2c6ae141bde6.mp3"
     },
     {
      "et": "õppemaks",
      "ru": "плата за обучение",
      "example": "Tööandja maksab poole õppemaksust.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppemaks/1",
-     "audio_file": "audio/e9d04ab5356495ec.mp3"
+     "audio_file": "audio/e9d04ab5356495ec.mp3",
+     "audio_file_m": "audio/0cf205104cf99f33.mp3"
     },
     {
      "et": "töö kõrvalt õppima",
      "ru": "учиться без отрыва от работы",
      "example": "Paljud täiskasvanud õpivad töö kõrvalt.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6%20k%C3%B5rvalt%20%C3%B5ppima/1",
-     "audio_file": "audio/371ad04a60936948.mp3"
+     "audio_file": "audio/371ad04a60936948.mp3",
+     "audio_file_m": "audio/d4d1cbf47bf60665.mp3"
     },
     {
      "et": "paigal tammuma",
      "ru": "топтаться на месте",
      "example": "Tundsin, et olen paigal tammunud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paigal%20tammuma/1",
-     "audio_file": "audio/6b30de8c00eb623a.mp3"
+     "audio_file": "audio/6b30de8c00eb623a.mp3",
+     "audio_file_m": "audio/599f4f2e8acc23bf.mp3"
     },
     {
      "et": "takistus",
      "ru": "препятствие",
      "example": "Vanus ei ole õppimisel takistus.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/takistus/1",
-     "audio_file": "audio/48de21b7e5739f5e.mp3"
+     "audio_file": "audio/48de21b7e5739f5e.mp3",
+     "audio_file_m": "audio/0967cfaa1414801e.mp3"
     },
     {
      "et": "vastutasuks",
      "ru": "взамен",
      "example": "Vastutasuks lubas ta ettevõttesse jääda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutasuks/1",
-     "audio_file": "audio/7e93673a0640c699.mp3"
+     "audio_file": "audio/7e93673a0640c699.mp3",
+     "audio_file_m": "audio/57f5a5dba3f68f4d.mp3"
     },
     {
      "et": "süüdi tundma (end)",
      "ru": "чувствовать себя виноватым",
      "example": "Ta tundis end süüdi, et lastele ei jätkunud aega.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%BC%C3%BCdi%20tundma/1",
-     "audio_file": "audio/7e810cd1fcadb829.mp3"
+     "audio_file": "audio/7e810cd1fcadb829.mp3",
+     "audio_file_m": "audio/b8bed44a4e871f8f.mp3"
     }
    ],
    "module": "sonavara"

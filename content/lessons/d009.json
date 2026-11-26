@@ -1,12 +1,12 @@
 {
  "id": "d009",
  "day": 9,
- "version": 4,
+ "version": 5,
  "skill": "lugemine",
  "title": "Linnast maale",
  "title_ru": "Из города в деревню",
  "topic": "eluase ja elukeskkond",
- "minutes": 36,
+ "minutes": 37,
  "goal_ru": "Чтение: статья о переезде в деревню. Мнения разных людей, понимание деталей и смысла слов из контекста.",
  "blocks": [
   {
@@ -20,97 +20,121 @@
      "ru": "недвижимость",
      "example": "Kinnisvara hinnad on pealinnas kõrged.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kinnisvara/1",
-     "audio_file": "audio/a5ed20366b8e50cc.mp3"
+     "audio_file": "audio/a5ed20366b8e50cc.mp3",
+     "audio_file_m": "audio/bef6946f1a8d18b2.mp3"
     },
     {
      "et": "kodulaen",
      "ru": "ипотека",
      "example": "Maja ostmiseks võtsid nad kodulaenu.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodulaen/1",
-     "audio_file": "audio/267053b4642fc2bb.mp3"
+     "audio_file": "audio/267053b4642fc2bb.mp3",
+     "audio_file_m": "audio/9009d0cc89c115b3.mp3"
     },
     {
      "et": "endale lubama",
      "ru": "позволить себе",
      "example": "Pealinnas oleksime saanud endale lubada ainult väikese korteri.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/endale%20lubama/1",
-     "audio_file": "audio/5f688f6cb3913dd5.mp3"
+     "audio_file": "audio/5f688f6cb3913dd5.mp3",
+     "audio_file_m": "audio/5e81ae4517f07f05.mp3"
     },
     {
      "et": "kohalik omavalitsus",
      "ru": "местное самоуправление",
      "example": "Kohalik omavalitsus toetab noori peresid.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohalik%20omavalitsus/1",
-     "audio_file": "audio/b5555b78226d1fdb.mp3"
+     "audio_file": "audio/b5555b78226d1fdb.mp3",
+     "audio_file_m": "audio/5a97a316f9cd12d1.mp3"
     },
     {
      "et": "vallavanem",
      "ru": "волостной старейшина (глава волости)",
      "example": "Vallavanem rõhutas teede olulisust.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vallavanem/1",
-     "audio_file": "audio/e27404fdced45b41.mp3"
+     "audio_file": "audio/e27404fdced45b41.mp3",
+     "audio_file_m": "audio/84d644ca8d43358b.mp3"
     },
     {
      "et": "suundumus",
      "ru": "тенденция",
      "example": "See suundumus on viimastel aastatel tugevnenud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/suundumus/1",
-     "audio_file": "audio/66883a9f1cc666e6.mp3"
+     "audio_file": "audio/66883a9f1cc666e6.mp3",
+     "audio_file_m": "audio/ad88578db9b5bf66.mp3"
     },
     {
      "et": "elukvaliteet",
      "ru": "качество жизни",
      "example": "Paljudele on elukvaliteet olulisem kui palk.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukvaliteet/1",
-     "audio_file": "audio/56fa306b7b7fb870.mp3"
+     "audio_file": "audio/56fa306b7b7fb870.mp3",
+     "audio_file_m": "audio/efa5324d484b21da.mp3"
     },
     {
      "et": "tööteekond",
      "ru": "дорога на работу",
      "example": "Lühike tööteekond säästab aega.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6teekond/1",
-     "audio_file": "audio/35f8bc32630c756e.mp3"
+     "audio_file": "audio/35f8bc32630c756e.mp3",
+     "audio_file_m": "audio/7da34800ff00aee2.mp3"
     },
     {
      "et": "tühjenema",
      "ru": "пустеть",
      "example": "Maapiirkonnad tühjenevad.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%BChjenema/1",
-     "audio_file": "audio/64359452d2f86a17.mp3"
+     "audio_file": "audio/64359452d2f86a17.mp3",
+     "audio_file_m": "audio/99819f27c780df4d.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Mees: Vaatasin seda maja Raplamaal. Hind on poole väiksem kui meie korteril Tallinnas.\nNaine: Kõlab hästi, aga mõtle, kui kaua sa iga päev tööle sõidaksid.\nMees: Ma käiksin kontoris ainult kaks korda nädalas. Rongiga on see veidi üle tunni.\nNaine: Ja lasteaed? Kuulsin, et seal on pool aastat järjekorda.\nMees: See on tõsi. Võib-olla peaksime kõigepealt seal suve veetma ja siis otsustama.",
+   "tasks": [
     {
-     "audio": "Kinnisvara hinnad on pealinnas kõrged.",
-     "answer": [
-      "Kinnisvara hinnad on pealinnas kõrged."
+     "kind": "mc",
+     "q": "Kui palju maksab maja võrreldes nende korteriga?",
+     "options": [
+      "sama palju",
+      "poole vähem",
+      "kaks korda rohkem"
      ],
-     "audio_file": "audio/66332b5978c10ee0.mp3"
+     "answer": 1,
+     "explain_ru": "«Hind on poole väiksem» — вдвое меньше."
     },
     {
-     "audio": "Maja ostmiseks võtsid nad kodulaenu.",
-     "answer": [
-      "Maja ostmiseks võtsid nad kodulaenu."
+     "kind": "mc",
+     "q": "Mitu korda nädalas käiks mees kontoris?",
+     "options": [
+      "üks",
+      "kaks",
+      "viis"
      ],
-     "audio_file": "audio/1b52f5c6732643d2.mp3"
+     "answer": 1,
+     "explain_ru": "«Ma käiksin kontoris ainult kaks korda nädalas» (условное наклонение: ходил бы)."
     },
     {
-     "audio": "Pealinnas oleksime saanud endale lubada ainult väikese korteri.",
-     "answer": [
-      "Pealinnas oleksime saanud endale lubada ainult väikese korteri."
+     "kind": "mc",
+     "q": "Mida mees lõpuks ette paneb?",
+     "options": [
+      "kohe maja osta",
+      "veeta seal enne otsustamist suvi",
+      "otsida lasteaeda Tallinnas"
      ],
-     "audio_file": "audio/43cfbd4301f8896d.mp3"
+     "answer": 1,
+     "explain_ru": "«peaksime kõigepealt seal suve veetma ja siis otsustama» — сначала провести там лето, потом решать."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/d27a76f07ceb8be5.mp3"
   },
   {
    "type": "reading",

@@ -1,12 +1,12 @@
 {
  "id": "d005",
  "day": 5,
- "version": 4,
+ "version": 5,
  "skill": "grammatika",
  "title": "Sihitis: terve või osa?",
  "title_ru": "Объект: полный или частичный?",
  "topic": "tervis",
- "minutes": 39,
+ "minutes": 40,
  "goal_ru": "Самая частая ошибка русскоязычных на B2 — падеж объекта. Повторяем правило на теме «здоровье».",
  "blocks": [
   {
@@ -20,97 +20,121 @@
      "ru": "предупреждать, предотвращать",
      "example": "Haigusi on lihtsam ennetada kui ravida.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ennetama/1",
-     "audio_file": "audio/3d92dc5bf5bd6d24.mp3"
+     "audio_file": "audio/3d92dc5bf5bd6d24.mp3",
+     "audio_file_m": "audio/dde544256bd20b40.mp3"
     },
     {
      "et": "tervisekontroll",
      "ru": "медосмотр",
      "example": "Iga-aastane tervisekontroll aitab probleeme varakult märgata.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tervisekontroll/1",
-     "audio_file": "audio/86628cd8160d93e1.mp3"
+     "audio_file": "audio/86628cd8160d93e1.mp3",
+     "audio_file_m": "audio/47f90a410a3864ed.mp3"
     },
     {
      "et": "haigusleht",
      "ru": "больничный лист",
      "example": "Võtsin kolmeks päevaks haiguslehe.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/haigusleht/1",
-     "audio_file": "audio/e577cee0edcf1640.mp3"
+     "audio_file": "audio/e577cee0edcf1640.mp3",
+     "audio_file_m": "audio/0b03ea37dc59784b.mp3"
     },
     {
      "et": "vastuvõtule kirja panema",
      "ru": "записать на приём",
      "example": "Pange end arsti vastuvõtule kirja.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuv%C3%B5tule%20kirja%20panema/1",
-     "audio_file": "audio/08656f0517b7b5cf.mp3"
+     "audio_file": "audio/08656f0517b7b5cf.mp3",
+     "audio_file_m": "audio/29143e09957704b9.mp3"
     },
     {
      "et": "krooniline",
      "ru": "хронический",
      "example": "Kroonilised haigused vajavad pidevat ravi.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/krooniline/1",
-     "audio_file": "audio/348b736a2dfdf827.mp3"
+     "audio_file": "audio/348b736a2dfdf827.mp3",
+     "audio_file_m": "audio/bd361ca6ee7d3fe0.mp3"
     },
     {
      "et": "immuunsus",
      "ru": "иммунитет",
      "example": "Piisav uni tugevdab immuunsust.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/immuunsus/1",
-     "audio_file": "audio/55686d9ddf054d15.mp3"
+     "audio_file": "audio/55686d9ddf054d15.mp3",
+     "audio_file_m": "audio/a93b76d6753b8213.mp3"
     },
     {
      "et": "istuv eluviis",
      "ru": "сидячий образ жизни",
      "example": "Istuv eluviis kahjustab tervist.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/istuv%20eluviis/1",
-     "audio_file": "audio/d526926f2d6c038a.mp3"
+     "audio_file": "audio/d526926f2d6c038a.mp3",
+     "audio_file_m": "audio/fd8b64c13795e15c.mp3"
     },
     {
      "et": "varakult märkama",
      "ru": "вовремя заметить",
      "example": "Probleemi on oluline varakult märgata.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varakult%20m%C3%A4rkama/1",
-     "audio_file": "audio/e9dd2b16e69fff5d.mp3"
+     "audio_file": "audio/e9dd2b16e69fff5d.mp3",
+     "audio_file_m": "audio/7231fb6ef9f286d6.mp3"
     },
     {
      "et": "retseptiravim",
      "ru": "рецептурное лекарство",
      "example": "Retseptiravimit saab apteegist osta ainult retsepti alusel.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/retseptiravim/1",
-     "audio_file": "audio/5bb0a2dcb3463350.mp3"
+     "audio_file": "audio/5bb0a2dcb3463350.mp3",
+     "audio_file_m": "audio/1c359a6106018f7d.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Naine: Perearstikeskus, tere.\nMees: Tere. Mul on juba nädal aega köha ja palavik ei lange. Kas saaksin arsti juurde tulla?\nNaine: Arsti vabad ajad on alles järgmisel nädalal, aga pereõde saab teid vastu võtta juba homme kell üheksa.\nMees: Sobib. Kas pean midagi kaasa võtma?\nNaine: Ainult isikut tõendava dokumendi. Ja kui palavik tõuseb üle kolmekümne üheksa kraadi, helistage kohe perearsti nõuandeliinile.",
+   "tasks": [
     {
-     "audio": "Haigusi on lihtsam ennetada kui ravida.",
-     "answer": [
-      "Haigusi on lihtsam ennetada kui ravida."
+     "kind": "mc",
+     "q": "Kui kaua on mehel köha olnud?",
+     "options": [
+      "üks päev",
+      "nädal aega",
+      "kuu aega"
      ],
-     "audio_file": "audio/0e97a40e1343610b.mp3"
+     "answer": 1,
+     "explain_ru": "«Mul on juba nädal aega köha» — уже неделю."
     },
     {
-     "audio": "Iga-aastane tervisekontroll aitab probleeme varakult märgata.",
-     "answer": [
-      "Iga-aastane tervisekontroll aitab probleeme varakult märgata."
+     "kind": "mc",
+     "q": "Kelle vastuvõtule mees homme läheb?",
+     "options": [
+      "perearsti",
+      "pereõe",
+      "apteekri"
      ],
-     "audio_file": "audio/f496430e6f7b1f50.mp3"
+     "answer": 1,
+     "explain_ru": "«pereõde saab teid vastu võtta juba homme»."
     },
     {
-     "audio": "Võtsin kolmeks päevaks haiguslehe.",
-     "answer": [
-      "Võtsin kolmeks päevaks haiguslehe."
+     "kind": "mc",
+     "q": "Mida teha, kui palavik tõuseb üle 39 kraadi?",
+     "options": [
+      "tulla kohe kohale",
+      "helistada nõuandeliinile",
+      "võtta haigusleht"
      ],
-     "audio_file": "audio/6d891fca08258057.mp3"
+     "answer": 1,
+     "explain_ru": "«helistage kohe perearsti nõuandeliinile» — консультационная линия семейного врача (в Эстонии 1220)."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/173d53468066d8dc.mp3"
   },
   {
    "type": "grammar",

@@ -1,7 +1,7 @@
 {
  "id": "d006",
  "day": 6,
- "version": 4,
+ "version": 5,
  "skill": "lugemine",
  "title": "Kas prügi sorteerimisel on mõtet?",
  "title_ru": "Есть ли смысл сортировать мусор?",
@@ -20,101 +20,125 @@
      "ru": "обращение с отходами",
      "example": "Jäätmekäitlus on kohaliku omavalitsuse ülesanne.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmek%C3%A4itlus/1",
-     "audio_file": "audio/8d76ecb0af01050d.mp3"
+     "audio_file": "audio/8d76ecb0af01050d.mp3",
+     "audio_file_m": "audio/9ba8ae0aea430837.mp3"
     },
     {
      "et": "taaskasutama",
      "ru": "повторно использовать",
      "example": "Pakendeid saab taaskasutada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taaskasutama/1",
-     "audio_file": "audio/8b5bca782f768dd4.mp3"
+     "audio_file": "audio/8b5bca782f768dd4.mp3",
+     "audio_file_m": "audio/68cf3688b23b7786.mp3"
     },
     {
      "et": "ladestama",
      "ru": "захоранивать (отходы)",
      "example": "Segaprügi ladestatakse prügilasse.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ladestama/1",
-     "audio_file": "audio/91cbd6b1ef209033.mp3"
+     "audio_file": "audio/91cbd6b1ef209033.mp3",
+     "audio_file_m": "audio/21296797afb7b681.mp3"
     },
     {
      "et": "keskkonnasõbralik",
      "ru": "экологичный",
      "example": "Kõige keskkonnasõbralikum prügi on see, mida ei teki.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskkonnas%C3%B5bralik/1",
-     "audio_file": "audio/7674edbfdc650dd2.mp3"
+     "audio_file": "audio/7674edbfdc650dd2.mp3",
+     "audio_file_m": "audio/4e69d342fd06aaeb.mp3"
     },
     {
      "et": "tekitama",
      "ru": "создавать, образовывать",
      "example": "Me tekitame liiga palju jäätmeid.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tekitama/1",
-     "audio_file": "audio/1fad1295fd088da1.mp3"
+     "audio_file": "audio/1fad1295fd088da1.mp3",
+     "audio_file_m": "audio/aad2451afc7c0902.mp3"
     },
     {
      "et": "kohustuslik",
      "ru": "обязательный",
      "example": "Sorteerimine on muutunud kohustuslikuks.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohustuslik/1",
-     "audio_file": "audio/5d880ffc81a07b7c.mp3"
+     "audio_file": "audio/5d880ffc81a07b7c.mp3",
+     "audio_file_m": "audio/6377b7ae87f7499b.mp3"
     },
     {
      "et": "tõele vastama",
      "ru": "соответствовать действительности",
      "example": "See arvamus ei vasta tõele.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B5ele%20vastama/1",
-     "audio_file": "audio/1b33db2d22782607.mp3"
+     "audio_file": "audio/1b33db2d22782607.mp3",
+     "audio_file_m": "audio/5b15a64bfabef03f.mp3"
     },
     {
      "et": "märgatavalt",
      "ru": "заметно",
      "example": "Sorteerimine vähendab prügiarvet märgatavalt.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4rgatavalt/1",
-     "audio_file": "audio/fea1b61b8b07fa2a.mp3"
+     "audio_file": "audio/fea1b61b8b07fa2a.mp3",
+     "audio_file_m": "audio/dd30ddecb5343bb0.mp3"
     },
     {
      "et": "ohtlikud jäätmed",
      "ru": "опасные отходы",
      "example": "Patareid on ohtlikud jäätmed.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohtlikud%20j%C3%A4%C3%A4tmed/1",
-     "audio_file": "audio/3f61fd7bd8bdf2b0.mp3"
+     "audio_file": "audio/3f61fd7bd8bdf2b0.mp3",
+     "audio_file_m": "audio/8035e2dec3c5b0c0.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Mees: Vabandust, aga sellesse konteinerisse ei tohi pappkaste panna. See on ainult pakendite jaoks.\nNaine: Tõesti? Ma arvasin, et papp on ka pakend.\nMees: Loogiline küll, aga meie majas kogutakse paberit ja pappi eraldi. Sinine konteiner on seal nurga taga.\nNaine: Ah, ma ei olnud seda märganudki. Aga kuhu panna vanad patareid?\nMees: Need viige poodi. Peaaegu igas suuremas poes on patareide kogumiskast.",
+   "tasks": [
     {
-     "audio": "Jäätmekäitlus on kohaliku omavalitsuse ülesanne.",
-     "answer": [
-      "Jäätmekäitlus on kohaliku omavalitsuse ülesanne."
+     "kind": "mc",
+     "q": "Mis oli naise viga?",
+     "options": [
+      "Ta pani papi pakendikonteinerisse.",
+      "Ta viskas patareid prügikasti.",
+      "Ta jättis prügi ukse taha."
      ],
-     "audio_file": "audio/de8b8fc31e9b1b4c.mp3"
+     "answer": 0,
+     "explain_ru": "«sellesse konteinerisse ei tohi pappkaste panna. See on ainult pakendite jaoks»: картон положили в контейнер для упаковки."
     },
     {
-     "audio": "Pakendeid saab taaskasutada.",
-     "answer": [
-      "Pakendeid saab taaskasutada."
+     "kind": "mc",
+     "q": "Mis värvi on paberi ja papi konteiner?",
+     "options": [
+      "kollane",
+      "sinine",
+      "pruun"
      ],
-     "audio_file": "audio/5e248f2a061af528.mp3"
+     "answer": 1,
+     "explain_ru": "«Sinine konteiner on seal nurga taga»."
     },
     {
-     "audio": "Segaprügi ladestatakse prügilasse.",
-     "answer": [
-      "Segaprügi ladestatakse prügilasse."
+     "kind": "mc",
+     "q": "Kuhu tuleb vanad patareid viia?",
+     "options": [
+      "prügilasse",
+      "poodi",
+      "pakendikonteinerisse"
      ],
-     "audio_file": "audio/1beb7d350808d3b7.mp3"
+     "answer": 1,
+     "explain_ru": "«Need viige poodi» — в магазинах есть ящики для батареек."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/c0b1dd8c5493a8ad.mp3"
   },
   {
    "type": "reading",
-   "minutes": 17,
+   "minutes": 16,
    "title": "Lugemine",
    "instruction_ru": "Сначала прочитайте весь текст, не глядя на варианты. Потом для каждого пропуска [1]–[4] выберите предложение. Смотрите на связь с предыдущим и следующим предложением.",
    "text": "Kas prügi sorteerimisel on mõtet?\n\nViimastel aastatel on jäätmete sorteerimine muutunud Eestis kohustuslikuks. Kodudes tuleb eraldi koguda pakendeid, paberit, biojäätmeid ja ohtlikke jäätmeid. [1] Paljud inimesed aga kahtlevad, kas sellel on üldse mõtet.\n\nLevinud on arvamus, et prügiauto viib kõik konteinerid lõpuks ikkagi samasse kohta. Jäätmekäitlejate sõnul ei vasta see tõele. [2] Näiteks pakenditest valmistatakse uusi tooteid ja biojäätmetest toodetakse komposti või biogaasi.\n\nSorteerimisel on ka rahaline pool. Segaolmejäätmete äravedu on kallim kui sorteeritud jäätmete oma. [3] Seega võib korrusmaja, mille elanikud prügi hoolikalt sorteerivad, maksta prügiveo eest märgatavalt vähem.\n\nSpetsialistide arvates on kõige suurem probleem siiski see, et me tekitame liiga palju jäätmeid. [4] Kõige keskkonnasõbralikum prügi on see, mida üldse ei teki. Seepärast tasub poes valida vähem pakendatud kaupu ning kanda kaasas oma kotti.",

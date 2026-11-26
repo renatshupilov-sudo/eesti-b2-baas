@@ -1,7 +1,7 @@
 {
  "id": "d011",
  "day": 11,
- "version": 4,
+ "version": 5,
  "skill": "lugemine",
  "title": "Tehisintellekt klassiruumis",
  "title_ru": "Искусственный интеллект в классе",
@@ -20,101 +20,125 @@
      "ru": "доступный",
      "example": "Vestlusrobotid said laialdaselt kättesaadavaks.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/k%C3%A4ttesaadav/1",
-     "audio_file": "audio/743135386460da51.mp3"
+     "audio_file": "audio/743135386460da51.mp3",
+     "audio_file_m": "audio/95dbd4b9ce7a1591.mp3"
     },
     {
      "et": "tulemuslik",
      "ru": "результативный",
      "example": "Keelamine ei osutunud tulemuslikuks.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tulemuslik/1",
-     "audio_file": "audio/6a8e068098113791.mp3"
+     "audio_file": "audio/6a8e068098113791.mp3",
+     "audio_file_m": "audio/601b75177f15998d.mp3"
     },
     {
      "et": "valeinfo",
      "ru": "ложная информация",
      "example": "Masin võib enesekindlalt esitada valeinfot.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/valeinfo/1",
-     "audio_file": "audio/8d65d343a0346db7.mp3"
+     "audio_file": "audio/8d65d343a0346db7.mp3",
+     "audio_file_m": "audio/2827c8c9c90e24a4.mp3"
     },
     {
      "et": "allikakriitika",
      "ru": "критическая оценка источников",
      "example": "Allikakriitika on infoajastul hädavajalik.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikakriitika/1",
-     "audio_file": "audio/979a4d18e4b20f55.mp3"
+     "audio_file": "audio/979a4d18e4b20f55.mp3",
+     "audio_file_m": "audio/d7f82385318bee8f.mp3"
     },
     {
      "et": "mõttekäik",
      "ru": "ход мысли",
      "example": "Õpilane peab oskama oma mõttekäiku selgitada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%B5ttek%C3%A4ik/1",
-     "audio_file": "audio/b9c7bb1bf488713f.mp3"
+     "audio_file": "audio/b9c7bb1bf488713f.mp3",
+     "audio_file_m": "audio/a0f0b0f69afcd381.mp3"
     },
     {
      "et": "eitama",
      "ru": "отрицать",
      "example": "Probleeme ei saa eitada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eitama/1",
-     "audio_file": "audio/d054ba24ed57c1ef.mp3"
+     "audio_file": "audio/d054ba24ed57c1ef.mp3",
+     "audio_file_m": "audio/d12471005589f1e9.mp3"
     },
     {
      "et": "infotulv",
      "ru": "поток информации",
      "example": "Õpetaja aitab infotulvas orienteeruda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/infotulv/1",
-     "audio_file": "audio/1af02d881390808a.mp3"
+     "audio_file": "audio/1af02d881390808a.mp3",
+     "audio_file_m": "audio/d1f6088f6ac5aa41.mp3"
     },
     {
      "et": "asendama",
      "ru": "заменять",
      "example": "Tehisintellekt ei asenda õpetajat.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendama/1",
-     "audio_file": "audio/137add4837335766.mp3"
+     "audio_file": "audio/137add4837335766.mp3",
+     "audio_file_m": "audio/498cd5227d65172b.mp3"
     },
     {
      "et": "juhendaja",
      "ru": "руководитель, наставник",
      "example": "Õpetajast saab üha enam juhendaja.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhendaja/1",
-     "audio_file": "audio/c671164e382b7f92.mp3"
+     "audio_file": "audio/c671164e382b7f92.mp3",
+     "audio_file_m": "audio/40c1960f147d34a8.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Õpetaja: Mari, su essee oli väga sujuv, aga mõned faktid ei klapi. Kas sa kasutasid tehisintellekti?\nÕpilane: Jah, ideede kogumiseks, aga teksti kirjutasin ise.\nÕpetaja: Selles pole midagi halba, aga allikad tuleb alati üle kontrollida. Näiteks Tartu ülikool ei ole asutatud aastal tuhat kuussada nelikümmend kaks, vaid tuhat kuussada kolmkümmend kaks.\nÕpilane: Oi, see on piinlik. Kas ma saan essee parandada?\nÕpetaja: Saad. Too see reedeks.",
+   "tasks": [
     {
-     "audio": "Vestlusrobotid said laialdaselt kättesaadavaks.",
-     "answer": [
-      "Vestlusrobotid said laialdaselt kättesaadavaks."
+     "kind": "mc",
+     "q": "Milleks Mari tehisintellekti kasutas?",
+     "options": [
+      "kogu essee kirjutamiseks",
+      "ideede kogumiseks",
+      "vigade parandamiseks"
      ],
-     "audio_file": "audio/3a396443724478f3.mp3"
+     "answer": 1,
+     "explain_ru": "«ideede kogumiseks, aga teksti kirjutasin ise»."
     },
     {
-     "audio": "Keelamine ei osutunud tulemuslikuks.",
-     "answer": [
-      "Keelamine ei osutunud tulemuslikuks."
+     "kind": "mc",
+     "q": "Mis oli essees valesti?",
+     "options": [
+      "Tartu ülikooli asutamise aasta",
+      "ülikooli nimi",
+      "linna nimi"
      ],
-     "audio_file": "audio/c9817f0a903ea9cf.mp3"
+     "answer": 0,
+     "explain_ru": "Ошиблась в годе: 1642 вместо 1632."
     },
     {
-     "audio": "Masin võib enesekindlalt esitada valeinfot.",
-     "answer": [
-      "Masin võib enesekindlalt esitada valeinfot."
+     "kind": "mc",
+     "q": "Millal peab Mari parandatud essee tooma?",
+     "options": [
+      "homme",
+      "reedeks",
+      "järgmisel nädalal"
      ],
-     "audio_file": "audio/b34269ccdf0fcf46.mp3"
+     "answer": 1,
+     "explain_ru": "«Too see reedeks» — к пятнице (транслатив -ks = срок)."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/c00d32affbc276ee.mp3"
   },
   {
    "type": "reading",
-   "minutes": 17,
+   "minutes": 16,
    "title": "Lugemine",
    "text": "Tehisintellekt klassiruumis\n\nKui mõni aasta tagasi said tehisintellekti vestlusrobotid laialdaselt kättesaadavaks, kartsid paljud õpetajad, et kodutööd kaotavad mõtte. Milleks õpilane peaks ise essee kirjutama, kui masin teeb selle mõne sekundiga? Esimene reaktsioon oli paljudes koolides keelata.\n\nPraeguseks on suhtumine muutunud. Õpetajad on mõistnud, et keelamine on sama vähe tulemuslik kui omal ajal taskuarvutite või Vikipeedia keelamine. Selle asemel otsitakse viise, kuidas uut tehnoloogiat targalt kasutada. Näiteks laseb ajalooõpetaja Kristi Ilves õpilastel kõigepealt tehisintellektiga essee koostada ja seejärel selle vead üles leida. „Õpilased avastavad üllatusega, et masin esitab enesekindlalt ka valeinfot,“ ütleb ta.\n\nSamas ei saa probleeme eitada. Kui õpilane laseb kõik ülesanded masinal ära teha, ei arene tema enda oskused. Seepärast on paljud koolid muutnud hindamist: rohkem tähtsust antakse klassis tehtavale tööle, suulistele esitlustele ja sellele, kuidas õpilane oma mõttekäiku selgitab.\n\nEksperdid rõhutavad, et kõige tähtsam oskus tehisintellekti ajastul on kriitiline mõtlemine. Õpilane peab oskama küsida, kust info pärineb, ja kontrollima allikaid. Tehisintellekt ei asenda õpetajat, kuid muudab tema rolli: õpetajast saab üha enam juhendaja, kes aitab õpilasel infotulvas orienteeruda.",
    "tasks": [

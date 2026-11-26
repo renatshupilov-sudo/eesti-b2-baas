@@ -240,6 +240,9 @@
               "audio_file": {
                 "type": "string",
                 "description": "путь к mp3 относительно content/"
+              },
+              "audio_file_m": {
+                "type": "string"
               }
             }
           }
@@ -356,6 +359,10 @@
         "optional": {
           "type": "boolean",
           "description": "Необязательный блок, не входит в 30–40 минут"
+        },
+        "audio_file_m": {
+          "type": "string",
+          "description": "то же, мужской голос"
         }
       },
       "allOf": [

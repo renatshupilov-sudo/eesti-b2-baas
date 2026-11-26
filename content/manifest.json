@@ -1,6 +1,6 @@
 {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-4",
+ "contentVersion": "2026.11.26-5",
  "updatedAt": "2026-11-26",
  "language": "et",
  "level": "B2",
@@ -10,6 +10,11 @@
   "urlTemplate": "https://sonaveeb.ee/search/unif/dlall/dsall/{word}/1"
  },
  "changelog": [
+  {
+   "version": "2026.11.26-5",
+   "date": "2026-11-26",
+   "ru": "Вместо диктантов из отдельных предложений — короткие диалоги с вопросами. Урок 7: длинная лекция «Eesti mets» (около 5–6 минут). Выбор мужского или женского голоса, речь по умолчанию медленнее на 20%."
+  },
   {
    "version": "2026.11.26-4",
    "date": "2026-11-26",
@@ -88,170 +93,170 @@
   {
    "id": "d001",
    "day": 1,
-   "version": 4,
+   "version": 5,
    "skill": "lugemine",
    "title": "Kaugtöö: vabadus või üksindus?",
    "title_ru": "Удалённая работа: свобода или одиночество?",
    "topic": "töö",
    "minutes": 40,
    "file": "lessons/d001.json",
-   "sha256": "9d7dfab3baaf651f1474922ca11484f237f7779392e817b0f085ccf2479cc8e5"
+   "sha256": "639c97bb95a9dd88140f1423fa96e5018d8930c23c6819384c6acc3537ee20a3"
   },
   {
    "id": "d002",
    "day": 2,
-   "version": 4,
+   "version": 5,
    "skill": "kuulamine",
    "title": "Bussid on hommikuti täis",
    "title_ru": "Утром автобусы переполнены",
    "topic": "linn ja transport",
-   "minutes": 38,
+   "minutes": 36,
    "file": "lessons/d002.json",
-   "sha256": "de8cdc1091bf778f85dd496dbd6a89ecaca3d64ee8a11d0c4fbbe2ca44b86040"
+   "sha256": "e6b2793768c8b7d4cc618f5dd828eacbc5566051a08b70c955a4457939592e36"
   },
   {
    "id": "d003",
    "day": 3,
-   "version": 4,
+   "version": 5,
    "skill": "kirjutamine",
    "title": "Kaebus e-poele",
    "title_ru": "Жалоба в интернет-магазин",
    "topic": "tarbimine",
    "minutes": 40,
    "file": "lessons/d003.json",
-   "sha256": "6f7d6902d373b3770d8b17eb37bc02b731ec985459d3574c17e6ba216cad0687"
+   "sha256": "5b14dd4d8c4bf8b40699a492b32949f80b0fde7fe82eface683f8cc09c1b77ff"
   },
   {
    "id": "d004",
    "day": 4,
-   "version": 4,
+   "version": 5,
    "skill": "kuulamine",
    "title": "Täiskasvanuna jälle koolipingis",
    "title_ru": "Снова за партой во взрослом возрасте",
    "topic": "haridus",
    "minutes": 31,
    "file": "lessons/d004.json",
-   "sha256": "2cfd9b2962b5bfe4fdb29a390ee32bcabd760cbbfb6f7ae3ff8cb4dcbf1c69b6"
+   "sha256": "c9924982fda7c7f39d7f5a127ecbf8fa0bfbe43242d03e5d1bbcc73645c620c9"
   },
   {
    "id": "d005",
    "day": 5,
-   "version": 4,
+   "version": 5,
    "skill": "grammatika",
    "title": "Sihitis: terve või osa?",
    "title_ru": "Объект: полный или частичный?",
    "topic": "tervis",
-   "minutes": 39,
+   "minutes": 40,
    "file": "lessons/d005.json",
-   "sha256": "8da85a08134024db8e87b991819a5cdf64cf3144ce6fce1f889fe0da52b77aab"
+   "sha256": "c0736df342cb2b5534626be67708c5af657eddf2b54d6729027031725be4cd3e"
   },
   {
    "id": "d006",
    "day": 6,
-   "version": 4,
+   "version": 5,
    "skill": "lugemine",
    "title": "Kas prügi sorteerimisel on mõtet?",
    "title_ru": "Есть ли смысл сортировать мусор?",
    "topic": "keskkond",
    "minutes": 40,
    "file": "lessons/d006.json",
-   "sha256": "a81a0f240b5c49e0f09ec78b3432d7c30979799806f850704c42ca2e33ae28ab"
+   "sha256": "0a0cc4b9910e986ada83f91f852be1a45eefc7c02458e380b4da920fc6bdaf1a"
   },
   {
    "id": "d007",
    "day": 7,
-   "version": 4,
+   "version": 5,
    "skill": "kuulamine",
-   "title": "Vabatahtlik toidupangas",
-   "title_ru": "Волонтёр в продовольственном банке",
-   "topic": "ühiskond",
-   "minutes": 31,
+   "title": "Eesti mets",
+   "title_ru": "Эстонский лес",
+   "topic": "loodus",
+   "minutes": 33,
    "file": "lessons/d007.json",
-   "sha256": "04adff8bc9568683f50d00a4e6b1d4490405062b117d6cc8640fc99bb7cb9323"
+   "sha256": "f38614300dba1665914979bf7194e9728108fd79c199c056acb27e0825b75cc0"
   },
   {
    "id": "d008",
    "day": 8,
-   "version": 4,
+   "version": 5,
    "skill": "kirjutamine",
    "title": "Nutitelefonid koolis",
    "title_ru": "Смартфоны в школе",
    "topic": "haridus ja tehnoloogia",
    "minutes": 40,
    "file": "lessons/d008.json",
-   "sha256": "b5ed01005d0b87d3679ebac6fce895e5af801e57e629fa1342835e37131c1e50"
+   "sha256": "24e197c28b3a8d222e6084ba14d850def2cc976c105c2ba6042ce92d91fcd083"
   },
   {
    "id": "d009",
    "day": 9,
-   "version": 4,
+   "version": 5,
    "skill": "lugemine",
    "title": "Linnast maale",
    "title_ru": "Из города в деревню",
    "topic": "eluase ja elukeskkond",
-   "minutes": 36,
+   "minutes": 37,
    "file": "lessons/d009.json",
-   "sha256": "6967f55ee69efa3029d7fe3fb2ee46f7b24ca1dd5a9a99cec8ef95300f397036"
+   "sha256": "769c739a50ea937af1ff0f5c3d9e38d5c28204ca22aca1abe66a4e7b8b61be0f"
   },
   {
    "id": "d010",
    "day": 10,
-   "version": 4,
+   "version": 5,
    "skill": "grammatika",
    "title": "-ma, -da ja -des",
    "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
    "topic": "kultuur ja vaba aeg",
-   "minutes": 34,
+   "minutes": 35,
    "file": "lessons/d010.json",
-   "sha256": "915c97cb0e6d302b56de56342788cb58312edd8ef31e9e75e20de11aca0be281"
+   "sha256": "22a745777ef4b9befefd4717679a303df4bb227611d592541a0630f0bbb6c64b"
   },
   {
    "id": "d011",
    "day": 11,
-   "version": 4,
+   "version": 5,
    "skill": "lugemine",
    "title": "Tehisintellekt klassiruumis",
    "title_ru": "Искусственный интеллект в классе",
    "topic": "tehnoloogia",
    "minutes": 40,
    "file": "lessons/d011.json",
-   "sha256": "d1f40cc7cdac7ab1db36eaf28dad92255de793c10418a70f7d5ac2ad546a8ef0"
+   "sha256": "343587b0745a8a0183c1c7a81c5fa5b3389b4672a4cd5cffacb819674a8777d6"
   },
   {
    "id": "d012",
    "day": 12,
-   "version": 4,
+   "version": 5,
    "skill": "kuulamine",
    "title": "Teadaanded ja uudised",
    "title_ru": "Объявления и новости",
    "topic": "igapäevaelu",
-   "minutes": 38,
+   "minutes": 33,
    "file": "lessons/d012.json",
-   "sha256": "4afbdc9a9798426feafd8ca2314348d2d6614f1467ddba15b4d8589e562dafce"
+   "sha256": "c212436c95bb4eea9ea6df03baa8d85ad6f76d48bd5cadd89464607bbb5dbc5e"
   },
   {
    "id": "d013",
    "day": 13,
-   "version": 4,
+   "version": 5,
    "skill": "kirjutamine",
    "title": "Ettepanek korteriühistule",
    "title_ru": "Предложение товариществу собственников",
    "topic": "eluase ja kogukond",
    "minutes": 40,
    "file": "lessons/d013.json",
-   "sha256": "d669681d8596dd2693f89744f8e94722fb5b4453b651703f386fb807ae4922c1"
+   "sha256": "7c62d5478e1bede2863a5fd2f2d9b5b5d444bf88b900c33be0428274dba56bb7"
   },
   {
    "id": "d014",
    "day": 14,
-   "version": 4,
+   "version": 5,
    "skill": "proovieksam",
    "title": "Väike proovieksam",
    "title_ru": "Мини-пробный экзамен",
    "topic": "kordamine",
    "minutes": 38,
    "file": "lessons/d014.json",
-   "sha256": "af7b7378eccf6cc2a00595d05804b04c68adc2f109072bb87ed30cfd60cdd96a"
+   "sha256": "882fe87522eb3d2d64fcf7eb221970eee36ec91ea1a87d5070b658898519e196"
   }
  ],
  "modules": [
@@ -320,7 +325,7 @@
      "lesson": "d007",
      "block": 0,
      "title": "Sõnavara",
-     "topic": "ühiskond",
+     "topic": "loodus",
      "minutes": 5
     },
     {
@@ -389,9 +394,9 @@
     {
      "lesson": "d001",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "töö",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d002",
@@ -403,16 +408,16 @@
     {
      "lesson": "d002",
      "block": 2,
-     "title": "Arvud kuulmise järgi",
+     "title": "Lühidialoog",
      "topic": "linn ja transport",
-     "minutes": 7
+     "minutes": 5
     },
     {
      "lesson": "d003",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "tarbimine",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d004",
@@ -424,51 +429,51 @@
     {
      "lesson": "d005",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "tervis",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d006",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "keskkond",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d007",
      "block": 1,
-     "title": "Intervjuu vabatahtlikuga",
-     "topic": "ühiskond",
-     "minutes": 18
+     "title": "Raadioloeng: Eesti mets",
+     "topic": "loodus",
+     "minutes": 20
     },
     {
      "lesson": "d008",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "haridus ja tehnoloogia",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d009",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "eluase ja elukeskkond",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d010",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "kultuur ja vaba aeg",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d011",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "tehnoloogia",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d012",
@@ -480,16 +485,16 @@
     {
      "lesson": "d012",
      "block": 2,
-     "title": "Kellaajad ja kuupäevad",
+     "title": "Lühidialoog",
      "topic": "igapäevaelu",
-     "minutes": 10
+     "minutes": 5
     },
     {
      "lesson": "d013",
      "block": 1,
-     "title": "Kuula ja kirjuta",
+     "title": "Lühidialoog",
      "topic": "eluase ja kogukond",
-     "minutes": 4
+     "minutes": 5
     },
     {
      "lesson": "d014",
@@ -551,7 +556,7 @@
      "lesson": "d007",
      "block": 3,
      "title": "Verbide rektsioon",
-     "topic": "ühiskond",
+     "topic": "loodus",
      "minutes": 5
     },
     {
@@ -615,7 +620,7 @@
      "block": 2,
      "title": "Lugemine",
      "topic": "töö",
-     "minutes": 16
+     "minutes": 15
     },
     {
      "lesson": "d005",
@@ -629,7 +634,7 @@
      "block": 2,
      "title": "Lugemine",
      "topic": "keskkond",
-     "minutes": 17
+     "minutes": 16
     },
     {
      "lesson": "d009",
@@ -643,7 +648,7 @@
      "block": 2,
      "title": "Lugemine",
      "topic": "tehnoloogia",
-     "minutes": 17
+     "minutes": 16
     },
     {
      "lesson": "d014",
@@ -664,21 +669,21 @@
      "block": 3,
      "title": "Kirjutamine: kaebus",
      "topic": "tarbimine",
-     "minutes": 20
+     "minutes": 19
     },
     {
      "lesson": "d008",
      "block": 3,
      "title": "Kirjutamine: arvamuskirjutis",
      "topic": "haridus ja tehnoloogia",
-     "minutes": 19
+     "minutes": 18
     },
     {
      "lesson": "d013",
      "block": 3,
      "title": "Kirjutamine: ettepanek",
      "topic": "eluase ja kogukond",
-     "minutes": 16
+     "minutes": 15
     },
     {
      "lesson": "d014",
@@ -695,7 +700,10 @@
   {
    "topic": "loodus",
    "ru": "природа",
-   "status": "planned"
+   "status": "partly",
+   "lessons": [
+    "d007"
+   ]
   },
   {
    "topic": "majandus",
@@ -718,10 +726,7 @@
   {
    "topic": "ühiskond",
    "ru": "общество",
-   "status": "partly",
-   "lessons": [
-    "d007"
-   ]
+   "status": "planned"
   },
   {
    "topic": "teadus ja tehnoloogia",

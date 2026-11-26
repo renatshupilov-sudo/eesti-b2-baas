@@ -1,12 +1,12 @@
 {
  "id": "d010",
  "day": 10,
- "version": 4,
+ "version": 5,
  "skill": "grammatika",
  "title": "-ma, -da ja -des",
  "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
  "topic": "kultuur ja vaba aeg",
- "minutes": 34,
+ "minutes": 35,
  "goal_ru": "Глагольные формы, которые чаще всего путают: ma-инфинитив, da-инфинитив и des-форма.",
  "blocks": [
   {
@@ -20,97 +20,121 @@
      "ru": "постановка, спектакль",
      "example": "Uus lavastus esietendub järgmisel nädalal.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/lavastus/1",
-     "audio_file": "audio/b1fe87fa84b8febd.mp3"
+     "audio_file": "audio/b1fe87fa84b8febd.mp3",
+     "audio_file_m": "audio/1d0ede163e201774.mp3"
     },
     {
      "et": "esietendus",
      "ru": "премьера",
      "example": "Esietendusele olid piletid kohe välja müüdud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/esietendus/1",
-     "audio_file": "audio/f62a1d61dd5e6a27.mp3"
+     "audio_file": "audio/f62a1d61dd5e6a27.mp3",
+     "audio_file_m": "audio/ec965bb46ecfc756.mp3"
     },
     {
      "et": "väljapanek",
      "ru": "экспозиция",
      "example": "Muuseumi uus väljapanek räägib Eesti ajaloost.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljapanek/1",
-     "audio_file": "audio/b626c0469a76f1bd.mp3"
+     "audio_file": "audio/b626c0469a76f1bd.mp3",
+     "audio_file_m": "audio/c0d3610b5369df9a.mp3"
     },
     {
      "et": "kultuuripärand",
      "ru": "культурное наследие",
      "example": "Laulupidu on osa Eesti kultuuripärandist.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kultuurip%C3%A4rand/1",
-     "audio_file": "audio/77656c91c0216745.mp3"
+     "audio_file": "audio/77656c91c0216745.mp3",
+     "audio_file_m": "audio/67c21940c1a27912.mp3"
     },
     {
      "et": "harrastus",
      "ru": "хобби, увлечение",
      "example": "Laulmine on minu peamine harrastus.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harrastus/1",
-     "audio_file": "audio/2ab7055fc5decb23.mp3"
+     "audio_file": "audio/2ab7055fc5decb23.mp3",
+     "audio_file_m": "audio/45e77e5b94a93f4e.mp3"
     },
     {
      "et": "elamus",
      "ru": "впечатление, переживание",
      "example": "Kontsert oli tõeline elamus.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elamus/1",
-     "audio_file": "audio/ca904e904368e188.mp3"
+     "audio_file": "audio/ca904e904368e188.mp3",
+     "audio_file_m": "audio/ecf5e52f93c1e8fa.mp3"
     },
     {
      "et": "lõõgastuma",
      "ru": "расслабляться",
      "example": "Lõõgastun kõige paremini metsas jalutades.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1",
-     "audio_file": "audio/12e36b25b7cc8d5a.mp3"
+     "audio_file": "audio/12e36b25b7cc8d5a.mp3",
+     "audio_file_m": "audio/5072746b3161968e.mp3"
     },
     {
      "et": "osalema (milles?)",
      "ru": "участвовать (в чём)",
      "example": "Ma osalen laulukooris.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osalema/1",
-     "audio_file": "audio/0ca93dbe99d7fbe1.mp3"
+     "audio_file": "audio/0ca93dbe99d7fbe1.mp3",
+     "audio_file_m": "audio/5fd2d19d42e83c7d.mp3"
     },
     {
      "et": "välja müüdud",
      "ru": "распроданы",
      "example": "Kõik piletid olid nädal enne kontserti välja müüdud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4lja%20m%C3%BC%C3%BCdud/1",
-     "audio_file": "audio/1c5c32927def80c2.mp3"
+     "audio_file": "audio/1c5c32927def80c2.mp3",
+     "audio_file_m": "audio/358a4c08e596290c.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Naine: Kas sa tuled laupäeval Kumusse kaasa? Seal avati uus näitus.\nMees: Tahaksin küll, aga mul on juba piletid õhtusele kontserdile. Mis kell sa minna plaanid?\nNaine: Mõtlesin kella kaheteistkümne paiku. Kontsert algab ju alles seitsmest.\nMees: Siis sobib. Aga kaua ma jääda ei saa, sest kell viis pean koeraga jalutama minema.\nNaine: Pole hullu, kaks-kolm tundi piisab täiesti.",
+   "tasks": [
     {
-     "audio": "Uus lavastus esietendub järgmisel nädalal.",
-     "answer": [
-      "Uus lavastus esietendub järgmisel nädalal."
+     "kind": "mc",
+     "q": "Kuhu nad laupäeval lähevad?",
+     "options": [
+      "kinno",
+      "näitusele",
+      "teatrisse"
      ],
-     "audio_file": "audio/668286deac06fd17.mp3"
+     "answer": 1,
+     "explain_ru": "«Kumusse … Seal avati uus näitus» — Kumu — художественный музей, идут на выставку."
     },
     {
-     "audio": "Esietendusele olid piletid kohe välja müüdud.",
-     "answer": [
-      "Esietendusele olid piletid kohe välja müüdud."
+     "kind": "mc",
+     "q": "Mis kell algab kontsert?",
+     "options": [
+      "kell 12",
+      "kell 17",
+      "kell 19"
      ],
-     "audio_file": "audio/3641899a994b5cdb.mp3"
+     "answer": 2,
+     "explain_ru": "«algab alles seitsmest» — с семи (вечера) = 19."
     },
     {
-     "audio": "Muuseumi uus väljapanek räägib Eesti ajaloost.",
-     "answer": [
-      "Muuseumi uus väljapanek räägib Eesti ajaloost."
+     "kind": "mc",
+     "q": "Miks mees ei saa näitusel kaua olla?",
+     "options": [
+      "Ta peab koeraga jalutama.",
+      "Ta peab tööle minema.",
+      "Ta on väsinud."
      ],
-     "audio_file": "audio/4052e218a7bcf8cb.mp3"
+     "answer": 0,
+     "explain_ru": "«kell viis pean koeraga jalutama minema»."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/9a4fa25ad7f0533f.mp3"
   },
   {
    "type": "grammar",

@@ -1,7 +1,7 @@
 {
  "id": "d008",
  "day": 8,
- "version": 4,
+ "version": 5,
  "skill": "kirjutamine",
  "title": "Nutitelefonid koolis",
  "title_ru": "Смартфоны в школе",
@@ -20,97 +20,121 @@
      "ru": "внимание рассеивается",
      "example": "Telefoni tõttu hajub tähelepanu.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajub/1",
-     "audio_file": "audio/c5c2b10b4b37bacf.mp3"
+     "audio_file": "audio/c5c2b10b4b37bacf.mp3",
+     "audio_file_m": "audio/218039c69a4ddb60.mp3"
     },
     {
      "et": "küberkiusamine",
      "ru": "кибербуллинг",
      "example": "Küberkiusamine algab sageli koolipäeva jooksul.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/k%C3%BCberkiusamine/1",
-     "audio_file": "audio/9c4a5c26acf71121.mp3"
+     "audio_file": "audio/9c4a5c26acf71121.mp3",
+     "audio_file_m": "audio/5f78554abb762b39.mp3"
     },
     {
      "et": "sõltuvus",
      "ru": "зависимость",
      "example": "Nutisõltuvus on noorte seas levinud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%B5ltuvus/1",
-     "audio_file": "audio/19180964d827713f.mp3"
+     "audio_file": "audio/19180964d827713f.mp3",
+     "audio_file_m": "audio/093f7eea23a60840.mp3"
     },
     {
      "et": "vastutustundlikult",
      "ru": "ответственно",
      "example": "Lapsed peavad õppima tehnoloogiat vastutustundlikult kasutama.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutustundlikult/1",
-     "audio_file": "audio/309e4a4c9e07848c.mp3"
+     "audio_file": "audio/309e4a4c9e07848c.mp3",
+     "audio_file_m": "audio/e2ace2415424be8a.mp3"
     },
     {
      "et": "seisukohta põhjendama",
      "ru": "обосновать позицию",
      "example": "Põhjendage oma seisukohta näidetega.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukohta%20p%C3%B5hjendama/1",
-     "audio_file": "audio/cb83b6957db68093.mp3"
+     "audio_file": "audio/cb83b6957db68093.mp3",
+     "audio_file_m": "audio/6171a168cc826138.mp3"
     },
     {
      "et": "vastuargument",
      "ru": "контраргумент",
      "example": "Hea arvamuskirjutis sisaldab ka vastuargumenti.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuargument/1",
-     "audio_file": "audio/41b4fc599dd84b53.mp3"
+     "audio_file": "audio/41b4fc599dd84b53.mp3",
+     "audio_file_m": "audio/e28f749a86e27bf2.mp3"
     },
     {
      "et": "keeldu kehtestama",
      "ru": "ввести запрет",
      "example": "Mitu kooli on kehtestanud telefonikeelu.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeldu%20kehtestama/1",
-     "audio_file": "audio/cd7827d5b9a4232f.mp3"
+     "audio_file": "audio/cd7827d5b9a4232f.mp3",
+     "audio_file_m": "audio/a1831b2df040ee35.mp3"
     },
     {
      "et": "osaliselt nõustuma",
      "ru": "частично согласиться",
      "example": "Sellega võib osaliselt nõustuda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osaliselt%20n%C3%B5ustuma/1",
-     "audio_file": "audio/4703595547223b43.mp3"
+     "audio_file": "audio/4703595547223b43.mp3",
+     "audio_file_m": "audio/5d4cb398b3a2da3f.mp3"
     },
     {
      "et": "mõistlik",
      "ru": "разумный",
      "example": "Mõistlik lahendus on kokkulepe.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%B5istlik/1",
-     "audio_file": "audio/ff6df41710830f69.mp3"
+     "audio_file": "audio/ff6df41710830f69.mp3",
+     "audio_file_m": "audio/775da018c14b8483.mp3"
     }
    ],
    "module": "sonavara"
   },
   {
-   "type": "dictation",
-   "minutes": 4,
-   "title": "Kuula ja kirjuta",
-   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
-   "items": [
+   "type": "listening",
+   "minutes": 5,
+   "title": "Lühidialoog",
+   "plays": 2,
+   "instruction_ru": "Короткий диалог (30–40 секунд), как в первых заданиях экзамена. Сначала прочитайте вопросы, потом слушайте. Расшифровку откройте только после проверки.",
+   "transcript": "Naine: Kas sa lugesid kooli kirja? Alates järgmisest kuust peavad telefonid terve koolipäeva kapis olema.\nMees: Lugesin. Ausalt öeldes olen sellega nõus. Meie poeg istus vahetundides ainult telefonis.\nNaine: Mina kardan, et me ei saa siis lapsega ühendust. Ta käib pärast kooli trennis.\nMees: Kirjas oli ju öeldud, et pärast viimast tundi võivad nad telefoni kätte võtta. Ja kiire asja korral saab helistada kooli sekretärile.",
+   "tasks": [
     {
-     "audio": "Telefoni tõttu hajub tähelepanu.",
-     "answer": [
-      "Telefoni tõttu hajub tähelepanu."
+     "kind": "mc",
+     "q": "Mis muutub järgmisest kuust?",
+     "options": [
+      "Telefonid peavad olema terve koolipäeva kapis.",
+      "Telefonid on keelatud ainult tundides.",
+      "Õpilased ei tohi telefoni kooli tuua."
      ],
-     "audio_file": "audio/5fe3bc0f0a064d13.mp3"
+     "answer": 0,
+     "explain_ru": "«peavad telefonid terve koolipäeva kapis olema» — весь учебный день, не только на уроках."
     },
     {
-     "audio": "Küberkiusamine algab sageli koolipäeva jooksul.",
-     "answer": [
-      "Küberkiusamine algab sageli koolipäeva jooksul."
+     "kind": "mc",
+     "q": "Miks naine muretseb?",
+     "options": [
+      "Laps hilineb trenni.",
+      "Lapsega ei saa ühendust.",
+      "Kapid ei ole turvalised."
      ],
-     "audio_file": "audio/85a95b3a3b04a8db.mp3"
+     "answer": 1,
+     "explain_ru": "«Mina kardan, et me ei saa siis lapsega ühendust»: не смогут связаться с ребёнком."
     },
     {
-     "audio": "Nutisõltuvus on noorte seas levinud.",
-     "answer": [
-      "Nutisõltuvus on noorte seas levinud."
+     "kind": "mc",
+     "q": "Mida teha kiire asja korral?",
+     "options": [
+      "helistada lapsele",
+      "helistada sekretärile",
+      "kirjutada õpetajale"
      ],
-     "audio_file": "audio/438c7cbf46f1e25a.mp3"
+     "answer": 1,
+     "explain_ru": "«kiire asja korral saab helistada kooli sekretärile»."
     }
    ],
    "module": "kuulamine",
-   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту.",
+   "audio_file": "audio/e9e5d75d0858dce0.mp3"
   },
   {
    "type": "grammar",
@@ -170,7 +194,7 @@
   },
   {
    "type": "writing",
-   "minutes": 19,
+   "minutes": 18,
    "title": "Kirjutamine: arvamuskirjutis",
    "prompt_et": "Mitmes Eesti koolis on nutitelefonide kasutamine tundides ja vahetundides keelatud. Kirjutage arvamuskirjutis teemal „Kas nutitelefonid tuleks koolis keelata?“. Tooge välja vähemalt kaks argumenti poolt ja üks vastu ning põhjendage oma seisukohta.",
    "prompt_ru": "Структура: вступление (тема + ваша позиция) → 2 аргумента с примерами → контраргумент и ответ на него → вывод. Около 180 слов, 4–5 абзацев.",

@@ -1,5 +1,8 @@
 name: Generate audio
+# Озвучка создаётся ещё в pull request, чтобы после слияния на сайте сразу были все файлы.
 on:
+  pull_request:
+    paths: ["content/lessons/**", "tools/audio_plan.py", "tools/make_audio.py", ".github/workflows/audio.yml"]
   push:
     branches: [main]
     paths: ["content/lessons/**", "tools/audio_plan.py", "tools/make_audio.py", ".github/workflows/audio.yml"]
@@ -7,13 +10,16 @@ on:
 permissions:
   contents: write
 concurrency:
-  group: audio
+  group: audio-${{ github.head_ref || github.ref_name }}
   cancel-in-progress: false
 jobs:
   audio:
+    if: github.event_name != 'pull_request' || github.event.pull_request.head.repo.full_name == github.repository
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          ref: ${{ github.head_ref || github.ref_name }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
