@@ -1,0 +1,196 @@
+{
+ "id": "d003",
+ "day": 3,
+ "version": 2,
+ "skill": "kirjutamine",
+ "title": "Kaebus e-poele",
+ "title_ru": "Жалоба в интернет-магазин",
+ "topic": "tarbimine",
+ "minutes": 40,
+ "goal_ru": "Письмо (полуофициальное, около 140 слов): жалоба. Учим структуру и вежливые формы.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "tellimus",
+     "ru": "заказ",
+     "example": "Tellimuse number on 45821.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellimus/1"
+    },
+    {
+     "et": "tellima",
+     "ru": "заказывать",
+     "example": "Tellisin e-poest tolmuimeja.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellima/1"
+    },
+    {
+     "et": "pakk",
+     "ru": "посылка",
+     "example": "Pakk saabus kaks nädalat hiljem.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakk/1"
+    },
+    {
+     "et": "katki",
+     "ru": "сломан(ный)",
+     "example": "Karp oli katki.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/katki/1"
+    },
+    {
+     "et": "puuduma",
+     "ru": "отсутствовать",
+     "example": "Üks osa puudus.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1"
+    },
+    {
+     "et": "pettunud",
+     "ru": "разочарован",
+     "example": "Olen väga pettunud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettunud/1"
+    },
+    {
+     "et": "vahetama (mille vastu?)",
+     "ru": "обменять (на что)",
+     "example": "Palun vahetage toode uue vastu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetama/1"
+    },
+    {
+     "et": "raha tagastama",
+     "ru": "вернуть деньги",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/raha%20tagastama/1"
+    },
+    {
+     "et": "saatmiskulud",
+     "ru": "расходы на пересылку",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/saatmiskulud/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Tellimuse number on 45821.",
+     "answer": [
+      "Tellimuse number on 45821."
+     ]
+    },
+    {
+     "audio": "Tellisin e-poest tolmuimeja.",
+     "answer": [
+      "Tellisin e-poest tolmuimeja."
+     ]
+    },
+    {
+     "audio": "Pakk saabus kaks nädalat hiljem.",
+     "answer": [
+      "Pakk saabus kaks nädalat hiljem."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "grammar",
+   "minutes": 8,
+   "title": "Viisakas palve: tingiv kõneviis",
+   "rule_ru": "В официальных письмах просьбу смягчают условным наклонением (-ks-): ma sooviksin (я хотел бы), kas oleks võimalik (возможно ли было бы), võiksite (могли бы вы). Форма: основа da-инфинитива/ma-инфинитива + ks + личное окончание: soovi-ks-in, saa-ks-ite, oleks.",
+   "examples": [
+    "Sooviksin, et vahetaksite toote.",
+    "Kas oleks võimalik raha tagastada?",
+    "Võiksite mulle teada anda, millal …"
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Ma ___ (soovima) teada, millal pakk saabub.",
+     "answer": [
+      "sooviksin"
+     ],
+     "explain_ru": "soovima → soovi- + ks + in = sooviksin (я хотел бы)."
+    },
+    {
+     "kind": "gap",
+     "q": "Kas ___ (olema) võimalik tellimus tühistada?",
+     "answer": [
+      "oleks"
+     ],
+     "explain_ru": "olema → oleks: у 3-го лица условного наклонения нет окончания."
+    },
+    {
+     "kind": "gap",
+     "q": "___ (saama) te mulle arve uuesti saata?",
+     "answer": [
+      "Saaksite",
+      "saaksite"
+     ],
+     "explain_ru": "saama → saa- + ks + ite = saaksite (вы могли бы). В начале предложения — с большой буквы."
+    },
+    {
+     "kind": "gap",
+     "q": "Oleksin tänulik, kui te ___ (vastama) lähipäevil.",
+     "answer": [
+      "vastaksite"
+     ],
+     "explain_ru": "Kui-предложение тоже в условном наклонении: kui te vastaksite."
+    },
+    {
+     "kind": "gap",
+     "q": "Me ___ (tahtma) broneerida laua neljale.",
+     "answer": [
+      "tahaksime"
+     ],
+     "explain_ru": "tahtma → основа taha- (как в «tahan») + ks + ime = tahaksime."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "writing",
+   "minutes": 20,
+   "title": "Kirjutamine: kaebus",
+   "prompt_et": "Te tellisite e-poest tolmuimeja. Pakk saabus hilinemisega ja toode ei tööta korralikult. Kirjutage e-poe klienditeenindusele kiri. Kirjutage:\n• mida ja millal te tellisite;\n• mis on probleem (vähemalt kaks probleemi);\n• mida te ootate e-poelt.",
+   "prompt_ru": "На экзамене письмо — первое задание части «kirjutamine» (80 минут на два текста). Оставьте 20–25 минут на письмо и 3 минуты на проверку.",
+   "words": {
+    "min": 120,
+    "max": 160
+   },
+   "checklist": [
+    "Обращение: Lugupeetud klienditeenindus! / Tere!",
+    "Все три пункта задания раскрыты",
+    "Есть даты/номер заказа (конкретика)",
+    "Вежливая просьба в условном наклонении (sooviksin, palun …)",
+    "Заключение и подпись: Lugupidamisega / Parimate soovidega",
+    "Абзацы, 120–160 слов"
+   ],
+   "phrases": [
+    "Pöördun teie poole seoses …",
+    "Tellisin … (kuupäev) teie e-poest …",
+    "Kahjuks selgus, et …",
+    "Lisaks sellele …",
+    "Sooviksin, et …",
+    "Palun andke teada, …",
+    "Ootan teie vastust.",
+    "Lugupidamisega"
+   ],
+   "model": "Lugupeetud klienditeenindus!\n\nTellisin 3. novembril teie e-poest tolmuimeja (tellimuse number 45821). Kodulehel oli kirjas, et kaup jõuab kohale kolme tööpäeva jooksul, kuid pakk saabus alles kaks nädalat hiljem.\n\nKahjuks selgus kohe pärast paki avamist, et tolmuimeja ei tööta korralikult: see lülitub sisse, kuid mõne sekundi pärast uuesti välja. Lisaks oli karp seest katki ja üks otsik puudus.\n\nOlen teie poest varem mitu korda ostnud ja olnud teenindusega rahul, seega olen praeguse olukorra pärast eriti pettunud. Sooviksin, et vahetaksite tolmuimeja uue vastu või tagastaksite mulle raha. Palun andke teada, kuidas saan toote teile tagasi saata ja kes maksab saatmiskulud.\n\nOotan teie vastust lähipäevil.\n\nLugupidamisega\nNimi Perekonnanimi",
+   "module": "kirjutamine"
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Сравните своё письмо с образцом по чек-листу. Проверьте 3 частые ошибки: падеж после «tellisin» (tolmuimeja — полный объект, родительный), порядок слов после «kahjuks» (глагол на втором месте: Kahjuks selgus …), запятая перед «et» и «kuid»."
+  }
+ ]
+}

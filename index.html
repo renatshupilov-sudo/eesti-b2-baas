@@ -1,0 +1,303 @@
+<!doctype html>
+<html lang="et">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Eesti B2 päevatund</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wght@500;700;800&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column like a phone app; today's lesson first, blocks as numbered steps (they are a real sequence). */
+:root{
+  --bg:#f5f7fb; --surface:#ffffff; --ink:#111522; --muted:#5b6478; --line:#dfe4ee;
+  --accent:#2f5fd0; --accent-soft:#e6edfc; --ok:#1d7a4a; --ok-soft:#e3f4ea; --bad:#b3372e; --bad-soft:#fbe7e5;
+  --display:"Archivo",system-ui,sans-serif; --body:"Inter",system-ui,sans-serif; --mono:"JetBrains Mono",ui-monospace,monospace;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#0f1320; --surface:#171c2c; --ink:#e8ebf4; --muted:#9aa3b8; --line:#2a3147;
+  --accent:#7fa2ff; --accent-soft:#1f2a4a; --ok:#5fd39a; --ok-soft:#163327; --bad:#ff8a7f; --bad-soft:#3a1d1c; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#0f1320; --surface:#171c2c; --ink:#e8ebf4; --muted:#9aa3b8; --line:#2a3147;
+  --accent:#7fa2ff; --accent-soft:#1f2a4a; --ok:#5fd39a; --ok-soft:#163327; --bad:#ff8a7f; --bad-soft:#3a1d1c; color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font:15px/1.55 var(--body)}
+.wrap{max-width:680px;margin:0 auto;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:20px 64px;display:flex;flex-direction:column;gap:18px}
+header{display:flex;flex-direction:column;gap:4px}
+.date{font:500 12px var(--mono);letter-spacing:.06em;text-transform:uppercase;color:var(--muted)}
+h1{font:800 26px/1.15 var(--display);margin:0;text-wrap:balance}
+h2{font:700 19px/1.25 var(--display);margin:0;text-wrap:balance}
+h3{font:700 16px/1.3 var(--display);margin:0}
+nav{display:flex;gap:6px;flex-wrap:wrap}
+nav a{font:600 13px var(--body);color:var(--muted);text-decoration:none;padding:6px 12px;border-radius:999px;border:1px solid var(--line)}
+nav a[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:var(--ink)}
+.status{font-size:13px;color:var(--muted)}
+.hero{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:18px;display:flex;flex-direction:column;gap:10px}
+.meta{display:flex;gap:8px;flex-wrap:wrap}
+.chip{font:600 12px var(--body);padding:3px 10px;border-radius:999px;background:var(--accent-soft);color:var(--accent)}
+.chip.plain{background:transparent;border:1px solid var(--line);color:var(--muted)}
+.goal{color:var(--muted);margin:0}
+.steps{display:flex;flex-direction:column;gap:12px;counter-reset:s}
+.step{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:16px;display:flex;flex-direction:column;gap:12px;min-width:0}
+.step>.hd{display:flex;align-items:baseline;gap:10px}
+.step>.hd::before{counter-increment:s;content:counter(s);font:500 13px var(--mono);color:var(--accent)}
+.step>.hd .min{margin-left:auto;font:500 12px var(--mono);color:var(--muted);white-space:nowrap}
+.note{font-size:13.5px;color:var(--muted);margin:0;white-space:pre-line}
+.text{white-space:pre-line;line-height:1.7;background:var(--bg);border-radius:8px;padding:14px;max-height:none}
+.vocab{display:grid;grid-template-columns:1fr;gap:0}
+.vrow{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;align-items:start;padding:8px 0;border-bottom:1px solid var(--line)}
+.vocab button{all:unset;cursor:pointer;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:12px}
+.eki{font:500 12px var(--mono);text-decoration:none;padding-top:3px;white-space:nowrap}
+.vocab button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.vocab .et{font-weight:600}.vocab .ru{color:var(--muted)}.vocab .ex{grid-column:1/-1;font-size:13px;color:var(--muted);font-style:italic}
+.hide-ru .vocab .ru{filter:blur(5px)}
+.task{display:flex;flex-direction:column;gap:8px;padding-top:10px;border-top:1px dashed var(--line)}
+.task:first-child{border-top:0;padding-top:0}
+.q{font-weight:500}
+.opts{display:flex;flex-direction:column;gap:6px}
+.opts.row{flex-direction:row;flex-wrap:wrap}
+.opt{all:unset;cursor:pointer;padding:8px 12px;border:1px solid var(--line);border-radius:8px;background:var(--surface)}
+.opt:focus-visible{outline:2px solid var(--accent)}
+.opt.sel{border-color:var(--accent);background:var(--accent-soft)}
+.opt.right{border-color:var(--ok);background:var(--ok-soft)}
+.opt.wrong{border-color:var(--bad);background:var(--bad-soft)}
+select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;max-width:100%;min-width:0;flex:1}
+input[type=text],textarea{font:inherit;color:var(--ink);background:var(--surface);border:1px solid var(--line);border-radius:8px;padding:8px 10px;width:100%;box-sizing:border-box}
+textarea{min-height:220px;line-height:1.6}
+input.right{border-color:var(--ok);background:var(--ok-soft)} input.wrong{border-color:var(--bad);background:var(--bad-soft)}
+.fb{font-size:13px;color:var(--muted)} .fb.ok{color:var(--ok)} .fb.no{color:var(--bad)}
+.btns{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.btn{font:600 14px var(--body);cursor:pointer;border:1px solid var(--accent);background:var(--accent);color:var(--bg);padding:8px 14px;border-radius:8px}
+.btn.ghost{background:transparent;color:var(--accent)}
+.btn:focus-visible{outline:2px solid var(--ink);outline-offset:2px}
+.timer{font:500 22px var(--mono);font-variant-numeric:tabular-nums}
+ul.check{margin:0;padding-left:20px;display:flex;flex-direction:column;gap:4px}
+.phr{display:flex;flex-wrap:wrap;gap:6px}
+.phr span{background:var(--bg);border:1px solid var(--line);border-radius:6px;padding:4px 8px;font-size:14px}
+.score{font:700 15px var(--display)}
+.list{display:flex;flex-direction:column;gap:8px}
+.lrow{all:unset;cursor:pointer;display:grid;grid-template-columns:44px minmax(0,1fr) auto;gap:10px;align-items:center;background:var(--surface);border:1px solid var(--line);border-radius:10px;padding:10px 12px}
+.lrow:focus-visible{outline:2px solid var(--accent)}
+.lrow .d{font:500 13px var(--mono);color:var(--muted)} .lrow .t{font-weight:600}.lrow .s{font-size:13px;color:var(--muted)}
+.done{color:var(--ok);font:600 12px var(--body)}
+table{border-collapse:collapse;width:100%;font-size:14px} td,th{text-align:left;padding:8px 6px;border-bottom:1px solid var(--line);vertical-align:top} th{font:600 12px var(--body);color:var(--muted);text-transform:uppercase;letter-spacing:.05em}
+.tw{overflow-x:auto}
+a{color:var(--accent)}
+.warn{background:var(--bad-soft);color:var(--bad);border-radius:8px;padding:8px 10px;font-size:13px}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}
+</style>
+
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <div class="date" id="date"></div>
+    <h1>Päevatund B2</h1>
+    <div class="status" id="status">Laen sisu…</div>
+  </header>
+  <nav>
+    <a href="#tana" data-v="tana">Täna</a>
+    <a href="#moodulid" data-v="moodulid">Moodulid</a>
+    <a href="#kava" data-v="kava">Kõik tunnid</a>
+    <a href="#eksam" data-v="eksam">Eksam</a>
+  </nav>
+  <main id="view"></main>
+</div>
+
+<script>
+(() => {
+const MANIFEST = "content/manifest.json";
+const SKILL = {lugemine:"Lugemine · чтение",kuulamine:"Kuulamine · аудирование",kirjutamine:"Kirjutamine · письмо",raakimine:"Rääkimine · речь",grammatika:"Grammatika · грамматика",proovieksam:"Proovieksam · пробный экзамен"};
+const store = {
+  get(k,d){try{const v=localStorage.getItem("b2:"+k);return v?JSON.parse(v):d}catch{return d}},
+  set(k,v){try{localStorage.setItem("b2:"+k,JSON.stringify(v))}catch{}}
+};
+let manifest = store.get("manifest", null);
+let lessons = store.get("lessons", {});
+const progress = store.get("progress", {});
+let startDate = store.get("start", null);
+if(!startDate){startDate=new Date().toISOString().slice(0,10);store.set("start",startDate)}
+const $ = (s,el=document)=>el.querySelector(s);
+const h = (tag,attrs={},...kids)=>{const e=document.createElement(tag);for(const[k,v]of Object.entries(attrs)){if(k==="class")e.className=v;else if(k.startsWith("on"))e.addEventListener(k.slice(2),v);else e.setAttribute(k,v)}for(const c of kids.flat()){if(c==null||c===false)continue;e.append(c.nodeType?c:document.createTextNode(c))}return e};
+const days=["pühapäev","esmaspäev","teisipäev","kolmapäev","neljapäev","reede","laupäev"];
+const months=["jaanuar","veebruar","märts","aprill","mai","juuni","juuli","august","september","oktoober","november","detsember"];
+const now=new Date(); $("#date").textContent=`${days[now.getDay()]}, ${now.getDate()}. ${months[now.getMonth()]}`;
+
+/* ---- auto-update: manifest first, then only lessons whose version/hash changed ---- */
+async function sync(){
+  try{
+    const r=await fetch(MANIFEST,{cache:"no-store"}); if(!r.ok) throw new Error(r.status);
+    const m=await r.json(); const base=new URL(MANIFEST,location.href);
+    const fresh={}; let changed=0;
+    for(const e of m.lessons){
+      const old=lessons[e.id];
+      if(old && old.version===e.version && old._sha===e.sha256){fresh[e.id]=old;continue}
+      const lr=await fetch(new URL(e.file,base),{cache:"no-store"}); const l=await lr.json(); l._sha=e.sha256; fresh[e.id]=l; changed++;
+    }
+    const was=manifest&&manifest.contentVersion;
+    manifest=m; lessons=fresh; store.set("manifest",m); store.set("lessons",fresh);
+    setStatus(was && was!==m.contentVersion ? `Sisu uuendatud: ${was} → ${m.contentVersion} (${changed} tundi)` : `Sisu versioon ${m.contentVersion} · ${m.lessons.length} tundi`);
+    render();
+  }catch(err){
+    setStatus(manifest?`Võrguühendus puudub — kasutan salvestatud versiooni ${manifest.contentVersion}`:"Sisu ei õnnestunud laadida. Kontrollige internetiühendust.");
+  }
+}
+function setStatus(t){$("#status").textContent=t}
+
+function todayIndex(){
+  const n=manifest.lessons.length; const d=Math.floor((Date.parse(new Date().toISOString().slice(0,10))-Date.parse(startDate))/864e5);
+  return ((d%n)+n)%n;
+}
+let current=null;
+function render(){
+  const v=(location.hash||"#tana").slice(1);
+  const navv=v.startsWith("d0")?"kava":v.startsWith("m-")?"moodulid":v;
+  document.querySelectorAll("nav a").forEach(a=>{if(a.dataset.v===navv)a.setAttribute("aria-current","page");else a.removeAttribute("aria-current")});
+  const view=$("#view"); view.replaceChildren();
+  if(!manifest){view.append(h("p",{class:"note"},"Sisu laadimine…"));return}
+  if(v==="kava") return view.append(renderList());
+  if(v==="eksam") return view.append(renderExam());
+  if(v==="moodulid") return view.append(renderModules());
+  if(v.startsWith("m-")) return view.append(renderModule(v.slice(2)));
+  const id=v.startsWith("d0")?v:manifest.lessons[todayIndex()].id;
+  current=id; view.append(renderLesson(lessons[id]));
+}
+window.addEventListener("hashchange",render);
+
+function renderList(){
+  const today=manifest.lessons[todayIndex()].id;
+  return h("div",{class:"list"},manifest.lessons.map(e=>h("a",{class:"lrow",href:"#"+e.id},
+    h("span",{class:"d"},"P"+e.day),
+    h("span",{}, h("div",{class:"t"},e.title), h("div",{class:"s"},`${SKILL[e.skill]} · ${e.minutes} min${e.id===today?" · täna":""}`)),
+    progress[e.id]?.done?h("span",{class:"done"},"✓ tehtud"):h("span",{})
+  )));
+}
+function renderModules(){
+  return h("div",{class:"steps"},
+    h("section",{class:"hero"},h("h2",{},"Treeni eraldi"),h("p",{class:"goal"},"Отдельная тренировка одного навыка. Упражнения те же, что в уроках дня, сгруппированы по модулям. Общий урок дня — во вкладке «Täna».")),
+    h("div",{class:"list"},(manifest.modules||[]).map(m=>{const done=m.items.filter(i=>progress[i.lesson]?.scores?.[lessons[i.lesson]?.blocks[i.block]?.title]).length;
+      return h("a",{class:"lrow",href:"#m-"+m.id},h("span",{class:"d"},String(m.items.length)),h("span",{},h("div",{class:"t"},m.name+" · "+m.name_ru),h("div",{class:"s"},`${m.items.length} упражнений · ${m.items.reduce((a,i)=>a+i.minutes,0)} мин`)),h("span",{class:"done"},done?`${done} ✓`:""))})));
+}
+function renderModule(id){
+  const m=(manifest.modules||[]).find(x=>x.id===id); if(!m) return h("p",{class:"note"},"Moodulit ei leitud.");
+  const sel=h("select",{id:"mod-"+id,"aria-label":"Harjutus"},m.items.map((it,i)=>h("option",{value:String(i)},`P${lessons[it.lesson].day} · ${it.title} · ${it.topic}`)));
+  const holder=h("div",{class:"steps"});
+  const show=()=>{const it=m.items[+sel.value];const l=lessons[it.lesson];holder.replaceChildren(block(l.blocks[it.block],l))};
+  sel.addEventListener("change",show);
+  const next=h("button",{class:"btn ghost",onclick:()=>{sel.value=String((+sel.value+1)%m.items.length);show()}},"Järgmine →");
+  const box=h("div",{class:"steps"},h("section",{class:"hero"},h("h2",{},m.name+" · "+m.name_ru),h("div",{class:"btns"},sel,next)),holder);
+  show(); return box;
+}
+function renderExam(){
+  const x=manifest.exam;
+  return h("div",{class:"steps"},
+    h("section",{class:"step"},h("h2",{},"Eesti keele B2-taseme eksam"),
+      h("div",{class:"tw"},h("table",{},h("tr",{},h("th",{},"Osa"),h("th",{},"Min"),h("th",{},"Punkte"),h("th",{},"Формат")),
+        x.parts.map(p=>h("tr",{},h("td",{},h("b",{},p.name)),h("td",{},p.minutes),h("td",{},String(p.points)),h("td",{},p.format_ru))))),
+      h("p",{},x.passRule_ru), h("ul",{class:"check"},x.rules_ru.map(r=>h("li",{},r)))),
+    h("section",{class:"step"},h("h3",{},"Allikad"),h("ul",{class:"check"},x.sources.map(s=>h("li",{},h("a",{href:s.url,target:"_blank",rel:"noopener"},s.title))))));
+}
+
+/* ---- lesson ---- */
+function renderLesson(l){
+  const p=progress[l.id]||(progress[l.id]={});
+  const frag=h("div",{class:"steps"},
+    h("section",{class:"hero"},
+      h("div",{class:"meta"},h("span",{class:"chip"},SKILL[l.skill]),h("span",{class:"chip plain"},`${l.minutes} min`),h("span",{class:"chip plain"},`Päev ${l.day}/${manifest.lessons.length}`)),
+      h("h2",{},l.title), h("p",{class:"goal"},l.title_ru+". "+(l.goal_ru||""))),
+    l.blocks.map(b=>block(b,l)),
+    h("section",{class:"step"},h("div",{class:"btns"},
+      h("button",{class:"btn",onclick:e=>{p.done=new Date().toISOString();store.set("progress",progress);e.target.textContent="✓ Tund tehtud"}},p.done?"✓ Tund tehtud":"Märgi tund tehtuks"),
+      h("a",{class:"btn ghost",href:"#kava"},"Kõik tunnid"))));
+  return frag;
+}
+const wrapBlock=(b,...kids)=>h("section",{class:"step"},h("div",{class:"hd"},h("h3",{},b.title),h("span",{class:"min"},b.minutes+" min")),
+  b.instruction_et&&h("p",{class:"note"},b.instruction_et), b.instruction_ru&&h("p",{class:"note"},b.instruction_ru), ...kids);
+
+function block(b,l){
+  switch(b.type){
+    case "intro": case "review": return wrapBlock(b,h("p",{class:"note"},b.text));
+    case "vocab": { const box=h("div",{class:"vocab"},b.items.map(i=>h("div",{class:"vrow"},h("button",{onclick:()=>say(i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},i.et),h("span",{class:"ru"},i.ru),i.example&&h("span",{class:"ex"},i.example)),
+        i.dict&&h("a",{class:"eki",href:i.dict,target:"_blank",rel:"noopener",title:"Sõnaveeb (EKI)"},"EKI ↗"))));
+      const w=h("div",{},box); return wrapBlock(b,h("div",{class:"btns"},h("button",{class:"btn ghost",onclick:()=>w.classList.toggle("hide-ru")},"Peida / näita tõlge")),w); }
+    case "phrases": return wrapBlock(b,h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))));
+    case "reading": return wrapBlock(b,h("div",{class:"text"},b.text),tasks(b.tasks,l,b));
+    case "listening": return listening(b,l);
+    case "dictation": return dictation(b,l);
+    case "grammar": return wrapBlock(b,h("details",{},h("summary",{},"Напоминание правила"),h("p",{class:"note"},b.rule_ru),b.examples&&h("ul",{class:"check"},b.examples.map(e=>h("li",{},e)))),tasks(b.tasks,l,b));
+    case "writing": return writing(b,l);
+    case "speaking": return speaking(b);
+  }
+  return wrapBlock(b);
+}
+function norm(s){return s.toLowerCase().replace(/[.!?,;:„“"«»()–—-]/g," ").replace(/\s+/g," ").trim()}
+function tasks(list,l,b){
+  const items=list.map(t=>{
+    const row=h("div",{class:"task"}); let get;
+    const q=h("div",{class:"q"},t.kind==="tf"?"Õige või vale? "+t.q:t.q); row.append(q);
+    if(t.kind==="gap"){const inp=h("input",{type:"text",autocomplete:"off",spellcheck:"false","aria-label":t.q});row.append(inp);t.hint&&row.append(h("div",{class:"fb"},t.hint));get=()=>({el:inp,ok:t.answer.some(a=>norm(a)===norm(inp.value)),shown:t.answer[0]})}
+    else{const opts=t.kind==="tf"?["Õige","Vale"]:t.options;let sel=null;const box=h("div",{class:"opts"+(t.kind==="tf"||opts.every(o=>o.length<3)?" row":"")});
+      const btns=opts.map((o,i)=>h("button",{class:"opt",onclick:()=>{sel=i;btns.forEach((x,j)=>x.classList.toggle("sel",j===i))}},o));box.append(...btns);row.append(box);
+      const ans=t.kind==="tf"?(t.answer?0:1):t.answer; get=()=>({btns,sel,ok:sel===ans,ans,shown:opts[ans]})}
+    const fb=h("div",{class:"fb"});row.append(fb);return{t,get,fb};
+  });
+  const score=h("span",{class:"score"});
+  const check=()=>{let ok=0;for(const it of items){const r=it.get();if(r.el){r.el.classList.toggle("right",r.ok);r.el.classList.toggle("wrong",!r.ok)}else{r.btns.forEach((x,j)=>{x.classList.toggle("right",j===r.ans);x.classList.toggle("wrong",j===r.sel&&!r.ok)})}
+      if(r.ok)ok++;it.fb.className="fb "+(r.ok?"ok":"no");it.fb.textContent=(r.ok?"Õige. ":"Õige vastus: "+String(r.shown).replace(/[.!?]+$/,"")+". ")+(it.t.explain_ru||"")}
+    const pct=Math.round(ok/items.length*100);
+    score.textContent=`${ok}/${items.length} (${pct}%)`;
+    adv.hidden=false; adv.className="note"; adv.textContent=pct>=80?"Отлично, этот тип заданий у вас под контролем. Прочитайте пояснения к ошибкам, если они есть.":pct>=60?"Неплохо — это уровень проходного балла (60%). "+(b.advice_ru||"Разберите пояснения к ошибкам."):"Пока ниже проходного балла (60%). "+(b.advice_ru||"Разберите пояснения к ошибкам и повторите упражнение завтра.");
+    const p=progress[l.id]||(progress[l.id]={});(p.scores||(p.scores={}))[b.title]=[ok,items.length];store.set("progress",progress)};
+  const adv=h("p",{hidden:""});
+  return h("div",{class:"task-list"},...items.map(i=>i.fb.parentNode),h("div",{class:"btns",style:"margin-top:10px"},h("button",{class:"btn",onclick:check},"Kontrolli"),score),adv);
+}
+
+/* ---- speech (Estonian TTS if the device has a voice) ---- */
+let etVoice=null;
+function pickVoice(){try{etVoice=speechSynthesis.getVoices().find(v=>/^et/i.test(v.lang))||null}catch{}}
+try{pickVoice();speechSynthesis.onvoiceschanged=pickVoice}catch{}
+function say(text,onend){try{speechSynthesis.cancel();const u=new SpeechSynthesisUtterance(text);u.lang="et-EE";if(etVoice)u.voice=etVoice;u.rate=.92;if(onend)u.onend=onend;speechSynthesis.speak(u);return true}catch{return false}}
+function listening(b,l){
+  let plays=0; const max=b.plays||2;
+  const info=h("div",{class:"fb"},`Kuulamisi: 0/${max}`);
+  const warn=h("div",{class:"warn",hidden:""},"На этом устройстве нет эстонского голоса — текст будет прочитан другим голосом или не прозвучит. Тогда откройте расшифровку и прочитайте её один раз, закрыв вопросы.");
+  setTimeout(()=>{pickVoice();if(!etVoice)warn.hidden=false},800);
+  const lines=b.transcript.split("\n").map(s=>s.replace(/^[^:]{1,20}:\s*/,""));
+  const play=h("button",{class:"btn",onclick:()=>{if(plays>=max)return;plays++;info.textContent=`Kuulamisi: ${plays}/${max}`;let i=0;const next=()=>{if(i<lines.length)say(lines[i++],next)};next();if(plays>=max)play.disabled=true}},"▶ Kuula");
+  const stop=h("button",{class:"btn ghost",onclick:()=>{try{speechSynthesis.cancel()}catch{}}},"■ Stopp");
+  return wrapBlock(b,warn,h("div",{class:"btns"},play,stop,info),tasks(b.tasks,l,b),h("details",{},h("summary",{},"Транскрипт (после проверки)"),h("div",{class:"text"},b.transcript)));
+}
+function dictation(b,l){
+  const tasksList=b.items.map((it,i)=>({kind:"gap",q:`${i+1}.`,answer:it.answer,explain_ru:""}));
+  const t=tasks(tasksList,l,b);
+  t.querySelectorAll(".task").forEach((row,i)=>row.querySelector(".q").append(" ",h("button",{class:"btn ghost",onclick:()=>say(b.items[i].audio)},"▶")));
+  return wrapBlock(b,t,h("details",{},h("summary",{},"Mida öeldi"),h("ol",{},b.items.map(i=>h("li",{},i.audio)))));
+}
+function writing(b,l){
+  const key="draft:"+l.id+":"+b.title; const ta=h("textarea",{id:"w-"+l.id+b.minutes,"aria-label":"Teie tekst"}); ta.value=store.get(key,"");
+  const cnt=h("span",{class:"fb"}); const upd=()=>{const n=(ta.value.match(/\S+/g)||[]).length;cnt.textContent=`${n} sõna (eesmärk ${b.words.min}–${b.words.max})`;cnt.className="fb "+(n>=b.words.min&&n<=b.words.max?"ok":"");store.set(key,ta.value)};
+  ta.addEventListener("input",upd); upd();
+  return wrapBlock(b,h("div",{class:"text"},b.prompt_et),b.prompt_ru&&h("p",{class:"note"},b.prompt_ru),
+    b.phrases?.length?h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))):null,
+    timer(b.minutes*60,"Alusta kirjutamist"),ta,cnt,
+    h("details",{},h("summary",{},"Kontrollnimekiri"),h("ul",{class:"check"},b.checklist.map(c=>h("li",{},c)))),
+    b.model&&h("details",{},h("summary",{},"Näidisvastus (после своей попытки)"),h("div",{class:"text"},b.model)));
+}
+function speaking(b){
+  return wrapBlock(b,...b.parts.map(p=>h("div",{class:"task"},h("b",{},p.label||""),h("div",{class:"text"},p.prompt_et),p.prompt_ru&&h("p",{class:"note"},p.prompt_ru),
+    p.hints&&h("div",{class:"phr"},p.hints.map(x=>h("span",{},x))),
+    h("div",{class:"btns"},p.prep_sec?timer(p.prep_sec,"Ettevalmistus"):null,timer(p.talk_sec,"Räägi")))),
+    b.phrases&&h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))));
+}
+function timer(sec,label){
+  const fmt=s=>`${Math.floor(s/60)}:${String(s%60).padStart(2,"0")}`; let left=sec,id=null;
+  const disp=h("span",{class:"timer"},fmt(sec));
+  const btn=h("button",{class:"btn ghost",onclick:()=>{if(id){clearInterval(id);id=null;btn.textContent=label;return}btn.textContent="Paus";id=setInterval(()=>{left--;disp.textContent=fmt(Math.max(left,0));if(left<=0){clearInterval(id);id=null;btn.textContent="Aeg läbi";say("Aeg on läbi")}},1000)}},label);
+  return h("span",{class:"btns"},btn,disp);
+}
+
+render(); sync();
+})();
+</script>
+
+</body>
+</html>

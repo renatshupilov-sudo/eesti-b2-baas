@@ -1,0 +1,237 @@
+{
+ "id": "d009",
+ "day": 9,
+ "version": 2,
+ "skill": "lugemine",
+ "title": "Linnast maale",
+ "title_ru": "Из города в деревню",
+ "topic": "eluase ja elukeskkond",
+ "minutes": 36,
+ "goal_ru": "Чтение: статья о переезде в деревню. Мнения разных людей, понимание деталей и смысла слов из контекста.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "eluase",
+     "ru": "жильё",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eluase/1"
+    },
+    {
+     "et": "üürima",
+     "ru": "снимать (в аренду)",
+     "example": "Me üürime korterit kesklinnas.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BC%C3%BCrima/1"
+    },
+    {
+     "et": "kinnisvara",
+     "ru": "недвижимость",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kinnisvara/1"
+    },
+    {
+     "et": "laenu võtma",
+     "ru": "брать кредит",
+     "example": "Kodu ostmiseks tuli võtta laenu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/laenu%20v%C3%B5tma/1"
+    },
+    {
+     "et": "maapiirkond",
+     "ru": "сельская местность",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/maapiirkond/1"
+    },
+    {
+     "et": "teenused",
+     "ru": "услуги",
+     "example": "Maal on vähem teenuseid.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teenused/1"
+    },
+    {
+     "et": "rahulik",
+     "ru": "спокойный",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahulik/1"
+    },
+    {
+     "et": "mürarikas",
+     "ru": "шумный",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%BCrarikas/1"
+    },
+    {
+     "et": "eelis",
+     "ru": "преимущество",
+     "example": "Linnaelu eelis on mugavus.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelis/1"
+    },
+    {
+     "et": "puudus",
+     "ru": "недостаток",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puudus/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Me üürime korterit kesklinnas.",
+     "answer": [
+      "Me üürime korterit kesklinnas."
+     ]
+    },
+    {
+     "audio": "Kodu ostmiseks tuli võtta laenu.",
+     "answer": [
+      "Kodu ostmiseks tuli võtta laenu."
+     ]
+    },
+    {
+     "audio": "Maal on vähem teenuseid.",
+     "answer": [
+      "Maal on vähem teenuseid."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "reading",
+   "minutes": 18,
+   "title": "Lugemine",
+   "instruction_et": "Lugege artiklit ja vastake küsimustele.",
+   "text": "Linnast maale\n\nVeel kümmekond aastat tagasi tundus, et kõik noored kolivad maalt linna. Viimastel aastatel on aga üha rohkem neid, kes teevad vastupidise otsuse. Kaugtöö võimalus, kallid korterid ja soov elada looduse lähedal on pannud paljud peresid linnast lahkuma.\n\nKadri ja Martin kolisid kaks aastat tagasi Tallinnast Viljandimaale. „Pealinnas oleksime saanud endale lubada ainult väikese korteri. Siin ostsime sama raha eest maja suure aiaga,“ räägib Kadri. Martin töötab programmeerijana kodust ja käib pealinnas kord kuus. Kõige rohkem rõõmustab paari see, et lapsed saavad õues vabalt mängida.\n\nKõik ei ole siiski nii roosiline. Lähim pood on kaheksa kilomeetri kaugusel ja ilma autota on igapäevaelu peaaegu võimatu. „Esimesel talvel olime üllatunud, kui palju aega kulub küttepuude peale ja kui kallis on kütmine,“ tunnistab Martin. Ka lasteaiakoha leidmine võttis oodatust kauem.\n\nKohaliku omavalitsuse arvates on uued elanikud piirkonnale väga olulised. Tänu noortele peredele ei pidanud küla kool eelmisel aastal uksi sulgema. Vallavanem rõhutab aga, et inimesi ei hoia maal ainult ilus loodus: vaja on head internetiühendust, korras teid ja töökohti.\n\nSotsioloogide hinnangul ei ole tegemist massilise liikumisega. Enamik inimesi elab endiselt linnades ja suuremate keskuste ümbruses. Siiski näitab see suundumus, et paljude jaoks on elukvaliteet olulisem kui lühike tööteekond.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Mis on teksti järgi üks põhjus, miks pered linnast lahkuvad?",
+     "options": [
+      "maal on rohkem töökohti",
+      "korterid linnas on kallid",
+      "linnas on halvad koolid"
+     ],
+     "answer": 1,
+     "explain_ru": "Первый абзац: «Kaugtöö võimalus, kallid korterid ja soov elada looduse lähedal»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mida said Kadri ja Martin maal sama raha eest?",
+     "options": [
+      "väikese korteri",
+      "maja suure aiaga",
+      "suvila mere ääres"
+     ],
+     "answer": 1,
+     "explain_ru": "«Siin ostsime sama raha eest maja suure aiaga»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mis rõõmustab paari kõige rohkem?",
+     "options": [
+      "odav elu",
+      "lapsed saavad vabalt õues mängida",
+      "lühike tööteekond"
+     ],
+     "answer": 1,
+     "explain_ru": "«Kõige rohkem rõõmustab paari see, et lapsed saavad õues vabalt mängida»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mida tähendab tekstis väljend „kõik ei ole siiski nii roosiline“?",
+     "options": [
+      "kõik on väga ilus",
+      "on ka raskusi",
+      "lilli on vähe"
+     ],
+     "answer": 1,
+     "explain_ru": "«roosiline» — розовый, радужный. «Не всё так радужно» = есть и трудности; дальше абзац перечисляет проблемы."
+    },
+    {
+     "kind": "tf",
+     "q": "Martin sõidab iga päev tööle Tallinnasse.",
+     "answer": false,
+     "explain_ru": "Он работает из дома и бывает в столице «kord kuus» — раз в месяц."
+    },
+    {
+     "kind": "tf",
+     "q": "Kütmine osutus oodatust kallimaks.",
+     "answer": true,
+     "explain_ru": "«olime üllatunud, … kui kallis on kütmine»."
+    },
+    {
+     "kind": "tf",
+     "q": "Uute perede tõttu jäi küla kool avatuks.",
+     "answer": true,
+     "explain_ru": "«Tänu noortele peredele ei pidanud küla kool … uksi sulgema»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mida arvavad sotsioloogid?",
+     "options": [
+      "Kõik noored pered kolivad maale.",
+      "Tegemist ei ole massilise liikumisega.",
+      "Linnad jäävad peagi tühjaks."
+     ],
+     "answer": 1,
+     "explain_ru": "«Sotsioloogide hinnangul ei ole tegemist massilise liikumisega»."
+    }
+   ],
+   "module": "lugemine",
+   "advice_ru": "Если ошибок больше двух: не ищите в тексте те же слова, что в вопросе, — ищите синонимы и смысл абзаца. Перечитайте первое и последнее предложение каждого абзаца: там обычно главная мысль."
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Võrdlusastmed",
+   "rule_ru": "Сравнительная степень: основа родительного + -m: suur → suure → suurem; rahulik → rahuliku → rahulikum; mürarikas → mürarikka → mürarikkam. Неправильные: hea → parem, palju → rohkem. Превосходная: kõige + сравн. (kõige parem). «чем» = kui: Maal on rahulikum kui linnas.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Maal on elu ___ (rahulik) kui linnas.",
+     "answer": [
+      "rahulikum"
+     ],
+     "explain_ru": "rahulik → rahuliku → rahulikum."
+    },
+    {
+     "kind": "gap",
+     "q": "Kesklinnas on korterid palju ___ (kallis).",
+     "answer": [
+      "kallimad"
+     ],
+     "explain_ru": "kallis → kalli → kallim; мн. ч. «korterid» → kallimad."
+    },
+    {
+     "kind": "gap",
+     "q": "Pealinn on ___ (mürarikas) kui väikelinn.",
+     "answer": [
+      "mürarikkam"
+     ],
+     "explain_ru": "mürarikas → mürarikka (родит.) → mürarikkam."
+    },
+    {
+     "kind": "gap",
+     "q": "Minu arvates on kõige ___ (hea) elada linna lähedal maal.",
+     "answer": [
+      "parem"
+     ],
+     "explain_ru": "hea → parem (неправильная); kõige parem = лучше всего."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 4,
+   "title": "Enesekontroll",
+   "text": "Запишите ответ на часть 2. Посчитайте, сколько раз вы использовали сравнительную степень (suurem, rahulikum, kallim). Цель — минимум 4 раза за 2 минуты."
+  }
+ ]
+}

@@ -1,0 +1,173 @@
+{
+ "id": "d013",
+ "day": 13,
+ "version": 2,
+ "skill": "kirjutamine",
+ "title": "Ettepanek korteriühistule",
+ "title_ru": "Предложение товариществу собственников",
+ "topic": "eluase ja kogukond",
+ "minutes": 40,
+ "goal_ru": "Полуофициальное письмо-предложение (около 140 слов): описать проблему, предложить решение, обосновать.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "korteriühistu",
+     "ru": "товарищество собственников квартир",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/korteri%C3%BChistu/1"
+    },
+    {
+     "et": "juhatus",
+     "ru": "правление",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhatus/1"
+    },
+    {
+     "et": "üldkoosolek",
+     "ru": "общее собрание",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCldkoosolek/1"
+    },
+    {
+     "et": "hoov",
+     "ru": "двор",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hoov/1"
+    },
+    {
+     "et": "mänguväljak",
+     "ru": "детская площадка",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4nguv%C3%A4ljak/1"
+    },
+    {
+     "et": "ettepanek",
+     "ru": "предложение",
+     "example": "Teen ettepaneku …",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanek/1"
+    },
+    {
+     "et": "talgud",
+     "ru": "толока, субботник",
+     "example": "Korraldame talgud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/talgud/1"
+    },
+    {
+     "et": "eelarve",
+     "ru": "бюджет",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelarve/1"
+    },
+    {
+     "et": "hääletama",
+     "ru": "голосовать",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%A4%C3%A4letama/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Teen ettepaneku …",
+     "answer": [
+      "Teen ettepaneku …"
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "phrases",
+   "minutes": 6,
+   "title": "Ettepaneku tegemine",
+   "instruction_ru": "Выучите 4 фразы — они подходят для любого письма-предложения на экзамене.",
+   "phrases": [
+    "Pöördun teie poole ühe ettepanekuga.",
+    "Olen märganud, et …",
+    "Teen ettepaneku …(da)",
+    "Võiksime näiteks …",
+    "Selle eeliseks oleks see, et …",
+    "Olen valmis ise …",
+    "Palun arutada seda küsimust järgmisel üldkoosolekul."
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "writing",
+   "minutes": 16,
+   "title": "Kirjutamine: ettepanek",
+   "prompt_et": "Teie maja hoov on halvas seisukorras: mänguväljak on vana ja prügikastide ümbrus räpane. Kirjutage korteriühistu juhatusele e-kiri. Kirjutage:\n• mis on probleem;\n• mida te ette panete (vähemalt kaks ideed);\n• kuidas te ise saaksite aidata.",
+   "words": {
+    "min": 120,
+    "max": 160
+   },
+   "checklist": [
+    "Обращение: Lugupeetud korteriühistu juhatus!",
+    "Проблема описана конкретно",
+    "Два предложения с обоснованием",
+    "Ваш личный вклад",
+    "Просьба (обсудить на собрании / ответить)",
+    "Lugupidamisega + имя, номер квартиры",
+    "120–160 слов"
+   ],
+   "phrases": [],
+   "model": "Lugupeetud korteriühistu juhatus!\n\nPöördun teie poole ühe ettepanekuga, mis puudutab meie maja hoovi. Olen märganud, et mänguväljak on väga vanaks jäänud: kiikede puit on mädanenud ja liivakastis on klaasikilde. Ka prügikastide ümbrus on sageli räpane, sest konteinereid on liiga vähe.\n\nTeen ettepaneku vahetada vana mänguväljak välja uue ja turvalisema vastu. Selle jaoks võiksime taotleda toetust linnalt, nii et ühistu eelarve ei kannataks. Lisaks oleks mõistlik paigaldada üks konteiner juurde ja panna sinna sorteerimise juhend.\n\nOlen valmis ise aitama: võiksin korraldada kevadel talgud, kus elanikud saaksid koos hoovi koristada. Usun, et paljud naabrid oleksid nõus kaasa lööma.\n\nPalun arutada seda küsimust järgmisel üldkoosolekul.\n\nLugupidamisega\nNimi Perekonnanimi\nkorter nr 12",
+   "module": "kirjutamine"
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Käskiv kõneviis",
+   "rule_ru": "Повелительное: ты — основа (saada!, pane!, ära pane!); вы/вежливо — -ge/-ke (saatke!, pange!, ärge pange!). «Давайте» — 1 л. мн. ч. настоящего: Teeme! Arutame! В письме смягчайте: Palun saatke …",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Palun ___ (saatma) mulle koosoleku protokoll.",
+     "answer": [
+      "saatke"
+     ],
+     "explain_ru": "Вежливое «вы»: saat- + ke = saatke."
+    },
+    {
+     "kind": "gap",
+     "q": "Ärge ___ (panema) prügi konteineri kõrvale!",
+     "answer": [
+      "pange"
+     ],
+     "explain_ru": "Отрицательное «вы»: ärge + pange."
+    },
+    {
+     "kind": "gap",
+     "q": "Kallis naaber, ära ___ (unustama) talgud laupäeval!",
+     "answer": [
+      "unusta"
+     ],
+     "explain_ru": "Отрицательное «ты»: ära + основа: unusta."
+    },
+    {
+     "kind": "gap",
+     "q": "___ (arutama) seda küsimust järgmisel üldkoosolekul!",
+     "answer": [
+      "Arutage",
+      "arutage"
+     ],
+     "explain_ru": "Вы (мн. ч.): aruta- + ge."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 4,
+   "title": "Enesekontroll",
+   "text": "Сравните письма дня 3 и дня 13: какие фразы вы теперь используете автоматически? Выпишите свой личный «шаблон письма» из 6–8 фраз."
+  }
+ ]
+}

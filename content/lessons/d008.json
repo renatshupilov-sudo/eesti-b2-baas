@@ -1,0 +1,192 @@
+{
+ "id": "d008",
+ "day": 8,
+ "version": 2,
+ "skill": "kirjutamine",
+ "title": "Nutitelefonid koolis",
+ "title_ru": "Смартфоны в школе",
+ "topic": "haridus ja tehnoloogia",
+ "minutes": 40,
+ "goal_ru": "Второе задание письма: рассуждение-мнение (около 180 слов) с аргументами «за» и «против».",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "keelama",
+     "ru": "запрещать",
+     "example": "Kool keelas telefonid tundides.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keelama/1"
+    },
+    {
+     "et": "keeld",
+     "ru": "запрет",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeld/1"
+    },
+    {
+     "et": "tähelepanu hajuma",
+     "ru": "внимание рассеивается",
+     "example": "Telefoni tõttu hajub tähelepanu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajuma/1"
+    },
+    {
+     "et": "kiusamine",
+     "ru": "травля, буллинг",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kiusamine/1"
+    },
+    {
+     "et": "vahetund",
+     "ru": "перемена",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetund/1"
+    },
+    {
+     "et": "sõltuvus",
+     "ru": "зависимость",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%B5ltuvus/1"
+    },
+    {
+     "et": "vastutus",
+     "ru": "ответственность",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutus/1"
+    },
+    {
+     "et": "põhjendama",
+     "ru": "обосновывать",
+     "example": "Põhjendage oma arvamust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/p%C3%B5hjendama/1"
+    },
+    {
+     "et": "seisukoht",
+     "ru": "точка зрения, позиция",
+     "example": "Minu seisukoht on selge.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukoht/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Kool keelas telefonid tundides.",
+     "answer": [
+      "Kool keelas telefonid tundides."
+     ]
+    },
+    {
+     "audio": "Telefoni tõttu hajub tähelepanu.",
+     "answer": [
+      "Telefoni tõttu hajub tähelepanu."
+     ]
+    },
+    {
+     "audio": "Põhjendage oma arvamust.",
+     "answer": [
+      "Põhjendage oma arvamust."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "grammar",
+   "minutes": 8,
+   "title": "Sidesõnad ja seostajad",
+   "rule_ru": "Связность текста — отдельный критерий оценки. Противопоставление: kuid, aga, samas, seevastu. Уступка: kuigi (хотя), vaatamata sellele, et. Добавление: lisaks, peale selle, ka. Вывод: seega, seetõttu, kokkuvõttes. Порядок слов: после наречия-связки в начале предложения глагол стоит на втором месте (Seetõttu arvan …, Samas on …).",
+   "examples": [
+    "Kuigi telefon on kasulik, segab see tundides.",
+    "Samas on telefon vajalik, et vanematega ühendust võtta.",
+    "Seega pooldan osalist keeldu."
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "___ telefon on kasulik õppevahend, segab see sageli tundi.",
+     "answer": [
+      "Kuigi"
+     ],
+     "hint": "уступка",
+     "explain_ru": "kuigi = хотя (уступка). После kuigi-части главное предложение начинается с глагола: …, segab see."
+    },
+    {
+     "kind": "gap",
+     "q": "Paljud õpilased mängivad vahetundides telefonis. ___ liiguvad nad vähem.",
+     "answer": [
+      "Seetõttu",
+      "Seepärast",
+      "Seega"
+     ],
+     "explain_ru": "Следствие из предыдущего предложения → seetõttu/seepärast (поэтому). Обратите внимание: глагол сразу после связки — liiguvad nad."
+    },
+    {
+     "kind": "gap",
+     "q": "Keeld vähendab kiusamist. ___ ei õpi lapsed nii telefoni vastutustundlikult kasutama.",
+     "answer": [
+      "Samas",
+      "Teisalt",
+      "Kuid"
+     ],
+     "explain_ru": "Противопоставление второму аргументу → samas / teisalt / kuid."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause on õige sõnajärjega?",
+     "options": [
+      "Seetõttu ma arvan, et keeld on vajalik.",
+      "Seetõttu arvan ma, et keeld on vajalik.",
+      "Seetõttu arvan, et keeld vajalik on."
+     ],
+     "answer": 1,
+     "explain_ru": "После «seetõttu» в начале — глагол на второе место: Seetõttu arvan ma … (или: Seetõttu arvan, et …)."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "writing",
+   "minutes": 19,
+   "title": "Kirjutamine: arvamuskirjutis",
+   "prompt_et": "Mitmes Eesti koolis on nutitelefonide kasutamine tundides ja vahetundides keelatud. Kirjutage arvamuskirjutis teemal „Kas nutitelefonid tuleks koolis keelata?“. Tooge välja vähemalt kaks argumenti poolt ja üks vastu ning põhjendage oma seisukohta.",
+   "prompt_ru": "Структура: вступление (тема + ваша позиция) → 2 аргумента с примерами → контраргумент и ответ на него → вывод. Около 180 слов, 4–5 абзацев.",
+   "words": {
+    "min": 160,
+    "max": 210
+   },
+   "checklist": [
+    "Есть заголовок",
+    "Во вступлении ясна ваша позиция",
+    "Минимум 2 аргумента «за» и 1 «против»",
+    "Каждый аргумент подкреплён примером",
+    "Связки: esiteks, lisaks, samas, seega, kokkuvõttes",
+    "Вывод не повторяет вступление дословно",
+    "160–210 слов"
+   ],
+   "phrases": [
+    "Viimasel ajal arutatakse palju selle üle, kas …",
+    "Minu arvates …",
+    "Esiteks …",
+    "Teiseks / Lisaks sellele …",
+    "Teisalt võib väita, et …",
+    "Sellega võib osaliselt nõustuda, kuid …",
+    "Kokkuvõttes leian, et …"
+   ],
+   "model": "Kas nutitelefonid tuleks koolis keelata?\n\nViimasel ajal arutatakse palju selle üle, kas õpilased peaksid koolis nutitelefoni kasutama. Minu arvates oleks mõistlik telefonid tundides keelata, kuid täielik keeld ei ole vajalik.\n\nEsiteks hajub telefoni tõttu õpilaste tähelepanu. Kui laud on täis teavitusi, on raske õpetaja selgitusi kuulata ja ülesannetele keskenduda. Teiseks liiguvad lapsed vahetundides vähem ja suhtlevad omavahel harvem, sest paljud istuvad nurgas ja vaatavad ekraani. Lisaks aitab keeld vähendada küberkiusamist, mis sageli algab just koolipäeva jooksul.\n\nTeisalt võib väita, et telefon on tänapäeval oluline õppevahend ning vajalik ka selleks, et vanematega ühendust võtta. Sellega võib osaliselt nõustuda. Kui õpetaja palub telefoni mõne ülesande jaoks kasutada, peaks see olema lubatud.\n\nKokkuvõttes leian, et kõige parem lahendus on kokkulepe, mille järgi telefonid on tundides kotis ja neid võetakse välja ainult õpetaja loal. Nii õpivad lapsed tehnoloogiat vastutustundlikult kasutama.",
+   "module": "kirjutamine"
+  },
+  {
+   "type": "review",
+   "minutes": 4,
+   "title": "Enesekontroll",
+   "text": "Посчитайте слова (приложение считает автоматически). Подчеркните все связки — их должно быть не меньше 6. Проверьте, что в каждом абзаце одна мысль."
+  }
+ ]
+}

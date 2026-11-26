@@ -1,0 +1,206 @@
+{
+ "id": "d010",
+ "day": 10,
+ "version": 2,
+ "skill": "grammatika",
+ "title": "-ma, -da ja -des",
+ "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
+ "topic": "kultuur ja vaba aeg",
+ "minutes": 34,
+ "goal_ru": "Глагольные формы, которые чаще всего путают: ma-инфинитив, da-инфинитив и des-форма.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "etendus",
+     "ru": "спектакль, представление",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/etendus/1"
+    },
+    {
+     "et": "näitus",
+     "ru": "выставка",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/n%C3%A4itus/1"
+    },
+    {
+     "et": "pilet",
+     "ru": "билет",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pilet/1"
+    },
+    {
+     "et": "muuseum",
+     "ru": "музей",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/muuseum/1"
+    },
+    {
+     "et": "kontsert",
+     "ru": "концерт",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kontsert/1"
+    },
+    {
+     "et": "huviring",
+     "ru": "кружок по интересам",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/huviring/1"
+    },
+    {
+     "et": "lõõgastuma",
+     "ru": "расслабляться",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1"
+    },
+    {
+     "et": "harrastus",
+     "ru": "хобби, увлечение",
+     "example": "Minu harrastus on matkamine.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harrastus/1"
+    },
+    {
+     "et": "osalema (milles?)",
+     "ru": "участвовать",
+     "example": "Ma osalen laulukooris.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osalema/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "dictation",
+   "minutes": 4,
+   "title": "Kuula ja kirjuta",
+   "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
+   "items": [
+    {
+     "audio": "Minu harrastus on matkamine.",
+     "answer": [
+      "Minu harrastus on matkamine."
+     ]
+    },
+    {
+     "audio": "Ma osalen laulukooris.",
+     "answer": [
+      "Ma osalen laulukooris."
+     ]
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Сравните свой вариант с правильным: чаще всего теряются долгие гласные и двойные согласные (kokkuhoid, lubab, töötada). Прослушайте ещё раз и перепишите предложение без ошибок."
+  },
+  {
+   "type": "grammar",
+   "minutes": 22,
+   "title": "Tegevusnimed ja des-vorm",
+   "rule_ru": "-MA (lugema, vaatama) — после глаголов движения и начала: minema, tulema, hakkama, jääma, õppima, käima, kutsuma, aitama (Lähen kinno filmi vaatama. Hakkan õppima).\n-DA (lugeda, vaadata) — после глаголов желания, умения, возможности и оценок: tahtma, soovima, meeldima, võima, oskama, saama (= мочь), proovima, on vaja/tore/raske (Mulle meeldib lugeda. On raske otsustada).\n-DES (lugedes, vaadates) — «делая что-то» одновременно с основным действием, или способ действия (Ta kuulab muusikat süüa tehes. Keelt õpib kõige paremini rääkides). Образуется от da-инфинитива: lugeda → lugedes, teha → tehes, minna → minnes.",
+   "examples": [
+    "Läksime teatrisse etendust vaatama.",
+    "Mulle meeldib nädalavahetusel muuseumides käia.",
+    "Ta õppis eesti keelt raadiot kuulates."
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Me läheme laupäeval kinno uut filmi ___ (vaatama).",
+     "answer": [
+      "vaatama"
+     ],
+     "explain_ru": "minema/tulema (движение с целью) + ma-инфинитив: lähen vaatama."
+    },
+    {
+     "kind": "gap",
+     "q": "Mulle meeldib õhtuti raamatuid ___ (lugema).",
+     "answer": [
+      "lugeda"
+     ],
+     "explain_ru": "meeldima + da-инфинитив: mulle meeldib lugeda."
+    },
+    {
+     "kind": "gap",
+     "q": "Ta kuulab muusikat, ___ (sööki tegema) — kirjutage ainult verb.",
+     "answer": [
+      "tehes"
+     ],
+     "hint": "teha → tehes",
+     "explain_ru": "Одновременное действие → des-форма. tegema → teha → tehes."
+    },
+    {
+     "kind": "gap",
+     "q": "Kas te oskate ___ (ujuma)?",
+     "answer": [
+      "ujuda"
+     ],
+     "explain_ru": "oskama + da-инфинитив: oskan ujuda."
+    },
+    {
+     "kind": "gap",
+     "q": "Lapsed hakkasid laulukooris ___ (käima).",
+     "answer": [
+      "käima"
+     ],
+     "explain_ru": "hakkama (начать) + ma-инфинитив: hakkasid käima."
+    },
+    {
+     "kind": "gap",
+     "q": "Keelt õpib kõige paremini, emakeelsete inimestega ___ (rääkima).",
+     "answer": [
+      "rääkides"
+     ],
+     "explain_ru": "Способ действия («разговаривая») → des: rääkida → rääkides."
+    },
+    {
+     "kind": "gap",
+     "q": "Tal on raske nii varakult ___ (ärkama).",
+     "answer": [
+      "ärgata"
+     ],
+     "hint": "ärkama → ärgata",
+     "explain_ru": "on raske + da-инфинитив. ärkama → ärgata (чередование k/g)."
+    },
+    {
+     "kind": "gap",
+     "q": "Sõber kutsus mind kontserdile ___ (kaasa tulema) — kirjutage ainult verb.",
+     "answer": [
+      "tulema"
+     ],
+     "explain_ru": "kutsuma + ma-инфинитив: kutsus kaasa tulema."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma tahaksin näitusele ___ (minema).",
+     "answer": [
+      "minna"
+     ],
+     "explain_ru": "tahtma + da-инфинитив: tahaksin minna (неправильная форма: minna)."
+    },
+    {
+     "kind": "gap",
+     "q": "Koju ___ (minema) ostsin poest leiba.",
+     "answer": [
+      "minnes"
+     ],
+     "explain_ru": "«Идя домой» — одновременность → minna → minnes."
+    },
+    {
+     "kind": "mc",
+     "q": "Milline lause on õige?",
+     "options": [
+      "Ma unustasin pileteid osta.",
+      "Ma unustasin piletid osta.",
+      "Ma unustasin piletid ostma."
+     ],
+     "answer": 1,
+     "explain_ru": "unustama + da-инфинитив; билеты куплены целиком (бы) — полный объект."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Выпишите 5 глаголов, после которых вы ошиблись, и составьте с каждым своё предложение."
+  }
+ ]
+}

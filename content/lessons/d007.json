@@ -1,0 +1,194 @@
+{
+ "id": "d007",
+ "day": 7,
+ "version": 2,
+ "skill": "kuulamine",
+ "title": "Vabatahtlik toidupangas",
+ "title_ru": "Волонтёр в продовольственном банке",
+ "topic": "ühiskond",
+ "minutes": 31,
+ "goal_ru": "Аудирование: интервью о волонтёрстве. Понимание мотивов и мнений говорящего.",
+ "blocks": [
+  {
+   "type": "vocab",
+   "minutes": 5,
+   "title": "Sõnavara",
+   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "items": [
+    {
+     "et": "vabatahtlik",
+     "ru": "доброволец, волонтёр; добровольный",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vabatahtlik/1"
+    },
+    {
+     "et": "toidupank",
+     "ru": "продовольственный банк",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toidupank/1"
+    },
+    {
+     "et": "annetama",
+     "ru": "жертвовать",
+     "example": "Inimesed annetavad toitu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/annetama/1"
+    },
+    {
+     "et": "abivajaja",
+     "ru": "нуждающийся",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/abivajaja/1"
+    },
+    {
+     "et": "jagama",
+     "ru": "раздавать, делить",
+     "example": "Me jagame toidupakke.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/jagama/1"
+    },
+    {
+     "et": "rahuldust pakkuma",
+     "ru": "приносить удовлетворение",
+     "example": "See töö pakub mulle rahuldust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahuldust%20pakkuma/1"
+    },
+    {
+     "et": "kogemus",
+     "ru": "опыт",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogemus/1"
+    },
+    {
+     "et": "kogukond",
+     "ru": "сообщество, община",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogukond/1"
+    },
+    {
+     "et": "panustama (millesse?)",
+     "ru": "вкладываться, вносить вклад",
+     "example": "Igaüks saab panustada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/panustama/1"
+    }
+   ],
+   "module": "sonavara"
+  },
+  {
+   "type": "listening",
+   "minutes": 18,
+   "title": "Intervjuu vabatahtlikuga",
+   "plays": 2,
+   "instruction_et": "Kuulake intervjuud kaks korda ja vastake küsimustele.",
+   "transcript": "Ajakirjanik: Andres, sa oled juba kolm aastat toidupangas vabatahtlik. Kuidas sa sinna sattusid?\nAndres: Täiesti juhuslikult. Mu naaber töötas seal ja kutsus mind ühel laupäeval appi, sest neil oli inimestest puudus. Ma mõtlesin, et lähen ühe korra, aga jäingi.\nAjakirjanik: Mida sa seal täpsemalt teed?\nAndres: Põhiliselt sorteerin toitu, mida poed ja eraisikud annetavad, ning panen kokku toidupakke. Kord kuus käin ka poes, kus palume ostjatel midagi annetada.\nAjakirjanik: Kas see ei ole raske, kui sul on ka tavaline töö?\nAndres: Ausalt öeldes on mõnikord raske. Ma töötan nädala sees, nii et vabatahtlik töö jääb nädalavahetusse. Aga ma ei kahetse. See töö pakub mulle rahuldust, sest ma näen kohe, et minu abist on kasu.\nAjakirjanik: Kes on teie abivajajad?\nAndres: Väga erinevad inimesed. Paljud arvavad, et toidupanka tulevad ainult töötud, aga tegelikult on seal palju eakaid ja paljulapselisi peresid. Ka töötavatel inimestel ei pruugi raha alati jätkuda.\nAjakirjanik: Mida sa soovitaksid neile, kes tahaksid samuti panustada?\nAndres: Alustage väikselt. Ei pea kohe iga nädal käima. Ka üks kord kuus on suur abi. Ja vabatahtlik töö on hea võimalus harjutada eesti keelt — meil on mitu vabatahtlikku, kes on nii oma keeleoskust parandanud.",
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Kuidas Andres toidupanka sattus?",
+     "options": [
+      "Ta luges kuulutust ajalehest.",
+      "Naaber kutsus ta appi.",
+      "Ta tööandja saatis ta sinna."
+     ],
+     "answer": 1,
+     "explain_ru": "«Mu naaber töötas seal ja kutsus mind ühel laupäeval appi»."
+    },
+    {
+     "kind": "mc",
+     "q": "Mida Andres toidupangas põhiliselt teeb?",
+     "options": [
+      "juhib toidupanka",
+      "sorteerib toitu ja paneb kokku pakke",
+      "veab toitu autoga laiali"
+     ],
+     "answer": 1,
+     "explain_ru": "«Põhiliselt sorteerin toitu … ning panen kokku toidupakke»."
+    },
+    {
+     "kind": "mc",
+     "q": "Millal Andres vabatahtlikuna töötab?",
+     "options": [
+      "tööpäeviti õhtuti",
+      "nädalavahetustel",
+      "ainult suvel"
+     ],
+     "answer": 1,
+     "explain_ru": "«vabatahtlik töö jääb nädalavahetusse»."
+    },
+    {
+     "kind": "mc",
+     "q": "Miks see töö Andresele rahuldust pakub?",
+     "options": [
+      "Ta saab selle eest palka.",
+      "Ta näeb kohe oma abi kasu.",
+      "Ta leidis sealt uue töö."
+     ],
+     "answer": 1,
+     "explain_ru": "«ma näen kohe, et minu abist on kasu»."
+    },
+    {
+     "kind": "tf",
+     "q": "Toidupanka pöörduvad ainult töötud.",
+     "answer": false,
+     "explain_ru": "«Paljud arvavad, et … ainult töötud, aga tegelikult …» — после «aga tegelikult» обычно звучит правильный ответ."
+    },
+    {
+     "kind": "tf",
+     "q": "Andrese sõnul piisab ka sellest, kui aidata üks kord kuus.",
+     "answer": true,
+     "explain_ru": "«Ka üks kord kuus on suur abi»."
+    },
+    {
+     "kind": "tf",
+     "q": "Mõned vabatahtlikud on toidupangas oma eesti keelt parandanud.",
+     "answer": true,
+     "explain_ru": "«meil on mitu vabatahtlikku, kes on nii oma keeleoskust parandanud»."
+    }
+   ],
+   "module": "kuulamine",
+   "advice_ru": "Если ошибок больше двух: перед прослушиванием подчёркивайте в вопросах ключевые слова (кто? когда? почему?). Откройте расшифровку и прослушайте ещё раз, следя по тексту."
+  },
+  {
+   "type": "grammar",
+   "minutes": 5,
+   "title": "Verbide rektsioon",
+   "rule_ru": "Глагол определяет падеж: huvituma MILLEST (elatiiv -st), osalema MILLES (inessiiv -s), sõltuma MILLEST, mõtlema MILLELE/KELLELE (allatiiv -le), rääkima MILLEST, puudutama MIDA (partitiiv). Учите глагол сразу с вопросом.",
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Andres osaleb vabatahtlikus ___ (töö).",
+     "answer": [
+      "töös"
+     ],
+     "explain_ru": "osalema + MILLES → töös."
+    },
+    {
+     "kind": "gap",
+     "q": "Ta huvitub eesti ___ (ajalugu).",
+     "answer": [
+      "ajaloost"
+     ],
+     "explain_ru": "huvituma + MILLEST → ajaloost."
+    },
+    {
+     "kind": "gap",
+     "q": "Kõik sõltub ___ (aeg), mis mul on.",
+     "answer": [
+      "ajast"
+     ],
+     "explain_ru": "sõltuma + MILLEST → aeg → ajast (чередование)."
+    },
+    {
+     "kind": "gap",
+     "q": "Ma mõtlen tihti ___ (abivajajad).",
+     "answer": [
+      "abivajajatele"
+     ],
+     "explain_ru": "mõtlema + KELLELE → abivajajatele (мн. ч. аллатив)."
+    }
+   ],
+   "module": "grammatika",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
+  },
+  {
+   "type": "review",
+   "minutes": 3,
+   "title": "Enesekontroll",
+   "text": "Неделя 1 пройдена: чтение ×2, аудирование ×2, письмо, речь, грамматика. Отметьте в приложении, какая часть далась тяжелее всего — завтра начинаем второй круг."
+  }
+ ]
+}
