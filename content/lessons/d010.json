@@ -1,7 +1,7 @@
 {
  "id": "d010",
  "day": 10,
- "version": 3,
+ "version": 4,
  "skill": "grammatika",
  "title": "-ma, -da ja -des",
  "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
@@ -13,63 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "etendus",
-     "ru": "спектакль, представление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/etendus/1",
-     "audio_file": "audio/642f94bb43993475.mp3"
+     "et": "lavastus",
+     "ru": "постановка, спектакль",
+     "example": "Uus lavastus esietendub järgmisel nädalal.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/lavastus/1",
+     "audio_file": "audio/b1fe87fa84b8febd.mp3"
     },
     {
-     "et": "näitus",
-     "ru": "выставка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/n%C3%A4itus/1",
-     "audio_file": "audio/3c19d904b2b4b051.mp3"
+     "et": "esietendus",
+     "ru": "премьера",
+     "example": "Esietendusele olid piletid kohe välja müüdud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/esietendus/1",
+     "audio_file": "audio/f62a1d61dd5e6a27.mp3"
     },
     {
-     "et": "pilet",
-     "ru": "билет",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pilet/1",
-     "audio_file": "audio/a61dab1b4ce9e3d4.mp3"
+     "et": "väljapanek",
+     "ru": "экспозиция",
+     "example": "Muuseumi uus väljapanek räägib Eesti ajaloost.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljapanek/1",
+     "audio_file": "audio/b626c0469a76f1bd.mp3"
     },
     {
-     "et": "muuseum",
-     "ru": "музей",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/muuseum/1",
-     "audio_file": "audio/ed8cd133cbf19012.mp3"
-    },
-    {
-     "et": "kontsert",
-     "ru": "концерт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kontsert/1",
-     "audio_file": "audio/1e130476ab885572.mp3"
-    },
-    {
-     "et": "huviring",
-     "ru": "кружок по интересам",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/huviring/1",
-     "audio_file": "audio/4ed719305982c3b0.mp3"
-    },
-    {
-     "et": "lõõgastuma",
-     "ru": "расслабляться",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1",
-     "audio_file": "audio/12e36b25b7cc8d5a.mp3"
+     "et": "kultuuripärand",
+     "ru": "культурное наследие",
+     "example": "Laulupidu on osa Eesti kultuuripärandist.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kultuurip%C3%A4rand/1",
+     "audio_file": "audio/77656c91c0216745.mp3"
     },
     {
      "et": "harrastus",
      "ru": "хобби, увлечение",
-     "example": "Minu harrastus on matkamine.",
+     "example": "Laulmine on minu peamine harrastus.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harrastus/1",
      "audio_file": "audio/2ab7055fc5decb23.mp3"
     },
     {
+     "et": "elamus",
+     "ru": "впечатление, переживание",
+     "example": "Kontsert oli tõeline elamus.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elamus/1",
+     "audio_file": "audio/ca904e904368e188.mp3"
+    },
+    {
+     "et": "lõõgastuma",
+     "ru": "расслабляться",
+     "example": "Lõõgastun kõige paremini metsas jalutades.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B5%C3%B5gastuma/1",
+     "audio_file": "audio/12e36b25b7cc8d5a.mp3"
+    },
+    {
      "et": "osalema (milles?)",
-     "ru": "участвовать",
+     "ru": "участвовать (в чём)",
      "example": "Ma osalen laulukooris.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osalema/1",
      "audio_file": "audio/0ca93dbe99d7fbe1.mp3"
+    },
+    {
+     "et": "välja müüdud",
+     "ru": "распроданы",
+     "example": "Kõik piletid olid nädal enne kontserti välja müüdud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4lja%20m%C3%BC%C3%BCdud/1",
+     "audio_file": "audio/1c5c32927def80c2.mp3"
     }
    ],
    "module": "sonavara"
@@ -81,18 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Minu harrastus on matkamine.",
+     "audio": "Uus lavastus esietendub järgmisel nädalal.",
      "answer": [
-      "Minu harrastus on matkamine."
+      "Uus lavastus esietendub järgmisel nädalal."
      ],
-     "audio_file": "audio/d302f88b4f5a1221.mp3"
+     "audio_file": "audio/668286deac06fd17.mp3"
     },
     {
-     "audio": "Ma osalen laulukooris.",
+     "audio": "Esietendusele olid piletid kohe välja müüdud.",
      "answer": [
-      "Ma osalen laulukooris."
+      "Esietendusele olid piletid kohe välja müüdud."
      ],
-     "audio_file": "audio/b8aa968f5f1ef82f.mp3"
+     "audio_file": "audio/3641899a994b5cdb.mp3"
+    },
+    {
+     "audio": "Muuseumi uus väljapanek räägib Eesti ajaloost.",
+     "answer": [
+      "Muuseumi uus väljapanek räägib Eesti ajaloost."
+     ],
+     "audio_file": "audio/4052e218a7bcf8cb.mp3"
     }
    ],
    "module": "kuulamine",
@@ -204,7 +218,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

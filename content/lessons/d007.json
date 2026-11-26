@@ -1,7 +1,7 @@
 {
  "id": "d007",
  "day": 7,
- "version": 3,
+ "version": 4,
  "skill": "kuulamine",
  "title": "Vabatahtlik toidupangas",
  "title_ru": "Волонтёр в продовольственном банке",
@@ -13,39 +13,42 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
      "et": "vabatahtlik",
-     "ru": "доброволец, волонтёр; добровольный",
+     "ru": "доброволец; добровольный",
+     "example": "Ta on kolm aastat toidupangas vabatahtlik.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vabatahtlik/1",
      "audio_file": "audio/e6de58fa21fbd750.mp3"
     },
     {
-     "et": "toidupank",
-     "ru": "продовольственный банк",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toidupank/1",
-     "audio_file": "audio/ca8716d9a1ded014.mp3"
-    },
-    {
      "et": "annetama",
      "ru": "жертвовать",
-     "example": "Inimesed annetavad toitu.",
+     "example": "Poed annetavad toitu, mille säilivusaeg hakkab lõppema.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/annetama/1",
      "audio_file": "audio/a86cc8c458082688.mp3"
     },
     {
      "et": "abivajaja",
      "ru": "нуждающийся",
+     "example": "Toidupank aitab abivajajaid.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/abivajaja/1",
      "audio_file": "audio/271c42ab6175fd46.mp3"
     },
     {
-     "et": "jagama",
-     "ru": "раздавать, делить",
-     "example": "Me jagame toidupakke.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/jagama/1",
-     "audio_file": "audio/c2eb3daa9b498eb5.mp3"
+     "et": "sattuma (kuhu?)",
+     "ru": "попасть (случайно)",
+     "example": "Kuidas sa toidupanka sattusid?",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sattuma/1",
+     "audio_file": "audio/79d3f7b768f5ec61.mp3"
+    },
+    {
+     "et": "kahetsema",
+     "ru": "сожалеть",
+     "example": "Ma ei kahetse oma otsust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahetsema/1",
+     "audio_file": "audio/39ef2c718910b576.mp3"
     },
     {
      "et": "rahuldust pakkuma",
@@ -55,21 +58,23 @@
      "audio_file": "audio/969300e304e73551.mp3"
     },
     {
-     "et": "kogemus",
-     "ru": "опыт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogemus/1",
-     "audio_file": "audio/ed7846aa81096078.mp3"
+     "et": "paljulapseline pere",
+     "ru": "многодетная семья",
+     "example": "Abi saavad ka paljulapselised pered.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paljulapseline%20pere/1",
+     "audio_file": "audio/5ddb71bc449288a6.mp3"
     },
     {
-     "et": "kogukond",
-     "ru": "сообщество, община",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kogukond/1",
-     "audio_file": "audio/319f8ae2d583e635.mp3"
+     "et": "kodanikuühiskond",
+     "ru": "гражданское общество",
+     "example": "Vabatahtlik töö tugevdab kodanikuühiskonda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodaniku%C3%BChiskond/1",
+     "audio_file": "audio/b836afeab699c151.mp3"
     },
     {
      "et": "panustama (millesse?)",
-     "ru": "вкладываться, вносить вклад",
-     "example": "Igaüks saab panustada.",
+     "ru": "вкладываться (во что)",
+     "example": "Igaüks saab ühiskonda panustada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/panustama/1",
      "audio_file": "audio/f8f4b8ac62c6d03b.mp3"
     }
@@ -152,6 +157,14 @@
    "audio_file": "audio/a653ce916ff349a3.mp3"
   },
   {
+   "type": "external",
+   "minutes": 10,
+   "optional": true,
+   "title": "Lisaks: päris raadio (ERR Jupiter)",
+   "url": "https://jupiter.err.ee",
+   "instruction_ru": "Необязательно, если есть время. Откройте ERR Jupiter → Raadio → Vikerraadio и включите короткий выпуск новостей «Päevakaja» или любую передачу по теме урока. Послушайте 5–10 минут без субтитров и запишите 3 факта, которые вы поняли. Затем прослушайте ещё раз и проверьте себя. Автопроверки здесь нет: это тренировка на живой речи с нормальной скоростью."
+  },
+  {
    "type": "grammar",
    "minutes": 5,
    "title": "Verbide rektsioon",
@@ -191,7 +204,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

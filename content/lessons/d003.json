@@ -1,7 +1,7 @@
 {
  "id": "d003",
  "day": 3,
- "version": 3,
+ "version": 4,
  "skill": "kirjutamine",
  "title": "Kaebus e-poele",
  "title_ru": "Жалоба в интернет-магазин",
@@ -13,68 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "tellimus",
-     "ru": "заказ",
-     "example": "Tellimuse number on 45821.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellimus/1",
-     "audio_file": "audio/7c57fe6200e40202.mp3"
+     "et": "defektne",
+     "ru": "неисправный, с браком",
+     "example": "Defektse toote võib poodi tagastada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/defektne/1",
+     "audio_file": "audio/2f5888237c26e08e.mp3"
     },
     {
-     "et": "tellima",
-     "ru": "заказывать",
-     "example": "Tellisin e-poest tolmuimeja.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tellima/1",
-     "audio_file": "audio/5979a49679c114e8.mp3"
+     "et": "tagastama",
+     "ru": "возвращать",
+     "example": "Ostu võib tagastada 14 päeva jooksul.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tagastama/1",
+     "audio_file": "audio/74d7553404c070b7.mp3"
     },
     {
-     "et": "pakk",
-     "ru": "посылка",
-     "example": "Pakk saabus kaks nädalat hiljem.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakk/1",
-     "audio_file": "audio/b65a37a7305cf8fd.mp3"
+     "et": "hüvitama",
+     "ru": "возмещать",
+     "example": "Pood hüvitas saatmiskulud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%BCvitama/1",
+     "audio_file": "audio/d5fb0ad09fd001fd.mp3"
     },
     {
-     "et": "katki",
-     "ru": "сломан(ный)",
-     "example": "Karp oli katki.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/katki/1",
-     "audio_file": "audio/8b3ab71c2cd3c781.mp3"
+     "et": "garantii kehtib",
+     "ru": "гарантия действует",
+     "example": "Garantii kehtib kaks aastat.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/garantii%20kehtib/1",
+     "audio_file": "audio/8387b6be0c12bf2d.mp3"
     },
     {
-     "et": "puuduma",
-     "ru": "отсутствовать",
-     "example": "Üks osa puudus.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1",
-     "audio_file": "audio/0dbfe0c6e57e855f.mp3"
+     "et": "lepingust taganema",
+     "ru": "отказаться от договора",
+     "example": "E-poe ostu puhul on õigus lepingust 14 päeva jooksul taganeda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/lepingust%20taganema/1",
+     "audio_file": "audio/b2f2ade6ca2f42a4.mp3"
     },
     {
-     "et": "pettunud",
-     "ru": "разочарован",
-     "example": "Olen väga pettunud.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettunud/1",
-     "audio_file": "audio/c0a126b5b8cca4a9.mp3"
+     "et": "tarbijakaitse",
+     "ru": "защита прав потребителей",
+     "example": "Probleemi korral võib pöörduda tarbijakaitse poole.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tarbijakaitse/1",
+     "audio_file": "audio/94bbbe227058feba.mp3"
     },
     {
-     "et": "vahetama (mille vastu?)",
-     "ru": "обменять (на что)",
-     "example": "Palun vahetage toode uue vastu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetama/1",
-     "audio_file": "audio/c6849e9cf4653b45.mp3"
+     "et": "pretensiooni esitama",
+     "ru": "предъявить претензию",
+     "example": "Kliendil on õigus esitada pretensioon kahe aasta jooksul.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pretensiooni%20esitama/1",
+     "audio_file": "audio/5a359f44ef278850.mp3"
     },
     {
-     "et": "raha tagastama",
-     "ru": "вернуть деньги",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/raha%20tagastama/1",
-     "audio_file": "audio/11eecde047a99be2.mp3"
+     "et": "pettuma (milles?)",
+     "ru": "разочароваться (в чём)",
+     "example": "Olen teie teeninduses pettunud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pettuma/1",
+     "audio_file": "audio/b1209e86b12e1f60.mp3"
     },
     {
-     "et": "saatmiskulud",
-     "ru": "расходы на пересылку",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/saatmiskulud/1",
-     "audio_file": "audio/28e5526afb797507.mp3"
+     "et": "tarne hilinemine",
+     "ru": "задержка доставки",
+     "example": "Vabandame tarne hilinemise pärast.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tarne%20hilinemine/1",
+     "audio_file": "audio/fb1cdb37f339a869.mp3"
     }
    ],
    "module": "sonavara"
@@ -86,25 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Tellimuse number on 45821.",
+     "audio": "Defektse toote võib poodi tagastada.",
      "answer": [
-      "Tellimuse number on 45821."
+      "Defektse toote võib poodi tagastada."
      ],
-     "audio_file": "audio/65e295c8d677b596.mp3"
+     "audio_file": "audio/e6b46416eaf08931.mp3"
     },
     {
-     "audio": "Tellisin e-poest tolmuimeja.",
+     "audio": "Ostu võib tagastada 14 päeva jooksul.",
      "answer": [
-      "Tellisin e-poest tolmuimeja."
+      "Ostu võib tagastada 14 päeva jooksul."
      ],
-     "audio_file": "audio/fd422e7e62cf254e.mp3"
+     "audio_file": "audio/9657dd27461d0872.mp3"
     },
     {
-     "audio": "Pakk saabus kaks nädalat hiljem.",
+     "audio": "Pood hüvitas saatmiskulud.",
      "answer": [
-      "Pakk saabus kaks nädalat hiljem."
+      "Pood hüvitas saatmiskulud."
      ],
-     "audio_file": "audio/840509d492351b88.mp3"
+     "audio_file": "audio/c5e3dcfd817fc89a.mp3"
     }
    ],
    "module": "kuulamine",
@@ -164,7 +166,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

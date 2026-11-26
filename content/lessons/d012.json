@@ -1,7 +1,7 @@
 {
  "id": "d012",
  "day": 12,
- "version": 3,
+ "version": 4,
  "skill": "kuulamine",
  "title": "Teadaanded ja uudised",
  "title_ru": "Объявления и новости",
@@ -13,62 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "väljuma",
-     "ru": "отправляться",
-     "example": "Rong väljub teiselt platvormilt.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/v%C3%A4ljuma/1",
-     "audio_file": "audio/36b5289cbde9dc25.mp3"
+     "et": "tehniline rike",
+     "ru": "техническая неисправность",
+     "example": "Rong hilineb tehnilise rikke tõttu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tehniline%20rike/1",
+     "audio_file": "audio/00cd12c4d956d1ea.mp3"
     },
     {
-     "et": "hilinema",
-     "ru": "опаздывать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hilinema/1",
-     "audio_file": "audio/f5d33b2b76051616.mp3"
+     "et": "tavapärane",
+     "ru": "обычный",
+     "example": "Rong väljub tavapärase platvormi asemel esimeselt.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tavap%C3%A4rane/1",
+     "audio_file": "audio/2d82433084c10822.mp3"
     },
     {
-     "et": "ärajäämine",
-     "ru": "отмена",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%A4raj%C3%A4%C3%A4mine/1",
-     "audio_file": "audio/b9e8eb94695c075a.mp3"
+     "et": "ebamugavus",
+     "ru": "неудобство",
+     "example": "Vabandame ebamugavuste pärast.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ebamugavus/1",
+     "audio_file": "audio/815bed9d29848894.mp3"
     },
     {
-     "et": "asendusbuss",
-     "ru": "автобус взамен (поезда)",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendusbuss/1",
-     "audio_file": "audio/1d4e7fdb1fbde27b.mp3"
+     "et": "kehtima",
+     "ru": "действовать (о правиле)",
+     "example": "Allahindlus ei kehti kinkekaartidega.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kehtima/1",
+     "audio_file": "audio/7ec67543bf3e93d7.mp3"
     },
     {
-     "et": "allahindlus",
-     "ru": "скидка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allahindlus/1",
-     "audio_file": "audio/faeb6b711b25cfbe.mp3"
+     "et": "lörts",
+     "ru": "мокрый снег",
+     "example": "Pärastlõunal läheb lumi üle lörtsiks.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/l%C3%B6rts/1",
+     "audio_file": "audio/9ff6fa2caf32de45.mp3"
     },
     {
-     "et": "sademed",
-     "ru": "осадки",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sademed/1",
-     "audio_file": "audio/51da6de059e6c860.mp3"
+     "et": "libedus",
+     "ru": "гололёд",
+     "example": "Teedel on oodata libedust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/libedus/1",
+     "audio_file": "audio/8c39f1b3cf2ecc7b.mp3"
     },
     {
-     "et": "tuul pöördub",
-     "ru": "ветер меняется",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tuul%20p%C3%B6%C3%B6rdub/1",
-     "audio_file": "audio/65c87f095b13c243.mp3"
+     "et": "eeldatavalt",
+     "ru": "предположительно",
+     "example": "Teetööd kestavad eeldatavalt mai lõpuni.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eeldatavalt/1",
+     "audio_file": "audio/2c14235b16aaa9e8.mp3"
     },
     {
-     "et": "teetööd",
-     "ru": "дорожные работы",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teet%C3%B6%C3%B6d/1",
-     "audio_file": "audio/a44b3e31bd203fc7.mp3"
+     "et": "piirama",
+     "ru": "ограничивать",
+     "example": "Liiklus on piiratud ühele sõidurajale.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/piirama/1",
+     "audio_file": "audio/553392ad808e8698.mp3"
     },
     {
-     "et": "ümbersõit",
-     "ru": "объезд",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmbers%C3%B5it/1",
-     "audio_file": "audio/4509028bd2bd8c57.mp3"
+     "et": "mõjutama",
+     "ru": "влиять",
+     "example": "Muudatused bussiliiklust ei mõjuta.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%B5jutama/1",
+     "audio_file": "audio/a1aef650468c2e94.mp3"
     }
    ],
    "module": "sonavara"
@@ -216,6 +224,14 @@
    "advice_ru": "Ошибки в числах и времени — обычная проблема. Повторите: -teist (11–19), -kümmend (десятки), pool/veerand/kolmveerand."
   },
   {
+   "type": "external",
+   "minutes": 10,
+   "optional": true,
+   "title": "Lisaks: päris raadio (ERR Jupiter)",
+   "url": "https://jupiter.err.ee",
+   "instruction_ru": "Необязательно, если есть время. Откройте ERR Jupiter → Raadio → Vikerraadio и включите короткий выпуск новостей «Päevakaja» или любую передачу по теме урока. Послушайте 5–10 минут без субтитров и запишите 3 факта, которые вы поняли. Затем прослушайте ещё раз и проверьте себя. Автопроверки здесь нет: это тренировка на живой речи с нормальной скоростью."
+  },
+  {
    "type": "grammar",
    "minutes": 5,
    "title": "Aeg: alates, kuni, -ni, -st",
@@ -255,7 +271,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

@@ -1,7 +1,7 @@
 {
  "id": "d008",
  "day": 8,
- "version": 3,
+ "version": 4,
  "skill": "kirjutamine",
  "title": "Nutitelefonid koolis",
  "title_ru": "Смартфоны в школе",
@@ -13,65 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "keelama",
-     "ru": "запрещать",
-     "example": "Kool keelas telefonid tundides.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keelama/1",
-     "audio_file": "audio/41cdfd33470e7a48.mp3"
-    },
-    {
-     "et": "keeld",
-     "ru": "запрет",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeld/1",
-     "audio_file": "audio/28904b7bf82c64f3.mp3"
-    },
-    {
-     "et": "tähelepanu hajuma",
+     "et": "tähelepanu hajub",
      "ru": "внимание рассеивается",
      "example": "Telefoni tõttu hajub tähelepanu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajuma/1",
-     "audio_file": "audio/2282f2c270d7334a.mp3"
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4helepanu%20hajub/1",
+     "audio_file": "audio/c5c2b10b4b37bacf.mp3"
     },
     {
-     "et": "kiusamine",
-     "ru": "травля, буллинг",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kiusamine/1",
-     "audio_file": "audio/0a1381fe90236113.mp3"
-    },
-    {
-     "et": "vahetund",
-     "ru": "перемена",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vahetund/1",
-     "audio_file": "audio/9bffe4fc82820fa7.mp3"
+     "et": "küberkiusamine",
+     "ru": "кибербуллинг",
+     "example": "Küberkiusamine algab sageli koolipäeva jooksul.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/k%C3%BCberkiusamine/1",
+     "audio_file": "audio/9c4a5c26acf71121.mp3"
     },
     {
      "et": "sõltuvus",
      "ru": "зависимость",
+     "example": "Nutisõltuvus on noorte seas levinud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%B5ltuvus/1",
      "audio_file": "audio/19180964d827713f.mp3"
     },
     {
-     "et": "vastutus",
-     "ru": "ответственность",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutus/1",
-     "audio_file": "audio/3d2fc71186b47ed7.mp3"
+     "et": "vastutustundlikult",
+     "ru": "ответственно",
+     "example": "Lapsed peavad õppima tehnoloogiat vastutustundlikult kasutama.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutustundlikult/1",
+     "audio_file": "audio/309e4a4c9e07848c.mp3"
     },
     {
-     "et": "põhjendama",
-     "ru": "обосновывать",
-     "example": "Põhjendage oma arvamust.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/p%C3%B5hjendama/1",
-     "audio_file": "audio/0d0759faf3a494f2.mp3"
+     "et": "seisukohta põhjendama",
+     "ru": "обосновать позицию",
+     "example": "Põhjendage oma seisukohta näidetega.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukohta%20p%C3%B5hjendama/1",
+     "audio_file": "audio/cb83b6957db68093.mp3"
     },
     {
-     "et": "seisukoht",
-     "ru": "точка зрения, позиция",
-     "example": "Minu seisukoht on selge.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukoht/1",
-     "audio_file": "audio/ec5832dec6c16886.mp3"
+     "et": "vastuargument",
+     "ru": "контраргумент",
+     "example": "Hea arvamuskirjutis sisaldab ka vastuargumenti.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastuargument/1",
+     "audio_file": "audio/41b4fc599dd84b53.mp3"
+    },
+    {
+     "et": "keeldu kehtestama",
+     "ru": "ввести запрет",
+     "example": "Mitu kooli on kehtestanud telefonikeelu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keeldu%20kehtestama/1",
+     "audio_file": "audio/cd7827d5b9a4232f.mp3"
+    },
+    {
+     "et": "osaliselt nõustuma",
+     "ru": "частично согласиться",
+     "example": "Sellega võib osaliselt nõustuda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/osaliselt%20n%C3%B5ustuma/1",
+     "audio_file": "audio/4703595547223b43.mp3"
+    },
+    {
+     "et": "mõistlik",
+     "ru": "разумный",
+     "example": "Mõistlik lahendus on kokkulepe.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%B5istlik/1",
+     "audio_file": "audio/ff6df41710830f69.mp3"
     }
    ],
    "module": "sonavara"
@@ -83,13 +88,6 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Kool keelas telefonid tundides.",
-     "answer": [
-      "Kool keelas telefonid tundides."
-     ],
-     "audio_file": "audio/aa1b2c0e846b2631.mp3"
-    },
-    {
      "audio": "Telefoni tõttu hajub tähelepanu.",
      "answer": [
       "Telefoni tõttu hajub tähelepanu."
@@ -97,11 +95,18 @@
      "audio_file": "audio/5fe3bc0f0a064d13.mp3"
     },
     {
-     "audio": "Põhjendage oma arvamust.",
+     "audio": "Küberkiusamine algab sageli koolipäeva jooksul.",
      "answer": [
-      "Põhjendage oma arvamust."
+      "Küberkiusamine algab sageli koolipäeva jooksul."
      ],
-     "audio_file": "audio/3d668259c9a72fd4.mp3"
+     "audio_file": "audio/85a95b3a3b04a8db.mp3"
+    },
+    {
+     "audio": "Nutisõltuvus on noorte seas levinud.",
+     "answer": [
+      "Nutisõltuvus on noorte seas levinud."
+     ],
+     "audio_file": "audio/438c7cbf46f1e25a.mp3"
     }
    ],
    "module": "kuulamine",
@@ -160,7 +165,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

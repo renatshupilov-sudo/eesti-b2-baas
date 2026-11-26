@@ -229,6 +229,34 @@
           "description": "{word} заменяется словом"
         }
       }
+    },
+    "topicPlan": {
+      "type": "array",
+      "description": "Темы для будущих уроков и их покрытие",
+      "items": {
+        "type": "object",
+        "properties": {
+          "topic": {
+            "type": "string"
+          },
+          "ru": {
+            "type": "string"
+          },
+          "status": {
+            "enum": [
+              "planned",
+              "partly",
+              "done"
+            ]
+          },
+          "lessons": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      }
     }
   }
 }
