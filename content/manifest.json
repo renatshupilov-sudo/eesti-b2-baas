@@ -1,6 +1,6 @@
 {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-3",
+ "contentVersion": "2026.11.26-4",
  "updatedAt": "2026-11-26",
  "language": "et",
  "level": "B2",
@@ -10,6 +10,11 @@
   "urlTemplate": "https://sonaveeb.ee/search/unif/dlall/dsall/{word}/1"
  },
  "changelog": [
+  {
+   "version": "2026.11.26-4",
+   "date": "2026-11-26",
+   "ru": "Слова заменены на лексику уровня B2. Связки и фразы проверяются автоматически. В уроке 1 вместо порядка слов — словообразование. Итог урока с советом. Ссылки на живое аудирование ERR Jupiter. План тем."
+  },
   {
    "version": "2026.11.26-3",
    "date": "2026-11-26",
@@ -83,170 +88,170 @@
   {
    "id": "d001",
    "day": 1,
-   "version": 3,
+   "version": 4,
    "skill": "lugemine",
    "title": "Kaugtöö: vabadus või üksindus?",
    "title_ru": "Удалённая работа: свобода или одиночество?",
    "topic": "töö",
    "minutes": 40,
    "file": "lessons/d001.json",
-   "sha256": "cc2ffad86fdfede5c934545992abf0b770b11316e006bf01a4968fe56ccebdd1"
+   "sha256": "9d7dfab3baaf651f1474922ca11484f237f7779392e817b0f085ccf2479cc8e5"
   },
   {
    "id": "d002",
    "day": 2,
-   "version": 3,
+   "version": 4,
    "skill": "kuulamine",
    "title": "Bussid on hommikuti täis",
    "title_ru": "Утром автобусы переполнены",
    "topic": "linn ja transport",
    "minutes": 38,
    "file": "lessons/d002.json",
-   "sha256": "280e1f97beb81016f171319e53b4e12db227cf3f183df0aebc38c81fe62ea91f"
+   "sha256": "de8cdc1091bf778f85dd496dbd6a89ecaca3d64ee8a11d0c4fbbe2ca44b86040"
   },
   {
    "id": "d003",
    "day": 3,
-   "version": 3,
+   "version": 4,
    "skill": "kirjutamine",
    "title": "Kaebus e-poele",
    "title_ru": "Жалоба в интернет-магазин",
    "topic": "tarbimine",
    "minutes": 40,
    "file": "lessons/d003.json",
-   "sha256": "4df8720c105432674fee9ef5f3f6c8356ddc938659997338ad66aa5878a8fac0"
+   "sha256": "6f7d6902d373b3770d8b17eb37bc02b731ec985459d3574c17e6ba216cad0687"
   },
   {
    "id": "d004",
    "day": 4,
-   "version": 3,
+   "version": 4,
    "skill": "kuulamine",
    "title": "Täiskasvanuna jälle koolipingis",
    "title_ru": "Снова за партой во взрослом возрасте",
    "topic": "haridus",
    "minutes": 31,
    "file": "lessons/d004.json",
-   "sha256": "8774716207e24de858d75c68ea092f76ec88daf9a129c910649f43c66e454668"
+   "sha256": "2cfd9b2962b5bfe4fdb29a390ee32bcabd760cbbfb6f7ae3ff8cb4dcbf1c69b6"
   },
   {
    "id": "d005",
    "day": 5,
-   "version": 3,
+   "version": 4,
    "skill": "grammatika",
    "title": "Sihitis: terve või osa?",
    "title_ru": "Объект: полный или частичный?",
    "topic": "tervis",
    "minutes": 39,
    "file": "lessons/d005.json",
-   "sha256": "114026544ed791b50e54f86ab7a0adcdd515b46a2b676ca5ddf94721285e8188"
+   "sha256": "8da85a08134024db8e87b991819a5cdf64cf3144ce6fce1f889fe0da52b77aab"
   },
   {
    "id": "d006",
    "day": 6,
-   "version": 3,
+   "version": 4,
    "skill": "lugemine",
    "title": "Kas prügi sorteerimisel on mõtet?",
    "title_ru": "Есть ли смысл сортировать мусор?",
    "topic": "keskkond",
    "minutes": 40,
    "file": "lessons/d006.json",
-   "sha256": "5caf7e850499646b132d3bdd77c77527db21220529693be34330f909f5ee3751"
+   "sha256": "a81a0f240b5c49e0f09ec78b3432d7c30979799806f850704c42ca2e33ae28ab"
   },
   {
    "id": "d007",
    "day": 7,
-   "version": 3,
+   "version": 4,
    "skill": "kuulamine",
    "title": "Vabatahtlik toidupangas",
    "title_ru": "Волонтёр в продовольственном банке",
    "topic": "ühiskond",
    "minutes": 31,
    "file": "lessons/d007.json",
-   "sha256": "1b3b807733f5bebc2dd582061620a270bf7fabde5fab9e20aed6f159c8c81269"
+   "sha256": "04adff8bc9568683f50d00a4e6b1d4490405062b117d6cc8640fc99bb7cb9323"
   },
   {
    "id": "d008",
    "day": 8,
-   "version": 3,
+   "version": 4,
    "skill": "kirjutamine",
    "title": "Nutitelefonid koolis",
    "title_ru": "Смартфоны в школе",
    "topic": "haridus ja tehnoloogia",
    "minutes": 40,
    "file": "lessons/d008.json",
-   "sha256": "9402133f529596efdcb7f42942dfbcee539e8f791c5d65225a20f3e0348fb6f5"
+   "sha256": "b5ed01005d0b87d3679ebac6fce895e5af801e57e629fa1342835e37131c1e50"
   },
   {
    "id": "d009",
    "day": 9,
-   "version": 3,
+   "version": 4,
    "skill": "lugemine",
    "title": "Linnast maale",
    "title_ru": "Из города в деревню",
    "topic": "eluase ja elukeskkond",
    "minutes": 36,
    "file": "lessons/d009.json",
-   "sha256": "860b48566e6b02f57ee27750b9b20fac40c44df3f0e1e2a5aeffad5639cceab7"
+   "sha256": "6967f55ee69efa3029d7fe3fb2ee46f7b24ca1dd5a9a99cec8ef95300f397036"
   },
   {
    "id": "d010",
    "day": 10,
-   "version": 3,
+   "version": 4,
    "skill": "grammatika",
    "title": "-ma, -da ja -des",
    "title_ru": "Инфинитивы на -ma, -da и деепричастие на -des",
    "topic": "kultuur ja vaba aeg",
    "minutes": 34,
    "file": "lessons/d010.json",
-   "sha256": "0d936a9bdce65f33cd0fe063fb9af93be5520a579af17af397e1566409df1d4d"
+   "sha256": "915c97cb0e6d302b56de56342788cb58312edd8ef31e9e75e20de11aca0be281"
   },
   {
    "id": "d011",
    "day": 11,
-   "version": 3,
+   "version": 4,
    "skill": "lugemine",
    "title": "Tehisintellekt klassiruumis",
    "title_ru": "Искусственный интеллект в классе",
    "topic": "tehnoloogia",
    "minutes": 40,
    "file": "lessons/d011.json",
-   "sha256": "04755aec28cdfdb5e46d5255fb95c2c34c64e2fa3fe1bce4a70cd65401f56f8a"
+   "sha256": "d1f40cc7cdac7ab1db36eaf28dad92255de793c10418a70f7d5ac2ad546a8ef0"
   },
   {
    "id": "d012",
    "day": 12,
-   "version": 3,
+   "version": 4,
    "skill": "kuulamine",
    "title": "Teadaanded ja uudised",
    "title_ru": "Объявления и новости",
    "topic": "igapäevaelu",
    "minutes": 38,
    "file": "lessons/d012.json",
-   "sha256": "3ecb2d92bcdf646f36c9bd6a15d211a675f7064cec26ae12088cee60d05bc92d"
+   "sha256": "4afbdc9a9798426feafd8ca2314348d2d6614f1467ddba15b4d8589e562dafce"
   },
   {
    "id": "d013",
    "day": 13,
-   "version": 3,
+   "version": 4,
    "skill": "kirjutamine",
    "title": "Ettepanek korteriühistule",
    "title_ru": "Предложение товариществу собственников",
    "topic": "eluase ja kogukond",
    "minutes": 40,
    "file": "lessons/d013.json",
-   "sha256": "d4b8af5fc92ca1198b1ffe3553181e488934cfd644257db960883d1b40ff4e50"
+   "sha256": "d669681d8596dd2693f89744f8e94722fb5b4453b651703f386fb807ae4922c1"
   },
   {
    "id": "d014",
    "day": 14,
-   "version": 3,
+   "version": 4,
    "skill": "proovieksam",
    "title": "Väike proovieksam",
    "title_ru": "Мини-пробный экзамен",
    "topic": "kordamine",
    "minutes": 38,
    "file": "lessons/d014.json",
-   "sha256": "8cc06fd61709a5691d154b705c68dd5c8942469b53a79bd3d1dfac730bd2b8c5"
+   "sha256": "af7b7378eccf6cc2a00595d05804b04c68adc2f109072bb87ed30cfd60cdd96a"
   }
  ],
  "modules": [
@@ -503,13 +508,13 @@
     {
      "lesson": "d001",
      "block": 4,
-     "title": "Sõnajärg: verb teisel kohal",
+     "title": "Sõnamoodustus",
      "topic": "töö",
-     "minutes": 5
+     "minutes": 6
     },
     {
      "lesson": "d002",
-     "block": 3,
+     "block": 4,
      "title": "Arvsõna + nimisõna",
      "topic": "linn ja transport",
      "minutes": 5
@@ -544,7 +549,7 @@
     },
     {
      "lesson": "d007",
-     "block": 2,
+     "block": 3,
      "title": "Verbide rektsioon",
      "topic": "ühiskond",
      "minutes": 5
@@ -579,7 +584,7 @@
     },
     {
      "lesson": "d012",
-     "block": 3,
+     "block": 4,
      "title": "Aeg: alates, kuni, -ni, -st",
      "topic": "igapäevaelu",
      "minutes": 5
@@ -610,7 +615,7 @@
      "block": 2,
      "title": "Lugemine",
      "topic": "töö",
-     "minutes": 17
+     "minutes": 16
     },
     {
      "lesson": "d005",
@@ -685,5 +690,117 @@
    ]
   }
  ],
- "lessonPlan_ru": "Каждый урок дня (30–40 мин) содержит: новые слова, аудирование или аудио-диктант, основное задание в формате экзамена, мини-грамматику и самопроверку. Те же упражнения доступны отдельно по модулям."
+ "lessonPlan_ru": "Каждый урок дня (30–40 мин) содержит: новые слова, аудирование или аудио-диктант, основное задание в формате экзамена, мини-грамматику и самопроверку. Те же упражнения доступны отдельно по модулям.",
+ "topicPlan": [
+  {
+   "topic": "loodus",
+   "ru": "природа",
+   "status": "planned"
+  },
+  {
+   "topic": "majandus",
+   "ru": "экономика",
+   "status": "planned"
+  },
+  {
+   "topic": "keskkond ja kliima",
+   "ru": "экология и климат",
+   "status": "partly",
+   "lessons": [
+    "d006"
+   ]
+  },
+  {
+   "topic": "poliitika ja riik",
+   "ru": "политика и государство",
+   "status": "planned"
+  },
+  {
+   "topic": "ühiskond",
+   "ru": "общество",
+   "status": "partly",
+   "lessons": [
+    "d007"
+   ]
+  },
+  {
+   "topic": "teadus ja tehnoloogia",
+   "ru": "наука и технологии",
+   "status": "partly",
+   "lessons": [
+    "d011"
+   ]
+  },
+  {
+   "topic": "töö ja karjäär",
+   "ru": "работа и карьера",
+   "status": "done",
+   "lessons": [
+    "d001"
+   ]
+  },
+  {
+   "topic": "haridus",
+   "ru": "образование",
+   "status": "done",
+   "lessons": [
+    "d004",
+    "d008"
+   ]
+  },
+  {
+   "topic": "tervis",
+   "ru": "здоровье",
+   "status": "done",
+   "lessons": [
+    "d005"
+   ]
+  },
+  {
+   "topic": "linn, transport, eluase",
+   "ru": "город, транспорт, жильё",
+   "status": "done",
+   "lessons": [
+    "d002",
+    "d009",
+    "d013"
+   ]
+  },
+  {
+   "topic": "kultuur ja ajalugu",
+   "ru": "культура и история",
+   "status": "partly",
+   "lessons": [
+    "d010"
+   ]
+  },
+  {
+   "topic": "tarbimine ja raha",
+   "ru": "потребление и деньги",
+   "status": "partly",
+   "lessons": [
+    "d003"
+   ]
+  },
+  {
+   "topic": "meedia",
+   "ru": "СМИ",
+   "status": "planned"
+  },
+  {
+   "topic": "turvalisus ja riigikaitse",
+   "ru": "безопасность и оборона",
+   "status": "planned"
+  },
+  {
+   "topic": "perekond ja demograafia",
+   "ru": "семья и демография",
+   "status": "planned"
+  },
+  {
+   "topic": "reisimine ja turism",
+   "ru": "путешествия и туризм",
+   "status": "planned"
+  }
+ ]
 }

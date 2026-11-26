@@ -1,7 +1,7 @@
 {
  "id": "d004",
  "day": 4,
- "version": 3,
+ "version": 4,
  "skill": "kuulamine",
  "title": "Täiskasvanuna jälle koolipingis",
  "title_ru": "Снова за партой во взрослом возрасте",
@@ -13,20 +13,21 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
      "et": "elukestev õpe",
      "ru": "обучение в течение всей жизни",
+     "example": "Elukestev õpe on tänapäeval vajalik.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukestev%20%C3%B5pe/1",
      "audio_file": "audio/cc2c25292514bb09.mp3"
     },
     {
-     "et": "täienduskoolitus",
-     "ru": "курсы повышения квалификации",
-     "example": "Käisin eelmisel aastal täienduskoolitusel.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%A4ienduskoolitus/1",
-     "audio_file": "audio/84b69ac865896465.mp3"
+     "et": "ümberõpe",
+     "ru": "переподготовка",
+     "example": "Riik toetab täiskasvanute ümberõpet.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCmber%C3%B5pe/1",
+     "audio_file": "audio/6a3bd202270c9743.mp3"
     },
     {
      "et": "end täiendama",
@@ -36,44 +37,46 @@
      "audio_file": "audio/5f36130185f7cafc.mp3"
     },
     {
-     "et": "oskus",
-     "ru": "навык, умение",
-     "example": "Uued oskused aitavad tööl.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/oskus/1",
-     "audio_file": "audio/072a5aa97a1cf6ab.mp3"
+     "et": "õppemaks",
+     "ru": "плата за обучение",
+     "example": "Tööandja maksab poole õppemaksust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppemaks/1",
+     "audio_file": "audio/e9d04ab5356495ec.mp3"
     },
     {
-     "et": "tunnistus",
-     "ru": "свидетельство, сертификат",
-     "example": "Kursuse lõpus sain tunnistuse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tunnistus/1",
-     "audio_file": "audio/bb94fc40892371b2.mp3"
+     "et": "töö kõrvalt õppima",
+     "ru": "учиться без отрыва от работы",
+     "example": "Paljud täiskasvanud õpivad töö kõrvalt.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6%20k%C3%B5rvalt%20%C3%B5ppima/1",
+     "audio_file": "audio/371ad04a60936948.mp3"
     },
     {
-     "et": "eneseareng",
-     "ru": "саморазвитие",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eneseareng/1",
-     "audio_file": "audio/8284fe1d6ebf412d.mp3"
+     "et": "paigal tammuma",
+     "ru": "топтаться на месте",
+     "example": "Tundsin, et olen paigal tammunud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paigal%20tammuma/1",
+     "audio_file": "audio/6b30de8c00eb623a.mp3"
     },
     {
-     "et": "kulud",
-     "ru": "расходы",
-     "example": "Kes peaks kulud kinni maksma?",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kulud/1",
-     "audio_file": "audio/bb25ee72e031122e.mp3"
+     "et": "takistus",
+     "ru": "препятствие",
+     "example": "Vanus ei ole õppimisel takistus.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/takistus/1",
+     "audio_file": "audio/48de21b7e5739f5e.mp3"
     },
     {
-     "et": "kasu",
-     "ru": "польза",
-     "example": "Sellest on palju kasu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kasu/1",
-     "audio_file": "audio/6a8e2494997854dd.mp3"
+     "et": "vastutasuks",
+     "ru": "взамен",
+     "example": "Vastutasuks lubas ta ettevõttesse jääda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutasuks/1",
+     "audio_file": "audio/7e93673a0640c699.mp3"
     },
     {
-     "et": "veebikursus",
-     "ru": "онлайн-курс",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/veebikursus/1",
-     "audio_file": "audio/5fea3f6dab776f6f.mp3"
+     "et": "süüdi tundma (end)",
+     "ru": "чувствовать себя виноватым",
+     "example": "Ta tundis end süüdi, et lastele ei jätkunud aega.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/s%C3%BC%C3%BCdi%20tundma/1",
+     "audio_file": "audio/7e810cd1fcadb829.mp3"
     }
    ],
    "module": "sonavara"
@@ -203,7 +206,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

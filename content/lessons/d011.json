@@ -1,7 +1,7 @@
 {
  "id": "d011",
  "day": 11,
- "version": 3,
+ "version": 4,
  "skill": "lugemine",
  "title": "Tehisintellekt klassiruumis",
  "title_ru": "Искусственный интеллект в классе",
@@ -13,63 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "tehisintellekt (TI)",
-     "ru": "искусственный интеллект (ИИ)",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tehisintellekt/1",
-     "audio_file": "audio/86e7577cf31de678.mp3"
+     "et": "kättesaadav",
+     "ru": "доступный",
+     "example": "Vestlusrobotid said laialdaselt kättesaadavaks.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/k%C3%A4ttesaadav/1",
+     "audio_file": "audio/743135386460da51.mp3"
     },
     {
-     "et": "õppevahend",
-     "ru": "учебное средство",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%B5ppevahend/1",
-     "audio_file": "audio/8070056fd1fde107.mp3"
+     "et": "tulemuslik",
+     "ru": "результативный",
+     "example": "Keelamine ei osutunud tulemuslikuks.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tulemuslik/1",
+     "audio_file": "audio/6a8e068098113791.mp3"
     },
     {
-     "et": "kodutöö",
-     "ru": "домашнее задание",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodut%C3%B6%C3%B6/1",
-     "audio_file": "audio/7bdc13443888e92a.mp3"
+     "et": "valeinfo",
+     "ru": "ложная информация",
+     "example": "Masin võib enesekindlalt esitada valeinfot.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/valeinfo/1",
+     "audio_file": "audio/8d65d343a0346db7.mp3"
     },
     {
-     "et": "petma",
-     "ru": "обманывать, списывать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/petma/1",
-     "audio_file": "audio/4d185845258c427d.mp3"
+     "et": "allikakriitika",
+     "ru": "критическая оценка источников",
+     "example": "Allikakriitika on infoajastul hädavajalik.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikakriitika/1",
+     "audio_file": "audio/979a4d18e4b20f55.mp3"
     },
     {
-     "et": "hindama",
-     "ru": "оценивать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hindama/1",
-     "audio_file": "audio/0a801dc061b9094c.mp3"
+     "et": "mõttekäik",
+     "ru": "ход мысли",
+     "example": "Õpilane peab oskama oma mõttekäiku selgitada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%B5ttek%C3%A4ik/1",
+     "audio_file": "audio/b9c7bb1bf488713f.mp3"
     },
     {
-     "et": "kriitiline mõtlemine",
-     "ru": "критическое мышление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kriitiline%20m%C3%B5tlemine/1",
-     "audio_file": "audio/aa1604448c650c84.mp3"
+     "et": "eitama",
+     "ru": "отрицать",
+     "example": "Probleeme ei saa eitada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eitama/1",
+     "audio_file": "audio/d054ba24ed57c1ef.mp3"
     },
     {
-     "et": "allikas",
-     "ru": "источник",
-     "example": "Kontrolli allikat.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/allikas/1",
-     "audio_file": "audio/086d4a81a7291b9c.mp3"
+     "et": "infotulv",
+     "ru": "поток информации",
+     "example": "Õpetaja aitab infotulvas orienteeruda.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/infotulv/1",
+     "audio_file": "audio/1af02d881390808a.mp3"
     },
     {
      "et": "asendama",
      "ru": "заменять",
-     "example": "TI ei asenda õpetajat.",
+     "example": "Tehisintellekt ei asenda õpetajat.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/asendama/1",
      "audio_file": "audio/137add4837335766.mp3"
     },
     {
-     "et": "ohustama",
-     "ru": "угрожать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohustama/1",
-     "audio_file": "audio/858da40132d87dee.mp3"
+     "et": "juhendaja",
+     "ru": "руководитель, наставник",
+     "example": "Õpetajast saab üha enam juhendaja.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhendaja/1",
+     "audio_file": "audio/c671164e382b7f92.mp3"
     }
    ],
    "module": "sonavara"
@@ -81,11 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "TI ei asenda õpetajat.",
+     "audio": "Vestlusrobotid said laialdaselt kättesaadavaks.",
      "answer": [
-      "TI ei asenda õpetajat."
+      "Vestlusrobotid said laialdaselt kättesaadavaks."
      ],
-     "audio_file": "audio/fb7265522133d54a.mp3"
+     "audio_file": "audio/3a396443724478f3.mp3"
+    },
+    {
+     "audio": "Keelamine ei osutunud tulemuslikuks.",
+     "answer": [
+      "Keelamine ei osutunud tulemuslikuks."
+     ],
+     "audio_file": "audio/c9817f0a903ea9cf.mp3"
+    },
+    {
+     "audio": "Masin võib enesekindlalt esitada valeinfot.",
+     "answer": [
+      "Masin võib enesekindlalt esitada valeinfot."
+     ],
+     "audio_file": "audio/b34269ccdf0fcf46.mp3"
     }
    ],
    "module": "kuulamine",
@@ -178,7 +199,7 @@
    "type": "phrases",
    "minutes": 6,
    "title": "Sõnavara laiendamine",
-   "instruction_ru": "Образуйте существительные от глаголов (на B2 за богатство словаря дают отдельные баллы): hindama → hindamine; kasutama → kasutamine / kasutaja; arenema → areng; keelama → keeld; muutuma → muutus; õpetama → õpetaja / õpetus.",
+   "instruction_ru": "Устойчивые сочетания уровня B2: выберите правильный вариант.",
    "phrases": [
     "hindama → hindamine",
     "kasutama → kasutaja, kasutamine",
@@ -187,6 +208,63 @@
     "muutuma → muutus",
     "esitama → esitlus",
     "mõtlema → mõte, mõtlemine"
+   ],
+   "tasks": [
+    {
+     "kind": "mc",
+     "q": "Koolid annavad suulistele esitlustele rohkem ___.",
+     "options": [
+      "tähtsust",
+      "tähtsus",
+      "tähtis"
+     ],
+     "answer": 0,
+     "explain_ru": "tähtsust andma — придавать значение; объект в частичном падеже."
+    },
+    {
+     "kind": "mc",
+     "q": "Arutelu lõpus ___ me ühisele järeldusele.",
+     "options": [
+      "jõudsime",
+      "tulime",
+      "saime"
+     ],
+     "answer": 0,
+     "explain_ru": "järeldusele jõudma — прийти к выводу."
+    },
+    {
+     "kind": "mc",
+     "q": "Tehnoloogia ___ hariduses üha suuremat rolli.",
+     "options": [
+      "mängib",
+      "teeb",
+      "annab"
+     ],
+     "answer": 0,
+     "explain_ru": "rolli mängima — играть роль."
+    },
+    {
+     "kind": "mc",
+     "q": "Õpilane peab allikaid ___.",
+     "options": [
+      "kontrollima",
+      "kontrollida",
+      "kontrollides"
+     ],
+     "answer": 0,
+     "explain_ru": "pidama (быть должным) + ma-инфинитив: peab kontrollima."
+    },
+    {
+     "kind": "mc",
+     "q": "Õpetajad on selle probleemi pärast ___.",
+     "options": [
+      "mures",
+      "murelikult",
+      "muret"
+     ],
+     "answer": 0,
+     "explain_ru": "mures olema — беспокоиться: olen mures (millegi pärast)."
+    }
    ],
    "module": "sonavara"
   },
@@ -230,7 +308,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

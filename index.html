@@ -49,7 +49,13 @@ nav a[aria-current="page"]{background:var(--ink);color:var(--bg);border-color:va
 .eki{font:500 12px var(--mono);text-decoration:none;padding-top:3px;white-space:nowrap}
 .vocab button:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
 .vocab .et{font-weight:600}.vocab .ru{color:var(--muted)}.vocab .ex{grid-column:1/-1;font-size:13px;color:var(--muted);font-style:italic}
-.hide-ru .vocab .ru{filter:blur(5px)}
+.vrow{grid-template-columns:minmax(0,1.3fr) minmax(0,1fr) auto!important}
+.vocab .word{all:unset;cursor:pointer;display:flex;flex-direction:column;gap:2px;min-width:0}
+.vocab .ru{all:unset;cursor:pointer;color:var(--muted);border-radius:4px;padding:0 4px;transition:filter .15s}
+.vocab .ru.hid{filter:blur(6px);background:var(--accent-soft)}
+.vocab .word:focus-visible,.vocab .ru:focus-visible{outline:2px solid var(--accent)}
+.sum{display:flex;flex-direction:column;gap:6px}.sum .row{display:grid;grid-template-columns:minmax(0,1fr) auto;gap:10px;padding:6px 0;border-bottom:1px solid var(--line)}
+.ok{color:var(--ok)}.no{color:var(--bad)}
 .task{display:flex;flex-direction:column;gap:8px;padding-top:10px;border-top:1px dashed var(--line)}
 .task:first-child{border-top:0;padding-top:0}
 .q{font-weight:500}
@@ -92,7 +98,7 @@ a{color:var(--accent)}
   <header>
     <div class="date" id="date"></div>
     <h1>Päevatund B2</h1>
-    <div class="status" id="status">Laen sisu…</div>
+    <div class="btns"><div class="status" id="status">Laen sisu…</div><button class="btn ghost" id="refresh" style="padding:4px 10px;font-size:13px">↻ Uuenda</button></div>
   </header>
   <nav>
     <a href="#tana" data-v="tana">Täna</a>
@@ -142,6 +148,7 @@ async function sync(){
   }
 }
 function setStatus(t){$("#status").textContent=t}
+document.getElementById("refresh").addEventListener("click",()=>{setStatus("Kontrollin uuendusi…");sync()});
 
 function todayIndex(){
   const n=manifest.lessons.length; const d=Math.floor((Date.parse(new Date().toISOString().slice(0,10))-Date.parse(startDate))/864e5);
@@ -215,11 +222,22 @@ const wrapBlock=(b,...kids)=>h("section",{class:"step"},h("div",{class:"hd"},h("
 
 function block(b,l){
   switch(b.type){
-    case "intro": case "review": return wrapBlock(b,h("p",{class:"note"},b.text));
-    case "vocab": { const box=h("div",{class:"vocab"},b.items.map(i=>h("div",{class:"vrow"},h("button",{onclick:()=>playFile(i.audio_file,i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},i.et),h("span",{class:"ru"},i.ru),i.example&&h("span",{class:"ex"},i.example)),
-        i.dict&&h("a",{class:"eki",href:i.dict,target:"_blank",rel:"noopener",title:"Sõnaveeb (EKI)"},"EKI ↗"))));
-      const w=h("div",{},box); return wrapBlock(b,h("div",{class:"btns"},h("button",{class:"btn ghost",onclick:()=>w.classList.toggle("hide-ru")},"Peida / näita tõlge")),w); }
-    case "phrases": return wrapBlock(b,h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))));
+    case "intro": return wrapBlock(b,h("p",{class:"note"},b.text));
+    case "review": return review(b,l);
+    case "vocab": {
+      const rus=[];
+      const box=h("div",{class:"vocab"},b.items.map(i=>{
+        const ru=h("button",{class:"ru hid","aria-label":"Näita tõlget",onclick:()=>ru.classList.toggle("hid")},i.ru); rus.push(ru);
+        return h("div",{class:"vrow"},
+          h("button",{class:"word",onclick:()=>playFile(i.audio_file,i.et.replace(/\(.*?\)/g,"")),"aria-label":"Kuula: "+i.et},h("span",{class:"et"},"🔊 "+i.et),i.example&&h("span",{class:"ex"},i.example)),
+          ru, i.dict?h("a",{class:"eki",href:i.dict,target:"_blank",rel:"noopener",title:"Sõnaveeb (EKI)"},"EKI ↗"):h("span",{}));
+      }));
+      return wrapBlock(b,h("div",{class:"btns"},
+        h("button",{class:"btn ghost",onclick:()=>rus.forEach(r=>r.classList.remove("hid"))},"Näita kõik"),
+        h("button",{class:"btn ghost",onclick:()=>rus.forEach(r=>r.classList.add("hid"))},"Peida kõik")),box); }
+    case "phrases": return wrapBlock(b,h("div",{class:"phr"},b.phrases.map(x=>h("span",{},x))),b.tasks?tasks(b.tasks,l,b):null);
+    case "external": return wrapBlock(b,h("div",{class:"btns"},h("a",{class:"btn",href:b.url,target:"_blank",rel:"noopener"},"Ava ERR Jupiter ↗"),h("span",{class:"chip plain"},"vabatahtlik")),
+      h("textarea",{id:"ext-"+l.id,"aria-label":"Mida te kuulsite","placeholder":"3 факта, которые вы поняли…",style:"min-height:90px"}));
     case "reading": return wrapBlock(b,h("div",{class:"text"},b.text),tasks(b.tasks,l,b));
     case "listening": return listening(b,l);
     case "dictation": return dictation(b,l);
@@ -259,12 +277,33 @@ function say(text,onend){try{speechSynthesis.cancel();const u=new SpeechSynthesi
 let curAudio=null;
 function stopAudio(){try{speechSynthesis.cancel()}catch{}if(curAudio){curAudio.pause();curAudio=null}}
 /* Настоящая запись (mp3 из базы); если файла нет или он не загрузился — голос телефона. */
+let speed=store.get("speed",1);
 function playFile(rel,fallback,onfail){
   stopAudio();
   const fb=()=>{if(onfail)onfail();if(fallback)say(fallback)};
   if(!rel){fb();return}
   const a=new Audio(new URL(rel,new URL(MANIFEST,location.href)).href);curAudio=a;
-  a.onerror=fb; a.play().catch(err=>{if(err&&err.name!=="AbortError")fb()});
+  a.playbackRate=speed; a.onerror=fb; a.play().catch(err=>{if(err&&err.name!=="AbortError")fb()});
+}
+const MODNAME={sonavara:"Sõnavara",kuulamine:"Kuulamine",grammatika:"Grammatika",lugemine:"Lugemine",kirjutamine:"Kirjutamine"};
+function review(b,l){
+  const out=h("div",{class:"sum"});
+  const build=()=>{
+    const sc=(progress[l.id]||{}).scores||{}; out.replaceChildren();
+    const rows=l.blocks.filter(x=>x.tasks||x.type==="dictation").map(x=>{const r=sc[x.title];return{x,r,pct:r?Math.round(r[0]/r[1]*100):null}});
+    const done=rows.filter(r=>r.pct!==null);
+    if(!done.length){out.append(h("p",{class:"note"},"Пока нет результатов. Нажмите «Kontrolli» в упражнениях выше, и здесь появится итог урока."));return}
+    rows.forEach(r=>out.append(h("div",{class:"row"},h("span",{},r.x.title),h("b",{class:r.pct===null?"":r.pct>=60?"ok":"no"},r.pct===null?"не сделано":`${r.r[0]}/${r.r[1]} · ${r.pct}%`))));
+    const tot=done.reduce((a,r)=>[a[0]+r.r[0],a[1]+r.r[1]],[0,0]); const p=Math.round(tot[0]/tot[1]*100);
+    out.append(h("p",{},h("b",{},`Итого: ${tot[0]}/${tot[1]} (${p}%). `),p>=80?"Отличный результат, выше уровня экзамена.":p>=60?"Это уровень проходного балла (60%), но запаса мало.":"Ниже проходного балла (60%) — этот урок стоит повторить завтра."));
+    const weak=done.filter(r=>r.pct<60);
+    if(weak.length){weak.forEach(r=>out.append(h("p",{class:"note"},`Слабое место — «${r.x.title}». ${r.x.advice_ru||"Прочитайте пояснения к ошибкам."}`)));
+      const m=weak[0].x.module; if(m) out.append(h("a",{class:"btn ghost",href:"#m-"+m},`Тренировать: ${MODNAME[m]||m} →`));}
+    else out.append(h("p",{class:"note"},"Слабых мест в этом уроке нет. Завтра — следующий урок."));
+    if(b.text) out.append(h("p",{class:"note"},b.text));
+  };
+  build();
+  return wrapBlock({...b,title:"Tunni kokkuvõte · итог урока"},out,h("div",{class:"btns"},h("button",{class:"btn",onclick:build},"Обновить итог")));
 }
 function listening(b,l){
   let plays=0; const max=b.plays||2;
@@ -275,7 +314,9 @@ function listening(b,l){
   const play=h("button",{class:"btn",onclick:()=>{if(plays>=max)return;plays++;info.textContent=`Kuulamisi: ${plays}/${max}`;
     playFile(b.audio_file,null,()=>{warn.hidden=false;ttsAll()});if(plays>=max)play.disabled=true}},"▶ Kuula");
   const stop=h("button",{class:"btn ghost",onclick:stopAudio},"■ Stopp");
-  return wrapBlock(b,warn,h("div",{class:"btns"},play,stop,info),tasks(b.tasks,l,b),h("details",{},h("summary",{},"Транскрипт (после проверки)"),h("div",{class:"text"},b.transcript)));
+  const sp=h("select",{id:"speed-"+l.id,"aria-label":"Kiirus"},[[0.8,"0.8× aeglasem"],[0.9,"0.9×"],[1,"1× normaalne"]].map(([v,t])=>h("option",{value:String(v)},t)));
+  sp.value=String(speed); sp.addEventListener("change",()=>{speed=+sp.value;store.set("speed",speed);if(curAudio)curAudio.playbackRate=speed});
+  return wrapBlock(b,warn,h("div",{class:"btns"},play,stop,sp,info),tasks(b.tasks,l,b),h("details",{},h("summary",{},"Транскрипт (после проверки)"),h("div",{class:"text"},b.transcript)));
 }
 function dictation(b,l){
   const tasksList=b.items.map((it,i)=>({kind:"gap",q:`${i+1}.`,answer:it.answer,explain_ru:""}));

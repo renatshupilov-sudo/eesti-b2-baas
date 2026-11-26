@@ -1,7 +1,7 @@
 {
  "id": "d013",
  "day": 13,
- "version": 3,
+ "version": 4,
  "skill": "kirjutamine",
  "title": "Ettepanek korteriühistule",
  "title_ru": "Предложение товариществу собственников",
@@ -13,63 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
      "et": "korteriühistu",
      "ru": "товарищество собственников квартир",
+     "example": "Korteriühistu juhatus otsustab remondi üle.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/korteri%C3%BChistu/1",
      "audio_file": "audio/1f083aab02975a12.mp3"
     },
     {
-     "et": "juhatus",
-     "ru": "правление",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/juhatus/1",
-     "audio_file": "audio/32c061b6de4fe686.mp3"
-    },
-    {
      "et": "üldkoosolek",
      "ru": "общее собрание",
+     "example": "Seda küsimust arutatakse üldkoosolekul.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCldkoosolek/1",
      "audio_file": "audio/503ace934a280b5b.mp3"
     },
     {
-     "et": "hoov",
-     "ru": "двор",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/hoov/1",
-     "audio_file": "audio/e1fbfea53fedd3f0.mp3"
-    },
-    {
-     "et": "mänguväljak",
-     "ru": "детская площадка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4nguv%C3%A4ljak/1",
-     "audio_file": "audio/5bbda2291f376d1c.mp3"
-    },
-    {
-     "et": "ettepanek",
-     "ru": "предложение",
-     "example": "Teen ettepaneku …",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanek/1",
-     "audio_file": "audio/fe7f9743c2f5d4c4.mp3"
+     "et": "ettepanekut tegema",
+     "ru": "вносить предложение",
+     "example": "Teen ettepaneku hoov korrastada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ettepanekut%20tegema/1",
+     "audio_file": "audio/b2eef6a54323787a.mp3"
     },
     {
      "et": "talgud",
      "ru": "толока, субботник",
-     "example": "Korraldame talgud.",
+     "example": "Kevadel korraldame hoovis talgud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/talgud/1",
      "audio_file": "audio/7f2d37f0ae4c62cd.mp3"
     },
     {
+     "et": "toetust taotlema",
+     "ru": "подать заявку на поддержку",
+     "example": "Ühistu võiks taotleda linnalt toetust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/toetust%20taotlema/1",
+     "audio_file": "audio/639313c2afba0321.mp3"
+    },
+    {
      "et": "eelarve",
      "ru": "бюджет",
+     "example": "Ühistu eelarve on piiratud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelarve/1",
      "audio_file": "audio/73e83c02f7cdcc14.mp3"
     },
     {
-     "et": "hääletama",
-     "ru": "голосовать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/h%C3%A4%C3%A4letama/1",
-     "audio_file": "audio/3dc0a66892fd9405.mp3"
+     "et": "kaasa lööma",
+     "ru": "принять участие",
+     "example": "Paljud naabrid on nõus kaasa lööma.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaasa%20l%C3%B6%C3%B6ma/1",
+     "audio_file": "audio/ddc7e43309e942b6.mp3"
+    },
+    {
+     "et": "paigaldama",
+     "ru": "устанавливать",
+     "example": "Hoovi paigaldatakse uus konteiner.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paigaldama/1",
+     "audio_file": "audio/095a4bab396add69.mp3"
+    },
+    {
+     "et": "seisukord",
+     "ru": "состояние",
+     "example": "Mänguväljak on halvas seisukorras.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/seisukord/1",
+     "audio_file": "audio/1746bd45c23994fe.mp3"
     }
    ],
    "module": "sonavara"
@@ -81,11 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Teen ettepaneku …",
+     "audio": "Korteriühistu juhatus otsustab remondi üle.",
      "answer": [
-      "Teen ettepaneku …"
+      "Korteriühistu juhatus otsustab remondi üle."
      ],
-     "audio_file": "audio/7279d35d943bc22d.mp3"
+     "audio_file": "audio/1d215e1ba0110e3c.mp3"
+    },
+    {
+     "audio": "Seda küsimust arutatakse üldkoosolekul.",
+     "answer": [
+      "Seda küsimust arutatakse üldkoosolekul."
+     ],
+     "audio_file": "audio/21a7afb2d7de00ec.mp3"
+    },
+    {
+     "audio": "Teen ettepaneku hoov korrastada.",
+     "answer": [
+      "Teen ettepaneku hoov korrastada."
+     ],
+     "audio_file": "audio/c1f9e3523e23a527.mp3"
     }
    ],
    "module": "kuulamine",
@@ -95,7 +116,7 @@
    "type": "phrases",
    "minutes": 6,
    "title": "Ettepaneku tegemine",
-   "instruction_ru": "Выучите 4 фразы — они подходят для любого письма-предложения на экзамене.",
+   "instruction_ru": "Фразы для письма-предложения: впишите пропущенное слово.",
    "phrases": [
     "Pöördun teie poole ühe ettepanekuga.",
     "Olen märganud, et …",
@@ -104,6 +125,49 @@
     "Selle eeliseks oleks see, et …",
     "Olen valmis ise …",
     "Palun arutada seda küsimust järgmisel üldkoosolekul."
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Teen ___ hoov korda teha.",
+     "answer": [
+      "ettepaneku"
+     ],
+     "explain_ru": "ettepanekut tegema → завершённое «вношу предложение»: teen ettepaneku + da-инфинитив."
+    },
+    {
+     "kind": "gap",
+     "q": "Olen ___, et prügikastide ümbrus on räpane.",
+     "answer": [
+      "märganud"
+     ],
+     "explain_ru": "Olen märganud, et … — Я заметил(а), что … (перфект с -nud)."
+    },
+    {
+     "kind": "gap",
+     "q": "Selle ___ oleks see, et lapsed saaksid turvaliselt mängida.",
+     "answer": [
+      "eeliseks"
+     ],
+     "explain_ru": "eelis → eeliseks (транслатив): «преимуществом было бы то, что …»."
+    },
+    {
+     "kind": "gap",
+     "q": "Palun ___ seda küsimust järgmisel üldkoosolekul.",
+     "answer": [
+      "arutada",
+      "arutage"
+     ],
+     "explain_ru": "Официальная просьба: Palun arutada (da-инфинитив) или вежливое повелительное: Palun arutage."
+    },
+    {
+     "kind": "gap",
+     "q": "Olen valmis talgute korraldamisel kaasa ___.",
+     "answer": [
+      "lööma"
+     ],
+     "explain_ru": "kaasa lööma — принять участие; valmis + ma-инфинитив."
+    }
    ],
    "module": "sonavara"
   },
@@ -170,7 +234,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

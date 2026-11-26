@@ -1,7 +1,7 @@
 {
  "id": "d006",
  "day": 6,
- "version": 3,
+ "version": 4,
  "skill": "lugemine",
  "title": "Kas prügi sorteerimisel on mõtet?",
  "title_ru": "Есть ли смысл сортировать мусор?",
@@ -13,65 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "jäätmed",
-     "ru": "отходы",
-     "example": "Olmejäätmed visatakse segaprügi konteinerisse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmed/1",
-     "audio_file": "audio/dc64ff55270fc311.mp3"
-    },
-    {
-     "et": "sorteerima",
-     "ru": "сортировать",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/sorteerima/1",
-     "audio_file": "audio/08fb8452f69a9050.mp3"
-    },
-    {
-     "et": "pakend",
-     "ru": "упаковка",
-     "example": "Pakendid pannakse kollasesse konteinerisse.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pakend/1",
-     "audio_file": "audio/2d05cac85ed067b4.mp3"
-    },
-    {
-     "et": "biojäätmed",
-     "ru": "пищевые (био)отходы",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/bioj%C3%A4%C3%A4tmed/1",
-     "audio_file": "audio/450936c917cd6ad9.mp3"
+     "et": "jäätmekäitlus",
+     "ru": "обращение с отходами",
+     "example": "Jäätmekäitlus on kohaliku omavalitsuse ülesanne.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/j%C3%A4%C3%A4tmek%C3%A4itlus/1",
+     "audio_file": "audio/8d76ecb0af01050d.mp3"
     },
     {
      "et": "taaskasutama",
      "ru": "повторно использовать",
+     "example": "Pakendeid saab taaskasutada.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/taaskasutama/1",
      "audio_file": "audio/8b5bca782f768dd4.mp3"
     },
     {
-     "et": "prügila",
-     "ru": "свалка",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pr%C3%BCgila/1",
-     "audio_file": "audio/126d755cfd1a06d8.mp3"
-    },
-    {
      "et": "ladestama",
      "ru": "захоранивать (отходы)",
-     "example": "Prügi ladestatakse prügilasse.",
+     "example": "Segaprügi ladestatakse prügilasse.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ladestama/1",
      "audio_file": "audio/91cbd6b1ef209033.mp3"
     },
     {
-     "et": "trahv",
-     "ru": "штраф",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/trahv/1",
-     "audio_file": "audio/ee2346ed097d9c6f.mp3"
+     "et": "keskkonnasõbralik",
+     "ru": "экологичный",
+     "example": "Kõige keskkonnasõbralikum prügi on see, mida ei teki.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskkonnas%C3%B5bralik/1",
+     "audio_file": "audio/7674edbfdc650dd2.mp3"
     },
     {
-     "et": "kahtlema (milles?)",
-     "ru": "сомневаться",
-     "example": "Paljud kahtlevad sorteerimise mõttekuses.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kahtlema/1",
-     "audio_file": "audio/89604f0ba5826eca.mp3"
+     "et": "tekitama",
+     "ru": "создавать, образовывать",
+     "example": "Me tekitame liiga palju jäätmeid.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tekitama/1",
+     "audio_file": "audio/1fad1295fd088da1.mp3"
+    },
+    {
+     "et": "kohustuslik",
+     "ru": "обязательный",
+     "example": "Sorteerimine on muutunud kohustuslikuks.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohustuslik/1",
+     "audio_file": "audio/5d880ffc81a07b7c.mp3"
+    },
+    {
+     "et": "tõele vastama",
+     "ru": "соответствовать действительности",
+     "example": "See arvamus ei vasta tõele.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B5ele%20vastama/1",
+     "audio_file": "audio/1b33db2d22782607.mp3"
+    },
+    {
+     "et": "märgatavalt",
+     "ru": "заметно",
+     "example": "Sorteerimine vähendab prügiarvet märgatavalt.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%A4rgatavalt/1",
+     "audio_file": "audio/fea1b61b8b07fa2a.mp3"
+    },
+    {
+     "et": "ohtlikud jäätmed",
+     "ru": "опасные отходы",
+     "example": "Patareid on ohtlikud jäätmed.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/ohtlikud%20j%C3%A4%C3%A4tmed/1",
+     "audio_file": "audio/3f61fd7bd8bdf2b0.mp3"
     }
    ],
    "module": "sonavara"
@@ -83,25 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Olmejäätmed visatakse segaprügi konteinerisse.",
+     "audio": "Jäätmekäitlus on kohaliku omavalitsuse ülesanne.",
      "answer": [
-      "Olmejäätmed visatakse segaprügi konteinerisse."
+      "Jäätmekäitlus on kohaliku omavalitsuse ülesanne."
      ],
-     "audio_file": "audio/f9046e9d7e237572.mp3"
+     "audio_file": "audio/de8b8fc31e9b1b4c.mp3"
     },
     {
-     "audio": "Pakendid pannakse kollasesse konteinerisse.",
+     "audio": "Pakendeid saab taaskasutada.",
      "answer": [
-      "Pakendid pannakse kollasesse konteinerisse."
+      "Pakendeid saab taaskasutada."
      ],
-     "audio_file": "audio/23326ab1de14ed25.mp3"
+     "audio_file": "audio/5e248f2a061af528.mp3"
     },
     {
-     "audio": "Prügi ladestatakse prügilasse.",
+     "audio": "Segaprügi ladestatakse prügilasse.",
      "answer": [
-      "Prügi ladestatakse prügilasse."
+      "Segaprügi ladestatakse prügilasse."
      ],
-     "audio_file": "audio/d5709d4876c268f9.mp3"
+     "audio_file": "audio/1beb7d350808d3b7.mp3"
     }
    ],
    "module": "kuulamine",
@@ -189,7 +194,7 @@
    "type": "phrases",
    "minutes": 6,
    "title": "Põhjus ja tagajärg",
-   "instruction_ru": "Связки причины и следствия. Составьте по одному предложению о сортировке мусора с каждой из первых четырёх.",
+   "instruction_ru": "Связки причины и следствия: впишите подходящую — ответ проверится автоматически.",
    "phrases": [
     "sest / kuna (потому что / так как)",
     "seetõttu / seepärast (поэтому)",
@@ -197,6 +202,56 @@
     "mistõttu (из-за чего)",
     "tänu sellele (благодаря этому)",
     "selle tulemusena (в результате)"
+   ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "Prügi tasub sorteerida, ___ segaprügi äravedu on kallim.",
+     "answer": [
+      "sest",
+      "kuna"
+     ],
+     "explain_ru": "Причина → sest / kuna."
+    },
+    {
+     "kind": "gap",
+     "q": "Elanikud sorteerivad hoolikalt. ___ on nende prügiarve väiksem.",
+     "answer": [
+      "Seetõttu",
+      "Seepärast",
+      "Seega",
+      "seetõttu",
+      "seepärast",
+      "seega"
+     ],
+     "explain_ru": "Следствие → seetõttu / seepärast; глагол «on» сразу после связки."
+    },
+    {
+     "kind": "gap",
+     "q": "___ sorteerimisele saab pakenditest teha uusi tooteid.",
+     "answer": [
+      "Tänu",
+      "tänu"
+     ],
+     "explain_ru": "tänu + аллатив (-le): tänu sorteerimisele — благодаря сортировке (положительная причина)."
+    },
+    {
+     "kind": "gap",
+     "q": "Prügiauto ei käinud kaks nädalat, ___ tekkis hoovis ebameeldiv lõhn.",
+     "answer": [
+      "mistõttu"
+     ],
+     "explain_ru": "mistõttu — «из-за чего»: вводит следствие и стоит после запятой."
+    },
+    {
+     "kind": "gap",
+     "q": "Vale sorteerimise ___ võib ühistu saada trahvi.",
+     "answer": [
+      "tõttu",
+      "pärast"
+     ],
+     "explain_ru": "Послелог с родительным: vale sorteerimise tõttu — из-за неправильной сортировки (отрицательная причина)."
+    }
    ],
    "module": "sonavara"
   },
@@ -240,7 +295,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

@@ -179,7 +179,8 @@
             "speaking",
             "grammar",
             "phrases",
-            "review"
+            "review",
+            "external"
           ]
         },
         "minutes": {
@@ -348,6 +349,13 @@
         "audio_file": {
           "type": "string",
           "description": "listening: путь к mp3 относительно content/"
+        },
+        "url": {
+          "type": "string"
+        },
+        "optional": {
+          "type": "boolean",
+          "description": "Необязательный блок, не входит в 30–40 минут"
         }
       },
       "allOf": [

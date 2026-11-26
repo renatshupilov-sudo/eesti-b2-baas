@@ -1,7 +1,7 @@
 {
  "id": "d002",
  "day": 2,
- "version": 3,
+ "version": 4,
  "skill": "kuulamine",
  "title": "Bussid on hommikuti täis",
  "title_ru": "Утром автобусы переполнены",
@@ -13,62 +13,49 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
-    {
-     "et": "ühistransport",
-     "ru": "общественный транспорт",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BChistransport/1",
-     "audio_file": "audio/7c8d023053a8e395.mp3"
-    },
-    {
-     "et": "kurtma (mille üle?)",
-     "ru": "жаловаться",
-     "example": "Kuulajad kurdavad, et bussid on täis.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kurtma/1",
-     "audio_file": "audio/3287585349cb567c.mp3"
-    },
     {
      "et": "tipptund",
      "ru": "час пик",
-     "example": "Tipptunnil on bussid täis.",
+     "example": "Tipptunnil sõidab tööle kõige rohkem inimesi.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tipptund/1",
      "audio_file": "audio/afc820f4b440305a.mp3"
     },
     {
-     "et": "puuduma",
-     "ru": "не хватать, отсутствовать",
-     "example": "Linnas puudub kuuskümmend bussijuhti.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puuduma/1",
-     "audio_file": "audio/0dbfe0c6e57e855f.mp3"
-    },
-    {
-     "et": "koormus",
-     "ru": "нагрузка",
-     "example": "Hommikune koormus on suur.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/koormus/1",
-     "audio_file": "audio/1d8f4eef2de8d592.mp3"
+     "et": "ülerahvastatud",
+     "ru": "переполненный",
+     "example": "Hommikused bussid on sageli ülerahvastatud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BClerahvastatud/1",
+     "audio_file": "audio/2fb0e3abe216f3f1.mp3"
     },
     {
      "et": "end õigustama",
      "ru": "оправдать себя",
-     "example": "Kas tasuta transport on end õigustanud?",
+     "example": "Tasuta ühistransport on end osaliselt õigustanud.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/end%20%C3%B5igustama/1",
      "audio_file": "audio/04bcf414dd542b37.mp3"
     },
     {
-     "et": "eakas",
-     "ru": "пожилой",
-     "example": "Eakad sõidavad tasuta.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eakas/1",
-     "audio_file": "audio/75b94db2e71535fa.mp3"
+     "et": "koormust vähendama",
+     "ru": "снизить нагрузку",
+     "example": "Paindlik tööaeg aitab hommikust koormust vähendada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/koormust%20v%C3%A4hendama/1",
+     "audio_file": "audio/080841c8ab82a28f.mp3"
     },
     {
-     "et": "harjumus",
-     "ru": "привычка",
-     "example": "Harjumusi on raske muuta.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harjumus/1",
-     "audio_file": "audio/3b4aedb1fb7e195b.mp3"
+     "et": "eelistama (mida millele?)",
+     "ru": "предпочитать (что чему)",
+     "example": "Paljud eelistavad autot bussile.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelistama/1",
+     "audio_file": "audio/00f15f64a93bd00d.mp3"
+    },
+    {
+     "et": "harjumusi muutma",
+     "ru": "менять привычки",
+     "example": "Autojuhid ei ole oma harjumusi muutnud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/harjumusi%20muutma/1",
+     "audio_file": "audio/bffbaf82af5f95f5.mp3"
     },
     {
      "et": "usaldusväärne",
@@ -76,6 +63,20 @@
      "example": "Sõiduplaan peab olema usaldusväärne.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/usaldusv%C3%A4%C3%A4rne/1",
      "audio_file": "audio/3bfd244c172c53d1.mp3"
+    },
+    {
+     "et": "meelitama",
+     "ru": "привлекать, заманивать",
+     "example": "Kuidas meelitada autojuhte bussi peale?",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/meelitama/1",
+     "audio_file": "audio/2e6d76f7f54c819f.mp3"
+    },
+    {
+     "et": "kaaluma",
+     "ru": "взвешивать, рассматривать",
+     "example": "Ettevõtted võiksid kaaluda paindlikku tööaega.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaaluma/1",
+     "audio_file": "audio/85a4e8eea570c3b5.mp3"
     }
    ],
    "module": "sonavara"
@@ -231,6 +232,14 @@
    "advice_ru": "Ошибки в числах и времени — обычная проблема. Повторите: -teist (11–19), -kümmend (десятки), pool/veerand/kolmveerand."
   },
   {
+   "type": "external",
+   "minutes": 10,
+   "optional": true,
+   "title": "Lisaks: päris raadio (ERR Jupiter)",
+   "url": "https://jupiter.err.ee",
+   "instruction_ru": "Необязательно, если есть время. Откройте ERR Jupiter → Raadio → Vikerraadio и включите короткий выпуск новостей «Päevakaja» или любую передачу по теме урока. Послушайте 5–10 минут без субтитров и запишите 3 факта, которые вы поняли. Затем прослушайте ещё раз и проверьте себя. Автопроверки здесь нет: это тренировка на живой речи с нормальной скоростью."
+  },
+  {
    "type": "grammar",
    "minutes": 5,
    "title": "Arvsõna + nimisõna",
@@ -270,7 +279,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

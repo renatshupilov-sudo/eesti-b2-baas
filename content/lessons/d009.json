@@ -1,7 +1,7 @@
 {
  "id": "d009",
  "day": 9,
- "version": 3,
+ "version": 4,
  "skill": "lugemine",
  "title": "Linnast maale",
  "title_ru": "Из города в деревню",
@@ -13,71 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
-    {
-     "et": "eluase",
-     "ru": "жильё",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eluase/1",
-     "audio_file": "audio/72eaf0a936066c21.mp3"
-    },
-    {
-     "et": "üürima",
-     "ru": "снимать (в аренду)",
-     "example": "Me üürime korterit kesklinnas.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BC%C3%BCrima/1",
-     "audio_file": "audio/438f43eae863fae9.mp3"
-    },
     {
      "et": "kinnisvara",
      "ru": "недвижимость",
+     "example": "Kinnisvara hinnad on pealinnas kõrged.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kinnisvara/1",
      "audio_file": "audio/a5ed20366b8e50cc.mp3"
     },
     {
-     "et": "laenu võtma",
-     "ru": "брать кредит",
-     "example": "Kodu ostmiseks tuli võtta laenu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/laenu%20v%C3%B5tma/1",
-     "audio_file": "audio/d0c25e4ba98e5139.mp3"
+     "et": "kodulaen",
+     "ru": "ипотека",
+     "example": "Maja ostmiseks võtsid nad kodulaenu.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kodulaen/1",
+     "audio_file": "audio/267053b4642fc2bb.mp3"
     },
     {
-     "et": "maapiirkond",
-     "ru": "сельская местность",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/maapiirkond/1",
-     "audio_file": "audio/2436f9cfe44de778.mp3"
+     "et": "endale lubama",
+     "ru": "позволить себе",
+     "example": "Pealinnas oleksime saanud endale lubada ainult väikese korteri.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/endale%20lubama/1",
+     "audio_file": "audio/5f688f6cb3913dd5.mp3"
     },
     {
-     "et": "teenused",
-     "ru": "услуги",
-     "example": "Maal on vähem teenuseid.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/teenused/1",
-     "audio_file": "audio/3b847214e0cd2a8f.mp3"
+     "et": "kohalik omavalitsus",
+     "ru": "местное самоуправление",
+     "example": "Kohalik omavalitsus toetab noori peresid.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohalik%20omavalitsus/1",
+     "audio_file": "audio/b5555b78226d1fdb.mp3"
     },
     {
-     "et": "rahulik",
-     "ru": "спокойный",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/rahulik/1",
-     "audio_file": "audio/0ebd7c2399ef6234.mp3"
+     "et": "vallavanem",
+     "ru": "волостной старейшина (глава волости)",
+     "example": "Vallavanem rõhutas teede olulisust.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vallavanem/1",
+     "audio_file": "audio/e27404fdced45b41.mp3"
     },
     {
-     "et": "mürarikas",
-     "ru": "шумный",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/m%C3%BCrarikas/1",
-     "audio_file": "audio/b0d07751f1e716ec.mp3"
+     "et": "suundumus",
+     "ru": "тенденция",
+     "example": "See suundumus on viimastel aastatel tugevnenud.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/suundumus/1",
+     "audio_file": "audio/66883a9f1cc666e6.mp3"
     },
     {
-     "et": "eelis",
-     "ru": "преимущество",
-     "example": "Linnaelu eelis on mugavus.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/eelis/1",
-     "audio_file": "audio/c3539ce9a1cffb50.mp3"
+     "et": "elukvaliteet",
+     "ru": "качество жизни",
+     "example": "Paljudele on elukvaliteet olulisem kui palk.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/elukvaliteet/1",
+     "audio_file": "audio/56fa306b7b7fb870.mp3"
     },
     {
-     "et": "puudus",
-     "ru": "недостаток",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/puudus/1",
-     "audio_file": "audio/2c829b4fc98c847c.mp3"
+     "et": "tööteekond",
+     "ru": "дорога на работу",
+     "example": "Lühike tööteekond säästab aega.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6teekond/1",
+     "audio_file": "audio/35f8bc32630c756e.mp3"
+    },
+    {
+     "et": "tühjenema",
+     "ru": "пустеть",
+     "example": "Maapiirkonnad tühjenevad.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%BChjenema/1",
+     "audio_file": "audio/64359452d2f86a17.mp3"
     }
    ],
    "module": "sonavara"
@@ -89,25 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Me üürime korterit kesklinnas.",
+     "audio": "Kinnisvara hinnad on pealinnas kõrged.",
      "answer": [
-      "Me üürime korterit kesklinnas."
+      "Kinnisvara hinnad on pealinnas kõrged."
      ],
-     "audio_file": "audio/b79c19ce58f40eba.mp3"
+     "audio_file": "audio/66332b5978c10ee0.mp3"
     },
     {
-     "audio": "Kodu ostmiseks tuli võtta laenu.",
+     "audio": "Maja ostmiseks võtsid nad kodulaenu.",
      "answer": [
-      "Kodu ostmiseks tuli võtta laenu."
+      "Maja ostmiseks võtsid nad kodulaenu."
      ],
-     "audio_file": "audio/328076933c7a305d.mp3"
+     "audio_file": "audio/1b52f5c6732643d2.mp3"
     },
     {
-     "audio": "Maal on vähem teenuseid.",
+     "audio": "Pealinnas oleksime saanud endale lubada ainult väikese korteri.",
      "answer": [
-      "Maal on vähem teenuseid."
+      "Pealinnas oleksime saanud endale lubada ainult väikese korteri."
      ],
-     "audio_file": "audio/b5f418b5d59068c6.mp3"
+     "audio_file": "audio/43cfbd4301f8896d.mp3"
     }
    ],
    "module": "kuulamine",
@@ -237,7 +236,7 @@
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {

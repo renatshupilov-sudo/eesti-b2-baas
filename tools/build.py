@@ -7,6 +7,18 @@ ROOT = sys.argv[1]
 C = os.path.join(ROOT, "content")
 lessons = A + B
 from extras import EXPLAIN, GRAMMAR, ADVICE, REPLACE_MAIN, D014_INTRO
+from extras2 import VOCAB, PHRASE_TASKS, D001_GRAMMAR, JUPITER
+GRAMMAR["d001"] = D001_GRAMMAR
+for l in lessons:
+    for b in l["blocks"]:
+        if b["type"] == "vocab" and l["id"] in VOCAB:
+            b["items"] = [dict(x) for x in VOCAB[l["id"]]]
+            b["instruction_ru"] = "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть."
+        if b["type"] == "phrases" and l["id"] in PHRASE_TASKS:
+            b["instruction_ru"], b["tasks"] = PHRASE_TASKS[l["id"]][0], PHRASE_TASKS[l["id"]][1]
+    if any(b["type"] == "listening" for b in l["blocks"]) and l["skill"] == "kuulamine":
+        ri = next((i for i, b in enumerate(l["blocks"]) if b["type"] == "review"), len(l["blocks"]))
+        l["blocks"].insert(ri, dict(JUPITER))
 SONAVEEB = "https://sonaveeb.ee/search/unif/dlall/dsall/{word}/1"
 import re, urllib.parse
 for l in lessons:
@@ -25,7 +37,7 @@ for l in lessons:
     if l["id"]=="d001":
         for b in l["blocks"]:
             if b["type"]=="phrases": b["instruction_ru"] = "Эти связки нужны в письме. Напишите 2–3 предложения о своей работе, используя минимум три связки."
-    l["version"] = 3  # 2026.11.26-2: ссылки на словарь во всех уроках
+    l["version"] = 4  # 2026.11.26-2: ссылки на словарь во всех уроках
     for b in l["blocks"]:
         if b["type"]=="vocab":
             for it in b["items"]:
@@ -53,7 +65,7 @@ for l in lessons:
             if "explain_ru" not in t: t["explain_ru"]=EXPLAIN[k]
             i+=1
     # уложиться в 40 минут: урезаем самый длинный блок
-    while sum(b["minutes"] for b in l["blocks"])>40:
+    while sum(b["minutes"] for b in l["blocks"] if not b.get("optional"))>40:
         max(l["blocks"], key=lambda b:b["minutes"])["minutes"]-=1
 ls = json.load(open(os.path.join(C, "schema/lesson.schema.json")))
 ms = json.load(open(os.path.join(C, "schema/manifest.schema.json")))
@@ -65,7 +77,7 @@ for l in lessons:
             b["instruction_ru"] = "Короткое напоминание правила — сразу переходите к упражнениям."
         for t in b.get("tasks", []):
             if t["kind"] == "mc": assert 0 <= t["answer"] < len(t["options"]), (l["id"], t["q"])
-    mins = sum(b["minutes"] for b in l["blocks"])
+    mins = sum(b["minutes"] for b in l["blocks"] if not b.get("optional"))
     l["minutes"] = mins; print(l["id"], mins) if not 30 <= mins <= 42 else None
     for e in v.iter_errors(l):
         errs += 1; print(l["id"], list(e.path), e.message)
@@ -81,11 +93,11 @@ for l in lessons:
     entries.append({k: l[k] for k in ("id","day","version","skill","title","title_ru","topic","minutes")} | {"file": fn, "sha256": hashlib.sha256(data).hexdigest()})
 manifest = {
  "schemaVersion": "1.0",
- "contentVersion": "2026.11.26-3",
+ "contentVersion": "2026.11.26-4",
  "updatedAt": "2026-11-26",
  "language": "et", "level": "B2", "cycleDays": len(lessons),
  "dictionary": {"name": "EKI Sõnaveeb", "urlTemplate": SONAVEEB},
- "changelog": [{"version": "2026.11.26-3", "date": "2026-11-26", "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."},{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
+ "changelog": [{"version": "2026.11.26-4", "date": "2026-11-26", "ru": "Слова заменены на лексику уровня B2. Связки и фразы проверяются автоматически. В уроке 1 вместо порядка слов — словообразование. Итог урока с советом. Ссылки на живое аудирование ERR Jupiter. План тем."},{"version": "2026.11.26-3", "date": "2026-11-26", "ru": "Настоящая эстонская озвучка (TartuNLP Neurokõne) для аудирования, диктантов и слов вместо голоса телефона."},{"version": "2026.11.26-2", "date": "2026-11-26", "ru": "Убрана устная часть. Уроки 4 и 9 заменены на аудирование и чтение. К словам добавлены ссылки на словарь EKI (Sõnaveeb)."},{"version": "2026.11.26-1", "date": "2026-11-26", "ru": "Первая версия: 14 уроков (2 недели), все 4 части экзамена + грамматика и мини-пробный экзамен."}],
  "exam": {
   "parts": [
    {"skill": "kirjutamine", "name": "Kirjutamine", "minutes": "80", "points": 25, "format_ru": "2 текста: письмо (около 140 слов) и рассуждение/мнение (около 180 слов)."},
@@ -108,6 +120,24 @@ manifest["modules"]=[{"id":m,"name":n,"name_ru":r,"items":[{"lesson":l["id"],"bl
 manifest["lessonPlan_ru"]="Каждый урок дня (30–40 мин) содержит: новые слова, аудирование или аудио-диктант, основное задание в формате экзамена, мини-грамматику и самопроверку. Те же упражнения доступны отдельно по модулям."
 for e in Draft202012Validator(ms).iter_errors(manifest):
     errs += 1; print("manifest", list(e.path), e.message)
+manifest["topicPlan"] = [
+ {"topic": "loodus", "ru": "природа", "status": "planned"},
+ {"topic": "majandus", "ru": "экономика", "status": "planned"},
+ {"topic": "keskkond ja kliima", "ru": "экология и климат", "status": "partly", "lessons": ["d006"]},
+ {"topic": "poliitika ja riik", "ru": "политика и государство", "status": "planned"},
+ {"topic": "ühiskond", "ru": "общество", "status": "partly", "lessons": ["d007"]},
+ {"topic": "teadus ja tehnoloogia", "ru": "наука и технологии", "status": "partly", "lessons": ["d011"]},
+ {"topic": "töö ja karjäär", "ru": "работа и карьера", "status": "done", "lessons": ["d001"]},
+ {"topic": "haridus", "ru": "образование", "status": "done", "lessons": ["d004", "d008"]},
+ {"topic": "tervis", "ru": "здоровье", "status": "done", "lessons": ["d005"]},
+ {"topic": "linn, transport, eluase", "ru": "город, транспорт, жильё", "status": "done", "lessons": ["d002", "d009", "d013"]},
+ {"topic": "kultuur ja ajalugu", "ru": "культура и история", "status": "partly", "lessons": ["d010"]},
+ {"topic": "tarbimine ja raha", "ru": "потребление и деньги", "status": "partly", "lessons": ["d003"]},
+ {"topic": "meedia", "ru": "СМИ", "status": "planned"},
+ {"topic": "turvalisus ja riigikaitse", "ru": "безопасность и оборона", "status": "planned"},
+ {"topic": "perekond ja demograafia", "ru": "семья и демография", "status": "planned"},
+ {"topic": "reisimine ja turism", "ru": "путешествия и туризм", "status": "planned"}
+]
 json.dump(manifest, open(os.path.join(C, "manifest.json"), "w"), ensure_ascii=False, indent=1)
 print("lessons", len(lessons), "errors", errs)
 from collections import Counter

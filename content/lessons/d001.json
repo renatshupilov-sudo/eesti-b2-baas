@@ -1,7 +1,7 @@
 {
  "id": "d001",
  "day": 1,
- "version": 3,
+ "version": 4,
  "skill": "lugemine",
  "title": "Kaugtöö: vabadus või üksindus?",
  "title_ru": "Удалённая работа: свобода или одиночество?",
@@ -13,70 +13,70 @@
    "type": "vocab",
    "minutes": 5,
    "title": "Sõnavara",
-   "instruction_ru": "Прочитайте слова вслух, закройте перевод и проверьте себя. Нажмите на слово, чтобы услышать его.",
+   "instruction_ru": "Нажмите на слово, чтобы услышать его. Перевод скрыт: нажмите на него, чтобы открыть или снова скрыть.",
    "items": [
     {
-     "et": "kaugtöö",
-     "ru": "удалённая работа",
-     "example": "Ta teeb kaks päeva nädalas kaugtööd.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kaugt%C3%B6%C3%B6/1",
-     "audio_file": "audio/a6b8f6b5ff5b91ca.mp3"
+     "et": "paindlik töökorraldus",
+     "ru": "гибкая организация работы",
+     "example": "Paindlik töökorraldus aitab tööd ja pereelu ühendada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/paindlik%20t%C3%B6%C3%B6korraldus/1",
+     "audio_file": "audio/77ca94a4da4d9554.mp3"
     },
     {
-     "et": "tööandja",
-     "ru": "работодатель",
-     "example": "Tööandja lubab kodus töötada.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/t%C3%B6%C3%B6andja/1",
-     "audio_file": "audio/b8778f33f61a45d3.mp3"
+     "et": "piiri tõmbama (mille vahele?)",
+     "ru": "провести границу",
+     "example": "Kodus on raske tõmmata piiri töö ja eraelu vahele.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/piiri%20t%C3%B5mbama/1",
+     "audio_file": "audio/b15a34ea0cea2e62.mp3"
     },
     {
-     "et": "pooldaja",
-     "ru": "сторонник",
-     "example": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/pooldaja/1",
-     "audio_file": "audio/0bca2431d7d21a73.mp3"
+     "et": "meeskonnatunne",
+     "ru": "командный дух",
+     "example": "Kohvipausid tugevdavad meeskonnatunnet.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/meeskonnatunne/1",
+     "audio_file": "audio/d1fd24189a843150.mp3"
     },
     {
-     "et": "keskenduma (millele?)",
-     "ru": "сосредоточиться",
-     "example": "Kodus on lihtsam tööle keskenduda.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/keskenduma/1",
-     "audio_file": "audio/c0be20b35624ca6b.mp3"
+     "et": "tootlikkus",
+     "ru": "производительность",
+     "example": "Kaugtöö ei pruugi tootlikkust vähendada.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlikkus/1",
+     "audio_file": "audio/16814f8b2ae12ae1.mp3"
     },
     {
-     "et": "varjukülg",
-     "ru": "обратная (теневая) сторона",
-     "example": "Igal asjal on oma varjuküljed.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1",
-     "audio_file": "audio/761a8afcd4cb6fd4.mp3"
-    },
-    {
-     "et": "üksildane",
-     "ru": "одинокий",
-     "example": "Ta tundis end kodus üksildasena.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BCksildane/1",
-     "audio_file": "audio/818fa5afc283d715.mp3"
-    },
-    {
-     "et": "tootlik",
-     "ru": "продуктивный",
-     "example": "Inimesed on kodus sama tootlikud.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/tootlik/1",
-     "audio_file": "audio/eb909b261a4b4e45.mp3"
+     "et": "vastutustunne",
+     "ru": "чувство ответственности",
+     "example": "Kontrolli puudumine võib vähendada vastutustunnet.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/vastutustunne/1",
+     "audio_file": "audio/357d6be8227f6a1d.mp3"
     },
     {
      "et": "kohanema (millega?)",
-     "ru": "адаптироваться",
-     "example": "Uuel töötajal on raske kohaneda.",
+     "ru": "адаптироваться (к чему)",
+     "example": "Uuel töötajal on raske organisatsiooni kultuuriga kohaneda.",
      "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kohanema/1",
      "audio_file": "audio/ba8bc2bb4ed6f229.mp3"
     },
     {
-     "et": "kokku leppima",
-     "ru": "договориться",
-     "example": "Reeglid lepitakse kokku ühiselt.",
-     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kokku%20leppima/1",
-     "audio_file": "audio/004b3da1fec34576.mp3"
+     "et": "varjukülg",
+     "ru": "обратная (теневая) сторона",
+     "example": "Igal lahendusel on oma varjuküljed.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/varjuk%C3%BClg/1",
+     "audio_file": "audio/761a8afcd4cb6fd4.mp3"
+    },
+    {
+     "et": "ühene",
+     "ru": "однозначный",
+     "example": "Kaugtöö mõju ei ole sugugi ühene.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/%C3%BChene/1",
+     "audio_file": "audio/7260451432d03166.mp3"
+    },
+    {
+     "et": "kippuma (+ ma-infinitiiv)",
+     "ru": "иметь склонность, норовить",
+     "example": "Tööpäev kipub venima hilisõhtuni.",
+     "dict": "https://sonaveeb.ee/search/unif/dlall/dsall/kippuma/1",
+     "audio_file": "audio/a49c9a8d6385699b.mp3"
     }
    ],
    "module": "sonavara"
@@ -88,25 +88,25 @@
    "instruction_ru": "Аудио-диктант с новыми словами: нажмите ▶, послушайте предложение и запишите его. Знаки препинания не проверяются.",
    "items": [
     {
-     "audio": "Ta teeb kaks päeva nädalas kaugtööd.",
+     "audio": "Paindlik töökorraldus aitab tööd ja pereelu ühendada.",
      "answer": [
-      "Ta teeb kaks päeva nädalas kaugtööd."
+      "Paindlik töökorraldus aitab tööd ja pereelu ühendada."
      ],
-     "audio_file": "audio/627251614d9e6146.mp3"
+     "audio_file": "audio/a434ecc85d7cea62.mp3"
     },
     {
-     "audio": "Tööandja lubab kodus töötada.",
+     "audio": "Kodus on raske tõmmata piiri töö ja eraelu vahele.",
      "answer": [
-      "Tööandja lubab kodus töötada."
+      "Kodus on raske tõmmata piiri töö ja eraelu vahele."
      ],
-     "audio_file": "audio/d73afb38877f1336.mp3"
+     "audio_file": "audio/b4828db60f76f6be.mp3"
     },
     {
-     "audio": "Kaugtöö pooldajad rõhutavad aja kokkuhoidu.",
+     "audio": "Kohvipausid tugevdavad meeskonnatunnet.",
      "answer": [
-      "Kaugtöö pooldajad rõhutavad aja kokkuhoidu."
+      "Kohvipausid tugevdavad meeskonnatunnet."
      ],
-     "audio_file": "audio/afdd5fd9f559593a.mp3"
+     "audio_file": "audio/55a03306446d9d7a.mp3"
     }
    ],
    "module": "kuulamine",
@@ -114,7 +114,7 @@
   },
   {
    "type": "reading",
-   "minutes": 17,
+   "minutes": 16,
    "title": "Lugemine",
    "instruction_et": "Lugege teksti ja vastake küsimustele.",
    "instruction_ru": "На экзамене на чтение даётся 70 минут на 4 задания, то есть около 15–17 минут на текст. Засеките время.",
@@ -224,61 +224,110 @@
     "Lisaks sellele …",
     "Kokkuvõttes võib öelda, et …"
    ],
+   "tasks": [
+    {
+     "kind": "gap",
+     "q": "___ poolt on kaugtööl palju eeliseid, teiselt poolt tunnevad paljud end üksildasena.",
+     "answer": [
+      "Ühelt",
+      "ühelt"
+     ],
+     "explain_ru": "Пара «ühelt poolt … teiselt poolt» — «с одной стороны … с другой стороны»."
+    },
+    {
+     "kind": "gap",
+     "q": "Kaugtöö sobib mulle, ___ säästan iga päev tunni aega.",
+     "answer": [
+      "sest",
+      "kuna"
+     ],
+     "explain_ru": "Причина: sest / kuna (потому что / так как)."
+    },
+    {
+     "kind": "gap",
+     "q": "Kodus on lihtne keskenduda. ___ on raske tõmmata piiri töö ja eraelu vahele.",
+     "answer": [
+      "Samas",
+      "Teisalt",
+      "Kuid",
+      "samas",
+      "teisalt",
+      "kuid"
+     ],
+     "explain_ru": "Противопоставление: samas / teisalt / kuid. После «Samas» глагол на втором месте: Samas on …"
+    },
+    {
+     "kind": "gap",
+     "q": "___ võib öelda, et hübriidtöö on parim lahendus.",
+     "answer": [
+      "Kokkuvõttes",
+      "Seega",
+      "kokkuvõttes",
+      "seega"
+     ],
+     "explain_ru": "Вывод в конце текста: kokkuvõttes / seega."
+    },
+    {
+     "kind": "gap",
+     "q": "Kõik ___ sellest, kuidas tööd korraldada.",
+     "answer": [
+      "oleneb",
+      "sõltub"
+     ],
+     "explain_ru": "olenema / sõltuma + MILLEST: kõik oleneb sellest, kuidas …"
+    }
+   ],
    "module": "sonavara"
   },
   {
    "type": "grammar",
-   "minutes": 5,
-   "title": "Sõnajärg: verb teisel kohal",
-   "rule_ru": "В повествовательном предложении спрягаемый глагол стоит на ВТОРОМ месте, даже если предложение начинается с обстоятельства: Eile töötasin kodus (не «Eile ma töötasin» — так тоже говорят, но в письме предпочтительно V2). В придаточном (et, kui, sest) глагол часто уходит в конец: …, et ta kodus töötab.",
+   "minutes": 6,
+   "title": "Sõnamoodustus",
+   "rule_ru": "Словообразование расширяет словарь без зубрёжки: -ja — деятель (pooldama → pooldaja); -mine — процесс (kohanema → kohanemine); -us/-kus — свойство (tootlik → tootlikkus, vastutav → vastutus); -lik/-ne — прилагательное (üksildus → üksildane, tervis → tervislik).",
    "tasks": [
     {
-     "kind": "mc",
-     "q": "Milline lause on kirjakeeles kõige loomulikum?",
-     "options": [
-      "Pärast pandeemiat paljud ettevõtted lubavad kaugtööd.",
-      "Pärast pandeemiat lubavad paljud ettevõtted kaugtööd.",
-      "Pärast pandeemiat lubavad kaugtööd paljud ettevõtted lubavad."
+     "kind": "gap",
+     "q": "Kaugtöö ___ (pooldama → kes?) rõhutavad aja kokkuhoidu.",
+     "answer": [
+      "pooldajad"
      ],
-     "answer": 1,
-     "explain_ru": "«Pärast pandeemiat» занимает 1-е место → глагол lubavad на 2-м."
+     "explain_ru": "-ja + мн. ч.: pooldaja → pooldajad."
     },
     {
-     "kind": "mc",
-     "q": "Vali õige variant.",
-     "options": [
-      "Kodus on lihtsam keskenduda.",
-      "Kodus lihtsam on keskenduda.",
-      "Kodus keskenduda lihtsam on."
+     "kind": "gap",
+     "q": "Kodus on ___ (tootlik → omadus) sageli sama suur kui kontoris.",
+     "answer": [
+      "tootlikkus"
      ],
-     "answer": 0,
-     "explain_ru": "Глагол on сразу после первого члена «Kodus»."
+     "explain_ru": "tootlik → tootlikkus (свойство, -kus с удвоением k)."
     },
     {
-     "kind": "mc",
-     "q": "Vali õige variant.",
-     "options": [
-      "Ma arvan, et kaugtöö on mugav.",
-      "Ma arvan, et on kaugtöö mugav.",
-      "Ma arvan, et mugav on kaugtöö on."
+     "kind": "gap",
+     "q": "Uue töötaja ___ (kohanema → protsess) võtab aega.",
+     "answer": [
+      "kohanemine"
      ],
-     "answer": 0,
-     "explain_ru": "После «et» обычный порядок: подлежащее + сказуемое."
+     "explain_ru": "Процесс: kohane- + mine = kohanemine."
     },
     {
-     "kind": "mc",
-     "q": "Vali õige variant.",
-     "options": [
-      "Seepärast ma valisin hübriidtöö.",
-      "Seepärast valisin ma hübriidtöö.",
-      "Seepärast hübriidtöö valisin."
+     "kind": "gap",
+     "q": "Juhid kardavad, et kontrolli ___ (kaduma → protsess) vähendab vastutustunnet.",
+     "answer": [
+      "kadumine"
      ],
-     "answer": 1,
-     "explain_ru": "После связки в начале (seepärast) — глагол на 2-м месте, подлежащее после него."
+     "explain_ru": "kadu- + mine = kadumine (исчезновение)."
+    },
+    {
+     "kind": "gap",
+     "q": "Kodus töötamine võib olla ___ (üksildus → milline?).",
+     "answer": [
+      "üksildane"
+     ],
+     "explain_ru": "Прилагательное на -ne: üksildus → üksildane."
     }
    ],
    "module": "grammatika",
-   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме и речи. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
+   "advice_ru": "Ошибки в этом блоке — главный источник потерь баллов в письме. Прочитайте пояснения к неверным ответам и составьте с каждой формой своё предложение.",
    "instruction_ru": "Короткое напоминание правила — сразу переходите к упражнениям."
   },
   {
